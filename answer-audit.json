@@ -15,6 +15,34 @@
       "reason": "The source marks a valid Java lambda as incorrect. The brace-wrapped parameter list and bare return in choice C are not valid Java lambda syntax."
     },
     {
+      "id": 35,
+      "page": 12,
+      "original": 3,
+      "reviewed": null,
+      "reason": "The last answer choice lost the UML stereotype text during PDF extraction and appears only as two empty angle-bracket pairs. It cannot be scored accurately from the available choices."
+    },
+    {
+      "id": 128,
+      "page": 49,
+      "original": 2,
+      "reviewed": 1,
+      "reason": "Certification improves assurance but cannot guarantee that an organization will never suffer an information security incident. The source marks a five-year validity claim that is inconsistent with the reviewer question."
+    },
+    {
+      "id": 134,
+      "page": 50,
+      "original": 0,
+      "reviewed": 2,
+      "reason": "SSL/TLS secures application traffic over the transport layer; it does not run in the OSI network layer. HTTPS is HTTP carried over TLS, so the marked HTTPS description is not the incorrect one here."
+    },
+    {
+      "id": 135,
+      "page": 51,
+      "original": 2,
+      "reviewed": 0,
+      "reason": "A compromised hypervisor can affect multiple hosted operating systems. That is a virtualization vulnerability, not specifically an insecure API."
+    },
+    {
       "id": 176,
       "page": 64,
       "original": 3,
@@ -41,6 +69,13 @@
       "original": 2,
       "reviewed": 0,
       "reason": "The source figure plots expectations against time through a peak and trough. That is Gartner’s Hype Cycle, not the four-quadrant Magic Quadrant."
+    },
+    {
+      "id": 216,
+      "page": 79,
+      "original": 3,
+      "reviewed": 2,
+      "reason": "Both examples name the outcome the projects aim to achieve: product lifecycle management and faster integrated decisions. They illustrate defined objectives, not the gradual refinement of a plan."
     },
     {
       "id": 221,

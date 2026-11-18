@@ -525,8 +525,10 @@
       "{level = 1.0}, {level = 1.2}",
       "<>, <>"
     ],
-    "answerIndex": 3,
-    "exhibit": "assets/source/software-35-p12.webp"
+    "answerIndex": null,
+    "exhibit": "assets/source/software-35-p12.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "The last answer choice lost the UML stereotype text during PDF extraction and appears only as two empty angle-bracket pairs. It cannot be scored accurately from the available choices."
   },
   {
     "id": 36,
@@ -1920,8 +1922,10 @@
       "The initial certification is processed when the certification is acquired for the first time. The certification is valid for five years.",
       "The scope of certification encompasses not only information and communication services but also the internal task procedures such as groupware and human resource systems which are not directly related to the information and communication services."
     ],
-    "answerIndex": 2,
-    "exhibit": null
+    "answerIndex": 1,
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewNote": "Certification improves assurance but cannot guarantee that an organization will never suffer an information security incident. The source marks a five-year validity claim that is inconsistent with the reviewer question."
   },
   {
     "id": 129,
@@ -2010,8 +2014,10 @@
       "It runs in the Network Layer of the OSI(Open System Interconnection) 7 layer model.",
       "Mutual authentication is carried out through the Handshake protocol between the client and the server."
     ],
-    "answerIndex": 0,
-    "exhibit": null
+    "answerIndex": 2,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "SSL/TLS secures application traffic over the transport layer; it does not run in the OSI network layer. HTTPS is HTTP carried over TLS, so the marked HTTPS description is not the incorrect one here."
   },
   {
     "id": 135,
@@ -2025,8 +2031,10 @@
       "Insecure API",
       "Insufficient authentication and access management"
     ],
-    "answerIndex": 2,
-    "exhibit": null
+    "answerIndex": 0,
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewNote": "A compromised hypervisor can affect multiple hosted operating systems. That is a virtualization vulnerability, not specifically an insecure API."
   },
   {
     "id": 136,
@@ -3248,8 +3256,10 @@
       "Defined Objectives",
       "Progressive elaboration"
     ],
-    "answerIndex": 3,
-    "exhibit": "assets/source/project-13-p79.webp"
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-13-p79.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "Both examples name the outcome the projects aim to achieve: product lifecycle management and faster integrated decisions. They illustrate defined objectives, not the gradual refinement of a plan."
   },
   {
     "id": 217,
