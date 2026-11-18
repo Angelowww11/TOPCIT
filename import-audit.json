@@ -1,0 +1,107 @@
+{
+  "source": "1. TOPCIT Reviewer - Software.pdf",
+  "pages": 88,
+  "candidateQuestions": 242,
+  "imported": 242,
+  "keyed": 223,
+  "warnings": [
+    {
+      "domain": "Software development",
+      "number": 8,
+      "page": 2,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Software development",
+      "number": 39,
+      "page": 14,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Understanding data",
+      "number": 8,
+      "page": 24,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Understanding data",
+      "number": 13,
+      "page": 26,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Understanding data",
+      "number": 19,
+      "page": 28,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Understanding data",
+      "number": 29,
+      "page": 33,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "System architecture",
+      "number": 7,
+      "page": 38,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Information security",
+      "number": 25,
+      "page": 55,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Information security",
+      "number": 26,
+      "page": 55,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Information security",
+      "number": 27,
+      "page": 56,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Information security",
+      "number": 28,
+      "page": 56,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Information security",
+      "number": 29,
+      "page": 56,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Information security",
+      "number": 30,
+      "page": 56,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Information security",
+      "number": 31,
+      "page": 57,
+      "reason": "answer color not found"
+    },
+    {
+      "domain": "Information security",
+      "number": 32,
+      "page": 57,
+      "reason": "answer color not found"
+    }
+  ],
+  "domains": {
+    "Software development": 56,
+    "Understanding data": 34,
+    "System architecture": 35,
+    "Information security": 33,
+    "IT business and ethics": 46,
+    "Project management & communication": 38
+  }
+}

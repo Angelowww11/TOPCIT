@@ -1,0 +1,75 @@
+{
+  "corrections": [
+    {
+      "id": 2,
+      "page": 1,
+      "original": 2,
+      "reviewed": null,
+      "reason": "Two choices repeat the same service-isolation benefit, and the other choices also describe plausible benefits of microservices. This NOT question has no defensible single answer."
+    },
+    {
+      "id": 6,
+      "page": 2,
+      "original": 0,
+      "reviewed": 2,
+      "reason": "The source marks a valid Java lambda as incorrect. The brace-wrapped parameter list and bare return in choice C are not valid Java lambda syntax."
+    },
+    {
+      "id": 176,
+      "page": 64,
+      "original": 3,
+      "reviewed": 2,
+      "reason": "An NFT is non-fungible: tokens of the same collection are not necessarily interchangeable or equal in value. The red source mark points to the definition of a non-fungible token."
+    },
+    {
+      "id": 180,
+      "page": 65,
+      "original": 0,
+      "reviewed": null,
+      "reason": "A data lake holds varied source data for broad future use. The marked single repository description is plausible, while more than one other choice describes task-specific or already transformed data. This NOT item needs a clearer key."
+    },
+    {
+      "id": 185,
+      "page": 67,
+      "original": 2,
+      "reviewed": 1,
+      "reason": "Critical Chain Method is a project scheduling approach. BPR, Process Innovation, and TQM are business process improvement approaches, so the source mark on Process Innovation is inconsistent."
+    },
+    {
+      "id": 203,
+      "page": 74,
+      "original": 2,
+      "reviewed": 0,
+      "reason": "The source figure plots expectations against time through a peak and trough. That is Gartner’s Hype Cycle, not the four-quadrant Magic Quadrant."
+    },
+    {
+      "id": 221,
+      "page": 81,
+      "original": 3,
+      "reviewed": 2,
+      "reason": "This is a request for information: it gathers supplier capabilities before a detailed proposal or project order. The source marked RFP."
+    },
+    {
+      "id": 223,
+      "page": 82,
+      "original": 0,
+      "reviewed": null,
+      "reason": "The description mixes distribution, correlation, and outlier language. The available choices do not contain a clear single chart that satisfies every part; the red Bar Chart mark is unsupported. Study only."
+    },
+    {
+      "id": 230,
+      "page": 84,
+      "original": 0,
+      "reviewed": 1,
+      "reason": "Using the usual PERT three-point estimate, (optimistic + 4 × most likely + pessimistic) ÷ 6 = (8 + 40 + 18) ÷ 6 = 11 million. The source marks 10 million."
+    },
+    {
+      "id": 235,
+      "page": 86,
+      "original": 3,
+      "reviewed": 1,
+      "reason": "Classifying problems, finding causes, and prioritizing causes are activities in the Analyze underlying causes phase, not implementation and feedback."
+    }
+  ],
+  "duplicateRemoved": "Repeated NFT item on page 65; first copy on page 64 retained"
+}

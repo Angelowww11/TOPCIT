@@ -1,0 +1,3652 @@
+[
+  {
+    "id": 1,
+    "domain": "Software development",
+    "sourceNumber": 1,
+    "sourcePage": 1,
+    "question": "What is the command for the description below? The GIT, a distributed version management tool, command to upload all “commit” source codes in the local (computer) to the central server.",
+    "choices": [
+      "git fetch",
+      "git pull",
+      "git push",
+      "git save"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 2,
+    "domain": "Software development",
+    "sourceNumber": 2,
+    "sourcePage": 1,
+    "question": "Choose the one that is NOT the advantage of the Micro Service Architecture (MSA).",
+    "choices": [
+      "The extension of services becomes easier because the reusability increases.",
+      "The probability of proliferation of a particular service failure to the whole service decreases.",
+      "The probability of the proliferation of the failures in a specific service to the whole service becomes lower.",
+      "Requirements can be reflected immediately because the individual deployment of services is possible."
+    ],
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewNote": "Two choices repeat the same service-isolation benefit, and the other choices also describe plausible benefits of microservices. This NOT question has no defensible single answer."
+  },
+  {
+    "id": 3,
+    "domain": "Software development",
+    "sourceNumber": 3,
+    "sourcePage": 1,
+    "question": "What is the design pattern described below? • The implementation layer and the abstraction layer are separated so that they can changed independently. • The diagram shown below is the class diagram of this pattern.",
+    "choices": [
+      "Adapter Pattern",
+      "Bridge Pattern",
+      "Decorator Pattern",
+      "Proxy Pattern"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/software-03-p1.webp"
+  },
+  {
+    "id": 4,
+    "domain": "Software development",
+    "sourceNumber": 4,
+    "sourcePage": 1,
+    "question": "What is the type of document described in the example below? • The document is prepared and used to check if the project is carried out in the right direction • The requirements are specified and linked with deliverables in each phase of the software development life cycle.",
+    "choices": [
+      "Requirements specification",
+      "Requirements traceability matrix",
+      "Test results report",
+      "Test design specification"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 5,
+    "domain": "Software development",
+    "sourceNumber": 5,
+    "sourcePage": 2,
+    "question": "Which of the following is NOT a correct description of the notation of DFD (Data Flow Diagram)?",
+    "choices": [
+      "Arrows represent Data Flows.",
+      "The rectangle containing “Seller” represent a Terminator.",
+      "The circle containing “Purchase Products” represents a use case.",
+      "Parallel lines containing “Product Purchase Information” represents a Data Store."
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-05-p2.webp"
+  },
+  {
+    "id": 6,
+    "domain": "Software development",
+    "sourceNumber": 6,
+    "sourcePage": 2,
+    "question": "A Lambda Expression is a simple and clear method to represent the equivalent function. Which of the following Lambda Expression in Java is Not correct?",
+    "choices": [
+      "(int a, int b) -> a > b ? a: b",
+      "( ) -> (int) (Math.random() * 6)",
+      "{int a, int b} -> return a > b ? a: b",
+      "(name, i) -> System.out.println(name + “=” + i)"
+    ],
+    "answerIndex": 2,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "The source marks a valid Java lambda as incorrect. The brace-wrapped parameter list and bare return in choice C are not valid Java lambda syntax."
+  },
+  {
+    "id": 7,
+    "domain": "Software development",
+    "sourceNumber": 7,
+    "sourcePage": 2,
+    "question": "Choose the work product consisting of functions with their priorities defined by the Product Owner of the Scrum team.",
+    "choices": [
+      "Burndown chart",
+      "Sprint backlog",
+      "Product vision",
+      "Product backlog"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 8,
+    "domain": "Software development",
+    "sourceNumber": 8,
+    "sourcePage": 2,
+    "question": "Choose the optimized test case designed by the Pairwise Testing technique. Input condition",
+    "choices": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answerIndex": null,
+    "exhibit": null
+  },
+  {
+    "id": 9,
+    "domain": "Software development",
+    "sourceNumber": 9,
+    "sourcePage": 3,
+    "question": "The source code below has gone through transformation. What is the purpose of obfuscation in software development?",
+    "choices": [
+      "Re-structuring",
+      "Re-documentation",
+      "Reverse engineering",
+      "Forward engineering"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-09-p3.webp"
+  },
+  {
+    "id": 10,
+    "domain": "Software development",
+    "sourceNumber": 10,
+    "sourcePage": 4,
+    "question": "Refer to the object-oriented concepts and comments included in the code below to choose the answer with the appropriate terms for blanks (a), (b), and (c). ___(a)____ is a target to be implemented as software, which is an instantiation from the definition of ___(b)____. If ___(a)____ is allocated to a memory and executed, it is called ____(c)____.",
+    "choices": [
+      "(a) object, (b) instance, (c) class",
+      "(a) class, (b) object, (c) instance",
+      "(a) object, (b) class, (c) instance",
+      "(a) instance, (b) class, (c) object"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-10-p4.webp"
+  },
+  {
+    "id": 11,
+    "domain": "Software development",
+    "sourceNumber": 11,
+    "sourcePage": 4,
+    "question": "Choose the type of abstraction applied to the source code below.",
+    "choices": [
+      "Data abstraction",
+      "Interface abstraction",
+      "Procedure abstraction",
+      "Inheritance abstraction"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/software-11-p4.webp"
+  },
+  {
+    "id": 12,
+    "domain": "Software development",
+    "sourceNumber": 12,
+    "sourcePage": 4,
+    "question": "Which of the following is NOT a correct technique to elicit software requirements.",
+    "choices": [
+      "Observation",
+      "Survey",
+      "Inspection",
+      "Interview"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 13,
+    "domain": "Software development",
+    "sourceNumber": 13,
+    "sourcePage": 4,
+    "question": "Which of the following is NOT a correct explanation of non-functional requirements?",
+    "choices": [
+      "1,000 users shall be able to connect to the system simultaneously.",
+      "The first connection screen shall be displayed within five seconds after logging in to the system",
+      "An SMS text message shall be sent to the member after the sign-up process is complete.",
+      "Member’s personal information shall be encrypted before it is stored."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 14,
+    "domain": "Software development",
+    "sourceNumber": 14,
+    "sourcePage": 5,
+    "question": "Which of the following set includes only correct contents to be included in the software requirements specification, created during the analysis phase of the Software Development Life Cycle (SDLC)? (a) Site constraints (b) Component information (c) System properties (d) Requirements for logical model (e) Software code pattern",
+    "choices": [
+      "(a), (b), (c)",
+      "(a), (c), (d)",
+      "(b), (c), (e)",
+      "(d), (d), (e)"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/software-14-p5.webp"
+  },
+  {
+    "id": 15,
+    "domain": "Software development",
+    "sourceNumber": 15,
+    "sourcePage": 5,
+    "question": "Choose the design pattern that is explained below. • Converts the interface provided by the service into the interface intended by the client. • Can be applied when the incompatible interfaces between the clients and service work together.",
+    "choices": [
+      "Decorator pattern",
+      "Bridge pattern",
+      "Adapter pattern",
+      "Command pattern"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-15-p5.webp"
+  },
+  {
+    "id": 16,
+    "domain": "Software development",
+    "sourceNumber": 16,
+    "sourcePage": 5,
+    "question": "Which of the following definition about principles of software design is NOT correct?",
+    "choices": [
+      "Abstraction refers to the extraction of key concepts or functions from a complex system.",
+      "Stepwise refinements is mainly used in top-down design methods and refines the details of a module at each step.",
+      "Divide and conquer is to extract modules so that relationships between modules can be composed as data elements.",
+      "Information Hiding prevents other modules from modifying internal information and allows information exchange only through interfaces."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 17,
+    "domain": "Software development",
+    "sourceNumber": 17,
+    "sourcePage": 6,
+    "question": "Choose the test type described below.",
+    "choices": [
+      "Unit Test",
+      "Integration Test",
+      "Acceptance Test",
+      "Regression Test"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/software-17-p6.webp"
+  },
+  {
+    "id": 18,
+    "domain": "Software development",
+    "sourceNumber": 18,
+    "sourcePage": 6,
+    "question": "What is the sort algorithm implemented in C program shown below?",
+    "choices": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Quick Sort",
+      "Selection Sort"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/software-18-p6.webp"
+  },
+  {
+    "id": 19,
+    "domain": "Software development",
+    "sourceNumber": 19,
+    "sourcePage": 6,
+    "question": "Which of the following is NOT a correct explanation about Django and Flash, which are Python web development frameworks?",
+    "choices": [
+      "Django, a typical web development framework of Python, was written in C.",
+      "ORM (Object-Relational Mapping) functions for database are separately installed and used in Flask.",
+      "Flask is a micro framework to implement a Python web programming development environment.",
+      "A Django app is a Python package used in Django. A single Django project is composed of one or more Django apps."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 20,
+    "domain": "Software development",
+    "sourceNumber": 20,
+    "sourcePage": 7,
+    "question": "Which of the following statements is NOT a correct explanation of UI/UX (User Interface/ User Experience)",
+    "choices": [
+      "The UX design is a developer-center design because its focus is on the researching for improvements, whereas the UI design is a user- centered design because it focuses is on the realization.",
+      "The focus of UX design is on the research based on statistics of user experience whereas the UI design focuses on the realization based on the UX design.",
+      "UI refers to the interaction between users and system and UX refers to the total experience that users feel and think when they use the system directly or indirectly.",
+      "The UI design needs both visual outcomes and reflections of the user group level. The US design reflects the research results of psychology, computer science, visual design, etc. on the design of the user experience."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 21,
+    "domain": "Software development",
+    "sourceNumber": 21,
+    "sourcePage": 7,
+    "question": "The diagram below illustrates the SSPL (Software and System Product Line). Choose the term that is appropriate in the blank (a) below.",
+    "choices": [
+      "Domain engineering",
+      "Service engineering",
+      "System engineering",
+      "Requirements engineering"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/software-21-p7.webp"
+  },
+  {
+    "id": 22,
+    "domain": "Software development",
+    "sourceNumber": 22,
+    "sourcePage": 7,
+    "question": "What is the UML diagram illustrated in the example below?",
+    "choices": [
+      "Deployment Diagram",
+      "State Machine Diagram",
+      "Communication Diagram",
+      "Collaboration Diagram"
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 23,
+    "domain": "Software development",
+    "sourceNumber": 23,
+    "sourcePage": 8,
+    "question": "Choose the appropriate data structure to implement the visitor security checking system described in the example below.",
+    "choices": [
+      "Graph",
+      "Stack",
+      "Queue",
+      "Tree"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-23-p8.webp"
+  },
+  {
+    "id": 24,
+    "domain": "Software development",
+    "sourceNumber": 24,
+    "sourcePage": 8,
+    "question": "What is the architecture style applied to the diagram shown below?",
+    "choices": [
+      "Client-server",
+      "Layered",
+      "Pipes and Filters",
+      "Repository"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-24-p8.webp"
+  },
+  {
+    "id": 25,
+    "domain": "Software development",
+    "sourceNumber": 25,
+    "sourcePage": 9,
+    "question": "Choose the Java statement that will cause an exception when the code is executed.",
+    "choices": [
+      "testArray[0] = -1;",
+      "int[] realArray = testArray;",
+      "testArray[testArray.length] = 100;",
+      "System.out.println(testArray[0]);"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 26,
+    "domain": "Software development",
+    "sourceNumber": 26,
+    "sourcePage": 9,
+    "question": "Which feature is commonly provided by the following Open Source Tools? • Jenkins • Docker • Travis CI",
+    "choices": [
+      "Software test management",
+      "Software project management",
+      "Software distribution management",
+      "Software source code management"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 27,
+    "domain": "Software development",
+    "sourceNumber": 27,
+    "sourcePage": 9,
+    "question": "The diagram below illustrates the build lifecycle of Maven, an open-source build tool. Which of the following explanations is NOT correct?",
+    "choices": [
+      "Compile: Analyze the syntax of the source code and translate it into machine language.",
+      "Deploy: Deploy compressed files to the local repository",
+      "Package: Create deployable files.",
+      "Test: Carry out unit tests with the unit test tool."
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/software-27-p9.webp"
+  },
+  {
+    "id": 28,
+    "domain": "Software development",
+    "sourceNumber": 28,
+    "sourcePage": 10,
+    "question": "The diagram below is part of the software architecture based on IEEE 1471. Choose the explanation that is about the “System”.",
+    "choices": [
+      "Realization of each application and product group",
+      "The purpose of one more stakeholders’ intension",
+      "Patterns that define the rules to structure the architecture",
+      "External factors that may affect the architecture such as development, operation, on politics."
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/software-28-p10.webp"
+  },
+  {
+    "id": 29,
+    "domain": "Software development",
+    "sourceNumber": 29,
+    "sourcePage": 10,
+    "question": "The source code written in C programming language below sorts the given five numbers in ascending order. Which sorting algorithm is applied here?",
+    "choices": [
+      "Heap sort",
+      "Bubble sort",
+      "Insertion sort",
+      "Selection sort"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/software-29-p10.webp"
+  },
+  {
+    "id": 30,
+    "domain": "Software development",
+    "sourceNumber": 30,
+    "sourcePage": 10,
+    "question": "Choose the data structure appropriate to implement the backtrack function for a web browser.",
+    "choices": [
+      "Graph",
+      "Stack",
+      "Tree",
+      "Queue"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 31,
+    "domain": "Software development",
+    "sourceNumber": 31,
+    "sourcePage": 11,
+    "question": "The Java source code below adds numbers from 1 to N The Python source underneath the Java source code carries out the same function. Choose the correct code for blank (a).",
+    "choices": [
+      "1 <= N",
+      "i <= N + 1",
+      "range(1, N)",
+      "range(1, N+1)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/software-31-p11.webp"
+  },
+  {
+    "id": 32,
+    "domain": "Software development",
+    "sourceNumber": 32,
+    "sourcePage": 11,
+    "question": "Choose the open source license described below.",
+    "choices": [
+      "AGPL (GNU Alfero General Public License)",
+      "BSD License (Berkeley Software Distribution)",
+      "GPL 2.0 (GNU General Public License)",
+      "LGPL 2.1 (GNU Lesser General Public License)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/software-32-p11.webp"
+  },
+  {
+    "id": 33,
+    "domain": "Software development",
+    "sourceNumber": 33,
+    "sourcePage": 11,
+    "question": "Choose the software reuse technique applied below.",
+    "choices": [
+      "Forward engineering",
+      "Reverse engineering",
+      "Reengineering",
+      "Restructuring"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 34,
+    "domain": "Software development",
+    "sourceNumber": 34,
+    "sourcePage": 12,
+    "question": "Choose the type of code smell described below.",
+    "choices": [
+      "Data class",
+      "Large class",
+      "Lazy class",
+      "Inline class"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 35,
+    "domain": "Software development",
+    "sourceNumber": 35,
+    "sourcePage": 12,
+    "question": "Which of the following extensibility mechanisms used in the UML (Unified Modeling Language) diagram below is NOT correct?",
+    "choices": [
+      "{End Of Service}",
+      "Engine#1, Engine#2",
+      "{level = 1.0}, {level = 1.2}",
+      "<>, <>"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/software-35-p12.webp"
+  },
+  {
+    "id": 36,
+    "domain": "Software development",
+    "sourceNumber": 36,
+    "sourcePage": 13,
+    "question": "Which is the pair of suitable codes for (a) and (b) in the [Pseudo Code: Search Function in the Binary Search Tree] that satisfy the [Conditions: Binary Search Tree] below?",
+    "choices": [
+      "(a) data.left, (b) data.value",
+      "(a) data.value, (b) data.right",
+      "(a) data.left, (b) data.right",
+      "(a) data.right, (b) date.left"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/software-36-p13.webp"
+  },
+  {
+    "id": 37,
+    "domain": "Software development",
+    "sourceNumber": 37,
+    "sourcePage": 13,
+    "question": "Choose the software development methodology described below.",
+    "choices": [
+      "Architecture reference model (ARM)",
+      "Component-based development (CBD)",
+      "Model-drive development (MDD)",
+      "Software & systems product line (SSPL)"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-37-p13.webp"
+  },
+  {
+    "id": 38,
+    "domain": "Software development",
+    "sourceNumber": 38,
+    "sourcePage": 14,
+    "question": "Choose the one that is not correct to explain the structure chart in the software design below.",
+    "choices": [
+      "Module G means I / O module.",
+      "The fan-in degree for Module C is 2.",
+      "A flag is passed from Module D to Module C.",
+      "Module F is a library that consists of predefined modules."
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-38-p14.webp"
+  },
+  {
+    "id": 39,
+    "domain": "Software development",
+    "sourceNumber": 39,
+    "sourcePage": 14,
+    "question": "A character string is given in a Python program as shown below. Which of the following is NOT a correct output from each function? - D",
+    "choices": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/software-39-p14.webp"
+  },
+  {
+    "id": 40,
+    "domain": "Software development",
+    "sourceNumber": 40,
+    "sourcePage": 14,
+    "question": "Choose the software requirement elicitation technique described below.",
+    "choices": [
+      "Benchmarking",
+      "Facilitated workshop",
+      "Prototyping",
+      "Focus group interview"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 41,
+    "domain": "Software development",
+    "sourceNumber": 41,
+    "sourcePage": 15,
+    "question": "Choose the appropriate code to fill (a) & (b) in the Python source code below.",
+    "choices": [
+      "(a) i < 100: (b) range(0,100):",
+      "(a) i <= 100: (b) range(0,101):",
+      "(a) i < 100: (b) range(1, 100):",
+      "(a) I < 100: (b) range(0, 99):"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/software-41-p15.webp"
+  },
+  {
+    "id": 42,
+    "domain": "Software development",
+    "sourceNumber": 42,
+    "sourcePage": 15,
+    "question": "Choose the shortest path algorithm between two circles using the graph specified below.",
+    "choices": [
+      "Dijsktra Algorithm",
+      "Kruscal Algorithm",
+      "Prim Algorithm",
+      "Knuth Morris Pratt Algorithm"
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 43,
+    "domain": "Software development",
+    "sourceNumber": 43,
+    "sourcePage": 15,
+    "question": "What are correct (x,y) values that satisfy Condition Coverage of the underlined code below?",
+    "choices": [
+      "(0,5), (0,0)",
+      "(7,0), (0,5)",
+      "(7,0), (5,0)",
+      "(7,5), (5,0)"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-43-p15.webp"
+  },
+  {
+    "id": 44,
+    "domain": "Software development",
+    "sourceNumber": 44,
+    "sourcePage": 16,
+    "question": "During the testing process, which stage involves the activities listed below? • Test Basis review • Identification of test status, requirements and data • Assignment of test methodologies • Establishment of test environments",
+    "choices": [
+      "Test closure activities",
+      "Test analysis and design",
+      "Test implementation and execution",
+      "Test estimation and organization of the test team"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/software-44-p16.webp"
+  },
+  {
+    "id": 45,
+    "domain": "Software development",
+    "sourceNumber": 45,
+    "sourcePage": 16,
+    "question": "Choose the object-oriented design principle that is applied to “the source code after the change”.",
+    "choices": [
+      "OCP, Open-Closed Principle",
+      "SRP, Single Responsibility Principle",
+      "LSP, Liskov Substitution Principle",
+      "ISP, Interface Segregation Principle"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/software-45-p16.webp"
+  },
+  {
+    "id": 46,
+    "domain": "Software development",
+    "sourceNumber": 46,
+    "sourcePage": 16,
+    "question": "What is the testing technique that Manager Kim suggests in the conversation below?",
+    "choices": [
+      "Pairwise testing",
+      "Coverage testing",
+      "Regression testing",
+      "Exploratory testing"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/software-46-p16.webp"
+  },
+  {
+    "id": 47,
+    "domain": "Software development",
+    "sourceNumber": 47,
+    "sourcePage": 16,
+    "question": "Choose the Design Baseline among the following work products of software development.",
+    "choices": [
+      "User manual",
+      "Source code",
+      "Sequence diagram",
+      "Project execution plan"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 48,
+    "domain": "Software development",
+    "sourceNumber": 48,
+    "sourcePage": 17,
+    "question": "What is the data structure that is suitable for all (a)s?",
+    "choices": [
+      "Heap",
+      "Linked List",
+      "Queue",
+      "Stack"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/software-48-p17.webp"
+  },
+  {
+    "id": 49,
+    "domain": "Software development",
+    "sourceNumber": 49,
+    "sourcePage": 17,
+    "question": "The test case to test the rating of Example 1 is designed as shown in the table in Example 2. Choose the appropriate testing technique applied in the Example 2 below.",
+    "choices": [
+      "Decision Table",
+      "Boundary Value Analysis",
+      "State Transition",
+      "Error Guessing"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/software-49-p17.webp"
+  },
+  {
+    "id": 50,
+    "domain": "Software development",
+    "sourceNumber": 50,
+    "sourcePage": 17,
+    "question": "Choose the algorithm illustrated below.",
+    "choices": [
+      "Greedy algorithm",
+      "Dynamic Programming",
+      "Divide and Conquer",
+      "Heuristics"
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 51,
+    "domain": "Software development",
+    "sourceNumber": 51,
+    "sourcePage": 18,
+    "question": "Choose a representative value that can be computed by the Java source code shown below.",
+    "choices": [
+      "Mean",
+      "Mode",
+      "Median",
+      "Quartiles"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-51-p18.webp"
+  },
+  {
+    "id": 52,
+    "domain": "Software development",
+    "sourceNumber": 52,
+    "sourcePage": 19,
+    "question": "Below is the source code written in C programming language. Choose the appropriate coupling occurred between functions F1() & F2().",
+    "choices": [
+      "Common Coupling",
+      "Contents Coupling",
+      "Data Coupling",
+      "Control Coupling"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/software-52-p19.webp"
+  },
+  {
+    "id": 53,
+    "domain": "Software development",
+    "sourceNumber": 53,
+    "sourcePage": 19,
+    "question": "Choose the type of coupling described below. • Modules share data only through simple type arguments-parameters as shown below.",
+    "choices": [
+      "Common Coupling",
+      "Content Coupling",
+      "External Coupling",
+      "Data Coupling"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/software-53-p19.webp"
+  },
+  {
+    "id": 54,
+    "domain": "Software development",
+    "sourceNumber": 54,
+    "sourcePage": 19,
+    "question": "Choose the refactoring technique applied to improve the Java source code below.",
+    "choices": [
+      "Extract Class",
+      "Extract Method",
+      "Inline Method",
+      "Replace Temp with Query"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 55,
+    "domain": "Software development",
+    "sourceNumber": 55,
+    "sourcePage": 20,
+    "question": "Choose the appropriate design pattern proposed by the GoF (Gang of Four), which can be applied to the development of a fine dust alarm service system illustrated below.",
+    "choices": [
+      "Façade pattern",
+      "Behavior pattern",
+      "Observer pattern",
+      "Decorator pattern"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/software-55-p20.webp"
+  },
+  {
+    "id": 56,
+    "domain": "Software development",
+    "sourceNumber": 56,
+    "sourcePage": 20,
+    "question": "Choose the sorting algorithm illustrated in the figure below. (Note that the example presents only up to the second loop.)",
+    "choices": [
+      "Bubble sort",
+      "Insertion sort",
+      "Quick sort",
+      "Selection sort"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/software-56-p20.webp"
+  },
+  {
+    "id": 57,
+    "domain": "Understanding data",
+    "sourceNumber": 1,
+    "sourcePage": 21,
+    "question": "Which one is the correct sequence of the index design processes?",
+    "choices": [
+      "(b)->(c)->(a)->(d)",
+      "(b)->(c)->(d)->(a)",
+      "(c)->(b)->(a)->(d)",
+      "(c)->(b)->(d)->(a)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/understanding-01-p21.webp"
+  },
+  {
+    "id": 58,
+    "domain": "Understanding data",
+    "sourceNumber": 2,
+    "sourcePage": 21,
+    "question": "Choose the attribute that must be normalized to the third Normal Form (3NF) in the data model below.",
+    "choices": [
+      "CourseRegistration.Year",
+      "CourseRegistration.Semester",
+      "CourseRegistration.ProfessorName",
+      "CourseRegistration.DateRegistered"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/understanding-02-p21.webp"
+  },
+  {
+    "id": 59,
+    "domain": "Understanding data",
+    "sourceNumber": 3,
+    "sourcePage": 22,
+    "question": "Refers to [Status of Bank A] and [Result of Data Standardization].",
+    "choices": [
+      "(1) (1)",
+      "(2) (2)",
+      "(3) (3)",
+      "(4) (4)"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/understanding-03-p22.webp"
+  },
+  {
+    "id": 60,
+    "domain": "Understanding data",
+    "sourceNumber": 4,
+    "sourcePage": 22,
+    "question": "Which of the following is NOT correct regarding the properties of NoSQL?",
+    "choices": [
+      "Supports ACID (Atomic, Consistency, Isolation, Durability) to ensure transactions.",
+      "Easy to change or expand data schema.",
+      "Does not support the foreign key feature among tables.",
+      "Supports a variety of types of data models, including document-based and graph-based data models."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 61,
+    "domain": "Understanding data",
+    "sourceNumber": 5,
+    "sourcePage": 23,
+    "question": "What is the Unsupervised Learning algorithm of AI described below?",
+    "choices": [
+      "Decision Tree",
+      "K-Means Clustering",
+      "K-Nearest Neighbor",
+      "Neural Network"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/understanding-05-p23.webp"
+  },
+  {
+    "id": 62,
+    "domain": "Understanding data",
+    "sourceNumber": 6,
+    "sourcePage": 23,
+    "question": "Choose the appropriate code to fill (a) in “SQL” to satisfy the “Requirements” in the example below.",
+    "choices": [
+      "ALTER",
+      "CREATE",
+      "COMMIT",
+      "GRANT"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/understanding-06-p23.webp"
+  },
+  {
+    "id": 63,
+    "domain": "Understanding data",
+    "sourceNumber": 7,
+    "sourcePage": 24,
+    "question": "Choose the appropriate Functional Dependency type applied to the attribute ‘Name’ in the example below.",
+    "choices": [
+      "Boyce-codd Functional Dependency",
+      "Partial Functional Dependency",
+      "Full Functional Dependency",
+      "Transitive Dependency"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/understanding-07-p24.webp"
+  },
+  {
+    "id": 64,
+    "domain": "Understanding data",
+    "sourceNumber": 8,
+    "sourcePage": 24,
+    "question": "Which of the following Entity-Relationship Diagram is NOT a correct representation of the given conditions? (Note: that the diagrams employ Crow’s Foot notation). - D",
+    "choices": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/understanding-08-p24.webp"
+  },
+  {
+    "id": 65,
+    "domain": "Understanding data",
+    "sourceNumber": 9,
+    "sourcePage": 25,
+    "question": "Choose which of the following statements is incorrect about database system components?",
+    "choices": [
+      "The database management system (DBMS) provides features to build and use a database.",
+      "A database administrator (DBA) performs physical database design, backup, and recovery.",
+      "A data definition language (DDL) is used to input, modify, delete, and query data in database.",
+      "A database is set of integrated and stored data with the minimum duplication to share data with many application systems."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 66,
+    "domain": "Understanding data",
+    "sourceNumber": 10,
+    "sourcePage": 25,
+    "question": "Which of the following explanation is NOT correct about CAP (Consistency, Availability, Partition-tolerance) theorem?",
+    "choices": [
+      "NoSQL repository satisfies A+P, C+A, and C+P. Mongo DB is the database of this model.",
+      "C+P is efficient when all nodes need be processed in parallel. BigTable and Hbase are database of this model.",
+      "A+P is suitable for asynchronous storage processing. Dynamo and Apache Cassandra are database of this model.",
+      "C+A is a strongly reliable model that prevents message losses even when the system is down. General RDBMS is the database of this model."
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/understanding-10-p25.webp"
+  },
+  {
+    "id": 67,
+    "domain": "Understanding data",
+    "sourceNumber": 11,
+    "sourcePage": 25,
+    "question": "Which of the following is NOT correct on Data Warehouse Modeling?",
+    "choices": [
+      "Consists of fact table and dimension tables.",
+      "A dimension table descriptive information about each row in a fact table.",
+      "Star Schema requires relatively small loading space because the number of duplicated data are small due to the normalization.",
+      "A snowflake schema is a model design technique for hierarchical analysis such as time-series analysis and regional analysis."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 68,
+    "domain": "Understanding data",
+    "sourceNumber": 12,
+    "sourcePage": 26,
+    "question": "Machine learning uses data to train machines and it is a way artificial intelligence to make its own decisions or predictions by itself. What is the type of machine learning that corresponds to the description below?",
+    "choices": [
+      "Supervised learning",
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Semi-supervised learning"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/understanding-12-p26.webp"
+  },
+  {
+    "id": 69,
+    "domain": "Understanding data",
+    "sourceNumber": 13,
+    "sourcePage": 26,
+    "question": "Which of the following is NOT correctly matched between the purposed of Data Definition Language (DDL) and the SQL statement in the [Staff Table] below? - C",
+    "choices": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/understanding-13-p26.webp"
+  },
+  {
+    "id": 70,
+    "domain": "Understanding data",
+    "sourceNumber": 14,
+    "sourcePage": 27,
+    "question": "What is the level of architecture described in the [Example] below among the 3-layer database architecture of ANSI-SPARC?",
+    "choices": [
+      "Conceptual level",
+      "External level",
+      "Internal level",
+      "Logical level"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/understanding-14-p27.webp"
+  },
+  {
+    "id": 71,
+    "domain": "Understanding data",
+    "sourceNumber": 15,
+    "sourcePage": 27,
+    "question": "Choose the statement that is NOT a correct explanation of distributed database system.",
+    "choices": [
+      "Requires much storage space because one data item is duplicated to be stored in multiple areas.",
+      "The location of data storage must be identified, and the data access information must be managed separately.",
+      "When a problem emerges in a site, tasks can be carried out through other sites where the same data are stored.",
+      "The availability is increased because data processing requests are distributed on multiple sites, not concentrated on a single site."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 72,
+    "domain": "Understanding data",
+    "sourceNumber": 16,
+    "sourcePage": 27,
+    "question": "Choose the algorithm that is Not a supervised learning algorithm.",
+    "choices": [
+      "The algorithm that learns based on correct answer among the algorithms that model the human brain.",
+      "The algorithm that predicts the data with the nearest distance from adjacent data with k input values.",
+      "The analytical algorithm that groups data with similar characteristics taking a variety of attributes of given data into consideration.",
+      "The analytical algorithm that creates a tree-shape model that classifies category values of a specific categorical attributes with the analysis of the data when a data set is given."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 73,
+    "domain": "Understanding data",
+    "sourceNumber": 17,
+    "sourcePage": 27,
+    "question": "What is the type of backup policy described in part (c)?",
+    "choices": [
+      "Cold backup",
+      "Differential backup",
+      "Incremental backup",
+      "Archive log backup"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/understanding-17-p27.webp"
+  },
+  {
+    "id": 74,
+    "domain": "Understanding data",
+    "sourceNumber": 18,
+    "sourcePage": 28,
+    "question": "Which of the following is NOT a characteristic of ORDB (Object Relational Database)",
+    "choices": [
+      "Able to design data models with complex structures because one column in a table is created as another table.",
+      "ORDB supports LOB (Large Object) types to store inheritance relationships between tables and unstructured data.",
+      "Easy to retrieve information because the characteristics, digits, and date type information are stored in two- dimensional structures of columns and rows.",
+      "Navigation-based data access using the reference structures is possible in such a way that one object record is eligible to access another object record."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 75,
+    "domain": "Understanding data",
+    "sourceNumber": 19,
+    "sourcePage": 28,
+    "question": "Choose the appropriate SQL statement for the [Query Condition] below. - C",
+    "choices": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/understanding-19-p28.webp"
+  },
+  {
+    "id": 76,
+    "domain": "Understanding data",
+    "sourceNumber": 20,
+    "sourcePage": 29,
+    "question": "Choose the correct explanation on the task carried out in the Concept Modeling phase.",
+    "choices": [
+      "Perform normalization",
+      "Define the subject area.",
+      "Create the Entity-Relationship Diagram (ERD).",
+      "Define Attributes, and determine Identifiers."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 77,
+    "domain": "Understanding data",
+    "sourceNumber": 21,
+    "sourcePage": 29,
+    "question": "Choose the appropriate Data Mining technique to apply to the Case in the example below.",
+    "choices": [
+      "Co-Occurrence Matrix",
+      "Decision Tree",
+      "Convolutional Neural Network",
+      "K-Nearest Neighbor Algorithm"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/understanding-21-p29.webp"
+  },
+  {
+    "id": 78,
+    "domain": "Understanding data",
+    "sourceNumber": 22,
+    "sourcePage": 30,
+    "question": "Choose the appropriate command in (a) below to ensure Serializability by the Two Phase Locking Protocol.",
+    "choices": [
+      "lock(x)",
+      "Lock(y)",
+      "read(x)",
+      "unlock(y)"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/understanding-22-p30.webp"
+  },
+  {
+    "id": 79,
+    "domain": "Understanding data",
+    "sourceNumber": 23,
+    "sourcePage": 30,
+    "question": "Choose the design activity of the database conceptual model as described below. • Define things, events, and persons of continuous business interest. • A group of homogeneous objects or activities (example) client, product, order history, etc.",
+    "choices": [
+      "Define relationships",
+      "Define attributes",
+      "Define identifiers",
+      "Define entities"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 80,
+    "domain": "Understanding data",
+    "sourceNumber": 24,
+    "sourcePage": 31,
+    "question": "Which of the following is NOT a correct explanation about Large Object (LOB) that is one of the data types of database?",
+    "choices": [
+      "LOB data types include BLOB and CLOB.",
+      "The transaction can be managed by the database itself.",
+      "Used to store massive unstructured data, including text, graphic, image, video, and audio.",
+      "Large files are stored in a file system of the operating system and are able to be accessed via tables.\\"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 81,
+    "domain": "Understanding data",
+    "sourceNumber": 25,
+    "sourcePage": 31,
+    "question": "Choose the JOIN SQL Statement that will produce the [Execution Result] below.",
+    "choices": [
+      "SELECT * FROM Customer LEFT OUTER JOIN Order ON Customer.CustomerNumber = Order.CustumerNumber",
+      "SELECT * FROM Customer RIGHT OUTER JOIN Order ON Customer.CustomerNumber = Order.CustumerNumber",
+      "SELECT * FROM Customer FULL OUTER JOIN Order ON Customer.CustomerNumber = Order.CustumerNumber",
+      "SELECT * FROM Customer INNER JOIN Result ON |OrderCustomerNumber = Order.CustumerNumber"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/understanding-25-p31.webp"
+  },
+  {
+    "id": 82,
+    "domain": "Understanding data",
+    "sourceNumber": 26,
+    "sourcePage": 31,
+    "question": "Choose the appropriate denormalization technique for the blank (a) below.",
+    "choices": [
+      "Column",
+      "Index",
+      "Relationship",
+      "Table"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 83,
+    "domain": "Understanding data",
+    "sourceNumber": 27,
+    "sourcePage": 32,
+    "question": "From the 2 candidate keys Student_Number and Resident_Number, Student_Number was selected as the primary key of the relation Student. Choose the key type of Resident_Number.",
+    "choices": [
+      "Alternate key",
+      "Composite key",
+      "Artificial key",
+      "Foreign key"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/understanding-27-p32.webp"
+  },
+  {
+    "id": 84,
+    "domain": "Understanding data",
+    "sourceNumber": 28,
+    "sourcePage": 32,
+    "question": "Who is the person in charge of the roles below?",
+    "choices": [
+      "Data Modeler (DM)",
+      "Data Administrator (DA)",
+      "Database Administrator (DBA)",
+      "Enterprise Data Administrator (EDA)"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 85,
+    "domain": "Understanding data",
+    "sourceNumber": 29,
+    "sourcePage": 33,
+    "question": "Refer to the tables A and B below and choose the correct result of A/B operation which means the relation A divided by the relation B. - B",
+    "choices": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/understanding-29-p33.webp"
+  },
+  {
+    "id": 86,
+    "domain": "Understanding data",
+    "sourceNumber": 30,
+    "sourcePage": 34,
+    "question": "Choose the statement which is NOT a correct explanation of the attribute design for data modeling.",
+    "choices": [
+      "Attributes must be defined to have only one meaning",
+      "Attributes are named with acronyms that are used on site",
+      "When a single attribute has multiple values, the attribute must be separated",
+      "The attribute of the primary identifier must be defined to comply with functional dependencies"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 87,
+    "domain": "Understanding data",
+    "sourceNumber": 31,
+    "sourcePage": 34,
+    "question": "Choose the statement which is NOT a correct of the relationship between the entities of Employee and Department in the example below.",
+    "choices": [
+      "Employees without departments may exist",
+      "Departments without employees may exist",
+      "An employee must belong to only one department",
+      "Departments with one or more employees may exist"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/understanding-31-p34.webp"
+  },
+  {
+    "id": 88,
+    "domain": "Understanding data",
+    "sourceNumber": 32,
+    "sourcePage": 34,
+    "question": "Choose which integrity is ensured by the following constraints.",
+    "choices": [
+      "Domain Integrity",
+      "Entity Integrity",
+      "Key Integrity",
+      "Referential Integrity"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/understanding-32-p34.webp"
+  },
+  {
+    "id": 89,
+    "domain": "Understanding data",
+    "sourceNumber": 33,
+    "sourcePage": 34,
+    "question": "Which of the following is NOT a correct characteristic of column-oriented database?",
+    "choices": [
+      "Stores data tables by column.",
+      "Efficient when all column values are entered at the same time.",
+      "Useful when values of specific column are replaced without affecting other columns.",
+      "Suitable when a massive data stored in the same column is analyzed collectively."
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 90,
+    "domain": "Understanding data",
+    "sourceNumber": 34,
+    "sourcePage": 35,
+    "question": "Below is the example of embedded SQL statements to input the amount of scholarship. Choose the incorrect command in (a), (b), (c), and (d).",
+    "choices": [
+      "(a) – DECLARE",
+      "(b) – OPEN",
+      "(c) – CURSOR",
+      "(d) – CLOSE"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/understanding-34-p35.webp"
+  },
+  {
+    "id": 91,
+    "domain": "System architecture",
+    "sourceNumber": 1,
+    "sourcePage": 36,
+    "question": "Choose the phenomenon described below.",
+    "choices": [
+      "Convoy effect",
+      "Deadlock",
+      "Starvation",
+      "Thrashing"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/system-01-p36.webp"
+  },
+  {
+    "id": 92,
+    "domain": "System architecture",
+    "sourceNumber": 2,
+    "sourcePage": 36,
+    "question": "Choose the virtual memory segmentation technique explained below. • Memory is divided into frames with a fixed size when the physical memory is used • Internal fragmentation occurs frequently but the memory space is not required to be allocated contiguously",
+    "choices": [
+      "Segmentation",
+      "Thrashing",
+      "Locality",
+      "Paging"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 93,
+    "domain": "System architecture",
+    "sourceNumber": 3,
+    "sourcePage": 36,
+    "question": "What is the type of open-source library described below?",
+    "choices": [
+      "OpenCL",
+      "OpenCV",
+      "OpenGL",
+      "OpenMP"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 94,
+    "domain": "System architecture",
+    "sourceNumber": 4,
+    "sourcePage": 37,
+    "question": "What is the component of Web Architecture that is appropriate to (a) below.",
+    "choices": [
+      "Web Server",
+      "Web Container",
+      "Web Cache Server",
+      "Web Transaction Server"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/system-04-p37.webp"
+  },
+  {
+    "id": 95,
+    "domain": "System architecture",
+    "sourceNumber": 5,
+    "sourcePage": 38,
+    "question": "Choose the network error control method illustrated below. • Add an extra bit to make the number of 1s odd or even to detect errors.",
+    "choices": [
+      "Cyclic redundancy check (CRC)",
+      "Echo check",
+      "Parity check",
+      "Hamming code"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/system-05-p38.webp"
+  },
+  {
+    "id": 96,
+    "domain": "System architecture",
+    "sourceNumber": 6,
+    "sourcePage": 38,
+    "question": "Choose the virtual memory management technique described in the example below. • Tasks stored in virtual memory to be processed are partitioned into logical-unit blocks and loaded into the main memory to be executed. • Words per address consist of two parts including the offset.",
+    "choices": [
+      "Paging",
+      "Segmentation",
+      "Segmented Paging",
+      "Paged Segmentation"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 97,
+    "domain": "System architecture",
+    "sourceNumber": 7,
+    "sourcePage": 38,
+    "question": "Which of the following is NOT a correct explanation of the paging technique, which is one of the virtual memory allocation techniques?",
+    "choices": [
+      "An external fragmentation may occur.",
+      "Physical address space is divided into equal sizes and used",
+      "Logical and physical addresses are connected through the page table.",
+      "Data to be processed are divided into pages of a predefined size to be loaded into memory."
+    ],
+    "answerIndex": null,
+    "exhibit": null
+  },
+  {
+    "id": 98,
+    "domain": "System architecture",
+    "sourceNumber": 8,
+    "sourcePage": 39,
+    "question": "Which of the following types of File Systems fit in blanks (a) and (b)",
+    "choices": [
+      "(a): FAT 32, (b): exFAT",
+      "(a): FAT 32, (b): NTFS",
+      "(a): FAT 64, (b): exFAT",
+      "(a): FAT 16, (b): NTFS"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/system-08-p39.webp"
+  },
+  {
+    "id": 99,
+    "domain": "System architecture",
+    "sourceNumber": 9,
+    "sourcePage": 39,
+    "question": "Which of the following is NOT a correct description of TCP (Transmission Control Protocol)?",
+    "choices": [
+      "It is a connectionless-oriented protocol",
+      "Error-detection ads to reliability",
+      "Three-way handshake is used to establish a connection",
+      "Sliding window protocols are used for a reliable in-order delivery"
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 100,
+    "domain": "System architecture",
+    "sourceNumber": 10,
+    "sourcePage": 39,
+    "question": "What is the suitable command in (a) below?",
+    "choices": [
+      "arp-s",
+      "scp-s",
+      "ssh-s",
+      "telnet-s"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/system-10-p39.webp"
+  },
+  {
+    "id": 101,
+    "domain": "System architecture",
+    "sourceNumber": 11,
+    "sourcePage": 39,
+    "question": "Which contents does NOT apply CDN (Contents Delivery Network)?",
+    "choices": [
+      "Installation files of large-sized mobile games",
+      "MP4 (MPEG-4 Part 14) video files provide VOD (Video On Demand) services",
+      "ASP (Active Server Page) and JSP (Java Server Pages) files that display individual order information",
+      "CSS (Cascading Style Page), JS (JavaScript), JPG (Joint Photographic Expert Group) files that compose layout of web sites."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 102,
+    "domain": "System architecture",
+    "sourceNumber": 12,
+    "sourcePage": 40,
+    "question": "Choose the error control protocol illustrated in the figure below.",
+    "choices": [
+      "Go-back-N protocol",
+      "Piggy-backing protocol",
+      "Simple protocol",
+      "Stop-and-wait protocol"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/system-12-p40.webp"
+  },
+  {
+    "id": 103,
+    "domain": "System architecture",
+    "sourceNumber": 13,
+    "sourcePage": 40,
+    "question": "Choose the incorrect explanation about the characteristics of quantum computing.",
+    "choices": [
+      "Superposition – A quantum particle can be in two or more distinct states at the same time.",
+      "Quantum Bit – The smallest unit of quantum information, referred as Q bit or Qubits in short.",
+      "Quantum Supremacy – impossible to recover to the previous state after the quantum state is measured.",
+      "Entanglement – If a particle state value changes even in the infinitely remote place, the quantum state value at the other end also changes instantaneously."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 104,
+    "domain": "System architecture",
+    "sourceNumber": 14,
+    "sourcePage": 40,
+    "question": "Which of the following is NOT a container technique appropriate to the description below?",
+    "choices": [
+      "Docker Swarm",
+      "Mesos",
+      "Xen",
+      "Kubernetes"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/system-14-p40.webp"
+  },
+  {
+    "id": 105,
+    "domain": "System architecture",
+    "sourceNumber": 15,
+    "sourcePage": 41,
+    "question": "Which of the following is NOT a correct explanation of MapReduce, which is one of the major technical components of Hadoop?",
+    "choices": [
+      "Processes sorted data in a distributed manner and then merges the data again.",
+      "Enables the analysis of mass data in parallel in a large-scale distributed computing environment.",
+      "The result of the analysis process is stored in the HDFS (Hadoop File System).",
+      "A file system consisting of Name Node and Data Node."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 106,
+    "domain": "System architecture",
+    "sourceNumber": 16,
+    "sourcePage": 41,
+    "question": "Which of the following is NOT a correct explanation about the DNS (Domain Name System)?",
+    "choices": [
+      "Multiple IP addresses are not assigned to a single domain",
+      "Domain names are converted into IP addresses and vice versa.",
+      "A domain name is converted into an IP address and vice versa.",
+      "Aliases may be used when domain names are complex."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 107,
+    "domain": "System architecture",
+    "sourceNumber": 17,
+    "sourcePage": 41,
+    "question": "Which hardware device provided the function that enables the CPU to access a physical memory address using a virtual address?",
+    "choices": [
+      "Register",
+      "Memory Management Unit (MMU)",
+      "Arithmetic Logic Unit (ALU)",
+      "Cache"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/system-17-p41.webp"
+  },
+  {
+    "id": 108,
+    "domain": "System architecture",
+    "sourceNumber": 18,
+    "sourcePage": 42,
+    "question": "The figure below illustrates the bus structure of the computer system. Choose the appropriate bus for (a).",
+    "choices": [
+      "I/O bus",
+      "Data bus",
+      "Channel bus",
+      "Direct Memory Access (DMA) bus"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/system-18-p42.webp"
+  },
+  {
+    "id": 109,
+    "domain": "System architecture",
+    "sourceNumber": 19,
+    "sourcePage": 42,
+    "question": "What is a correct explanation about SRAM (Static Random Access Memory)?",
+    "choices": [
+      "Volatile memory that retains data while electrified",
+      "Memory based on the resistance change of MTJ (Magnetic Tunnel Junction)",
+      "Memory utilizing properties of the amorphous and crystalline state when heat is applied",
+      "Memory applying hysteretic PE (Polarization vs Electric field) characteristic on strong electrical film."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 110,
+    "domain": "System architecture",
+    "sourceNumber": 20,
+    "sourcePage": 42,
+    "question": "Choose the appropriate open-source software described in the example below.",
+    "choices": [
+      "Cassandra",
+      "CouchDB",
+      "MongoDB",
+      "Redis"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/system-20-p42.webp"
+  },
+  {
+    "id": 111,
+    "domain": "System architecture",
+    "sourceNumber": 21,
+    "sourcePage": 43,
+    "question": "Coose an instruction processing technique of the CPU described below.",
+    "choices": [
+      "Scalar",
+      "Pipeline",
+      "Suoer scalar",
+      "Super pipeline"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/system-21-p43.webp"
+  },
+  {
+    "id": 112,
+    "domain": "System architecture",
+    "sourceNumber": 22,
+    "sourcePage": 43,
+    "question": "Choose the protocol described in the example below.",
+    "choices": [
+      "IMS (IP Multimedia Subsystem)",
+      "RTCP (Real-time Transport Control Protocol)",
+      "RTP (Real-time Transport Protocol)",
+      "RTSP (Real0time Streaming Protocol)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/system-22-p43.webp"
+  },
+  {
+    "id": 113,
+    "domain": "System architecture",
+    "sourceNumber": 23,
+    "sourcePage": 43,
+    "question": "Class C network is to be divided into 10 or more subnets and 10 to 13 hosts will be, in turn, connected to each subnet. Choose the correct subnet mask",
+    "choices": [
+      "255.255.255.192 (the last 8-bit: 1100 0000)",
+      "255.255.255.224 (the last 8-bit: 1110 0000)",
+      "255.255.255.240 (the last 8-bit: 1111 0000)",
+      "255.255.255.248 (the last 8-bit: 1111 1000)"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 114,
+    "domain": "System architecture",
+    "sourceNumber": 24,
+    "sourcePage": 44,
+    "question": "What is the RAID (Redundant Array of Independent Disk) type for the storage device described below?",
+    "choices": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/system-24-p44.webp"
+  },
+  {
+    "id": 115,
+    "domain": "System architecture",
+    "sourceNumber": 25,
+    "sourcePage": 44,
+    "question": "Choose the explanation that is NOT correct about the elements in the header of HTTP protocol.",
+    "choices": [
+      "Accept: File types that a client can accept (MIME TYPE)",
+      "Host: Domain name of the server",
+      "Referer: Web page address that is currently displayed",
+      "User-Agent: Operating system and connection tool information of the client requested by the current user."
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/system-25-p44.webp"
+  },
+  {
+    "id": 116,
+    "domain": "System architecture",
+    "sourceNumber": 26,
+    "sourcePage": 45,
+    "question": "Which explanation is NOT correct about HDFS (Hadoop Distributed File System)?",
+    "choices": [
+      "Stored files must be inquired through streaming methods.",
+      "Distributed files can be read applying Map Reduce framework.",
+      "Files stored in Data Nodes can be modified with restrictions.",
+      "HDFS consists of Name Nodes that manage metadata and Data Nodes that store data."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 117,
+    "domain": "System architecture",
+    "sourceNumber": 27,
+    "sourcePage": 45,
+    "question": "The figure below illustrates the deployment method mostly used in Kubernetes. Choose the appropriate deployment method.",
+    "choices": [
+      "Big bang deployment",
+      "Blue-Green deployment",
+      "Canary deployment",
+      "Rolling deployment"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/system-27-p45.webp"
+  },
+  {
+    "id": 118,
+    "domain": "System architecture",
+    "sourceNumber": 28,
+    "sourcePage": 45,
+    "question": "Choose the statement that is NOT appropriate as an explanation of the Forward Error Correction (FEC) in the link layer.",
+    "choices": [
+      "Mainly used in poor channel environments or when reliability is highly required",
+      "Enables real-time processing and provides high throughput compared to Backward Error Correction (BEC)",
+      "Errors are detected by the data-receiving hosts using the additional information, and when errors are detected, the data-receiving host corrects them.",
+      "Additional information is sent to detect errors when data are transmitted, the data-receiving host uses the information, and requests the data-sending host to retransmit the data when errors are detected."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 119,
+    "domain": "System architecture",
+    "sourceNumber": 29,
+    "sourcePage": 46,
+    "question": "Which of the following is NOT a correct explanation about this provisioning?",
+    "choices": [
+      "Space zeroing is performed using lazy zeroing and eager zeroing",
+      "A host constantly performs dynamic allocation and space recovery in the storage.",
+      "Logical space which is larger than the actual physical space can be allocated through virtualization technology.",
+      "It is on-demand provisioning technology that flexibly expand the disk space, and allocate the size of space as much as it is used."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 120,
+    "domain": "System architecture",
+    "sourceNumber": 30,
+    "sourcePage": 46,
+    "question": "Choose the page replacement algorithm used for virtual memory management illustrated below.",
+    "choices": [
+      "First-In First-Out (FIFO)",
+      "Least Frequently Used (LFU)",
+      "Least Recent Used (LRU)",
+      "Not Frequently Used (NFU)"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/system-30-p46.webp"
+  },
+  {
+    "id": 121,
+    "domain": "System architecture",
+    "sourceNumber": 31,
+    "sourcePage": 46,
+    "question": "Choose the statement which is NOT appropriate as a feature of UDP (User Datagram Protocol)",
+    "choices": [
+      "UDP is a very simple protocol without a flow control.",
+      "UDP provides connectionless service without preset processes.",
+      "UDP provides the congestion control to alleviate the load in the sending processes.",
+      "UDP is used for real-time multimedia data transfer that do not require reliability at the Transport Layer."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 122,
+    "domain": "System architecture",
+    "sourceNumber": 32,
+    "sourcePage": 47,
+    "question": "Refer to the illustration in the example below and choose the parallel computer processor architecture in Flynn’s taxonomy.",
+    "choices": [
+      "SISD (Single Instruction Single Data Stream)",
+      "SIMD (Single Instruction Multiple Data Stream)",
+      "MISD (Multiple Instruction Single Data Stream)",
+      "MIMD (Multiple Instruction Multiple Data Stream)"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/system-32-p47.webp"
+  },
+  {
+    "id": 123,
+    "domain": "System architecture",
+    "sourceNumber": 33,
+    "sourcePage": 47,
+    "question": "Which of the following is NOT a correct explanation of the congestion control technique of the TCP?",
+    "choices": [
+      "Slow start: The size a congestion window slowly increases by one.",
+      "Fast recovery: Congestion avoidance is performed without the slow start after the fast retransmit.",
+      "Fast retransmit: When the Duplicate ACK is received three times, transmission start immediately without waiting for Timeout.",
+      "Congestion avoidance: Once the slow start threshold is reached, TCP regards it as a congestion and the window is increased linearly."
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 124,
+    "domain": "System architecture",
+    "sourceNumber": 34,
+    "sourcePage": 47,
+    "question": "The diagram show below illustrates the execution cycle of a 6-stage pipeline. Which of the following explanation is NOT correctly matched?",
+    "choices": [
+      "DI: decode the instruction",
+      "CO: calculate the operand",
+      "EI: execute the instructions",
+      "WO: withdraw the operand"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/system-34-p47.webp"
+  },
+  {
+    "id": 125,
+    "domain": "System architecture",
+    "sourceNumber": 35,
+    "sourcePage": 48,
+    "question": "Which of the following is NOT correctly matched between the OSI (Open Systems Interconnection) model application layer protocol and its description?",
+    "choices": [
+      "SMTP – a standard protocol for E-mail transmission",
+      "TELNET – consists of both active and passive modes",
+      "HTTP – functions through request and response protocols",
+      "FTP – consists of a command control connection and a data connection"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 126,
+    "domain": "Information security",
+    "sourceNumber": 1,
+    "sourcePage": 49,
+    "question": "Which is NOT a requisite activity for the implementation of database access control?",
+    "choices": [
+      "Implement duplex functions to prepare for failures.",
+      "Implement authentication functions to identify users.",
+      "Define access methods and time to access information.",
+      "Identify users who are able to discern and access critical information."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 127,
+    "domain": "Information security",
+    "sourceNumber": 2,
+    "sourcePage": 49,
+    "question": "Which of the following is NOT a correct explanation about the security of Linux or Linux-like systems?",
+    "choices": [
+      "Delete unnecessary accounts using 'userdel' command.",
+      "'Write' permissions on /etc/profile files are removed except for the root user.",
+      "Use 'chmod' command to assign permissions to each user according to the access control policy.",
+      "Include users with access permissions to /etc/hosts. allow files and users without access permissions to /etc/hosts. deny files for access control."
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 128,
+    "domain": "Information security",
+    "sourceNumber": 3,
+    "sourcePage": 49,
+    "question": "Choose the correct explanation of the certification system for the Information Security Management System (ISMS).",
+    "choices": [
+      "The companies for profit only are subject to the certification.",
+      "There is no guarantee that the company with the certification is 100% safe from information security infringement incidents.",
+      "The initial certification is processed when the certification is acquired for the first time. The certification is valid for five years.",
+      "The scope of certification encompasses not only information and communication services but also the internal task procedures such as groupware and human resource systems which are not directly related to the information and communication services."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 129,
+    "domain": "Information security",
+    "sourceNumber": 4,
+    "sourcePage": 49,
+    "question": "Which is the certification system described below? • Examines the adequacy of information protection systems, such as information protection management processes and security policies. • Examines the adequacy of the personal information protection management systems such as collection, use, and destruction policies of personal information.",
+    "choices": [
+      "ISMS-P(Personal Information & Information Security Management System)",
+      "ITSM(Information Technology Service Management)",
+      "PIMS(Personal Information Security Management System)",
+      "PIPL(Personal Information Protection Level)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/information-04-p49.webp"
+  },
+  {
+    "id": 130,
+    "domain": "Information security",
+    "sourceNumber": 5,
+    "sourcePage": 49,
+    "question": "Which of the following algorithms has NOT been applied for the right purpose?",
+    "choices": [
+      "The RSA-2048 algorithm has been applied to encrypt the encryption key.",
+      "The ECC algorithm has been applied to encrypt massive data at high speed.",
+      "The SEED algorithm has been applied to encrypt resident registration numbers.",
+      "The SHA:256 algorithm has been applied to verify the integrity of the data transmitted."
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 131,
+    "domain": "Information security",
+    "sourceNumber": 6,
+    "sourcePage": 50,
+    "question": "Choose a Linux command to apply the [Improvement Plan] to the [Status of Access Right to Personal Information Files] below. \\",
+    "choices": [
+      "cat",
+      "chown",
+      "touch",
+      "umask"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/information-06-p50.webp"
+  },
+  {
+    "id": 132,
+    "domain": "Information security",
+    "sourceNumber": 7,
+    "sourcePage": 50,
+    "question": "Which description is NOT correct about Wireless LAN Security of IEEE 802.11?",
+    "choices": [
+      "Use 802.1x as the user authentication method.",
+      "4-way Handshake is used as the key exchange method.",
+      "Separate user authentication methods and the encryption function.",
+      "WEP (Wireless Equivalent Privacy) is used as the encryption algorithm"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 133,
+    "domain": "Information security",
+    "sourceNumber": 8,
+    "sourcePage": 50,
+    "question": "The example below is the summary of Work Application Form for the firewall of Company A. Which of the following interpretation is NOT a correct request for firewall policy changes?",
+    "choices": [
+      "The FTP client program is executed on a computer with the IP address *124:111.37.30.*",
+      "The FTP server program is executed on a server with the IP address *119.31.244.248.*",
+      "The request for firewall policy changes is to use port numbers 20 and 21 in the firewall.",
+      "The firewall policy manager must be set up to allow the in-bound port to source IPs."
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/information-08-p50.webp"
+  },
+  {
+    "id": 134,
+    "domain": "Information security",
+    "sourceNumber": 9,
+    "sourcePage": 50,
+    "question": "Which of the following is NOT a correct explanation on the SSL(Secure Socket Layer)?",
+    "choices": [
+      "HTTPS protocol is SSL applied HTTP protocol.",
+      "In order to apply SSL, SSL certificate must be installed in a web server.",
+      "It runs in the Network Layer of the OSI(Open System Interconnection) 7 layer model.",
+      "Mutual authentication is carried out through the Handshake protocol between the client and the server."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 135,
+    "domain": "Information security",
+    "sourceNumber": 10,
+    "sourcePage": 51,
+    "question": "Choose the security threat against cloud computing described below: • The weaknesses found in the elementary technologies of cloud computing or in the hardware may be extended to the entire cloud computing environment. • The hacking of the hypervisor may affect all related operating system and result in the loss of control.",
+    "choices": [
+      "Virtualization vulnerabilities",
+      "Insufficient key management",
+      "Insecure API",
+      "Insufficient authentication and access management"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 136,
+    "domain": "Information security",
+    "sourceNumber": 11,
+    "sourcePage": 51,
+    "question": "Choose the statement that is NOT correct about the vulnerabilities of Log4j.",
+    "choices": [
+      "Rated as Critical by the Common Vulnerability Scoring System (CVSS).",
+      "Log4j must be updated to the latest version according to the Java version.",
+      "Attacks such as DDoS and malware that make bad use of the Log4j vulnerabilities are possible.",
+      "Vulnerabilities occur because the return value is not verified after Lookup Method of JNDI is called."
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 137,
+    "domain": "Information security",
+    "sourceNumber": 12,
+    "sourcePage": 51,
+    "question": "Choose a method of IDS (Intrusion Detection System) that is appropriate to the description below.",
+    "choices": [
+      "Rule based",
+      "Pattern based",
+      "Behavior based",
+      "Signature based"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/information-12-p51.webp"
+  },
+  {
+    "id": 138,
+    "domain": "Information security",
+    "sourceNumber": 13,
+    "sourcePage": 51,
+    "question": "The Access Control Matrix in the example below defines the level of access to the data of Company A for each user. Choose the access control model used in the example.",
+    "choices": [
+      "Discretionary Access Control (DAC)",
+      "Mandatory Access Control (MAC)",
+      "Non-Discretionary Access Control (NDAC)",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/information-13-p51.webp"
+  },
+  {
+    "id": 139,
+    "domain": "Information security",
+    "sourceNumber": 14,
+    "sourcePage": 52,
+    "question": "Choose the incorrect management strategy of the database key encryption.",
+    "choices": [
+      "Use the secured random number generator when encryption keys are generated.",
+      "When the encryption keys are saved in file formats, they can be stored in plain text.",
+      "Encryption keys may be changed in 90, 180, or 365 days regularly according to the internal policy of the organization.",
+      "Encryption keys are managed by the database administrator and by the security manager, applying the principles of the minimum rights assignment and of the separation of duties."
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 140,
+    "domain": "Information security",
+    "sourceNumber": 15,
+    "sourcePage": 52,
+    "question": "Choose the Linux command to apply the following security requirements.",
+    "choices": [
+      "chmod 022 secret.txt",
+      "chmod 644 secret txt",
+      "chmod 755 secret.txt",
+      "chmod 777 secret.txt"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/information-15-p52.webp"
+  },
+  {
+    "id": 141,
+    "domain": "Information security",
+    "sourceNumber": 16,
+    "sourcePage": 52,
+    "question": "Choose the most appropriate characteristic to the circumstance described below from the three goals of information security. • Company A operates two firewalls in the computer center. • Enables the smooth access to services by detouring the transmission traffic of the network information to other firewalls when anyone of the firewalls fails.",
+    "choices": [
+      "Availability",
+      "Confidentiality",
+      "Integrity",
+      "Controllability"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/information-16-p52.webp"
+  },
+  {
+    "id": 142,
+    "domain": "Information security",
+    "sourceNumber": 17,
+    "sourcePage": 53,
+    "question": "Choose the term Q related to the personal information protection explained below.",
+    "choices": [
+      "Generalization",
+      "Obfuscation",
+      "Re-identification",
+      "Standardization"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/information-17-p53.webp"
+  },
+  {
+    "id": 143,
+    "domain": "Information security",
+    "sourceNumber": 18,
+    "sourcePage": 53,
+    "question": "Which one of the following encryption technologies has the characteristics described below? • Different keys are used for encryption and decryption. • Processing speeds for both encryption and decryption are relatively slow. • Appropriate for encrypted communications with unknown persons.",
+    "choices": [
+      "Block Encryption",
+      "Public Key Encryption",
+      "Stream Encryption",
+      "Symmetric Key Encryption"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 144,
+    "domain": "Information security",
+    "sourceNumber": 19,
+    "sourcePage": 53,
+    "question": "Which is NOT a requisite activity for Digital Signature described below? • Senders generate signatures using signature algorithms. • Receivers verify received messages and signatures using algorithms. • When verification results are true, received messages are determined as right.",
+    "choices": [
+      "Encryption",
+      "Integrity",
+      "Message Authentication",
+      "Non-Repudiation"
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 145,
+    "domain": "Information security",
+    "sourceNumber": 20,
+    "sourcePage": 53,
+    "question": "Choose the user authentication technology explained below. Company A recently launched a web service, allowing users to access the service by utilizing their existing login information from google, facebook, etc. without a separate registration.",
+    "choices": [
+      "OAuth (Open Authorization)",
+      "OTP (One Time Password)",
+      "PKI (Public Key Infrastructure)",
+      "SSL (Secure Socket Layer)"
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 146,
+    "domain": "Information security",
+    "sourceNumber": 21,
+    "sourcePage": 53,
+    "question": "What is the type of network attack described below? • Forging a Media Access Control (MAC) address of a user PC with that of another user's PC. • Bypassing or avoiding the Access Control List (ACL) of the other party by forging or deceiving the attacker's own IP address. • Sending emails attached with malicious codes by forging the attacker's email address with that of the person the receiver trusts.",
+    "choices": [
+      "Smishing",
+      "Sniffing",
+      "Snooping",
+      "Spoofing"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 147,
+    "domain": "Information security",
+    "sourceNumber": 22,
+    "sourcePage": 54,
+    "question": "Which description is NOT correct about Wireless LAN Security of IEEE 802.11i?",
+    "choices": [
+      "Use 802.1x as the user authentication method.",
+      "4-way Handshake is used as the key exchange method.",
+      "Separate user authentication methods and the encryption function.",
+      "WEP (Wireless Equivalent Privacy) is used as the encryption algorithm."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 148,
+    "domain": "Information security",
+    "sourceNumber": 23,
+    "sourcePage": 54,
+    "question": "Choose the statement that can NOT be inferred from the situation below. • Assistant Manager Park received a contract through the internet electronically signed by General Manager Lee who works for the partner company. • Assistant Manager Park confirmed that the hash function result of the received contract and the decryption result of the electronic signature are identical.",
+    "choices": [
+      "The received contract was not forged or altered.",
+      "The contract guarantees that the document was prepared by General Manager Lee.",
+      "The contract was not leaked externally in the process of sending or receiving.",
+      "A set of paired private and public keys was used."
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/information-23-p54.webp"
+  },
+  {
+    "id": 149,
+    "domain": "Information security",
+    "sourceNumber": 24,
+    "sourcePage": 54,
+    "question": "Choose the setting which is NOT correct for the security of Windows system.",
+    "choices": [
+      "Delete unnecessary Guest accounts.",
+      "Block access to shared folders and remote registries.",
+      "Use \" iptables\" command to block the link of networks.",
+      "Stop unnecessary services applying terminal services, anonymous FTP, SNMP, etc. Malicious scripts are inserted into a web page to be executed by a user's PC. When an unverified external input is used to create a dynamic web page, it launches malicious behavior with the access privilege of the person browsing the page. It leads to attacks such as leaks in browser cookies."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 150,
+    "domain": "Information security",
+    "sourceNumber": 25,
+    "sourcePage": 55,
+    "question": "Choose the next-generation cryptography technology explained below. • Cryptography technology using the minimum amount of physical entity. • \"Superposition\", \"non-measurable\", and \"unclonable\" characteristics of physical entities are applied. • It creates a one-time cryptographic key that is not decryptable between the sender and receiver to maintain confidentiality. • It is regarded as the most secure communication cryptography method among current security cryptography technologies.",
+    "choices": [
+      "Hash-based Cryptography",
+      "Quantum Cryptography",
+      "Steganography",
+      "Stream Cipher"
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/information-25-p55.webp"
+  },
+  {
+    "id": 151,
+    "domain": "Information security",
+    "sourceNumber": 26,
+    "sourcePage": 55,
+    "question": "Choose the database access control policy explained below. • Job functions are defined as developers, users, and database administrators (DBA). • The user, developer, and DBA functions are assigned to Assistant Manager Park, Manager Lee, and Director Jeong respectively, and only the minimum rights are permitted to perform their assigned functions as required. • The assignment and withdrawal of permissions can be done efficiently when assigned functions for staffs change frequently.",
+    "choices": [
+      "Discretionary Access Control",
+      "Hybrid Access Control",
+      "Mandatory Access Control",
+      "Role-Based Access Control"
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/information-26-p55.webp"
+  },
+  {
+    "id": 152,
+    "domain": "Information security",
+    "sourceNumber": 27,
+    "sourcePage": 56,
+    "question": "Choose which of the following statements is INCORRECT on the security of the mobile applications.",
+    "choices": [
+      "Mobile applications are developed so as not to operate the functions that are different from the purpose of application services.",
+      "Mobile applications are developed so as to operate even when the terminals are controlled by Rooting(Android) or Jailbreaking(iOS).",
+      "Mobile applications are developed so as to encrypt important information when they are stored inside the application or transmitted.",
+      "Source code obfuscation methods are applied to Android mobile applications so as to prevent easy analyses of source code through decompilation."
+    ],
+    "answerIndex": null,
+    "exhibit": null
+  },
+  {
+    "id": 153,
+    "domain": "Information security",
+    "sourceNumber": 28,
+    "sourcePage": 56,
+    "question": "Which of the following is NOT a correct description of a block cipher mode?",
+    "choices": [
+      "The DES and AES are typical algorithms of block ciphers.",
+      "A block cipher is faster than a stream cipher.",
+      "A block cipher encrypts by the unit of fixed-length group of bits called block.",
+      "When the size of the data to be encrypted is larger than the size of a block, a separate operation mode is required."
+    ],
+    "answerIndex": null,
+    "exhibit": null
+  },
+  {
+    "id": 154,
+    "domain": "Information security",
+    "sourceNumber": 29,
+    "sourcePage": 56,
+    "question": "The diagram below is a process of digital signature between senders and receivers. Choose the correct set of key names for blanks and b.",
+    "choices": [
+      "(a) Public key of the sender (b) Private key of the sender",
+      "(a) Private key of the sender (b) Public key of the sender",
+      "(a) Public key of the receiver (b) Private key of the receiver",
+      "(a) Private key of the receiver (b) Public key of the receiver"
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/information-29-p56.webp"
+  },
+  {
+    "id": 155,
+    "domain": "Information security",
+    "sourceNumber": 30,
+    "sourcePage": 56,
+    "question": "Choose the phase of the Secure SDLC (Software Development Life Cycle) that corresponds to the description below. • Threat modeling to identify security threats. • System structure modification to eliminate identified security threats. • Establishing security control criteria and activities suggested by the Secure Development Guidelines.",
+    "choices": [
+      "Design",
+      "Maintenance",
+      "Implementation",
+      "Requirements analysis"
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/information-30-p56.webp"
+  },
+  {
+    "id": 156,
+    "domain": "Information security",
+    "sourceNumber": 31,
+    "sourcePage": 57,
+    "question": "Choose the INCORRECT method to apply encryption.",
+    "choices": [
+      "AES-128 encryption algorithm is used when the unique identification information is encrypted.",
+      "Passwords must be encrypted multiple times with a bi-directional encryption algorithm before they are stored.",
+      "The unique identification information stored in the DMZ (Demilitarized Zone), intermediate zone of Internet and Intranet, is encrypted.",
+      "API (Application Programming Interface) encryption is applied to transmit and receive encrypted data between application servers and database servers."
+    ],
+    "answerIndex": null,
+    "exhibit": null
+  },
+  {
+    "id": 157,
+    "domain": "Information security",
+    "sourceNumber": 32,
+    "sourcePage": 57,
+    "question": "Choose the activity performed during the implementation phase of the Secure SDLC (Secure Software Development Life Cycle).",
+    "choices": [
+      "Identification of security item requirements.",
+      "Threat modeling that identifies software security threats",
+      "Review of source code or diagnosis of source code security",
+      "Security vulnerability verification through dynamic analysis or Penetration Testing."
+    ],
+    "answerIndex": null,
+    "exhibit": null
+  },
+  {
+    "id": 158,
+    "domain": "IT business and ethics",
+    "sourceNumber": 1,
+    "sourcePage": 58,
+    "question": "PEST (Political, Economic, Social, Technological) is a macro environmental analysis method Choose the incorrect pair of each constituent of PEST with its activity",
+    "choices": [
+      "Political - Service-related regulations along with their compliance, and changes in political environment are observed.",
+      "Economical - Target market growth rate, inflation and interest rates, labor costs, etc. are observed.",
+      "Social - The potential environmental pollution of air, water, and soil occurred by social services is observed.",
+      "Technological - Changes in technological environment, the effect of new technologies, activities of research and development, the effect of technological transfers, etc. are observed."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 159,
+    "domain": "IT business and ethics",
+    "sourceNumber": 2,
+    "sourcePage": 58,
+    "question": "Choose the action carried out by Team Leader Lee of Company A that can be a strong possibility to violate the professional ethics.",
+    "choices": [
+      "He carried out the database design of the financial system for other companies.",
+      "He provided a technical commissioned education to a team member with low technical skills.",
+      "He searched and applied domestic and international regulations in relation to project execution.",
+      "He notified the project owner of the major weaknesses of the existing system discovered during the project."
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/it-02-p58.webp"
+  },
+  {
+    "id": 160,
+    "domain": "IT business and ethics",
+    "sourceNumber": 3,
+    "sourcePage": 59,
+    "question": "Refer to the artiele below and choose the system '000* that forcibly disclose the evidence of both parties directly involved in the dispute before trial.",
+    "choices": [
+      "Discovery",
+      "Compulsory license",
+      "Trade dress",
+      "Right of publicity"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/it-03-p59.webp"
+  },
+  {
+    "id": 161,
+    "domain": "IT business and ethics",
+    "sourceNumber": 4,
+    "sourcePage": 59,
+    "question": "Choose an activity not appropriate for the 'Assess proposals and sign a contract phase in the IT business process to place an order below:",
+    "choices": [
+      "Make a tender announcement",
+      "Select suppliers",
+      "Negotiate contract",
+      "Send RFI (Request for Information)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/it-04-p59.webp"
+  },
+  {
+    "id": 162,
+    "domain": "IT business and ethics",
+    "sourceNumber": 5,
+    "sourcePage": 59,
+    "question": "Which is NOT a correct description about software copyright?",
+    "choices": [
+      "Open source license is protected by copyright.",
+      "Includes computer programs and specifications of them.",
+      "Developers of software have the right to use, duplicate, distribute, and modify the software.",
+      "Program languages, protocols, and algorithms to develop programs are protected by copyright."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 163,
+    "domain": "IT business and ethics",
+    "sourceNumber": 6,
+    "sourcePage": 60,
+    "question": "Choose a question that is NOT appropriate to the UL/UX design principle \"Build UI?UX intuitive and consistent.* that is established by e-Government.",
+    "choices": [
+      "Are words and sentences easily understood by users?",
+      "Is there a same operation repeated multiple times to complete a task?",
+      "Are clues and information helpful to the users' behavior provided at the appropriate time and location?",
+      "Are terms, styles, layouts, operation methods of functions, etc. applied consistently throughout the whole pages?"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 164,
+    "domain": "IT business and ethics",
+    "sourceNumber": 7,
+    "sourcePage": 60,
+    "question": "Choose the characteristic NOI appropriate to the Smart Factory:",
+    "choices": [
+      "The analysis results based on IEEE 802.11p protocol-centered ITS (Intelligent Transport Systems) must be reflected through actuators.",
+      "Extreme self-organization and self-optimization features are gained by granting the intelligence to the entities related to manufacturing and by connecting to the loT (Internet of Things).",
+      "The states of the equipment and machines are measured by smart sensors and the occurrences of abnormal patterns are recognized by the use of the big data, and the pre-emptive maintenance can be provided.",
+      "Smart Factories implement the automated and digitized manufacturing environment through the integration of whole manufacture processes with CPPS (Cyber-Physical Production Systems) including loT (Internet of Things), Al (Artificial Intelligence), Big-data etc."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 165,
+    "domain": "IT business and ethics",
+    "sourceNumber": 8,
+    "sourcePage": 60,
+    "question": "Choose the Al framework described in the example below. • The framework is second-generation machine learning system of Google. It is an open-source framework based on the Data Flow Graph method developed by Google for machine learning and deep learning. • Directions of mathematical formulae and data flows are represented using nodes and edges.",
+    "choices": [
+      "Keras.",
+      "Theano.",
+      "TensorFlow.",
+      "PyTorch."
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/it-08-p60.webp"
+  },
+  {
+    "id": 166,
+    "domain": "IT business and ethics",
+    "sourceNumber": 9,
+    "sourcePage": 61,
+    "question": "Choose the IT business process improvement technique described belon • A technique that analyzes the gap between the respondents' expectation for service quality and the level of quality provided by the company to improve the service quality. • Divide services into 5 dimensions, i.e., Tangibles, Reliability, Responsiveness, Assurance, and Empathy to inquire into and evaluate services.",
+    "choices": [
+      "6 SIGMA",
+      "BPR (Business Process Reengineering)",
+      "SERVQUAL",
+      "TRIZ"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/it-09-p61.webp"
+  },
+  {
+    "id": 167,
+    "domain": "IT business and ethics",
+    "sourceNumber": 10,
+    "sourcePage": 61,
+    "question": "The Diagram below shows a service that maximizes the transaction efficiency and cross-network effect. Which of the following business models serves as a basis for the service?",
+    "choices": [
+      "I. business model",
+      "Cloud business model",
+      "Platform business model",
+      "Social business model"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/it-10-p61.webp"
+  },
+  {
+    "id": 168,
+    "domain": "IT business and ethics",
+    "sourceNumber": 11,
+    "sourcePage": 61,
+    "question": "Below are some cases of the use of software with patent rights. Choose a case that does not violate the Patent Right Act.",
+    "choices": [
+      "When the software was sold online",
+      "When the software was used at home for personal use",
+      "When the software was distributed offline using a USB flash drive",
+      "When the software was transmitted online to a person who has an intention to sell it"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 169,
+    "domain": "IT business and ethics",
+    "sourceNumber": 12,
+    "sourcePage": 61,
+    "question": "Choose an appropriate model for building a big data analysis platform taking the circumstances below into account. • Sufficient time and budget are allocated for the development of the platform. • Sufficient number of developers with knowledge and expertise on the platform are available. • Reviewing commercial software products has identified a number of issues for modification.",
+    "choices": [
+      "Introduction of Saas",
+      "Outsourcing development",
+      "In-house development",
+      "Introduction of package"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/it-12-p61.webp"
+  },
+  {
+    "id": 170,
+    "domain": "IT business and ethics",
+    "sourceNumber": 13,
+    "sourcePage": 62,
+    "question": "Refer to the Example below and choose the correctly linked BSC(balanced score card) perspective with KPI (Key Performance Indicator) examples.",
+    "choices": [
+      "Customer Satisfaction level of Internal Process - Ratio of sales cost, Ordinary profit",
+      "Financial - Rate of progress in development, Number of patents",
+      "Internal Process - Ratio of sales cost, Ordinary profit",
+      "Learning and Growth - Procure rate of major talent, Retirement rate"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/it-13-p62.webp"
+  },
+  {
+    "id": 171,
+    "domain": "IT business and ethics",
+    "sourceNumber": 14,
+    "sourcePage": 62,
+    "question": "The diagram below illustrates the process of an Information Strategy Plan (ISP). Which answer correctly orders the process for (a) through (d)?",
+    "choices": [
+      "Define Requirements & Improvements → Business Process Analysis → Information Environment Analysis → Establish Business Procedures and Informatization Plans",
+      "Define Requirements & Improvements → Information Environment Analysis → Business Process Analysis → Establish Business Procedures and Informatization Plans",
+      "Information Environment Analysis → Business Process Analysis → Establish Business Procedures and Informatization Plans → Define Requirements & Improvements",
+      "Information Environment Analysis - Business Process Analysis → Define Requirements & Improvements → Establish Business Procedures and Informatization Plans"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/it-14-p62.webp"
+  },
+  {
+    "id": 172,
+    "domain": "IT business and ethics",
+    "sourceNumber": 15,
+    "sourcePage": 63,
+    "question": "Choose the IT business planning methodology that best fits the description below. • Describe the input/output information, procedures, and functional verification requirements of the functions to be implemented to create the proposal for a specific software development project, and refine them to the detail level that enables the derivation of Functional Points (FPs). • In addition to functional requirements, describe the requirements of technical, non-functional (performance, quality, security, etc.), and project support into indicators to be measured by objective metrics.",
+    "choices": [
+      "BPR, Business Process Reengineering",
+      "EA, Enterprise Architecture",
+      "ISMP, Information System Master Plan",
+      "ISP, Information Strategy Plan"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/it-15-p63.webp"
+  },
+  {
+    "id": 173,
+    "domain": "IT business and ethics",
+    "sourceNumber": 16,
+    "sourcePage": 63,
+    "question": "Which is the system explained in the [Example] below? • Maximizes the productivity through the integration of a variety of management resources of the enterprise into a single system. • The objective is to maximize the efficiency of business through integrated liaison/management of major tasks and information sharing. • Contributes towards the effective sharing of data and the enhancement of flexibility in the organization.",
+    "choices": [
+      "CRM (Customer Relationship Management)",
+      "ERP (Enterprise Resource Planning)",
+      "KMS (Knowledge Management System)",
+      "SCM (Supply Chain Management)"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/it-16-p63.webp"
+  },
+  {
+    "id": 174,
+    "domain": "IT business and ethics",
+    "sourceNumber": 17,
+    "sourcePage": 63,
+    "question": "Which is NOI a correct code of ethics for software engineers?",
+    "choices": [
+      "Software engineers must treat co-workers fair.",
+      "Software engineers must work to comply with public interests.",
+      "Focus on stakeholders perspectives for professional decisions.",
+      "When produce and change software, highest possible standards must be met."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 175,
+    "domain": "IT business and ethics",
+    "sourceNumber": 18,
+    "sourcePage": 64,
+    "question": "An analysis has been conducted to identify the major cause of product defects in the manufacturing process. The results are shown in the table and the graph below. The result shows that Categories A and D dominate over 80% of defect cases. Which analysis technique is used?",
+    "choices": [
+      "Affinity diagram",
+      "Pareto diagram",
+      "Scatter diagram",
+      "Cause and effect diagram"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/it-18-p64.webp"
+  },
+  {
+    "id": 176,
+    "domain": "IT business and ethics",
+    "sourceNumber": 19,
+    "sourcePage": 64,
+    "question": "Which of the following is NOT a correct explanation about a non-fungible token (NFT)?",
+    "choices": [
+      "CryptoPunk is the typical token.",
+      "The ownership of digital assets is ensured.",
+      "Tokens of the same type have same values.",
+      "As a kind of blockchain token, it is a token that cannot be replaced with other tokens."
+    ],
+    "answerIndex": 2,
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewNote": "An NFT is non-fungible: tokens of the same collection are not necessarily interchangeable or equal in value. The red source mark points to the definition of a non-fungible token."
+  },
+  {
+    "id": 177,
+    "domain": "IT business and ethics",
+    "sourceNumber": 20,
+    "sourcePage": 64,
+    "question": "What process of IT Infrastructure Library (ITIL) involves the following activities? • Recognizes and records events that lead to failure or lower the quality of IT services. • Classifies and categorizes the recorded events. • Utilizes previous solutions from similar events from the past. • Resolves the events so as to minimize the business discontinuity and to recover to provide normal IT services.",
+    "choices": [
+      "Change management",
+      "Incident management",
+      "Availability management",
+      "Configuration management"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/it-20-p64.webp"
+  },
+  {
+    "id": 178,
+    "domain": "IT business and ethics",
+    "sourceNumber": 21,
+    "sourcePage": 65,
+    "question": "Choose the core technology to implement the access control service described below that fits in the blank (a).",
+    "choices": [
+      "Mobile Edge Computing",
+      "Blockchain",
+      "Internet of Things",
+      "Server Virtualization"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/it-21-p65.webp"
+  },
+  {
+    "id": 179,
+    "domain": "IT business and ethics",
+    "sourceNumber": 22,
+    "sourcePage": 65,
+    "question": "Choose an enterprise solution required for the company described below: • Information on purchases, logistics, productions, accounting and sales is registered in separate systems for manufacturing and sales of the ordered products. • Data in different systems are frequently inconsistent, requiring data validation for book closing quite often. • The system consists of independent business processes, which makes it difficult to monitor or trace the entire operational process.",
+    "choices": [
+      "Supply chain management (SCM)",
+      "Manufacturing execution system (MES)",
+      "Enterprise resource planning (ERP)",
+      "Product lifecycle management (PLM)"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/it-22-p65.webp"
+  },
+  {
+    "id": 180,
+    "domain": "IT business and ethics",
+    "sourceNumber": 24,
+    "sourcePage": 65,
+    "question": "Which of the following is NOT correct about the Data Take?",
+    "choices": [
+      "A single repository of data collected inside or outside of an organization.",
+      "A data repository used by field workers for specific tasks.",
+      "A repository of transformed data used for tasks such as data mining or machine learning.",
+      "A repository of a variety of source data collected and stored for the purpose of preserving the diversity of the data."
+    ],
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "A data lake holds varied source data for broad future use. The marked single repository description is plausible, while more than one other choice describes task-specific or already transformed data. This NOT item needs a clearer key."
+  },
+  {
+    "id": 181,
+    "domain": "IT business and ethics",
+    "sourceNumber": 25,
+    "sourcePage": 66,
+    "question": "Choose the system explained below • The system that maximizes productivity by integrating the company's variety of management resources into one. • The system that automates and manages business processes of purchase, production, finance, accounting. logistics, supply chain, human resources management, and operation in general.",
+    "choices": [
+      "CRM (Customer Relationship Management)",
+      "ERP (Enterprise Resource Planning)",
+      "KMS (Knowledge Management System)",
+      "SCM (Supply Chain Management)"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/it-25-p66.webp"
+  },
+  {
+    "id": 182,
+    "domain": "IT business and ethics",
+    "sourceNumber": 26,
+    "sourcePage": 66,
+    "question": "The figure in the [Example] illustrates the Business Value Chain of an e-Commerce company. Which is the Value Chain activity for (a)?",
+    "choices": [
+      "Additional Activity",
+      "Operation Activity",
+      "Strategic Activity",
+      "Support Activity"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/it-26-p66.webp"
+  },
+  {
+    "id": 183,
+    "domain": "IT business and ethics",
+    "sourceNumber": 27,
+    "sourcePage": 66,
+    "question": "Choose the correct ordering procedure to introduce an information system in the IT business.",
+    "choices": [
+      "Planning the order → Evaluate proposals and sign contract → Prepare a Request for Proposal(RFP) → Monitor suppliers → Acquire and close",
+      "Planning the order → Monitor suppliers → Prepare a Request for Proposal(RFP) → Evaluate proposals and sign contract → Acquire and close",
+      "Planning the order → Prepare a Request for Proposal(RFP) → Monitor suppliers → Evaluate proposals and sign contract → Acquire and close",
+      "Planning the order → Prepare a Request for Proposal(RFP) → Evaluate proposals and sign contract → Monitor suppliers → Acquire and close"
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 184,
+    "domain": "IT business and ethics",
+    "sourceNumber": 28,
+    "sourcePage": 67,
+    "question": "Which of the following is NOT a corect countermeasure against private information breach under Private Information Protection Guidelines?",
+    "choices": [
+      "Any incidence of information breach must be notified to the information owner immediately or within five days.",
+      "The owner must be notified of the details, time, and circumstances of the breach of his/her personal information.",
+      "Any incidence of information breach must be notified by writing, email, or SMS.",
+      "It is the business owners duty to report every incidence of personal information breach."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 185,
+    "domain": "IT business and ethics",
+    "sourceNumber": 29,
+    "sourcePage": 67,
+    "question": "Recently, many leading companies have begun to consistently adopt improvement measures to their business processes. Which of the following is NOT a proper measure for business process improvement?",
+    "choices": [
+      "Business Process Reengineering (BPR)",
+      "Critical Chain Method (CCM)",
+      "Process Innovation (PI)",
+      "Total Quality Management (TQM)"
+    ],
+    "answerIndex": 1,
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewNote": "Critical Chain Method is a project scheduling approach. BPR, Process Innovation, and TQM are business process improvement approaches, so the source mark on Process Innovation is inconsistent."
+  },
+  {
+    "id": 186,
+    "domain": "IT business and ethics",
+    "sourceNumber": 30,
+    "sourcePage": 67,
+    "question": "Choose the web technology described below. • It provides the optimal use environment in various device screens. • It mainly focuses on the layout and style changes. • A single source and contents are optimized for each device.",
+    "choices": [
+      "Dark Web.",
+      "Responsive Web.",
+      "Social Web.",
+      "Semantic Web."
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/it-30-p67.webp"
+  },
+  {
+    "id": 187,
+    "domain": "IT business and ethics",
+    "sourceNumber": 31,
+    "sourcePage": 68,
+    "question": "Choose the solution to improve the data management efficiency by applying the differentiated storage method according to the data access frequency and time as illustrated below.",
+    "choices": [
+      "BAM (Business Activity Monitoring)",
+      "BRE (Business Rule Engine)",
+      "ILM (Information Lifecycle Management)",
+      "IRM (Information Resource Management)"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/it-31-p68.webp"
+  },
+  {
+    "id": 188,
+    "domain": "IT business and ethics",
+    "sourceNumber": 32,
+    "sourcePage": 68,
+    "question": "Choose the development strategy described below: Company A is planning to construct the environment where employees can freely share the code only to cooperate within the company because the software currently under development must not be disclosed for security reasons.",
+    "choices": [
+      "InnerSource",
+      "Crowd Sourcing",
+      "Open Innovation",
+      "Disruptive Innovation"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/it-32-p68.webp"
+  },
+  {
+    "id": 189,
+    "domain": "IT business and ethics",
+    "sourceNumber": 33,
+    "sourcePage": 68,
+    "question": "The Korean government has recently established the following strategy below after a SWOT analysis on the nation's competitiveness in the field of Artificial Intelligence. What is the type of strategy established in terms of SWOT?",
+    "choices": [
+      "SO strategy",
+      "WO strategy",
+      "ST strategy",
+      "WT strategy"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 190,
+    "domain": "IT business and ethics",
+    "sourceNumber": 34,
+    "sourcePage": 69,
+    "question": "Which is the Cloud Computing Service described in the [Example] below? • Provide middleware environment for development and execution of software. • Reduce DBA works because database is managed by the service providers. • Make operations using Kubernetes possible through Container-based development,",
+    "choices": [
+      "DaaS (Data as a Service)",
+      "laaS (Infrastructure as a Service)",
+      "PaaS (Platform as a Service)",
+      "SaaS (Service as a Service)"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 191,
+    "domain": "IT business and ethics",
+    "sourceNumber": 35,
+    "sourcePage": 69,
+    "question": "Which is NOT a Business Process Improvement technique?",
+    "choices": [
+      "AHP(Analytic Hierarchy Process)",
+      "BPR(Business Process Reengineering)",
+      "PI(Process Innovation)",
+      "Six Sigma"
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 192,
+    "domain": "IT business and ethics",
+    "sourceNumber": 36,
+    "sourcePage": 69,
+    "question": "Choose the appropriate terminology in the blank © of the \"Technology Adoption Lifecycle\" illustrated in the example below",
+    "choices": [
+      "Main Street,",
+      "Bowling Alley.",
+      "Tornado.",
+      "Chasm."
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/it-36-p69.webp"
+  },
+  {
+    "id": 193,
+    "domain": "IT business and ethics",
+    "sourceNumber": 37,
+    "sourcePage": 70,
+    "question": "Which is NOI an appropriate example of SLA (Service-Level Agreement) components?",
+    "choices": [
+      "Guarantee 99.99% of system availability.",
+      "Maintain 80% or more of Service Request Process Rate.",
+      "Set a penalty level when the system failure lasts longer than one hour during the service periods.",
+      "Quarterly reports of the rates of service use and the number of connections must be internally reported."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 194,
+    "domain": "IT business and ethics",
+    "sourceNumber": 38,
+    "sourcePage": 70,
+    "question": "Choose the term that is appropriate for the blank: 3 in the relationship diagram of management system for IT services",
+    "choices": [
+      "OLA (Objectives Level Agreement)",
+      "SLA (Service Level Agreement)",
+      "SLI (Service Level Indicators)",
+      "SLO (Service Level Objectives)"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/it-38-p70.webp"
+  },
+  {
+    "id": 195,
+    "domain": "IT business and ethics",
+    "sourceNumber": 39,
+    "sourcePage": 70,
+    "question": "Choose the technology illustrated below.",
+    "choices": [
+      "Blockchain",
+      "Cloud computing",
+      "Digital twin",
+      "Smart grid"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 196,
+    "domain": "IT business and ethics",
+    "sourceNumber": 40,
+    "sourcePage": 71,
+    "question": "Choose the business strategy of the company explained below among the response strategies promoted to respond to environmental changes.",
+    "choices": [
+      "Digital Transformation",
+      "Disruptive Innovation",
+      "Open Innovation",
+      "Servitization"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/it-40-p71.webp"
+  },
+  {
+    "id": 197,
+    "domain": "IT business and ethics",
+    "sourceNumber": 41,
+    "sourcePage": 71,
+    "question": "Choose a statistical quality control tool applied in the graph below.",
+    "choices": [
+      "Control chart",
+      "Scatter plot",
+      "Cause and effect diagram",
+      "Histogram"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/it-41-p71.webp"
+  },
+  {
+    "id": 198,
+    "domain": "IT business and ethics",
+    "sourceNumber": 42,
+    "sourcePage": 72,
+    "question": "Choose the component that corresponds to the explanation of a component of the IT Ecosystem illustrated below. • Technologies of Cloud or Al are applied as the framework to operate business models that bidirectionally connect multiple suppliers and consumers. • Triggers the emergence of business models that increase the utility of all participants as the number of them increases and changes companies from production-centered to exchange-centered.",
+    "choices": [
+      "Contents (C)",
+      "Platform (P)",
+      "Network (N)",
+      "Device (D)"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/it-42-p72.webp"
+  },
+  {
+    "id": 199,
+    "domain": "IT business and ethics",
+    "sourceNumber": 43,
+    "sourcePage": 72,
+    "question": "Choose the architect that performs the role explained below: • Design the configuration of whole IT infrastructure and systematization plan including networks, servers, software etc. • Design and configure environment of duplexing, backup, and disaster recovery to respond to system failure. • System migration, preparation of standard profile, and configuration of the server environment. • Solve technical issues in systems and projects.",
+    "choices": [
+      "Data Architect",
+      "Technical Architect",
+      "Security Architect",
+      "Application Architect"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/it-43-p72.webp"
+  },
+  {
+    "id": 200,
+    "domain": "IT business and ethics",
+    "sourceNumber": 44,
+    "sourcePage": 73,
+    "question": "Choose the business strategy of the company explained below among the response strategies promoted to respond to environmental changes.",
+    "choices": [
+      "Digital Transformation",
+      "Disruptive Innovation",
+      "Open Innovation",
+      "Servitization"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/it-44-p73.webp"
+  },
+  {
+    "id": 201,
+    "domain": "IT business and ethics",
+    "sourceNumber": 45,
+    "sourcePage": 73,
+    "question": "Choose the inappropriately connected pair of the BSC (Balanced Score Card) with IT-BSC.",
+    "choices": [
+      "Customer perspective - User perspective.",
+      "Internal process perspective - Information technology perspective.",
+      "Financial perspective - Contribution perspective to corporation.",
+      "Learning and growth perspective - Future-oriented perspective."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 202,
+    "domain": "IT business and ethics",
+    "sourceNumber": 46,
+    "sourcePage": 73,
+    "question": "Below are the tasks for establishing Information Stragety Planning (ISP) to construct the security management system. Choose the answer with a correct order.",
+    "choices": [
+      "(a)-(d)-(b)-(c)",
+      "(a)-(d)-(c)-(b)",
+      "(d)-(a)-(b)-(c)",
+      "(d)-(a)-(c)-(b)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/it-46-p73.webp"
+  },
+  {
+    "id": 203,
+    "domain": "IT business and ethics",
+    "sourceNumber": 47,
+    "sourcePage": 74,
+    "question": "Each year, the Gartner group releases a graph like the one below in order to demonstrate the industrial and economic values of new technologies and their expected impacts over time. What is this graph called?",
+    "choices": [
+      "Hype cycle",
+      "S-Curve model",
+      "Magic Quadrant",
+      "Technology adoption lifecycle"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/it-47-p74.webp",
+    "sourceAnswerIndex": 2,
+    "reviewNote": "The source figure plots expectations against time through a peak and trough. That is Gartner’s Hype Cycle, not the four-quadrant Magic Quadrant."
+  },
+  {
+    "id": 204,
+    "domain": "Project management & communication",
+    "sourceNumber": 1,
+    "sourcePage": 75,
+    "question": "Choose the customer type appropriately grouped to meet the Mutually Exclusive and Collectively Exhaustive (MECE) conditions. MECE is a logical thinking technique to analyze problems in which a set of items is separated into subsets ensuring that no information or messages are missing or repeated, and that the sum of all subsets includes all items. (e.g. male, female)",
+    "choices": [
+      "(Single, married, employees)",
+      "(employed, self-employed, housewife)",
+      "(20s or younger, 30s, 40s, 50s, 60s, (Os or older)",
+      "(metropolitan area, island area, New York area, California area, Texas area, Washington area, Florida area)"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-01-p75.webp"
+  },
+  {
+    "id": 205,
+    "domain": "Project management & communication",
+    "sourceNumber": 2,
+    "sourcePage": 75,
+    "question": "Choose the quality control tool explained in the example below • The frequency of occurrence is sorted in descending order and schematized to identify the priority. • Utilized to identify primary causes based on the theory that in general, 80% of all problems are caused by critical 20% of the causes.",
+    "choices": [
+      "Control Chart",
+      "Scatter Plot",
+      "Cause and Effect Diagram",
+      "Pareto Chart"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/project-02-p75.webp"
+  },
+  {
+    "id": 206,
+    "domain": "Project management & communication",
+    "sourceNumber": 3,
+    "sourcePage": 75,
+    "question": "Which is the chart illustrated in the [Example] below?",
+    "choices": [
+      "Candle Chart",
+      "Gantt Chart",
+      "Pareto Chart",
+      "PERT (Performance Evaluation and Review Technique) Chart"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-03-p75.webp"
+  },
+  {
+    "id": 207,
+    "domain": "Project management & communication",
+    "sourceNumber": 4,
+    "sourcePage": 76,
+    "question": "Which answer correctly matches P, b and © below?",
+    "choices": [
+      "(a): Scope management, (b): Work package, (c): WBS",
+      "(a): Scope management, (b): WBS, (c): Work package",
+      "(a): WBS, (b): Work package, (c): Scope management",
+      "(a): Work package, (b): WBS, (c): Scope management"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-04-p76.webp"
+  },
+  {
+    "id": 208,
+    "domain": "Project management & communication",
+    "sourceNumber": 5,
+    "sourcePage": 76,
+    "question": "The list in the Example below is the table of contents of the RFP (Request for Proposal) for the development of next-generation system for the government and public institutions. Which of the following is incorrect regarding the content to be included in the request for proposal?",
+    "choices": [
+      "I. Overview - The configuration diagram of the target system is included.",
+      "II. Request for proposal - The conditions to cancel the contract such as the false information, unmet requirements, etc. are included.",
+      "III. Information for bidders - Suggestion to replace the technical evaluation of the acquired equipment with BMT(Bench Marking Test).",
+      "IV. Guidelines to document preparation - Request to include SLA(Service-Level Agrement) items such as system operation rate and system failure rate."
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-05-p76.webp"
+  },
+  {
+    "id": 209,
+    "domain": "Project management & communication",
+    "sourceNumber": 6,
+    "sourcePage": 77,
+    "question": "Which answer corresponds to the description below? • A control point in project progress and management aimed to get approvals from Configuration Control Board (CCB). • A technical management point of changes (review, evaluation, adjustment, handling, etc.) in deliverables of each phase in software development.",
+    "choices": [
+      "Output",
+      "Baseline",
+      "Life cycle",
+      "Work Breakdown Structure"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-06-p77.webp"
+  },
+  {
+    "id": 210,
+    "domain": "Project management & communication",
+    "sourceNumber": 7,
+    "sourcePage": 77,
+    "question": "Choose the Agile model that is explained in the example below. • Carry out continuous service improvement through frequent deployments with DevOps-based operations and maintenance. • With many hotfixes for mobile services, apply changes immediately. • Separate roles are not defined, and the lead time to the completion of tasks is established as the basic indicator. • Limit the number of Work in Progress (WIP) tasks, and manage the workflows by each status.",
+    "choices": [
+      "Lean Development",
+      "Agile Unified Process",
+      "Kanban",
+      "Test Driven Development"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-07-p77.webp"
+  },
+  {
+    "id": 211,
+    "domain": "Project management & communication",
+    "sourceNumber": 8,
+    "sourcePage": 77,
+    "question": "Choose the statement which is appropriate about each schedule management technique.",
+    "choices": [
+      "The relationship between activities cannot be perceived with Activity Network Diagrams.",
+      "The progress of each activity is difficult to represent with the Gantt Chart.",
+      "The path requiring the longest time cannot be identified by the Critical Path.",
+      "Only milestones, whether the milestones are implemented or not, and the implementation periods of the milestones can be identified with Milestone Charts."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 212,
+    "domain": "Project management & communication",
+    "sourceNumber": 9,
+    "sourcePage": 77,
+    "question": "Choose the correct list of the quality cost types in (a), (b) and (c).",
+    "choices": [
+      "(a)-Prevention cost, (b)-Internal failure cost, (c)-External failure cost",
+      "(a)-External failure cost, (b)-Prevention cost, (c)-Internal failure cost",
+      "(a)-External failure cost, (b)-Internal failure cost, (c)-Prevention cost",
+      "(a)-Internal failure cost, (b)-External failure cost, (c)-Prevention cost."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 213,
+    "domain": "Project management & communication",
+    "sourceNumber": 10,
+    "sourcePage": 78,
+    "question": "Choose the appropriate organization structure illustrated in the Example below 1. IT Service Company A is divided into two internal organizations: one is responsible for the development and designing to improve technical skills and the other is responsible for winning contracts and executing the projects. 2. Business-centered department normally maintains the minimum number of staff to discover new businesses and prepares business basics to win the contracts. 3. The Development and Design departments dispatch manpower required to carry out the projects. 4. Development and Design departments after the project is completed.",
+    "choices": [
+      "Functional Organization",
+      "Hybrid Organization",
+      "Matrix Organization",
+      "Projectized Organization"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-10-p78.webp"
+  },
+  {
+    "id": 214,
+    "domain": "Project management & communication",
+    "sourceNumber": 11,
+    "sourcePage": 79,
+    "question": "Choose the statement that is NOT correct description of brainstorming.",
+    "choices": [
+      "Do not criticize the ideas of others.",
+      "Extend ideas using the ideas of others.",
+      "Talk freely without reservation and listen carefully.",
+      "The content of ideas is more important than the number of ideas."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 215,
+    "domain": "Project management & communication",
+    "sourceNumber": 12,
+    "sourcePage": 79,
+    "question": "Which of the following is NOT a characteristic of a project?",
+    "choices": [
+      "Ongoing",
+      "Uniqueness",
+      "Progressive Elaboration",
+      "Constraints of Scope, Cost and Time"
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 216,
+    "domain": "Project management & communication",
+    "sourceNumber": 13,
+    "sourcePage": 79,
+    "question": "Choose the characteristic of the projects described in the Example below: • Company A built a PLM (Product Lifecycle Management) system to manage the data, information, and knowledge of products. • Company B built an ERP (Enterprise Resource Planning) system for rapid decision making and work performance.",
+    "choices": [
+      "Temporality",
+      "Repeatability",
+      "Defined Objectives",
+      "Progressive elaboration"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/project-13-p79.webp"
+  },
+  {
+    "id": 217,
+    "domain": "Project management & communication",
+    "sourceNumber": 14,
+    "sourcePage": 79,
+    "question": "Choose the component of a WBS (Work: Breakdown Structure) that corresponds to the definition and features described below:",
+    "choices": [
+      "Work package",
+      "WBS dictionary",
+      "Control code",
+      "Activity"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/project-14-p79.webp"
+  },
+  {
+    "id": 218,
+    "domain": "Project management & communication",
+    "sourceNumber": 15,
+    "sourcePage": 79,
+    "question": "Choose the software quality control tool described below. • It is a histogram sorted by the frequency of occurrences in descending order so as to identify the priority of the problem. • The X-axis represents the cause of defects while the Y-axis represents the frequency of defects. • This is based on the principle that relatively frequent causes usually result in problems or defects mostly. (80:20 Rule)",
+    "choices": [
+      "Control Chart.",
+      "Scatter Diagram.",
+      "Cause and Effect Diagram.",
+      "Pareto Chart."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 219,
+    "domain": "Project management & communication",
+    "sourceNumber": 16,
+    "sourcePage": 81,
+    "question": "Which is the project management activity described in the [Example] below? • As one of the critical success factors of a project, the activity to \"clearly differentiate and define the span of tasks that must be carried out.\" • The project management process to specify, include, and manage all tasks required for the project.",
+    "choices": [
+      "Quality Management",
+      "Resource Management",
+      "Schedule Management",
+      "Scope Management"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/project-16-p81.webp"
+  },
+  {
+    "id": 220,
+    "domain": "Project management & communication",
+    "sourceNumber": 17,
+    "sourcePage": 81,
+    "question": "Refer to the explanation about the preparation process and the execution of the presentation in the Esample below and choose the INCORRECI one. Introduction to the completion of shopping mall construction by Company A • Speaker: PM Kim • Audience: MDs (Merchandisers) of the ordering organization and Show hosts • Topic: Introduction to the newly built shopping mall",
+    "choices": [
+      "PM Kim made a rehearsal in the presentation room one day before the presentation.",
+      "PM Kim checked the fonts and images to be used in the presentation at the presentation room.",
+      "PM Kim frequently checked the reactions of the audience whether it was positive or negative during the presentation.",
+      "PM Kim explained about the ERD (entity-relationship diagram) of the newly constructed shopping mall at the presentation."
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/project-17-p81.webp"
+  },
+  {
+    "id": 221,
+    "domain": "Project management & communication",
+    "sourceNumber": 18,
+    "sourcePage": 81,
+    "question": "Choose the appropriate document described below: • The document, to figure out general technical flows, product information, etc. of the project before the project order is initiated. • The document, prepared during the process of prior investigation into subcontractors that can solve the business issues of the client company. • Include information as a brief introduction to the company, their credit reliability, and their performance experience in related services.",
+    "choices": [
+      "Acquisition Plan.",
+      "Project Plan.",
+      "RFI, Request For Information.",
+      "RFP, Request For Proposal."
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-18-p81.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "This is a request for information: it gathers supplier capabilities before a detailed proposal or project order. The source marked RFP."
+  },
+  {
+    "id": 222,
+    "domain": "Project management & communication",
+    "sourceNumber": 19,
+    "sourcePage": 81,
+    "question": "Choose the appropriate creative thinking technique in the announcement of the chairperson below. The purpose of this meeting today is to collect as many ideas as possible about the company's strategy to enter the new market. The quantity of the ideas is more valuable than the quality. So, please do not criticize any idea. You may combine, decompose, or recombine others' ideas to derive a new idea. Please do not hesitate suggesting your ideas freely.",
+    "choices": [
+      "Brainstorming",
+      "Brainwriting",
+      "SCAMPER",
+      "TRIZ"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/project-19-p81.webp"
+  },
+  {
+    "id": 223,
+    "domain": "Project management & communication",
+    "sourceNumber": 20,
+    "sourcePage": 82,
+    "question": "Choose the chart appropriate to the features described in the example below. • The chart makes it easy to understand the analysis details through the degree and shape of the data distribution. • The chart enables to represent the correlations among variables and to identify outliers that deviate from the center of dispersion.",
+    "choices": [
+      "Bar Chart",
+      "Dot Chart",
+      "Pie Chart",
+      "Box Plot"
+    ],
+    "answerIndex": null,
+    "exhibit": "assets/source/project-20-p82.webp",
+    "sourceAnswerIndex": 0,
+    "reviewNote": "The description mixes distribution, correlation, and outlier language. The available choices do not contain a clear single chart that satisfies every part; the red Bar Chart mark is unsupported. Study only."
+  },
+  {
+    "id": 224,
+    "domain": "Project management & communication",
+    "sourceNumber": 21,
+    "sourcePage": 82,
+    "question": "Choose the risk analysis method described below",
+    "choices": [
+      "Scenario Analysis.",
+      "Expected Monetary Value Analysis.",
+      "Tornado Diagram Analysis.",
+      "Monte Carlo Simulation Analysis."
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-21-p82.webp"
+  },
+  {
+    "id": 225,
+    "domain": "Project management & communication",
+    "sourceNumber": 22,
+    "sourcePage": 82,
+    "question": "Which of the following does NOT appropriately classify a client using the Mutually Exclusive and Collectively Exhaustive (MECE) approach?",
+    "choices": [
+      "Client's age (under 20s, 30s, 40s and over 50s)",
+      "Date of Purchase (under 2 months, under 6 months, 6 months or over, 1 year or over)",
+      "Monthly sales (under $ 10,000.00, $ 10,000.00 to $ 50,000.00, $ 50,000.00 or over)",
+      "Administrative Districts (State, Province, Metropolitan City, Suburb)"
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 226,
+    "domain": "Project management & communication",
+    "sourceNumber": 23,
+    "sourcePage": 83,
+    "question": "Choose the phase in the PDCA process that the following activities are carried out. • The development team has examined the defects rate when the revised software is distributed, and the rate was at least 50% higher than the original goal. • The development team decided to conduct an additional peer review of the modules that frequently cause errors in the process of software modification.",
+    "choices": [
+      "Plan",
+      "Do",
+      "Check",
+      "Act"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-23-p83.webp"
+  },
+  {
+    "id": 227,
+    "domain": "Project management & communication",
+    "sourceNumber": 24,
+    "sourcePage": 83,
+    "question": "The pie chart in the Example below illustrates three elements of the message that account for the communication by the Law of Mehrabian. Choose the explanation that is NOT appropriate to the Law of Mehrabian?",
+    "choices": [
+      "Words account for 7% only. The verbal contents in the communication is not important.",
+      "Non-verbal elements such as tone of voice, facial expressions, eyes, and gestures show the great impact during the communication.",
+      "The speed of speech, tone of voice, hair style have bigger impact than the contents of words when a person determines the favorability of the speaker.",
+      "When a specific message is delivered, the contents to be delivered may be distorted if the contents of words, tone of voice, speed of speech, volume of voice, gesture, an e. d manners are different."
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/project-24-p83.webp"
+  },
+  {
+    "id": 228,
+    "domain": "Project management & communication",
+    "sourceNumber": 25,
+    "sourcePage": 83,
+    "question": "Which is the risk countermeasure method used by Company A?",
+    "choices": [
+      "Accept",
+      "Avoid",
+      "Share",
+      "Transfer"
+    ],
+    "answerIndex": 1,
+    "exhibit": null
+  },
+  {
+    "id": 229,
+    "domain": "Project management & communication",
+    "sourceNumber": 26,
+    "sourcePage": 84,
+    "question": "Company K created a BCG (Boston Consulting Group) Matrix as shown in the [Example] below to reconstruct the portfolio of security products. Which is the correct interpretation of the strategy Company K must take based on the Matrix?",
+    "choices": [
+      "Maintain investments for network firewalls and remain in Quadrant B.",
+      "Discontinue PC Vaccine business in the market and withdraw from Quadrant D.",
+      "Discontinue investments in Cloud Security Equipment, and remain in Quadrant A.",
+      "Expand investments in DoS (Denial of Service) Security Equipment and move to Quadrant A."
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-26-p84.webp"
+  },
+  {
+    "id": 230,
+    "domain": "Project management & communication",
+    "sourceNumber": 27,
+    "sourcePage": 84,
+    "question": "Which is the correct estimation of the cost for the following project by 3-Point Estimation technique? • Pessimistic : U$ 18 Million • Optimistic : U$ 8 Million • Most Likely : U$ 10 Million",
+    "choices": [
+      "US 10 Million",
+      "US 11 Million",
+      "US 12 Million",
+      "US 13 Million"
+    ],
+    "answerIndex": 1,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "Using the usual PERT three-point estimate, (optimistic + 4 × most likely + pessimistic) ÷ 6 = (8 + 40 + 18) ÷ 6 = 11 million. The source marks 10 million."
+  },
+  {
+    "id": 231,
+    "domain": "Project management & communication",
+    "sourceNumber": 28,
+    "sourcePage": 84,
+    "question": "Which is NOT a correct description about quality control techniques?",
+    "choices": [
+      "Cause and Effect Diagrams illustrate the analysis of relationships between factors and results.",
+      "As a tool to figure out relationships between two or more variables, Scatter Diagrams illustrate relationships of them visually.",
+      "In order to figure out the priority of problems, Pareto Charts illustrate the analysis of the problems in descending order of impacts to control.",
+      "Control Charts use the highest and lowest values as Control Limits of quality goal values. States are decided as unstable if quality values are not in the range."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 232,
+    "domain": "Project management & communication",
+    "sourceNumber": 29,
+    "sourcePage": 85,
+    "question": "Choose the business problem-solving approach that has been applied in the case below.",
+    "choices": [
+      "Logic tree",
+      "Six Sigma",
+      "PDCA cycle",
+      "Causal loop diagram"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-29-p85.webp"
+  },
+  {
+    "id": 233,
+    "domain": "Project management & communication",
+    "sourceNumber": 30,
+    "sourcePage": 85,
+    "question": "The project schedule below is created by Project Manager (PM) Kim for the web service development. Kim is planning to conduct the task 7 \"Program design\" and the task & \"Front-end development\" simultaneously in order to reduce the project schedule by 8 days. Choose the technique to reduce the schedule.",
+    "choices": [
+      "Crashing",
+      "Fast tracking",
+      "Resource leveling",
+      "Resource smoothing"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-30-p85.webp"
+  },
+  {
+    "id": 234,
+    "domain": "Project management & communication",
+    "sourceNumber": 31,
+    "sourcePage": 86,
+    "question": "Following explanations are precautions on writing the test result report. Which is NOT a correct explanation?",
+    "choices": [
+      "\"ID\" must be identifiable with a unique value.",
+      "Test cases must be identifiable by \"Case name\".",
+      "\"Input value\" is described with terms that represent input values to the test.",
+      "\"Expected value\" describes the result suitable to the functions and types to be tested."
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/project-31-p86.webp"
+  },
+  {
+    "id": 235,
+    "domain": "Project management & communication",
+    "sourceNumber": 32,
+    "sourcePage": 86,
+    "question": "Choose the phase in the business problem-solving process that the following activities are carried out. • Classify predefined business problems according to logical criteria, build a phased structure, and decompose big problems into small pieces. • Identify the principal causes by profiling and using various tools and techniques, implementing a bottom-up approach. • Filter out insignificant causes by prioritizing the identified causes.",
+    "choices": [
+      "Define the Problem",
+      "Analyze underlying causes",
+      "Generate alternative solutions and evaluate them",
+      "Implement the solution and gather feedback"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-32-p86.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "Classifying problems, finding causes, and prioritizing causes are activities in the Analyze underlying causes phase, not implementation and feedback."
+  },
+  {
+    "id": 236,
+    "domain": "Project management & communication",
+    "sourceNumber": 33,
+    "sourcePage": 87,
+    "question": "Choose the statement which is NOT appropriate to improve the method of creating meeting minutes.",
+    "choices": [
+      "All attendees with their affiliation must be listed",
+      "In principle, the date, the location, and the information of attendees must not be disclosed to prevent information leaks.",
+      "The main agenda must be specified concretely about the details and the purpose of the discussion.",
+      "Change the heading of the minutes to \"Minutes of the Technology Management System Project\" to clearly specify the subject of the discussion"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-33-p87.webp"
+  },
+  {
+    "id": 237,
+    "domain": "Project management & communication",
+    "sourceNumber": 34,
+    "sourcePage": 87,
+    "question": "Choose which of the following statement is NOT cornect about how to prepare a business document.",
+    "choices": [
+      "The contents and components of the document are created by the standards of the author.",
+      "Materials related to the key messages can be attached as attachments,",
+      "Business documents may consist of different components depending on the purpose of preparation and the target readers.",
+      "Visual materials must be designed so that the key messages can be understood quickly."
+    ],
+    "answerIndex": 0,
+    "exhibit": null
+  },
+  {
+    "id": 238,
+    "domain": "Project management & communication",
+    "sourceNumber": 35,
+    "sourcePage": 88,
+    "question": "Choose the type of technical document described below: • It officially approves the initiation of a project. • It is the top-level document specifying the initiation and scope of a project. • It specifies the project objectives, achievement criteria, name of the project manager, assumptions, constraints, etc. • It grants the project manager the authority to invest the resources of the organization into project activities.",
+    "choices": [
+      "Proposal",
+      "Project Charter",
+      "Scope Management Plan",
+      "Requirement Definition"
+    ],
+    "answerIndex": 1,
+    "exhibit": "assets/source/project-35-p88.webp"
+  },
+  {
+    "id": 239,
+    "domain": "Project management & communication",
+    "sourceNumber": 36,
+    "sourcePage": 88,
+    "question": "Which of the following is NOT a correct description of Fast Tracking?",
+    "choices": [
+      "Fast Tracking may increase risks and possible rework.",
+      "Fast Tracking is effective when the activities can be overlapped for the purpose of reducing the duration of the project.",
+      "Fast Tracking allows for executing specific tasks simultaneously that would have been performed sequentially according to the original schedule.",
+      "Fast Tracking is used to reduce or shorten the project schedule by adding additional resources, but the resulting increase in communication channels may delay the schedule."
+    ],
+    "answerIndex": 3,
+    "exhibit": null
+  },
+  {
+    "id": 240,
+    "domain": "Project management & communication",
+    "sourceNumber": 37,
+    "sourcePage": 88,
+    "question": "Choose the one that is not a component of a WBS (Work Breakdown Structure),",
+    "choices": [
+      "Gantt Chart.",
+      "Planning Package.",
+      "Code of Account.",
+      "Work Package."
+    ],
+    "answerIndex": 2,
+    "exhibit": null
+  },
+  {
+    "id": 241,
+    "domain": "Project management & communication",
+    "sourceNumber": 38,
+    "sourcePage": 88,
+    "question": "Choose the quality assurance activity described below.",
+    "choices": [
+      "Audit",
+      "Walkthrough",
+      "Inspection",
+      "Compliance"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/project-38-p88.webp"
+  },
+  {
+    "id": 242,
+    "domain": "Information security",
+    "sourceNumber": "unnumbered",
+    "sourcePage": 55,
+    "question": "What is the type of security weakness described below? Malicious scripts are inserted into a web page and executed by a user’s browser; unverified external input can expose browser cookies.",
+    "choices": [
+      "Web shell",
+      "SQL injection",
+      "Cross-site script",
+      "Memory Buffer Overflow"
+    ],
+    "answerIndex": null,
+    "exhibit": null
+  }
+]
