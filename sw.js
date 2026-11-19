@@ -1,4 +1,4 @@
-const CACHE='topcit-study-lab-4';
+const CACHE='topcit-study-lab-6';
 const BASE=new URL('./',self.location).pathname;
 const CORE=['','index.html','style.css','app.js','lessons.js','questions.json','assets/study-lab-hero.webp','assets/icon-192.png'].map(path=>BASE+path);
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));
