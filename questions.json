@@ -459,7 +459,7 @@
       "Collaboration Diagram"
     ],
     "answerIndex": 0,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-022-context.webp",
     "sourceAnswerIndex": 0,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -468,7 +468,12 @@
       "https://www.omg.org/spec/UML/2.5.1"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      7,
+      8
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 23,
@@ -706,7 +711,7 @@
       "Restructuring"
     ],
     "answerIndex": 1,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-033-context.webp",
     "sourceAnswerIndex": 1,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -715,7 +720,12 @@
       "https://www.iso-architecture.org/ieee-1471/cm/"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 1
+    "checkedAnswerIndex": 1,
+    "exhibitPages": [
+      11,
+      12
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 34,
@@ -1123,7 +1133,7 @@
       "Heuristics"
     ],
     "answerIndex": 0,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-050-context.webp",
     "sourceAnswerIndex": 0,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -1132,7 +1142,12 @@
       "https://xlinux.nist.gov/dads/"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      17,
+      18
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 51,
@@ -1212,7 +1227,7 @@
       "Replace Temp with Query"
     ],
     "answerIndex": 1,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-054-context.webp",
     "sourceAnswerIndex": 1,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -1221,7 +1236,11 @@
       "https://refactoring.com/catalog/extractFunction.html"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 1
+    "checkedAnswerIndex": 1,
+    "exhibitPages": [
+      19
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 55,
@@ -1882,7 +1901,7 @@
       "Table"
     ],
     "answerIndex": 3,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-082-context.webp",
     "sourceAnswerIndex": 3,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -1891,7 +1910,12 @@
       "https://www.ibm.com/think/topics/data-modeling"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 3
+    "checkedAnswerIndex": 3,
+    "exhibitPages": [
+      31,
+      32
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 83,
@@ -2136,7 +2160,7 @@
       "OpenMP"
     ],
     "answerIndex": 3,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-093-context.webp",
     "sourceAnswerIndex": 3,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -2145,7 +2169,12 @@
       "https://www.openmp.org/"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 3
+    "checkedAnswerIndex": 3,
+    "exhibitPages": [
+      36,
+      37
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 94,
@@ -4198,7 +4227,7 @@
       "WT strategy"
     ],
     "answerIndex": 1,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-189-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "corrected",
     "reviewedOn": "2026-11-25",
@@ -4207,7 +4236,12 @@
       "https://www.business.qld.gov.au/starting-business/planning/market-customer-research/swot-analysis"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 1
+    "checkedAnswerIndex": 1,
+    "exhibitPages": [
+      68,
+      69
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 190,
@@ -4332,7 +4366,7 @@
       "Smart grid"
     ],
     "answerIndex": 2,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-195-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -4341,7 +4375,12 @@
       "https://www.ibm.com/think/topics/digital-twin"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      70,
+      71
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 196,
@@ -4695,7 +4734,7 @@
       "(a)-Internal failure cost, (b)-External failure cost, (c)-Prevention cost."
     ],
     "answerIndex": 3,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-212-context.webp",
     "sourceAnswerIndex": 0,
     "reviewNote": "The figure labels costs before delivery as internal failure, after delivery as external failure, and prevention work as prevention. Choice D provides exactly that order. The previous unresolved classification was incorrect.",
     "reviewReferences": [
@@ -4704,7 +4743,12 @@
     "reviewStatus": "corrected",
     "reviewedOn": "2026-11-25",
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 3
+    "checkedAnswerIndex": 3,
+    "exhibitPages": [
+      77,
+      78
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 213,
@@ -5035,7 +5079,7 @@
       "Transfer"
     ],
     "answerIndex": 1,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-228-context.webp",
     "sourceAnswerIndex": 1,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -5044,7 +5088,11 @@
       "https://www.pmi.org/learning/library/risk-analysis-project-management-7070"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 1
+    "checkedAnswerIndex": 1,
+    "exhibitPages": [
+      83
+    ],
+    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
   },
   {
     "id": 229,

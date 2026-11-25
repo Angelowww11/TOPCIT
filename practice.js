@@ -63,9 +63,9 @@
     $('pathPosition').textContent = `Question ${p.index + 1} of ${pool.length}`;
     $('pathProgress').style.width = `${pct(count, pool.length)}%`;
     $('pathDomain').textContent = q.domain;
-    $('pathSource').textContent = `PDF page ${q.sourcePage} · ${studyOnly ? 'Study only' : answerLabel(q)}`;
+    $('pathSource').textContent = `${sourceLocation(q)} · ${studyOnly ? 'Study only' : answerLabel(q)}`;
     $('pathQuestionTitle').textContent = q.question;
-    $('pathExhibit').innerHTML = q.exhibit ? `<img src="${esc(q.exhibit)}" alt="Original source figure for question ${p.index + 1}">` : '';
+    $('pathExhibit').innerHTML = sourceFigure(q);
     $('pathChoices').innerHTML = orderFor(q).map((index, position) => {
       const correct = done && !studyOnly && index === q.answerIndex;
       const wrong = done && record.status === 'wrong' && index === record.selected;

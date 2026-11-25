@@ -5,6 +5,8 @@ An independent, mobile-friendly reviewer built from the supplied TOPCIT study do
 ## What's inside
 
 - 242 unique reviewer items across six areas, with source figures attached to visual questions.
+- Ten questions include restored examples that cross a PDF page boundary. Question 33 includes its scenario from page 11 and its code-to-class-diagram example from page 12.
+- Source figures show their PDF pages and open at full size when selected. The same figures appear in Practice path, quiz rounds, the question bank, and matching study-guide examples.
 - 242 playable items: 44 corrected answers, 168 checked answers, and 30 labeled reviewer-key fallbacks.
 - All 91 previously source-only answers have individual findings. All 26 previously unresolved items have a new source review.
 - Ambiguous items use the original reviewer key at the learner request. They display **Reviewer answer** and a source caution. They are not labeled as checked answers.
@@ -23,6 +25,8 @@ The answer marks in `1. TOPCIT Reviewer - Software.pdf` were imported. The revie
 See the searchable [answer review](answer-review.html) or [review data](answer-review.json) for each item, its source key, study answer, reason, and references. Thirty items have missing information, multiple valid choices, or context-dependent claims. All thirty have a source-marked key, so no guessed answer is needed. `reviewer_fallbacks.py` records the fallback explanations. Their `checkedAnswerIndex` remains null; their playable `answerIndex` follows the reviewer. The original finding stays in `reviewCaveat`. The original import audit remains in `answer-audit.json` as historical data.
 
 Run `python review_answers.py` to apply the review. Run `python check_review.py` to check the repaired keys and calculations. The extraction script, `build_content.py`, applies the review after each source import. Extraction requires the original local PDF and the Python packages `pymupdf` and `Pillow`.
+
+Run `python restore_source_figures.py` to rebuild the ten page-boundary examples from their original embedded PDF images. `source-figure-repairs.json` records their exact source pages and image rectangles. The answer review reapplies these figure assignments after every source import.
 
 The theme selector provides Dusk (default), Midnight, Forest, Plum, and Light. The browser saves the selected theme. The responsive design uses a connected study map, softer card shapes, and aligned mobile controls. Motion respects the system setting for reduced motion.
 

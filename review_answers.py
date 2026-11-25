@@ -4,6 +4,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 questions = json.loads((ROOT / 'questions.json').read_text(encoding='utf-8'))
+from restore_source_figures import apply_repairs
+apply_repairs(questions)
 URL = {
  'java':'https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html',
  'maven':'https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html',
