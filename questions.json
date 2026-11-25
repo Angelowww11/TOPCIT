@@ -34,7 +34,8 @@
     "sourceAnswerIndex": 2,
     "reviewNote": "Two choices repeat the same service-isolation benefit, and the other choices also describe plausible benefits of microservices. This NOT question has no defensible single answer.",
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 3,
@@ -134,17 +135,28 @@
     "sourcePage": 2,
     "question": "Choose the optimized test case designed by the Pairwise Testing technique. Input condition",
     "choices": [
+      "On/Play/Down; Off/Stop/Up; Off/Play/Down; On/Stop/Up",
+      "On/Play/Down; On/Stop/Up; Off/Play/Down; Off/Stop/Up; Off/Play/Down; Off/Stop/Up",
+      "On/Play/Down; On/Stop/Up; On/Play/Up; Off/Play/Down; Off/Stop/Up; Off/Stop/Down",
+      "On/Play/Down; On/Stop/Up; Off/Play/Up; Off/Stop/Down"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/restored-pairwise-input.webp",
+    "sourceAnswerIndex": null,
+    "reviewNote": "Each of the three binary parameters has four possible value pairs with another parameter. Choice D covers every pair in four rows. Four is minimal because one parameter pair alone has four combinations.",
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceChoices": [
       "",
       "",
       "",
       ""
     ],
-    "answerIndex": null,
-    "exhibit": null,
-    "sourceAnswerIndex": null,
-    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-    "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "choiceRepairNote": "Choices transcribed from the original PDF image; source wording is preserved separately.",
+    "reviewReferences": [
+      "https://www.nist.gov/publications/practical-combinatorial-testing-beyond-pairwise"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 9,
@@ -164,7 +176,8 @@
     "reviewNote": "Obfuscation makes code harder to understand and resists reverse engineering. None of these choices states that purpose. The source selects reverse engineering, which is the activity it obstructs.",
     "reviewReferences": [],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 10,
@@ -196,11 +209,16 @@
       "Procedure abstraction",
       "Inheritance abstraction"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "exhibit": "assets/source/software-11-p4.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The figure hides the summation loop inside getSum(100). It abstracts a procedure, not a data representation. Choose Procedure abstraction.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 12,
@@ -253,8 +271,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/software-14-p5.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Site constraints, system properties, and logical-model requirements describe what the software must satisfy. Components and code patterns prescribe design or implementation.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 15,
@@ -307,8 +330,13 @@
     "answerIndex": 3,
     "exhibit": "assets/source/software-17-p6.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The example retests existing behavior after changes, debugging, and refactoring. These are regression tests.",
+    "reviewReferences": [
+      "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 18,
@@ -325,8 +353,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/software-18-p6.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The C loop compares data[j] with data[j+1] and swaps adjacent elements. That is bubble sort.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/HTML/bubblesort.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 19,
@@ -379,8 +412,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/software-21-p7.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The diagram creates reusable core assets from common and variable product features. Domain engineering supplies assets to application engineering.",
+    "reviewReferences": [
+      "https://www.sei.cmu.edu/library/software-product-lines/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 22,
@@ -397,8 +435,13 @@
     "answerIndex": 0,
     "exhibit": null,
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source shows three-dimensional execution nodes and deployed software artifacts. These identify a UML deployment diagram.",
+    "reviewReferences": [
+      "https://www.omg.org/spec/UML/2.5.1"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 23,
@@ -433,8 +476,13 @@
     "answerIndex": 2,
     "exhibit": "assets/source/software-24-p8.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source sends data through Refine and Transform stages from Source to Sink. Independent processing stages connected by data streams form pipes and filters.",
+    "reviewReferences": [
+      "https://www.iso-architecture.org/ieee-1471/cm/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 25,
@@ -469,8 +517,11 @@
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Jenkins and Travis CI automate delivery pipelines; Docker packages and distributes applications. Distribution management is the best common option, not source-code management.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 27,
@@ -492,7 +543,8 @@
       "https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html"
     ],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 28,
@@ -506,11 +558,16 @@
       "Patterns that define the rules to structure the architecture",
       "External factors that may affect the architecture such as development, operation, on politics."
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "exhibit": "assets/source/software-28-p10.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "In the IEEE 1471 diagram, a system fulfills a mission, has stakeholders, and has an architecture. The source choice about stakeholder purpose describes the mission. Choice A is the system-related option.",
+    "reviewReferences": [
+      "https://www.iso-architecture.org/ieee-1471/cm/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 29,
@@ -524,11 +581,17 @@
       "Insertion sort",
       "Selection sort"
     ],
-    "answerIndex": 1,
+    "answerIndex": null,
     "exhibit": "assets/source/software-29-p10.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The code compares arr[i] with every later arr[j] and swaps immediately. This is simple interchange sorting, not adjacent-pair bubble sorting or conventional minimum-selection sorting. No exact algorithm name is offered.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/HTML/bubblesort.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 30,
@@ -581,8 +644,13 @@
     "answerIndex": 3,
     "exhibit": "assets/source/software-32-p11.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source permits linking while requiring disclosure of modifications to the library. LGPL 2.1 is the matching license. Distribution and relinking conditions still apply.",
+    "reviewReferences": [
+      "https://www.gnu.org/licenses/gpl-faq.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 33,
@@ -599,8 +667,13 @@
     "answerIndex": 1,
     "exhibit": null,
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The company derives a class diagram from existing source code to recover missing design information. This direction is reverse engineering.",
+    "reviewReferences": [
+      "https://www.iso-architecture.org/ieee-1471/cm/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 34,
@@ -617,8 +690,13 @@
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The class contributes too little behavior to justify its maintenance. That is the Lazy Class code smell, rather than a large class.",
+    "reviewReferences": [
+      "https://refactoring.com/catalog/extractFunction.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 35,
@@ -637,7 +715,8 @@
     "sourceAnswerIndex": 3,
     "reviewNote": "The last answer choice lost the UML stereotype text during PDF extraction and appears only as two empty angle-bracket pairs. It cannot be scored accurately from the available choices.",
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 36,
@@ -649,13 +728,25 @@
       "(a) data.left, (b) data.value",
       "(a) data.value, (b) data.right",
       "(a) data.left, (b) data.right",
-      "(a) data.right, (b) date.left"
+      "(a) data.right, (b) data.left [source prints date.left]"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "exhibit": "assets/source/software-36-p13.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "sourceChoices": [
+      "(a) data.left, (b) data.value",
+      "(a) data.value, (b) data.right",
+      "(a) data.left, (b) data.right",
+      "(a) data.right, (b) date.left"
+    ],
+    "choiceRepairNote": "Choices transcribed from the original PDF image; source wording is preserved separately.",
+    "reviewNote": "The source code searches (a) when x is greater than data.value, so (a) must be data.right. Otherwise it searches data.left. The printed date.left in choice D is an evident identifier typo.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/HTML/binarySearchTree.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 37,
@@ -672,8 +763,13 @@
     "answerIndex": 2,
     "exhibit": "assets/source/software-37-p13.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The example transforms a platform-independent model into a platform-specific model and generates code. That identifies model-driven development.",
+    "reviewReferences": [
+      "https://www.omg.org/spec/UML/2.5.1"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 38,
@@ -690,27 +786,43 @@
     "answerIndex": 2,
     "exhibit": "assets/source/software-38-p14.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "In the source chart, the filled control couple goes from C to D. The return couple from D to C is unfilled. Therefore the stated D-to-C flag direction is wrong.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 39,
     "domain": "Software development",
     "sourceNumber": 39,
     "sourcePage": 14,
-    "question": "A character string is given in a Python program as shown below. Which of the following is NOT a correct output from each function? - D",
+    "question": "A character string is given in a Python program as shown below. Which of the following is NOT a correct output from each function?",
     "choices": [
+      "myString.count('Topcit') returns 2",
+      "myString.find('Topcit', 2) returns 21",
+      "myString.rindex('2020') returns 7",
+      "myString.startwith('Topcit') returns False (as printed; the valid method is startswith)"
+    ],
+    "answerIndex": 3,
+    "exhibit": "assets/source/software-39-p14.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "For Topcit_2020_Software_Topcit, count is 2, find from position 2 is 21, and rindex(2020) is 7. startswith(Topcit) is True, not False. The printed startwith also has a spelling error.",
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "answer letter printed beside the question, visually checked",
+    "sourceChoices": [
       "",
       "",
       "",
       ""
     ],
-    "answerIndex": null,
-    "exhibit": "assets/source/software-39-p14.webp",
-    "sourceAnswerIndex": null,
-    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-    "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "choiceRepairNote": "Choices transcribed from the original PDF image; source wording is preserved separately.",
+    "reviewReferences": [
+      "https://docs.python.org/3/library/stdtypes.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "sourceQuestion": "A character string is given in a Python program as shown below. Which of the following is NOT a correct output from each function? - D"
   },
   {
     "id": 40,
@@ -727,8 +839,13 @@
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The example builds a mock-up and asks users to validate it before full development. This is prototyping.",
+    "reviewReferences": [
+      "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 41,
@@ -745,8 +862,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/software-41-p15.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Starting at zero, while i < 100 iterates 100 times. range(0,100) contains 100 integers. Both snippets therefore print 100 lines.",
+    "reviewReferences": [
+      "https://docs.python.org/3/library/stdtypes.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 42,
@@ -778,11 +900,17 @@
       "(7,0), (5,0)",
       "(7,5), (5,0)"
     ],
-    "answerIndex": 2,
+    "answerIndex": null,
     "exhibit": "assets/source/software-43-p15.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The condition is x>0 && y>0. The marked pair never makes x>0 false. Choice B covers both logical values, but short-circuit evaluation never evaluates y>0 as true. No listed pair provides full evaluated-condition coverage.",
+    "reviewReferences": [
+      "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 44,
@@ -817,8 +945,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/software-45-p16.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The original Employee class handles both design and development. The new Designer and Developer classes separate those responsibilities. This supports SRP.",
+    "reviewReferences": [
+      "https://refactoring.com/catalog/extractFunction.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 46,
@@ -835,8 +968,13 @@
     "answerIndex": 3,
     "exhibit": "assets/source/software-46-p16.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Skilled testers begin execution while they design tests and learn about the product. These concurrent activities define exploratory testing.",
+    "reviewReferences": [
+      "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 47,
@@ -871,8 +1009,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/software-48-p17.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source specifies a complete binary tree with parent-child priority ordering in both minimum and maximum variants. That is a heap.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 49,
@@ -889,8 +1032,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/software-49-p17.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The valid input range is 1 through 10. The tests include 0, 1, 10, and 11, which exercise the boundaries and adjacent invalid values.",
+    "reviewReferences": [
+      "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 50,
@@ -907,8 +1055,13 @@
     "answerIndex": 0,
     "exhibit": null,
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The example chooses the locally best child, reaches 12, and misses the global maximum 99. It demonstrates the limitation of a greedy choice.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 51,
@@ -925,8 +1078,13 @@
     "answerIndex": 2,
     "exhibit": "assets/source/software-51-p18.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The code sorts the array, returns its middle element for odd length, and averages the two middle elements for even length. It computes the median.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 52,
@@ -940,11 +1098,14 @@
       "Data Coupling",
       "Control Coupling"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "exhibit": "assets/source/software-52-p19.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Both functions access the same file-scope variable temp. Shared global storage creates common coupling. Neither function accesses another function body or local data.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 53,
@@ -979,8 +1140,13 @@
     "answerIndex": 1,
     "exhibit": null,
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The refactoring moves the amount-printing statement into printDetails(amount) and calls it from printOwing. That is Extract Method, also called Extract Function.",
+    "reviewReferences": [
+      "https://refactoring.com/catalog/extractFunction.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 55,
@@ -997,8 +1163,13 @@
     "answerIndex": 2,
     "exhibit": "assets/source/software-55-p20.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "One monitoring station sends status changes to multiple subscribed monitoring systems and applications. This is the Observer notification structure.",
+    "reviewReferences": [
+      "https://www.oracle.com/technical-resources/articles/java/observer.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 56,
@@ -1012,11 +1183,16 @@
       "Quick sort",
       "Selection sort"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "exhibit": "assets/source/software-56-p20.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The figure repeatedly swaps adjacent values; 71 moves to the end during the first pass, then 55 during the second. This is bubble sort, not selection sort.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/HTML/bubblesort.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 57,
@@ -1033,8 +1209,13 @@
     "answerIndex": 3,
     "exhibit": "assets/source/understanding-01-p21.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Collect current access paths first, inspect distributions to identify candidate columns, select their combination/order, then determine the resulting access paths. The sequence is c,b,d,a.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 58,
@@ -1066,11 +1247,17 @@
       "(3) (3)",
       "(4) (4)"
     ],
-    "answerIndex": 0,
+    "answerIndex": null,
     "exhibit": "assets/source/understanding-03-p22.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The PDF provides a bank-standardization case and four numbered rows but never states what property the answer must identify. The red mark alone cannot supply the missing question.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 60,
@@ -1092,7 +1279,8 @@
       "https://www.mongodb.com/docs/manual/core/transactions/"
     ],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 61,
@@ -1142,18 +1330,23 @@
       "Full Functional Dependency",
       "Transitive Dependency"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "exhibit": "assets/source/understanding-07-p24.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The key contains Student No and Subject No. A student name depends on Student No alone, a proper subset of that composite key. That is a partial dependency.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 64,
     "domain": "Understanding data",
     "sourceNumber": 8,
     "sourcePage": 24,
-    "question": "Which of the following Entity-Relationship Diagram is NOT a correct representation of the given conditions? (Note: that the diagrams employ Crow’s Foot notation). - D",
+    "question": "Which of the following Entity-Relationship Diagram is NOT a correct representation of the given conditions? (Note: that the diagrams employ Crow’s Foot notation).",
     "choices": [
       "",
       "",
@@ -1162,10 +1355,17 @@
     ],
     "answerIndex": null,
     "exhibit": "assets/source/understanding-08-p24.webp",
-    "sourceAnswerIndex": null,
-    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "The source is internally defective: in C, the text permits a student without an advisor but the advisor endpoint requires one. D similarly permits no association in text while requiring one in the diagram. More than one diagram contradicts its condition.",
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "answer letter printed beside the question, visually checked",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer.",
+    "sourceQuestion": "Which of the following Entity-Relationship Diagram is NOT a correct representation of the given conditions? (Note: that the diagrams employ Crow’s Foot notation). - D"
   },
   {
     "id": 65,
@@ -1203,7 +1403,8 @@
     "reviewNote": "CAP concerns the consistency/availability tradeoff during a network partition. Several choices oversimplify the model; no deployment-independent single answer is safe.",
     "reviewReferences": [],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 67,
@@ -1238,27 +1439,43 @@
     "answerIndex": 2,
     "exhibit": "assets/source/understanding-12-p26.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source agent observes its environment, chooses actions, and learns from rewards. This is reinforcement learning rather than labeled-example learning.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 69,
     "domain": "Understanding data",
     "sourceNumber": 13,
     "sourcePage": 26,
-    "question": "Which of the following is NOT correctly matched between the purposed of Data Definition Language (DDL) and the SQL statement in the [Staff Table] below? - C",
+    "question": "Which of the following is NOT correctly matched between the purposed of Data Definition Language (DDL) and the SQL statement in the [Staff Table] below?",
     "choices": [
+      "Rename Staff to Employee: RENAME TABLE Staff TO Employee;",
+      "Remove rows but keep structure: TRUNCATE TABLE Staff;",
+      "Add DateOfRetirement: ALTER TABLE Staff MODIFY (DateOfRetirement CHAR(100));",
+      "Remove structure and rows: DROP TABLE Staff;"
+    ],
+    "answerIndex": 2,
+    "exhibit": "assets/source/understanding-13-p26.webp",
+    "sourceAnswerIndex": 2,
+    "reviewNote": "Adding a column requires ADD. The source instead uses MODIFY, which changes an existing column definition. That does not perform the stated task.",
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "answer letter printed beside the question, visually checked",
+    "sourceChoices": [
       "",
       "",
       "",
       ""
     ],
-    "answerIndex": null,
-    "exhibit": "assets/source/understanding-13-p26.webp",
-    "sourceAnswerIndex": null,
-    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-    "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "choiceRepairNote": "Choices transcribed from the original PDF image; source wording is preserved separately.",
+    "reviewReferences": [
+      "https://www.postgresql.org/docs/current/ddl-alter.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "sourceQuestion": "Which of the following is NOT correctly matched between the purposed of Data Definition Language (DDL) and the SQL statement in the [Staff Table] below? - C"
   },
   {
     "id": 70,
@@ -1298,7 +1515,8 @@
     "reviewNote": "Replication can increase storage, so the marked statement is a real tradeoff. Location transparency depends on whether the statement describes users or database administration. The question does not specify that perspective.",
     "reviewReferences": [],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 72,
@@ -1352,30 +1570,49 @@
       "Easy to retrieve information because the characteristics, digits, and date type information are stored in two- dimensional structures of columns and rows.",
       "Navigation-based data access using the reference structures is possible in such a way that one object record is eligible to access another object record."
     ],
-    "answerIndex": 2,
+    "answerIndex": null,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "An object-relational database still supports relational rows and columns, while adding object features. The source rejects a true but non-distinguishing property. Its wording does not ask which feature is distinctive.",
+    "reviewReferences": [
+      "https://docs.oracle.com/en/database/oracle/oracle-database/21/adlob/BFILEs.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 75,
     "domain": "Understanding data",
     "sourceNumber": 19,
     "sourcePage": 28,
-    "question": "Choose the appropriate SQL statement for the [Query Condition] below. - C",
+    "question": "Choose the appropriate SQL statement for the [Query Condition] below.",
     "choices": [
+      "SELECT Department, SUM(NoOfReports) FROM Project WHERE NoOfStudents >= 10 GROUP BY Department;",
+      "SELECT Department, SUM(NoOfReports) FROM Project WHERE NoOfStudents >= 10;",
+      "SELECT Department, SUM(NoOfReports) FROM Project HAVING SUM(NoOfStudents) >= 10;",
+      "SELECT Department, SUM(NoOfReports) FROM Project GROUP BY Department HAVING SUM(NoOfStudents) >= 10;"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/understanding-19-p28.webp",
+    "sourceAnswerIndex": 2,
+    "reviewNote": "The task filters projects with at least ten students, then sums reports by department. WHERE filters rows before GROUP BY. Choice C lacks grouping and filters a different aggregate.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "answer letter printed beside the question, visually checked",
+    "sourceChoices": [
       "",
       "",
       "",
       ""
     ],
-    "answerIndex": null,
-    "exhibit": "assets/source/understanding-19-p28.webp",
-    "sourceAnswerIndex": null,
-    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-    "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "choiceRepairNote": "Choices transcribed from the original PDF image; source wording is preserved separately.",
+    "reviewReferences": [
+      "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "sourceQuestion": "Choose the appropriate SQL statement for the [Query Condition] below. - C"
   },
   {
     "id": 76,
@@ -1395,7 +1632,8 @@
     "reviewNote": "Conceptual modeling can define subject areas and create a conceptual ERD. Detailed attributes and identifiers are often logical-model tasks. The choices do not specify a methodology with one unique answer.",
     "reviewReferences": [],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 77,
@@ -1412,8 +1650,11 @@
     "answerIndex": 1,
     "exhibit": "assets/source/understanding-21-p29.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source classifies credit standing through successive in-service, service-duration, and income decisions. These branches form a decision tree.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 78,
@@ -1430,8 +1671,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/understanding-22-p30.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "T1 must obtain its lock on y before releasing its lock on x. Otherwise it would acquire a lock after entering the shrinking phase. Insert lock(y).",
+    "reviewReferences": [
+      "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 79,
@@ -1463,11 +1709,17 @@
       "Used to store massive unstructured data, including text, graphic, image, video, and audio.",
       "Large files are stored in a file system of the operating system and are able to be accessed via tables.\\"
     ],
-    "answerIndex": 3,
+    "answerIndex": null,
     "exhibit": null,
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The marked filesystem statement describes external LOBs such as Oracle BFILE. Internal LOBs have different storage and transaction semantics. Without specifying internal LOBs, the question has no universal single false statement.",
+    "reviewReferences": [
+      "https://docs.oracle.com/en/database/oracle/oracle-database/21/adlob/BFILEs.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 81,
@@ -1481,11 +1733,16 @@
       "SELECT * FROM Customer FULL OUTER JOIN Order ON Customer.CustomerNumber = Order.CustumerNumber",
       "SELECT * FROM Customer INNER JOIN Result ON |OrderCustomerNumber = Order.CustumerNumber"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "exhibit": "assets/source/understanding-25-p31.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The result includes unmatched customers AND an unmatched order with NULL customer. Only FULL OUTER JOIN preserves both sides. LEFT JOIN omits the unmatched order.",
+    "reviewReferences": [
+      "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 82,
@@ -1502,8 +1759,13 @@
     "answerIndex": 3,
     "exhibit": null,
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source splits OrderList into separate monthly tables. Among the offered categories, this is table-level denormalization.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 83,
@@ -1538,27 +1800,45 @@
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Operational backup, performance monitoring, and query tuning are database-administrator duties. They differ from enterprise data governance and conceptual modeling.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 85,
     "domain": "Understanding data",
     "sourceNumber": 29,
     "sourcePage": 33,
-    "question": "Refer to the tables A and B below and choose the correct result of A/B operation which means the relation A divided by the relation B. - B",
+    "question": "Refer to the tables A and B below and choose the correct result of A/B operation which means the relation A divided by the relation B.",
     "choices": [
+      "sno: s1",
+      "sno: s1, s2",
+      "sno: s1, s2, s3",
+      "sno: s1, s2, s3, s4"
+    ],
+    "answerIndex": 0,
+    "exhibit": "assets/source/understanding-29-p33.webp",
+    "sourceAnswerIndex": 1,
+    "reviewNote": "Relational division selects sno values related to every pno in B: p1, p2, and p4. Only s1 has all three. Choice A contains s1 alone.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "answer letter printed beside the question, visually checked",
+    "sourceChoices": [
       "",
       "",
       "",
       ""
     ],
-    "answerIndex": null,
-    "exhibit": "assets/source/understanding-29-p33.webp",
-    "sourceAnswerIndex": null,
-    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-    "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "choiceRepairNote": "Choices transcribed from the original PDF image; source wording is preserved separately.",
+    "reviewReferences": [
+      "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "sourceQuestion": "Refer to the tables A and B below and choose the correct result of A/B operation which means the relation A divided by the relation B. - B"
   },
   {
     "id": 86,
@@ -1590,11 +1870,17 @@
       "An employee must belong to only one department",
       "Departments with one or more employees may exist"
     ],
-    "answerIndex": 1,
+    "answerIndex": null,
     "exhibit": "assets/source/understanding-31-p34.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source labels Barker notation but combines optionality and mandatory wording ambiguously. Its statements about employees without departments and mandatory department membership need a consistent interpretation. The red key does not resolve that conflict.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 88,
@@ -1611,8 +1897,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/understanding-32-p34.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "A DATE type and a CHECK restricting Gender to 1 or 2 constrain permitted attribute values. These enforce domain integrity.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/data-modeling"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 89,
@@ -1647,8 +1938,13 @@
     "answerIndex": 2,
     "exhibit": "assets/source/understanding-34-p35.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The cursor lifecycle is DECLARE, OPEN, FETCH, CLOSE. The loop needs FETCH at c; CURSOR is not the retrieval command.",
+    "reviewReferences": [
+      "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 91,
@@ -1665,8 +1961,11 @@
     "answerIndex": 3,
     "exhibit": "assets/source/system-01-p36.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source shows CPU utilization falling when page swapping dominates execution. That is thrashing. Reducing multiprogramming can relieve it.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 92,
@@ -1701,8 +2000,13 @@
     "answerIndex": 3,
     "exhibit": null,
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The code includes omp.h and uses #pragma omp parallel and omp_get_thread_num. These identify OpenMP.",
+    "reviewReferences": [
+      "https://www.openmp.org/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 94,
@@ -1719,8 +2023,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/system-04-p37.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The intermediate component serves static files and forwards application requests to a web application server. It is the web server.",
+    "reviewReferences": [
+      "https://www.rfc-editor.org/rfc/rfc9110.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 95,
@@ -1793,8 +2102,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/system-08-p39.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "FAT32 has a file-size limit just below 4 GiB. exFAT supports much larger files and cross-platform removable media. The pair is FAT32/exFAT. The precise exFAT ceiling depends on implementation.",
+    "reviewReferences": [
+      "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 99,
@@ -1829,8 +2143,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/system-10-p39.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The example adds a fixed IPv4-to-MAC mapping. The Windows arp -s command performs that operation. The source omits the space before -s.",
+    "reviewReferences": [
+      "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/arp"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 101,
@@ -1844,11 +2163,17 @@
       "ASP (Active Server Page) and JSP (Java Server Pages) files that display individual order information",
       "CSS (Cascading Style Page), JS (JavaScript), JPG (Joint Photographic Expert Group) files that compose layout of web sites."
     ],
-    "answerIndex": 2,
+    "answerIndex": null,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source intends personalized order pages as the noncacheable option. A CDN can still proxy dynamic or personalized responses without caching them. The absolute phrase does not apply is technically false.",
+    "reviewReferences": [
+      "https://www.rfc-editor.org/rfc/rfc9110.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 102,
@@ -1865,8 +2190,11 @@
     "answerIndex": 3,
     "exhibit": "assets/source/system-12-p40.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The sender waits for an acknowledgment before sending the next packet and retransmits one packet after a timeout. This is stop-and-wait ARQ.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 103,
@@ -1973,8 +2301,11 @@
     "answerIndex": 1,
     "exhibit": "assets/source/system-18-p42.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source already labels address and control buses. The remaining bus carries payload values between CPU, memory, and I/O, so it is the data bus.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 109,
@@ -2009,8 +2340,13 @@
     "answerIndex": 3,
     "exhibit": "assets/source/system-20-p42.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source describes an in-memory database, cache, broker, and streaming engine. Redis matches those capabilities.",
+    "reviewReferences": [
+      "https://redis.io/docs/latest/get-started/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 111,
@@ -2027,8 +2363,11 @@
     "answerIndex": 1,
     "exhibit": "assets/source/system-21-p43.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The diagram overlaps IF, ID, EX, and WB stages for successive instructions. That is instruction pipelining. It does not show multiple instructions issuing per stage.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 112,
@@ -2045,8 +2384,13 @@
     "answerIndex": 3,
     "exhibit": "assets/source/system-22-p43.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The description uses PLAY and PAUSE commands to control streaming sessions. RTSP provides those controls; RTP transports media.",
+    "reviewReferences": [
+      "https://www.rfc-editor.org/rfc/rfc7826.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 113,
@@ -2085,8 +2429,11 @@
     "answerIndex": 2,
     "exhibit": "assets/source/system-24-p44.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The figure distributes parity across five disks and provides four disks of usable capacity. Distributed single parity with at least three disks identifies RAID 5.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 115,
@@ -2103,8 +2450,13 @@
     "answerIndex": 2,
     "exhibit": "assets/source/system-25-p44.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Referer identifies the resource from which the target request originated, subject to referrer policy. It is not a general field for the currently displayed page.",
+    "reviewReferences": [
+      "https://www.rfc-editor.org/rfc/rfc9110.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 116,
@@ -2126,7 +2478,8 @@
       "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html"
     ],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 117,
@@ -2183,8 +2536,11 @@
     "answerIndex": 0,
     "exhibit": null,
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The alternatives describe thin provisioning: physical storage is allocated on demand. Eager-zeroed and lazy-zeroed thick disks preallocate storage, so that choice does not describe thin provisioning.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 120,
@@ -2201,8 +2557,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/system-30-p46.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Following the source table, the oldest loaded page is evicted at each fault: A at D, then B at A, then C at B. Hits do not reorder the load queue. This is FIFO.",
+    "reviewReferences": [
+      "https://xlinux.nist.gov/dads/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 121,
@@ -2237,8 +2598,11 @@
     "answerIndex": 1,
     "exhibit": "assets/source/system-32-p47.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "One instruction source applies the same operation to multiple processing units and data elements. That is SIMD.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 123,
@@ -2334,7 +2698,8 @@
     "reviewNote": "Restricting write access to /etc/profile to root is valid hardening. The hosts.allow/hosts.deny choice incorrectly calls its entries users rather than hosts or services. The source mark is unsafe.",
     "reviewReferences": [],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 128,
@@ -2407,11 +2772,17 @@
       "touch",
       "umask"
     ],
-    "answerIndex": 1,
+    "answerIndex": null,
     "exhibit": "assets/source/information-06-p50.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The visible file listing already shows root ownership and root-only read permission. The named Improvement Plan is absent from the supplied example. chown changes ownership; it cannot substitute for missing requirements.",
+    "reviewReferences": [
+      "https://www.gnu.org/software/coreutils/manual/html_node/Changing-file-attributes.html"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 132,
@@ -2446,8 +2817,11 @@
     "answerIndex": 3,
     "exhibit": "assets/source/information-08-p50.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The form names the client as the source and the FTP server as the destination. A blanket inbound-port allowance to source IPs does not correctly describe that requested policy. FTP data direction still depends on active/passive mode.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 134,
@@ -2507,7 +2881,8 @@
       "https://logging.apache.org/log4j/2.x/security.html"
     ],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 137,
@@ -2524,8 +2899,11 @@
     "answerIndex": 2,
     "exhibit": "assets/source/information-12-p51.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source uses statistical or machine-learning behavior and can detect previously unknown intrusions. This is behavior/anomaly-based detection.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 138,
@@ -2539,11 +2917,17 @@
       "Non-Discretionary Access Control (NDAC)",
       "Role-Based Access Control (RBAC)"
     ],
-    "answerIndex": 3,
+    "answerIndex": null,
     "exhibit": "assets/source/information-13-p51.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The figure lists permissions for named users but no roles, role memberships, owner discretion, or security labels. The same matrix can result from several access-control models. It cannot establish RBAC by itself.",
+    "reviewReferences": [
+      "https://csrc.nist.gov/glossary/term/role_based_access_control"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 139,
@@ -2616,8 +3000,11 @@
     "answerIndex": 2,
     "exhibit": "assets/source/information-17-p53.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source describes combining de-identified data with other information to identify a person. This is re-identification.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 143,
@@ -2679,7 +3066,8 @@
       "https://openid.net/developers/how-connect-works/"
     ],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 146,
@@ -2696,8 +3084,11 @@
     "answerIndex": 3,
     "exhibit": null,
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source forges MAC addresses, IP addresses, and trusted sender identities. Impersonating an identity or origin is spoofing.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 147,
@@ -2714,8 +3105,11 @@
     "answerIndex": 3,
     "exhibit": null,
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source explicitly names IEEE 802.11i. Its robust security framework replaces WEP with stronger protections; WEP is the incorrect choice.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 148,
@@ -2818,7 +3212,8 @@
     "reviewReferences": [],
     "reviewStatus": "unresolved",
     "reviewedOn": "2026-11-25",
-    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 153,
@@ -2960,8 +3355,11 @@
     "answerIndex": 0,
     "exhibit": "assets/source/it-02-p58.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The case describes a security specialist, not a database-design specialist. Of the listed actions, accepting outside financial database design without demonstrated competence is the ethical concern. This is not a claim that all outside work is unethical.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 160,
@@ -2978,8 +3376,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/it-03-p59.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The article describes pretrial disclosure of documents and evidence. That process is discovery. Its detailed scope depends on the jurisdiction.",
+    "reviewReferences": [
+      "https://www.law.cornell.edu/rules/frcp/rule_26"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 161,
@@ -3014,8 +3417,13 @@
     "answerIndex": 3,
     "exhibit": null,
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Copyright protects expression, not algorithms, methods, or programming-language ideas as such. That is the intended incorrect statement. Ownership of employee work still depends on applicable law and contracts.",
+    "reviewReferences": [
+      "https://www.wipo.int/en/web/copyright/faq-copyright"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 163,
@@ -3104,8 +3512,11 @@
     "answerIndex": 2,
     "exhibit": "assets/source/it-10-p61.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The food-delivery application connects restaurant suppliers and customer demand, generating cross-side network effects. It is a platform business.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 168,
@@ -3122,8 +3533,13 @@
     "answerIndex": 1,
     "exhibit": null,
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The Korean Patent Office explanation of Article 94 distinguishes commercial/industrial use from personal or home use. Choice B matches that Korean context. It is not a worldwide personal-use exception.",
+    "reviewReferences": [
+      "https://www.kipo.go.kr/upload/en/download/Understanding_the_Patent_Act_of_the_Republic_of_Korea.pdf"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 169,
@@ -3158,8 +3574,11 @@
     "answerIndex": 3,
     "exhibit": "assets/source/it-13-p62.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Talent acquisition and employee retention concern organizational capabilities and learning/growth. Sales cost and profit belong to the financial perspective.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 171,
@@ -3311,8 +3730,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/it-21-p65.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The case processes access-control data near the 5G base station to reduce latency. That describes mobile/multi-access edge computing.",
+    "reviewReferences": [
+      "https://www.etsi.org/technologies/multi-access-edge-computing"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 179,
@@ -3349,7 +3773,8 @@
     "sourceAnswerIndex": 0,
     "reviewNote": "A data lake holds varied source data for broad future use. The marked single repository description is plausible, while more than one other choice describes task-specific or already transformed data. This NOT item needs a clearer key.",
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 181,
@@ -3384,8 +3809,11 @@
     "answerIndex": 3,
     "exhibit": "assets/source/it-26-p66.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source groups infrastructure, platform support, training, and cooperation above the primary value-chain activities. These are support activities.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 183,
@@ -3423,7 +3851,8 @@
     "reviewNote": "This question depends on the jurisdiction and version of privacy rules. The source supplies neither a reliable effective date nor enough legal context for a current universal answer.",
     "reviewReferences": [],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 185,
@@ -3477,8 +3906,11 @@
     "answerIndex": 2,
     "exhibit": "assets/source/it-31-p68.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The figure moves information through storage tiers as access frequency changes over its life. This is information lifecycle management.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 188,
@@ -3510,11 +3942,16 @@
       "ST strategy",
       "WT strategy"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The proposed action trains AI specialists and funds research centers. It addresses the listed talent and investment weaknesses while exploiting growth opportunities. This is WO, not ST.",
+    "reviewReferences": [
+      "https://www.business.qld.gov.au/starting-business/planning/market-customer-research/swot-analysis"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 190,
@@ -3564,11 +4001,16 @@
       "Tornado.",
       "Chasm."
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "exhibit": "assets/source/it-36-p69.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The highlighted gap lies between early adopters and the early majority. It is the Chasm. Tornado describes a later rapid-adoption phase.",
+    "reviewReferences": [
+      "https://www.geoffreyamoore.com/books"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 193,
@@ -3585,8 +4027,13 @@
     "answerIndex": 3,
     "exhibit": null,
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The first three options specify service targets or a contractual remedy. The last describes a purely internal reporting duty, not an agreed customer-facing service level as written.",
+    "reviewReferences": [
+      "https://aws.amazon.com/what-is/service-level-agreement/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 194,
@@ -3603,8 +4050,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/it-38-p70.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The blank is an agreement between the service provider and customer that sets service expectations and measurement. That is an SLA.",
+    "reviewReferences": [
+      "https://aws.amazon.com/what-is/service-level-agreement/"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 195,
@@ -3621,8 +4073,13 @@
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source links a physical asset with a continuously updated digital representation and simulation. That is a digital twin.",
+    "reviewReferences": [
+      "https://www.ibm.com/think/topics/digital-twin"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 196,
@@ -3636,11 +4093,14 @@
       "Open Innovation",
       "Servitization"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "exhibit": "assets/source/it-40-p71.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "This figure duplicates the online-sales, agile-culture, and AI/IoT/cloud example on page 73. These enterprise changes describe digital transformation, not servitization.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 197,
@@ -3657,8 +4117,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/it-41-p71.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The figure plots observations around a center line and upper/lower control limits. It is a control chart.",
+    "reviewReferences": [
+      "https://asq.org/quality-resources/seven-basic-quality-tools"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 198,
@@ -3748,11 +4213,15 @@
       "(d)-(a)-(b)-(c)",
       "(d)-(a)-(c)-(b)"
     ],
-    "answerIndex": 3,
+    "answerIndex": null,
     "exhibit": "assets/source/it-46-p73.webp",
     "sourceAnswerIndex": 3,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source provides organization matching, infrastructure design, and implementation scheduling but does not define its ISP phase model. Design normally precedes implementation scheduling, contrary to the red mark. No model-specific key is established.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 203,
@@ -3824,8 +4293,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/project-03-p75.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The chart uses horizontal bars to show task start and finish dates across a timeline. This is a Gantt chart.",
+    "reviewReferences": [
+      "https://www.pmi.org/learning/library/work-breakdown-structure-major-principles-4886"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 207,
@@ -3842,8 +4316,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/project-04-p76.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Scope management defines the work boundary. The WBS decomposes scope; a work package is its lowest management component. Choice B gives that sequence.",
+    "reviewReferences": [
+      "https://www.pmi.org/learning/library/work-breakdown-structure-major-principles-4886"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 208,
@@ -3857,11 +4336,15 @@
       "III. Information for bidders - Suggestion to replace the technical evaluation of the acquired equipment with BMT(Bench Marking Test).",
       "IV. Guidelines to document preparation - Request to include SLA(Service-Level Agrement) items such as system operation rate and system failure rate."
     ],
-    "answerIndex": 2,
+    "answerIndex": null,
     "exhibit": "assets/source/project-05-p76.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The printed table puts contract conditions under section III, but choice B assigns them to section II. Other choices also mix requirements and proposal-writing instructions. The red C key does not establish a uniquely incorrect placement.",
+    "reviewReferences": [],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 209,
@@ -3929,13 +4412,16 @@
       "(a)-External failure cost, (b)-Internal failure cost, (c)-Prevention cost",
       "(a)-Internal failure cost, (b)-External failure cost, (c)-Prevention cost."
     ],
-    "answerIndex": null,
+    "answerIndex": 3,
     "exhibit": null,
     "sourceAnswerIndex": 0,
-    "reviewNote": "The figure requires internal failure, external failure, and prevention costs, in that order. None of the four options gives that complete combination.",
-    "reviewReferences": [],
-    "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewNote": "The figure labels costs before delivery as internal failure, after delivery as external failure, and prevention work as prevention. Choice D provides exactly that order. The previous unresolved classification was incorrect.",
+    "reviewReferences": [
+      "https://asq.org/quality-resources/seven-basic-quality-tools"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 213,
@@ -4027,8 +4513,13 @@
     "answerIndex": 0,
     "exhibit": "assets/source/project-14-p79.webp",
     "sourceAnswerIndex": 0,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The source defines the lowest WBS component used to manage cost and schedule. That is a work package. The stated 80-hour size is a heuristic, not a mandatory universal limit.",
+    "reviewReferences": [
+      "https://www.pmi.org/learning/library/work-breakdown-structure-major-principles-4886"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 218,
@@ -4138,7 +4629,8 @@
     "sourceAnswerIndex": 0,
     "reviewNote": "The description mixes distribution, correlation, and outlier language. The available choices do not contain a clear single chart that satisfies every part; the red Bar Chart mark is unsupported. Study only.",
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 224,
@@ -4155,8 +4647,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/project-21-p82.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The decision tree weights outcomes by their probabilities. New system EMV = .6*8-.4*3 = 3.6 million; renovation EMV = .6*7-.4*1 = 3.8 million. This is expected monetary value analysis.",
+    "reviewReferences": [
+      "https://www.pmi.org/learning/library/risk-analysis-project-management-7070"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 225,
@@ -4176,7 +4673,8 @@
     "reviewNote": "The purchase-date groups overlap. Other groups also have unclear or overlapping boundaries as written. The marked sales bands alone do not establish one uniquely incorrect classification.",
     "reviewReferences": [],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 226,
@@ -4190,13 +4688,16 @@
       "Check",
       "Act"
     ],
-    "answerIndex": null,
+    "answerIndex": 3,
     "exhibit": "assets/source/project-23-p83.webp",
     "sourceAnswerIndex": 2,
-    "reviewNote": "The first bullet evaluates results (Check); the second decides a corrective action (Act). The combined prompt does not isolate one PDCA phase.",
-    "reviewReferences": [],
-    "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewNote": "Checking the defect rate is Check. The final decision introduces additional peer review as corrective improvement, which is Act. The final action is the most specific phase requested by this two-bullet example.",
+    "reviewReferences": [
+      "https://asq.org/quality-resources/pdca-cycle"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25",
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 227,
@@ -4233,8 +4734,13 @@
     "answerIndex": 1,
     "exhibit": null,
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The company removes risky scope from the project instead of accepting or transferring the exposure. Removing the risky work is avoidance.",
+    "reviewReferences": [
+      "https://www.pmi.org/learning/library/risk-analysis-project-management-7070"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 229,
@@ -4251,8 +4757,13 @@
     "answerIndex": 1,
     "exhibit": "assets/source/project-26-p84.webp",
     "sourceAnswerIndex": 1,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "Quadrant D has low market growth and low relative share. Divesting that dog business is the supported BCG strategy among these choices.",
+    "reviewReferences": [
+      "https://www.bcg.com/about/overview/our-history/growth-share-matrix"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 230,
@@ -4306,8 +4817,13 @@
     "answerIndex": 2,
     "exhibit": "assets/source/project-29-p85.webp",
     "sourceAnswerIndex": 2,
-    "reviewStatus": "source",
-    "reviewedOn": "2026-11-25"
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "reviewNote": "The case sets a sales target, executes work, checks results, improves the process, and repeats. These steps form a PDCA cycle.",
+    "reviewReferences": [
+      "https://asq.org/quality-resources/pdca-cycle"
+    ],
+    "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used."
   },
   {
     "id": 233,
@@ -4345,7 +4861,8 @@
     "reviewNote": "An expected value is the anticipated result, so the marked statement is not inherently false. Case names in the figure repeat, but a unique ID distinguishes the cases. The wording does not provide a reliable single false choice.",
     "reviewReferences": [],
     "reviewStatus": "unresolved",
-    "reviewedOn": "2026-11-25"
+    "reviewedOn": "2026-11-25",
+    "resolution": "Confirmed source defect or insufficient context; no defensible single answer."
   },
   {
     "id": 235,

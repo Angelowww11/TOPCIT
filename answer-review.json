@@ -1,11 +1,11 @@
 {
   "reviewedOn": "2026-11-25",
-  "scope": "All 242 prompts and choice sets screened. Source marks retained separately. Source-only entries are not independently verified.",
+  "scope": "All 242 prompts and choice sets reviewed. The final pass covers all 91 previously source-only items and revisits all 26 previously unresolved items. Original source keys remain separate. Defective or ambiguous items stay outside scored rounds.",
   "counts": {
-    "verified": 95,
-    "unresolved": 26,
-    "corrected": 30,
-    "source": 91
+    "verified": 168,
+    "corrected": 44,
+    "source": 0,
+    "unresolved": 30
   },
   "items": [
     {
@@ -74,11 +74,13 @@
     {
       "id": 8,
       "page": 2,
-      "status": "unresolved",
+      "status": "verified",
       "sourceAnswerIndex": null,
-      "studyAnswerIndex": null,
-      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-      "references": []
+      "studyAnswerIndex": 3,
+      "reason": "Each of the three binary parameters has four possible value pairs with another parameter. Choice D covers every pair in four rows. Four is minimal because one parameter pair alone has four combinations.",
+      "references": [
+        "https://www.nist.gov/publications/practical-combinatorial-testing-beyond-pairwise"
+      ]
     },
     {
       "id": 9,
@@ -101,11 +103,13 @@
     {
       "id": 11,
       "page": 4,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 0,
-      "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": 2,
+      "reason": "The figure hides the summation loop inside getSum(100). It abstracts a procedure, not a data representation. Choose Procedure abstraction.",
+      "references": [
+        "https://xlinux.nist.gov/dads/"
+      ]
     },
     {
       "id": 12,
@@ -128,11 +132,13 @@
     {
       "id": 14,
       "page": 5,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Site constraints, system properties, and logical-model requirements describe what the software must satisfy. Components and code patterns prescribe design or implementation.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 15,
@@ -155,20 +161,24 @@
     {
       "id": 17,
       "page": 6,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The example retests existing behavior after changes, debugging, and refactoring. These are regression tests.",
+      "references": [
+        "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+      ]
     },
     {
       "id": 18,
       "page": 6,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The C loop compares data[j] with data[j+1] and swaps adjacent elements. That is bubble sort.",
+      "references": [
+        "https://xlinux.nist.gov/dads/HTML/bubblesort.html"
+      ]
     },
     {
       "id": 19,
@@ -191,20 +201,24 @@
     {
       "id": 21,
       "page": 7,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The diagram creates reusable core assets from common and variable product features. Domain engineering supplies assets to application engineering.",
+      "references": [
+        "https://www.sei.cmu.edu/library/software-product-lines/"
+      ]
     },
     {
       "id": 22,
       "page": 7,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The source shows three-dimensional execution nodes and deployed software artifacts. These identify a UML deployment diagram.",
+      "references": [
+        "https://www.omg.org/spec/UML/2.5.1"
+      ]
     },
     {
       "id": 23,
@@ -218,11 +232,13 @@
     {
       "id": 24,
       "page": 8,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The source sends data through Refine and Transform stages from Source to Sink. Independent processing stages connected by data streams form pipes and filters.",
+      "references": [
+        "https://www.iso-architecture.org/ieee-1471/cm/"
+      ]
     },
     {
       "id": 25,
@@ -236,10 +252,10 @@
     {
       "id": 26,
       "page": 9,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "Jenkins and Travis CI automate delivery pipelines; Docker packages and distributes applications. Distribution management is the best common option, not source-code management.",
       "references": []
     },
     {
@@ -256,20 +272,24 @@
     {
       "id": 28,
       "page": 10,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 1,
-      "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": 0,
+      "reason": "In the IEEE 1471 diagram, a system fulfills a mission, has stakeholders, and has an architecture. The source choice about stakeholder purpose describes the mission. Choice A is the system-related option.",
+      "references": [
+        "https://www.iso-architecture.org/ieee-1471/cm/"
+      ]
     },
     {
       "id": 29,
       "page": 10,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 1,
-      "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "The code compares arr[i] with every later arr[j] and swaps immediately. This is simple interchange sorting, not adjacent-pair bubble sorting or conventional minimum-selection sorting. No exact algorithm name is offered.",
+      "references": [
+        "https://xlinux.nist.gov/dads/HTML/bubblesort.html"
+      ]
     },
     {
       "id": 30,
@@ -292,29 +312,35 @@
     {
       "id": 32,
       "page": 11,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The source permits linking while requiring disclosure of modifications to the library. LGPL 2.1 is the matching license. Distribution and relinking conditions still apply.",
+      "references": [
+        "https://www.gnu.org/licenses/gpl-faq.html"
+      ]
     },
     {
       "id": 33,
       "page": 11,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The company derives a class diagram from existing source code to recover missing design information. This direction is reverse engineering.",
+      "references": [
+        "https://www.iso-architecture.org/ieee-1471/cm/"
+      ]
     },
     {
       "id": 34,
       "page": 12,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The class contributes too little behavior to justify its maintenance. That is the Lazy Class code smell, rather than a large class.",
+      "references": [
+        "https://refactoring.com/catalog/extractFunction.html"
+      ]
     },
     {
       "id": 35,
@@ -328,56 +354,66 @@
     {
       "id": 36,
       "page": 13,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 0,
-      "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": 3,
+      "reason": "The source code searches (a) when x is greater than data.value, so (a) must be data.right. Otherwise it searches data.left. The printed date.left in choice D is an evident identifier typo.",
+      "references": [
+        "https://xlinux.nist.gov/dads/HTML/binarySearchTree.html"
+      ]
     },
     {
       "id": 37,
       "page": 13,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The example transforms a platform-independent model into a platform-specific model and generates code. That identifies model-driven development.",
+      "references": [
+        "https://www.omg.org/spec/UML/2.5.1"
+      ]
     },
     {
       "id": 38,
       "page": 14,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "In the source chart, the filled control couple goes from C to D. The return couple from D to C is unfilled. Therefore the stated D-to-C flag direction is wrong.",
       "references": []
     },
     {
       "id": 39,
       "page": 14,
-      "status": "unresolved",
-      "sourceAnswerIndex": null,
-      "studyAnswerIndex": null,
-      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-      "references": []
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "For Topcit_2020_Software_Topcit, count is 2, find from position 2 is 21, and rindex(2020) is 7. startswith(Topcit) is True, not False. The printed startwith also has a spelling error.",
+      "references": [
+        "https://docs.python.org/3/library/stdtypes.html"
+      ]
     },
     {
       "id": 40,
       "page": 14,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The example builds a mock-up and asks users to validate it before full development. This is prototyping.",
+      "references": [
+        "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+      ]
     },
     {
       "id": 41,
       "page": 15,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Starting at zero, while i < 100 iterates 100 times. range(0,100) contains 100 integers. Both snippets therefore print 100 lines.",
+      "references": [
+        "https://docs.python.org/3/library/stdtypes.html"
+      ]
     },
     {
       "id": 42,
@@ -391,11 +427,13 @@
     {
       "id": 43,
       "page": 15,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 2,
-      "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "The condition is x>0 && y>0. The marked pair never makes x>0 false. Choice B covers both logical values, but short-circuit evaluation never evaluates y>0 as true. No listed pair provides full evaluated-condition coverage.",
+      "references": [
+        "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+      ]
     },
     {
       "id": 44,
@@ -409,20 +447,24 @@
     {
       "id": 45,
       "page": 16,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The original Employee class handles both design and development. The new Designer and Developer classes separate those responsibilities. This supports SRP.",
+      "references": [
+        "https://refactoring.com/catalog/extractFunction.html"
+      ]
     },
     {
       "id": 46,
       "page": 16,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Skilled testers begin execution while they design tests and learn about the product. These concurrent activities define exploratory testing.",
+      "references": [
+        "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+      ]
     },
     {
       "id": 47,
@@ -436,46 +478,54 @@
     {
       "id": 48,
       "page": 17,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The source specifies a complete binary tree with parent-child priority ordering in both minimum and maximum variants. That is a heap.",
+      "references": [
+        "https://xlinux.nist.gov/dads/"
+      ]
     },
     {
       "id": 49,
       "page": 17,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The valid input range is 1 through 10. The tests include 0, 1, 10, and 11, which exercise the boundaries and adjacent invalid values.",
+      "references": [
+        "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+      ]
     },
     {
       "id": 50,
       "page": 17,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The example chooses the locally best child, reaches 12, and misses the global maximum 99. It demonstrates the limitation of a greedy choice.",
+      "references": [
+        "https://xlinux.nist.gov/dads/"
+      ]
     },
     {
       "id": 51,
       "page": 18,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The code sorts the array, returns its middle element for odd length, and averages the two middle elements for even length. It computes the median.",
+      "references": [
+        "https://xlinux.nist.gov/dads/"
+      ]
     },
     {
       "id": 52,
       "page": 19,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 1,
-      "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "studyAnswerIndex": 0,
+      "reason": "Both functions access the same file-scope variable temp. Shared global storage creates common coupling. Neither function accesses another function body or local data.",
       "references": []
     },
     {
@@ -490,38 +540,46 @@
     {
       "id": 54,
       "page": 19,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The refactoring moves the amount-printing statement into printDetails(amount) and calls it from printOwing. That is Extract Method, also called Extract Function.",
+      "references": [
+        "https://refactoring.com/catalog/extractFunction.html"
+      ]
     },
     {
       "id": 55,
       "page": 20,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "One monitoring station sends status changes to multiple subscribed monitoring systems and applications. This is the Observer notification structure.",
+      "references": [
+        "https://www.oracle.com/technical-resources/articles/java/observer.html"
+      ]
     },
     {
       "id": 56,
       "page": 20,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 3,
-      "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": 0,
+      "reason": "The figure repeatedly swaps adjacent values; 71 moves to the end during the first pass, then 55 during the second. This is bubble sort, not selection sort.",
+      "references": [
+        "https://xlinux.nist.gov/dads/HTML/bubblesort.html"
+      ]
     },
     {
       "id": 57,
       "page": 21,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Collect current access paths first, inspect distributions to identify candidate columns, select their combination/order, then determine the resulting access paths. The sequence is c,b,d,a.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 58,
@@ -535,11 +593,13 @@
     {
       "id": 59,
       "page": 22,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 0,
-      "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "The PDF provides a bank-standardization case and four numbered rows but never states what property the answer must identify. The red mark alone cannot supply the missing question.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 60,
@@ -573,20 +633,24 @@
     {
       "id": 63,
       "page": 24,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 2,
-      "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": 1,
+      "reason": "The key contains Student No and Subject No. A student name depends on Student No alone, a proper subset of that composite key. That is a partial dependency.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 64,
       "page": 24,
       "status": "unresolved",
-      "sourceAnswerIndex": null,
+      "sourceAnswerIndex": 3,
       "studyAnswerIndex": null,
-      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-      "references": []
+      "reason": "The source is internally defective: in C, the text permits a student without an advisor but the advisor endpoint requires one. D similarly permits no association in text while requiring one in the diagram. More than one diagram contradicts its condition.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 65,
@@ -618,20 +682,22 @@
     {
       "id": 68,
       "page": 26,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source agent observes its environment, chooses actions, and learns from rewards. This is reinforcement learning rather than labeled-example learning.",
       "references": []
     },
     {
       "id": 69,
       "page": 26,
-      "status": "unresolved",
-      "sourceAnswerIndex": null,
-      "studyAnswerIndex": null,
-      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-      "references": []
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Adding a column requires ADD. The source instead uses MODIFY, which changes an existing column definition. That does not perform the stated task.",
+      "references": [
+        "https://www.postgresql.org/docs/current/ddl-alter.html"
+      ]
     },
     {
       "id": 70,
@@ -672,20 +738,24 @@
     {
       "id": 74,
       "page": 28,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 2,
-      "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "An object-relational database still supports relational rows and columns, while adding object features. The source rejects a true but non-distinguishing property. Its wording does not ask which feature is distinctive.",
+      "references": [
+        "https://docs.oracle.com/en/database/oracle/oracle-database/21/adlob/BFILEs.html"
+      ]
     },
     {
       "id": 75,
       "page": 28,
-      "status": "unresolved",
-      "sourceAnswerIndex": null,
-      "studyAnswerIndex": null,
-      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-      "references": []
+      "status": "corrected",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 0,
+      "reason": "The task filters projects with at least ten students, then sums reports by department. WHERE filters rows before GROUP BY. Choice C lacks grouping and filters a different aggregate.",
+      "references": [
+        "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+      ]
     },
     {
       "id": 76,
@@ -699,20 +769,22 @@
     {
       "id": 77,
       "page": 29,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source classifies credit standing through successive in-service, service-duration, and income decisions. These branches form a decision tree.",
       "references": []
     },
     {
       "id": 78,
       "page": 30,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "T1 must obtain its lock on y before releasing its lock on x. Otherwise it would acquire a lock after entering the shrinking phase. Insert lock(y).",
+      "references": [
+        "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+      ]
     },
     {
       "id": 79,
@@ -726,29 +798,35 @@
     {
       "id": 80,
       "page": 31,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 3,
-      "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "The marked filesystem statement describes external LOBs such as Oracle BFILE. Internal LOBs have different storage and transaction semantics. Without specifying internal LOBs, the question has no universal single false statement.",
+      "references": [
+        "https://docs.oracle.com/en/database/oracle/oracle-database/21/adlob/BFILEs.html"
+      ]
     },
     {
       "id": 81,
       "page": 31,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 0,
-      "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": 2,
+      "reason": "The result includes unmatched customers AND an unmatched order with NULL customer. Only FULL OUTER JOIN preserves both sides. LEFT JOIN omits the unmatched order.",
+      "references": [
+        "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+      ]
     },
     {
       "id": 82,
       "page": 31,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The source splits OrderList into separate monthly tables. Among the offered categories, this is table-level denormalization.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 83,
@@ -762,20 +840,24 @@
     {
       "id": 84,
       "page": 32,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Operational backup, performance monitoring, and query tuning are database-administrator duties. They differ from enterprise data governance and conceptual modeling.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 85,
       "page": 33,
-      "status": "unresolved",
-      "sourceAnswerIndex": null,
-      "studyAnswerIndex": null,
-      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
-      "references": []
+      "status": "corrected",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 0,
+      "reason": "Relational division selects sno values related to every pno in B: p1, p2, and p4. Only s1 has all three. Choice A contains s1 alone.",
+      "references": [
+        "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+      ]
     },
     {
       "id": 86,
@@ -789,20 +871,24 @@
     {
       "id": 87,
       "page": 34,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 1,
-      "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "The source labels Barker notation but combines optionality and mandatory wording ambiguously. Its statements about employees without departments and mandatory department membership need a consistent interpretation. The red key does not resolve that conflict.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 88,
       "page": 34,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "A DATE type and a CHECK restricting Gender to 1 or 2 constrain permitted attribute values. These enforce domain integrity.",
+      "references": [
+        "https://www.ibm.com/think/topics/data-modeling"
+      ]
     },
     {
       "id": 89,
@@ -816,19 +902,21 @@
     {
       "id": 90,
       "page": 35,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The cursor lifecycle is DECLARE, OPEN, FETCH, CLOSE. The loop needs FETCH at c; CURSOR is not the retrieval command.",
+      "references": [
+        "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+      ]
     },
     {
       "id": 91,
       "page": 36,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source shows CPU utilization falling when page swapping dominates execution. That is thrashing. Reducing multiprogramming can relieve it.",
       "references": []
     },
     {
@@ -843,20 +931,24 @@
     {
       "id": 93,
       "page": 36,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The code includes omp.h and uses #pragma omp parallel and omp_get_thread_num. These identify OpenMP.",
+      "references": [
+        "https://www.openmp.org/"
+      ]
     },
     {
       "id": 94,
       "page": 37,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The intermediate component serves static files and forwards application requests to a web application server. It is the web server.",
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html"
+      ]
     },
     {
       "id": 95,
@@ -888,11 +980,13 @@
     {
       "id": 98,
       "page": 39,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "FAT32 has a file-size limit just below 4 GiB. exFAT supports much larger files and cross-platform removable media. The pair is FAT32/exFAT. The precise exFAT ceiling depends on implementation.",
+      "references": [
+        "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison"
+      ]
     },
     {
       "id": 99,
@@ -906,28 +1000,32 @@
     {
       "id": 100,
       "page": 39,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The example adds a fixed IPv4-to-MAC mapping. The Windows arp -s command performs that operation. The source omits the space before -s.",
+      "references": [
+        "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/arp"
+      ]
     },
     {
       "id": 101,
       "page": 39,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 2,
-      "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "The source intends personalized order pages as the noncacheable option. A CDN can still proxy dynamic or personalized responses without caching them. The absolute phrase does not apply is technically false.",
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html"
+      ]
     },
     {
       "id": 102,
       "page": 40,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The sender waits for an acknowledgment before sending the next packet and retransmits one packet after a timeout. This is stop-and-wait ARQ.",
       "references": []
     },
     {
@@ -978,10 +1076,10 @@
     {
       "id": 108,
       "page": 42,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source already labels address and control buses. The remaining bus carries payload values between CPU, memory, and I/O, so it is the data bus.",
       "references": []
     },
     {
@@ -996,29 +1094,33 @@
     {
       "id": 110,
       "page": 42,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The source describes an in-memory database, cache, broker, and streaming engine. Redis matches those capabilities.",
+      "references": [
+        "https://redis.io/docs/latest/get-started/"
+      ]
     },
     {
       "id": 111,
       "page": 43,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The diagram overlaps IF, ID, EX, and WB stages for successive instructions. That is instruction pipelining. It does not show multiple instructions issuing per stage.",
       "references": []
     },
     {
       "id": 112,
       "page": 43,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The description uses PLAY and PAUSE commands to control streaming sessions. RTSP provides those controls; RTP transports media.",
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc7826.html"
+      ]
     },
     {
       "id": 113,
@@ -1034,20 +1136,22 @@
     {
       "id": 114,
       "page": 44,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The figure distributes parity across five disks and provides four disks of usable capacity. Distributed single parity with at least three disks identifies RAID 5.",
       "references": []
     },
     {
       "id": 115,
       "page": 44,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Referer identifies the resource from which the target request originated, subject to referrer policy. It is not a general field for the currently displayed page.",
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html"
+      ]
     },
     {
       "id": 116,
@@ -1083,20 +1187,22 @@
     {
       "id": 119,
       "page": 46,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The alternatives describe thin provisioning: physical storage is allocated on demand. Eager-zeroed and lazy-zeroed thick disks preallocate storage, so that choice does not describe thin provisioning.",
       "references": []
     },
     {
       "id": 120,
       "page": 46,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Following the source table, the oldest loaded page is evicted at each fault: A at D, then B at A, then C at B. Hits do not reorder the load queue. This is FIFO.",
+      "references": [
+        "https://xlinux.nist.gov/dads/"
+      ]
     },
     {
       "id": 121,
@@ -1110,10 +1216,10 @@
     {
       "id": 122,
       "page": 47,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "One instruction source applies the same operation to multiple processing units and data elements. That is SIMD.",
       "references": []
     },
     {
@@ -1195,11 +1301,13 @@
     {
       "id": 131,
       "page": 50,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 1,
-      "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "The visible file listing already shows root ownership and root-only read permission. The named Improvement Plan is absent from the supplied example. chown changes ownership; it cannot substitute for missing requirements.",
+      "references": [
+        "https://www.gnu.org/software/coreutils/manual/html_node/Changing-file-attributes.html"
+      ]
     },
     {
       "id": 132,
@@ -1213,10 +1321,10 @@
     {
       "id": 133,
       "page": 50,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The form names the client as the source and the FTP server as the destination. A blanket inbound-port allowance to source IPs does not correctly describe that requested policy. FTP data direction still depends on active/passive mode.",
       "references": []
     },
     {
@@ -1251,20 +1359,22 @@
     {
       "id": 137,
       "page": 51,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source uses statistical or machine-learning behavior and can detect previously unknown intrusions. This is behavior/anomaly-based detection.",
       "references": []
     },
     {
       "id": 138,
       "page": 51,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 3,
-      "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": null,
+      "reason": "The figure lists permissions for named users but no roles, role memberships, owner discretion, or security labels. The same matrix can result from several access-control models. It cannot establish RBAC by itself.",
+      "references": [
+        "https://csrc.nist.gov/glossary/term/role_based_access_control"
+      ]
     },
     {
       "id": 139,
@@ -1296,10 +1406,10 @@
     {
       "id": 142,
       "page": 53,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source describes combining de-identified data with other information to identify a person. This is re-identification.",
       "references": []
     },
     {
@@ -1336,19 +1446,19 @@
     {
       "id": 146,
       "page": 53,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source forges MAC addresses, IP addresses, and trusted sender identities. Impersonating an identity or origin is spoofing.",
       "references": []
     },
     {
       "id": 147,
       "page": 54,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source explicitly names IEEE 802.11i. Its robust security framework replaces WEP with stronger protections; WEP is the incorrect choice.",
       "references": []
     },
     {
@@ -1457,20 +1567,22 @@
     {
       "id": 159,
       "page": 58,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The case describes a security specialist, not a database-design specialist. Of the listed actions, accepting outside financial database design without demonstrated competence is the ethical concern. This is not a claim that all outside work is unethical.",
       "references": []
     },
     {
       "id": 160,
       "page": 59,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The article describes pretrial disclosure of documents and evidence. That process is discovery. Its detailed scope depends on the jurisdiction.",
+      "references": [
+        "https://www.law.cornell.edu/rules/frcp/rule_26"
+      ]
     },
     {
       "id": 161,
@@ -1484,11 +1596,13 @@
     {
       "id": 162,
       "page": 59,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Copyright protects expression, not algorithms, methods, or programming-language ideas as such. That is the intended incorrect statement. Ownership of employee work still depends on applicable law and contracts.",
+      "references": [
+        "https://www.wipo.int/en/web/copyright/faq-copyright"
+      ]
     },
     {
       "id": 163,
@@ -1529,20 +1643,22 @@
     {
       "id": 167,
       "page": 61,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The food-delivery application connects restaurant suppliers and customer demand, generating cross-side network effects. It is a platform business.",
       "references": []
     },
     {
       "id": 168,
       "page": 61,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The Korean Patent Office explanation of Article 94 distinguishes commercial/industrial use from personal or home use. Choice B matches that Korean context. It is not a worldwide personal-use exception.",
+      "references": [
+        "https://www.kipo.go.kr/upload/en/download/Understanding_the_Patent_Act_of_the_Republic_of_Korea.pdf"
+      ]
     },
     {
       "id": 169,
@@ -1556,10 +1672,10 @@
     {
       "id": 170,
       "page": 62,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "Talent acquisition and employee retention concern organizational capabilities and learning/growth. Sales cost and profit belong to the financial perspective.",
       "references": []
     },
     {
@@ -1630,11 +1746,13 @@
     {
       "id": 178,
       "page": 65,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The case processes access-control data near the 5G base station to reduce latency. That describes mobile/multi-access edge computing.",
+      "references": [
+        "https://www.etsi.org/technologies/multi-access-edge-computing"
+      ]
     },
     {
       "id": 179,
@@ -1666,10 +1784,10 @@
     {
       "id": 182,
       "page": 66,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The source groups infrastructure, platform support, training, and cooperation above the primary value-chain activities. These are support activities.",
       "references": []
     },
     {
@@ -1711,10 +1829,10 @@
     {
       "id": 187,
       "page": 68,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "reason": "The figure moves information through storage tiers as access frequency changes over its life. This is information lifecycle management.",
       "references": []
     },
     {
@@ -1729,11 +1847,13 @@
     {
       "id": 189,
       "page": 68,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 2,
-      "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": 1,
+      "reason": "The proposed action trains AI specialists and funds research centers. It addresses the listed talent and investment weaknesses while exploiting growth opportunities. This is WO, not ST.",
+      "references": [
+        "https://www.business.qld.gov.au/starting-business/planning/market-customer-research/swot-analysis"
+      ]
     },
     {
       "id": 190,
@@ -1756,56 +1876,66 @@
     {
       "id": 192,
       "page": 69,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 2,
-      "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "studyAnswerIndex": 3,
+      "reason": "The highlighted gap lies between early adopters and the early majority. It is the Chasm. Tornado describes a later rapid-adoption phase.",
+      "references": [
+        "https://www.geoffreyamoore.com/books"
+      ]
     },
     {
       "id": 193,
       "page": 70,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 3,
       "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The first three options specify service targets or a contractual remedy. The last describes a purely internal reporting duty, not an agreed customer-facing service level as written.",
+      "references": [
+        "https://aws.amazon.com/what-is/service-level-agreement/"
+      ]
     },
     {
       "id": 194,
       "page": 70,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The blank is an agreement between the service provider and customer that sets service expectations and measurement. That is an SLA.",
+      "references": [
+        "https://aws.amazon.com/what-is/service-level-agreement/"
+      ]
     },
     {
       "id": 195,
       "page": 70,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The source links a physical asset with a continuously updated digital representation and simulation. That is a digital twin.",
+      "references": [
+        "https://www.ibm.com/think/topics/digital-twin"
+      ]
     },
     {
       "id": 196,
       "page": 71,
-      "status": "source",
+      "status": "corrected",
       "sourceAnswerIndex": 3,
-      "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "studyAnswerIndex": 0,
+      "reason": "This figure duplicates the online-sales, agile-culture, and AI/IoT/cloud example on page 73. These enterprise changes describe digital transformation, not servitization.",
       "references": []
     },
     {
       "id": 197,
       "page": 71,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The figure plots observations around a center line and upper/lower control limits. It is a control chart.",
+      "references": [
+        "https://asq.org/quality-resources/seven-basic-quality-tools"
+      ]
     },
     {
       "id": 198,
@@ -1846,10 +1976,10 @@
     {
       "id": 202,
       "page": 73,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 3,
-      "studyAnswerIndex": 3,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "studyAnswerIndex": null,
+      "reason": "The source provides organization matching, infrastructure design, and implementation scheduling but does not define its ISP phase model. Design normally precedes implementation scheduling, contrary to the red mark. No model-specific key is established.",
       "references": []
     },
     {
@@ -1882,28 +2012,32 @@
     {
       "id": 206,
       "page": 75,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The chart uses horizontal bars to show task start and finish dates across a timeline. This is a Gantt chart.",
+      "references": [
+        "https://www.pmi.org/learning/library/work-breakdown-structure-major-principles-4886"
+      ]
     },
     {
       "id": 207,
       "page": 76,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Scope management defines the work boundary. The WBS decomposes scope; a work package is its lowest management component. Choice B gives that sequence.",
+      "references": [
+        "https://www.pmi.org/learning/library/work-breakdown-structure-major-principles-4886"
+      ]
     },
     {
       "id": 208,
       "page": 76,
-      "status": "source",
+      "status": "unresolved",
       "sourceAnswerIndex": 2,
-      "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "studyAnswerIndex": null,
+      "reason": "The printed table puts contract conditions under section III, but choice B assigns them to section II. Other choices also mix requirements and proposal-writing instructions. The red C key does not establish a uniquely incorrect placement.",
       "references": []
     },
     {
@@ -1936,11 +2070,13 @@
     {
       "id": 212,
       "page": 77,
-      "status": "unresolved",
+      "status": "corrected",
       "sourceAnswerIndex": 0,
-      "studyAnswerIndex": null,
-      "reason": "The figure requires internal failure, external failure, and prevention costs, in that order. None of the four options gives that complete combination.",
-      "references": []
+      "studyAnswerIndex": 3,
+      "reason": "The figure labels costs before delivery as internal failure, after delivery as external failure, and prevention work as prevention. Choice D provides exactly that order. The previous unresolved classification was incorrect.",
+      "references": [
+        "https://asq.org/quality-resources/seven-basic-quality-tools"
+      ]
     },
     {
       "id": 213,
@@ -1981,11 +2117,13 @@
     {
       "id": 217,
       "page": 79,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 0,
       "studyAnswerIndex": 0,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The source defines the lowest WBS component used to manage cost and schedule. That is a work package. The stated 80-hour size is a heuristic, not a mandatory universal limit.",
+      "references": [
+        "https://www.pmi.org/learning/library/work-breakdown-structure-major-principles-4886"
+      ]
     },
     {
       "id": 218,
@@ -2044,11 +2182,13 @@
     {
       "id": 224,
       "page": 82,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The decision tree weights outcomes by their probabilities. New system EMV = .6*8-.4*3 = 3.6 million; renovation EMV = .6*7-.4*1 = 3.8 million. This is expected monetary value analysis.",
+      "references": [
+        "https://www.pmi.org/learning/library/risk-analysis-project-management-7070"
+      ]
     },
     {
       "id": 225,
@@ -2062,11 +2202,13 @@
     {
       "id": 226,
       "page": 83,
-      "status": "unresolved",
+      "status": "corrected",
       "sourceAnswerIndex": 2,
-      "studyAnswerIndex": null,
-      "reason": "The first bullet evaluates results (Check); the second decides a corrective action (Act). The combined prompt does not isolate one PDCA phase.",
-      "references": []
+      "studyAnswerIndex": 3,
+      "reason": "Checking the defect rate is Check. The final decision introduces additional peer review as corrective improvement, which is Act. The final action is the most specific phase requested by this two-bullet example.",
+      "references": [
+        "https://asq.org/quality-resources/pdca-cycle"
+      ]
     },
     {
       "id": 227,
@@ -2080,20 +2222,24 @@
     {
       "id": 228,
       "page": 83,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The company removes risky scope from the project instead of accepting or transferring the exposure. Removing the risky work is avoidance.",
+      "references": [
+        "https://www.pmi.org/learning/library/risk-analysis-project-management-7070"
+      ]
     },
     {
       "id": 229,
       "page": 84,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 1,
       "studyAnswerIndex": 1,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "Quadrant D has low market growth and low relative share. Divesting that dog business is the supported BCG strategy among these choices.",
+      "references": [
+        "https://www.bcg.com/about/overview/our-history/growth-share-matrix"
+      ]
     },
     {
       "id": 230,
@@ -2116,11 +2262,13 @@
     {
       "id": 232,
       "page": 85,
-      "status": "source",
+      "status": "verified",
       "sourceAnswerIndex": 2,
       "studyAnswerIndex": 2,
-      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
-      "references": []
+      "reason": "The case sets a sales target, executes work, checks results, improves the process, and repeats. These steps form a PDCA cycle.",
+      "references": [
+        "https://asq.org/quality-resources/pdca-cycle"
+      ]
     },
     {
       "id": 233,
