@@ -67,14 +67,20 @@ changes = {
 242:(2,'Untrusted input that runs malicious script in a visitor browser is cross-site scripting (XSS). The yellow source highlight marks this choice.',[])
 }
 from remaining_audit import FINDINGS, REFERENCES, CHOICE_REPAIRS
+from reviewer_fallbacks import FALLBACK_NOTES, BASE_CAVEATS, CHOICE_REPAIRS as FALLBACK_CHOICES
+CHOICE_REPAIRS.update(FALLBACK_CHOICES)
 for item_id,(answer,note,ref_names) in FINDINGS.items():
     names=ref_names.split() if ref_names else []
     for name in names: URL[name]=REFERENCES[name]
     changes[item_id]=(answer,note,names)
+for item_id,note in BASE_CAVEATS.items():
+    changes.setdefault(item_id,(None,note,[]))
 # Straightforward text items that can be checked without an unseen diagram or local legal assumptions.
 checked = {1,3,4,5,6,7,10,12,13,15,16,19,20,23,25,30,31,42,44,47,53,58,61,62,65,67,79,83,86,89,92,95,96,99,103,104,105,106,107,109,118,121,124,125,126,128,130,132,134,135,139,141,144,149,158,161,163,164,165,166,169,173,175,176,177,179,181,183,185,186,188,190,191,198,199,203,204,205,209,210,211,214,215,216,218,219,220,221,222,230,231,233,235,236,237,238,239}
 ledger=[]
 for q in questions:
+    q.pop('answerBasis',None)
+    q.pop('reviewCaveat',None)
     source=q.get('sourceAnswerIndex',q['answerIndex'])
     if q['id'] in {39:3,64:3,69:2,75:2,85:1}:
         source={39:3,64:3,69:2,75:2,85:1}[q['id']]
@@ -89,6 +95,8 @@ for q in questions:
         q['question']=re.sub(r'\s*-\s*[A-D]\s*$','',q['question'])
     if q['id']==8:
         q['exhibit']='assets/source/restored-pairwise-input.webp'
+    if q['id']==64:
+        q['exhibit']='assets/source/restored-erd-options.webp'
     yellow_keys={150:1,151:3,152:1,153:1,154:1,155:0,156:1,157:2,242:2}
     if q['id'] in yellow_keys:
         source=yellow_keys[q['id']]
@@ -97,9 +105,19 @@ for q in questions:
     if q['id'] in changes:
         answer,note,refs=changes[q['id']]
         q['answerIndex']=answer;q['reviewNote']=note;q['reviewReferences']=[URL[r] for r in refs]
+    q['checkedAnswerIndex']=q['answerIndex']
+    if q['answerIndex'] is None and q['id'] in FALLBACK_NOTES:
+        assert isinstance(source,int) and 0 <= source < len(q['choices']),q['id']
+        q['reviewCaveat']=q['reviewNote']
+        q['answerIndex']=source
+        q['reviewNote']=FALLBACK_NOTES[q['id']]
+        q['answerBasis']='reviewer-key'
+        q['resolution']='Uses the marked reviewer key at the learner request; the source ambiguity remains documented.'
     if q['answerIndex'] is None:
         status='unresolved'
         q.setdefault('reviewNote','The choices or source key are incomplete. No single answer is assigned for scoring.')
+    elif q.get('answerBasis')=='reviewer-key':
+        status='source'
     elif q['id'] in changes or q['id'] in checked or 'reviewNote' in q:
         status='corrected' if source is not None and source!=q['answerIndex'] else 'verified'
     else:
@@ -109,23 +127,23 @@ for q in questions:
     if q['id'] in FINDINGS:
         q['reviewMethod']='Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.'
     if status=='unresolved': q['resolution']='Confirmed source defect or insufficient context; no defensible single answer.'
-    else: q.pop('resolution',None)
-    ledger.append({'id':q['id'],'page':q['sourcePage'],'status':status,'sourceAnswerIndex':source,'studyAnswerIndex':q['answerIndex'],'reason':q.get('reviewNote','Checked against the prompt and choices.' if status=='verified' else 'Source answer retained. This item still needs independent verification of its diagram or contextual claim.'),'references':q.get('reviewReferences',[])})
+    elif status!='source': q.pop('resolution',None)
+    ledger.append({'id':q['id'],'page':q['sourcePage'],'status':status,'sourceAnswerIndex':source,'studyAnswerIndex':q['answerIndex'],'checkedAnswerIndex':q['checkedAnswerIndex'],'reason':q.get('reviewNote','Checked against the prompt and choices.' if status=='verified' else 'Source answer retained.'),'sourceCaveat':q.get('reviewCaveat'),'references':q.get('reviewReferences',[])})
 (ROOT/'questions.json').write_text(json.dumps(questions,ensure_ascii=False,indent=2),encoding='utf-8')
 from collections import Counter
 counts={name:0 for name in ['verified','corrected','source','unresolved']}
 counts.update(Counter(q['reviewStatus'] for q in questions))
-(ROOT/'answer-review.json').write_text(json.dumps({'reviewedOn':'2026-11-25','scope':'All 242 prompts and choice sets reviewed. The final pass covers all 91 previously source-only items and revisits all 26 previously unresolved items. Original source keys remain separate. Defective or ambiguous items stay outside scored rounds.','counts':counts,'items':ledger},ensure_ascii=False,indent=2),encoding='utf-8')
+(ROOT/'answer-review.json').write_text(json.dumps({'reviewedOn':'2026-11-25','scope':'All 242 prompts and choice sets reviewed. The final pass covers all 91 previously source-only items and revisits all 26 previously unresolved items. Original source keys remain separate. The 30 ambiguous items use labeled reviewer-key fallbacks for practice and scoring. checkedAnswerIndex remains null for those fallbacks.','counts':counts,'items':ledger},ensure_ascii=False,indent=2),encoding='utf-8')
 print(counts)
 from html import escape
 def e(value): return escape(str(value))
-labels={'verified':'Checked answer','corrected':'Corrected answer','source':'Reviewer key only','unresolved':'Source defect — study only'}
+labels={'verified':'Checked answer','corrected':'Corrected answer','source':'Reviewer answer — source ambiguity','unresolved':'Source defect — study only'}
 rows=[]
 for q,item in zip(questions,ledger):
     source=((q.get('sourceChoices') or q['choices'])[q['sourceAnswerIndex']] or f'Diagram choice {chr(65+q["sourceAnswerIndex"])} (see the source figure)') if q['sourceAnswerIndex'] is not None else 'No source mark found'
     answer=q['choices'][q['answerIndex']] if q['answerIndex'] is not None else 'No single answer assigned'
     rows.append(f'<tr data-status="{q["reviewStatus"]}"><td>#{q["id"]}<br>PDF p. {q["sourcePage"]}</td><td><b>{e(q["question"])}</b><p>{e(item["reason"])}</p></td><td>{e(source)}</td><td>{e(answer)}<p><strong>{e(labels[q["reviewStatus"]])}</strong></p>'+''.join(f'<a href="{e(url)}" target="_blank" rel="noopener">Reference ↗</a> ' for url in item['references'])+'</td></tr>')
-html='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TOPCIT answer review</title><style>body{margin:0;background:#1c2639;color:#edf2fb;font:15px/1.6 system-ui}main{max-width:1250px;margin:auto;padding:24px}a{color:#abc1ff}h1{line-height:1.2}p{color:#b5c4dc}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:16px;border-bottom:1px solid #43546f;vertical-align:top}td:first-child{min-width:75px}td:nth-child(2){width:40%}input,select{background:#243148;color:#edf2fb;padding:12px;border:1px solid #7183a1;border-radius:9px;font:inherit;max-width:100%;box-sizing:border-box}.filters{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}tr[data-status=corrected] td:last-child strong,tr[data-status=unresolved] td:last-child strong{color:#ffd69b}a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ffb095;outline-offset:4px}[hidden]{display:none!important}@media(max-width:650px){main{padding:16px}table,tbody,tr,td{display:block}thead{display:none}tr{margin-bottom:24px;background:#243148;border-radius:14px;padding:8px}td{width:auto!important;padding:10px;border:0}td:nth-child(3):before{content:'Reviewer key: ';font-weight:700}td:nth-child(4):before{content:'Study answer: ';font-weight:700}}</style><main><a href="./">← Return to TOPCIT</a><h1>Answer review</h1><p>All 242 prompts and choice sets were reviewed on 25 November 2026. The final pass covers all 91 previously source-only answers and revisits all 26 previously unresolved items. Defective items stay available for study without a scored answer. Each finding preserves the reviewer key and explains the study answer or source defect.</p>'''
-html+=f'<p>{counts["corrected"]} corrected · {counts["verified"]} checked · {counts["source"]} reviewer key only · {counts["unresolved"]} unresolved</p>'
-html+='''<div class="filters"><input id="search" type="search" placeholder="Search the question or answer" aria-label="Search audit"><select id="status" aria-label="Filter status"><option value="all">All statuses</option><option value="corrected">Corrected</option><option value="verified">Checked</option><option value="source">Reviewer key only</option><option value="unresolved">Source defects / study only</option></select></div><table><thead><tr><th>Item</th><th>Question and review</th><th>Reviewer key</th><th>Study answer</th></tr></thead><tbody>'''+''.join(rows)+'''</tbody></table><script>const search=document.getElementById('search'),status=document.getElementById('status');function filter(){for(const row of document.querySelectorAll('tbody tr'))row.hidden=!(row.textContent.toLowerCase().includes(search.value.toLowerCase())&&(status.value==='all'||row.dataset.status===status.value));}search.addEventListener('input',filter);status.addEventListener('change',filter);</script></main></html>'''
+html='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TOPCIT answer review</title><style>body{margin:0;background:#1c2639;color:#edf2fb;font:15px/1.6 system-ui}main{max-width:1250px;margin:auto;padding:24px}a{color:#abc1ff}h1{line-height:1.2}p{color:#b5c4dc}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:16px;border-bottom:1px solid #43546f;vertical-align:top}td:first-child{min-width:75px}td:nth-child(2){width:40%}input,select{background:#243148;color:#edf2fb;padding:12px;border:1px solid #7183a1;border-radius:9px;font:inherit;max-width:100%;box-sizing:border-box}.filters{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}tr[data-status=corrected] td:last-child strong,tr[data-status=unresolved] td:last-child strong{color:#ffd69b}a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ffb095;outline-offset:4px}[hidden]{display:none!important}@media(max-width:650px){main{padding:16px}table,tbody,tr,td{display:block}thead{display:none}tr{margin-bottom:24px;background:#243148;border-radius:14px;padding:8px}td{width:auto!important;padding:10px;border:0}td:nth-child(3):before{content:'Reviewer key: ';font-weight:700}td:nth-child(4):before{content:'Study answer: ';font-weight:700}}</style><main><a href="./">← Return to TOPCIT</a><h1>Answer review</h1><p>All 242 prompts and choice sets were reviewed on 25 November 2026. The final pass covers all 91 previously source-only answers and revisits all 26 previously unresolved items. The 30 ambiguous items now use the marked reviewer key at the learner request. Their labels distinguish reviewer answers from checked answers. Each finding preserves the reviewer key and explains its source caveat.</p>'''
+html+=f'<p>{counts["corrected"]} corrected · {counts["verified"]} checked · {counts["source"]} reviewer answers · {counts["unresolved"]} unresolved</p>'
+html+='''<div class="filters"><input id="search" type="search" placeholder="Search the question or answer" aria-label="Search audit"><select id="status" aria-label="Filter status"><option value="all">All statuses</option><option value="corrected">Corrected</option><option value="verified">Checked</option><option value="source">Reviewer answers</option><option value="unresolved">Source defects / study only</option></select></div><table><thead><tr><th>Item</th><th>Question and review</th><th>Reviewer key</th><th>Study answer</th></tr></thead><tbody>'''+''.join(rows)+'''</tbody></table><script>const search=document.getElementById('search'),status=document.getElementById('status');function filter(){for(const row of document.querySelectorAll('tbody tr'))row.hidden=!(row.textContent.toLowerCase().includes(search.value.toLowerCase())&&(status.value==='all'||row.dataset.status===status.value));}search.addEventListener('input',filter);status.addEventListener('change',filter);</script></main></html>'''
 (ROOT/'answer-review.html').write_text(html,encoding='utf-8')

@@ -63,7 +63,7 @@
     $('pathPosition').textContent = `Question ${p.index + 1} of ${pool.length}`;
     $('pathProgress').style.width = `${pct(count, pool.length)}%`;
     $('pathDomain').textContent = q.domain;
-    $('pathSource').textContent = `PDF page ${q.sourcePage} · ${studyOnly ? 'Study only' : 'Checked question'}`;
+    $('pathSource').textContent = `PDF page ${q.sourcePage} · ${studyOnly ? 'Study only' : answerLabel(q)}`;
     $('pathQuestionTitle').textContent = q.question;
     $('pathExhibit').innerHTML = q.exhibit ? `<img src="${esc(q.exhibit)}" alt="Original source figure for question ${p.index + 1}">` : '';
     $('pathChoices').innerHTML = orderFor(q).map((index, position) => {
@@ -75,7 +75,7 @@
     $('pathCorrectFirst').checked = p.correctFirst;
     $('pathExplanations').checked = p.explanations;
     $('pathKeyIdea').checked = p.keyIdea;
-    $('pathOrderNote').textContent = p.correctFirst ? 'The checked answer appears first. Study-only items keep their source order or your shuffle setting.' : p.shuffleChoices ? 'The choices are shuffled. Each question keeps its choice order when you return.' : 'The questions and choices keep their source order.';
+    $('pathOrderNote').textContent = p.correctFirst ? 'The answer used for this question appears first. Reviewer answers stay labeled separately from checked answers.' : p.shuffleChoices ? 'The choices are shuffled. Each question keeps its choice order when you return.' : 'The questions and choices keep their source order.';
     $('pathPrevious').disabled = p.index === 0;
     $('pathNext').disabled = p.index === pool.length - 1;
     document.querySelectorAll('[data-path-step]').forEach(button => { button.disabled = Number(button.dataset.pathStep) < 0 ? p.index === 0 : p.index === pool.length - 1; });
@@ -93,7 +93,7 @@
     }).join('');
     $('pathFeedback').hidden = !done && !studyOnly;
     if (done || studyOnly) {
-      const message = studyOnly ? 'This source item has no single checked answer.' : record.status === 'correct' ? 'Correct — nicely done.' : record.status === 'wrong' ? 'Not quite. Review the idea, then try again.' : 'Answer revealed. Try it from memory next time.';
+      const message = studyOnly ? 'This source item has no single checked answer.' : record.status === 'correct' ? (q.reviewStatus === 'source' ? 'Matches the reviewer key.' : 'Correct — nicely done.') : record.status === 'wrong' ? (q.reviewStatus === 'source' ? 'Different from the reviewer key. Review its answer below.' : 'Not quite. Review the idea, then try again.') : 'Answer revealed. Try it from memory next time.';
       const lesson = lessonFor(q);
       $('pathFeedback').className = `game-feedback path-feedback ${record?.status === 'wrong' ? 'wrong' : ''}`;
       $('pathFeedback').innerHTML = `<strong>${message}</strong>${studyOnly ? '<p>This item stays in the path for review. It does not receive a correct or wrong mark.</p>' : `<p><b>${esc(answerLabel(q))}:</b> ${esc(q.choices[q.answerIndex])}</p>`}<div class="path-explanation" ${p.explanations ? '' : 'hidden'}>${answerEvidence(q)}${explanationContent(q, false)}</div>${lesson && !studyOnly ? `<div class="path-key-idea" ${p.keyIdea ? '' : 'hidden'}><b>Key idea</b><p>${esc(lesson[3])}</p></div>` : ''}`;

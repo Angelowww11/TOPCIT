@@ -7,12 +7,18 @@ from pathlib import Path
 questions=json.loads((Path(__file__).parent/'questions.json').read_text(encoding='utf-8'))
 by_id={q['id']:q for q in questions}
 assert len(questions)==242 and len(by_id)==242
-assert not any(q['reviewStatus']=='source' for q in questions)
-assert all(q['answerIndex'] is None for q in questions if q['reviewStatus']=='unresolved')
+reviewer_answers=[q for q in questions if q['reviewStatus']=='source']
+assert len(reviewer_answers)==30
+assert sum(q['checkedAnswerIndex'] is not None for q in questions)==212
+assert all(q['answerIndex']==q['sourceAnswerIndex'] and q['checkedAnswerIndex'] is None and q['reviewCaveat'] for q in reviewer_answers)
+assert all(q['answerIndex'] is not None for q in questions)
 for q in questions:
     if q['answerIndex'] is not None:
         assert q['choices'][q['answerIndex']].strip(),q['id']
     assert 'sourceAnswerIndex' in q
+assert by_id[2]['answerIndex']==2 and by_id[2]['reviewStatus']=='source'
+assert by_id[64]['answerIndex']==3 and all(by_id[64]['choices'])
+assert (Path(__file__).parent/by_id[64]['exhibit']).exists()
 
 # The restored pairwise table must cover every pair, not merely agree with a source letter.
 rows=[row.split('/') for row in by_id[8]['choices'][by_id[8]['answerIndex']].split('; ')]

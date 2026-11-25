@@ -31,3 +31,9 @@ body{background:var(--paper)}.mesh{background:none;opacity:1}.mesh:after{display
 @media(max-width:359px){.topbar nav{grid-template-columns:repeat(2,minmax(0,1fr))}.topbar nav .nav:last-child{grid-column:1/-1}.nav{font-size:12px}.path-switches{grid-template-columns:1fr}.path-map summary span{float:none;display:block;margin-top:5px}.path-head h1{font-size:38px}.practice-route-copy strong{font-size:24px}}
 @media(prefers-reduced-motion:reduce){.practice-route{transition:none}.practice-route:hover{transform:none}}
 .path-bottom-navigation{display:flex;justify-content:space-between;gap:12px;margin-top:24px}.path-bottom-navigation button{min-width:130px}@media(max-width:550px){.path-bottom-navigation button{min-width:0;flex:1;font-size:12px}}
+
+/* Keep pointer and keyboard choice states inside the selected theme. */
+.game-choices button:hover:not(:disabled),.game-choices button:focus-visible:not(:disabled){background:var(--surface-2);color:var(--ink);border-color:var(--blue);box-shadow:0 0 0 2px color-mix(in srgb,var(--blue) 18%,transparent)}
+.game-choices button:hover:not(:disabled)>span,.game-choices button:focus-visible:not(:disabled)>span{background:var(--paper);color:var(--ink)}
+.match-list button:hover:not(:disabled),.match-list button:focus-visible:not(:disabled){background:var(--surface-2);color:var(--ink);border-color:var(--blue)}
+.answer-evidence[data-status=source] .evidence-label{background:var(--warning-bg);color:var(--warning)}
