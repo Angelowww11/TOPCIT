@@ -20,7 +20,7 @@ def apply_repairs(questions):
         question = by_id[repair['questionId']]
         question['exhibit'] = repair['image']
         question['exhibitPages'] = sorted({question['sourcePage'], *(region['page'] for region in repair['regions'])})
-        question['exhibitNote'] = 'Original embedded source examples restored across the PDF page boundary.'
+        question['exhibitNote'] = 'Original source pictures, tables, code, or descriptions restored and checked against the supplied files.'
 
 
 def restore():
@@ -33,9 +33,12 @@ def restore():
         width = max(region['rect'][2]-region['rect'][0] for region in regions)
         height = sum(region['rect'][3]-region['rect'][1] for region in regions)
         assembled = pymupdf.open()
-        page = assembled.new_page(width=width+20, height=height+16*(len(regions)+1))
+        page = assembled.new_page(width=width+20, height=height+16*(len(regions)+1)+18*sum(bool(r.get('label')) for r in regions))
         top = 16
         for region in regions:
+            if region.get('label'):
+                page.insert_text((10,top+9),region['label'],fontsize=9,color=(.2,.25,.3))
+                top += 18
             source_page = source[region['page']-1]
             target = pymupdf.Rect(region['rect'])
             matches = [image[0] for image in source_page.get_images(full=True)

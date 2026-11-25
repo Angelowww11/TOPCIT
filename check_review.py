@@ -20,7 +20,7 @@ assert by_id[2]['answerIndex']==2 and by_id[2]['reviewStatus']=='source'
 assert by_id[64]['answerIndex']==3 and all(by_id[64]['choices'])
 assert (Path(__file__).parent/by_id[64]['exhibit']).exists()
 repairs=json.loads((Path(__file__).parent/'source-figure-repairs.json').read_text(encoding='utf-8'))
-assert len(repairs)==10
+assert len(repairs)>=23
 assert by_id[33]['exhibitPages']==[11,12]
 assert len(next(item for item in repairs if item['questionId']==33)['regions'])==2
 for item in repairs:

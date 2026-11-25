@@ -81,6 +81,24 @@ for item_id,note in BASE_CAVEATS.items():
 checked = {1,3,4,5,6,7,10,12,13,15,16,19,20,23,25,30,31,42,44,47,53,58,61,62,65,67,79,83,86,89,92,95,96,99,103,104,105,106,107,109,118,121,124,125,126,128,130,132,134,135,139,141,144,149,158,161,163,164,165,166,169,173,175,176,177,179,181,183,185,186,188,190,191,198,199,203,204,205,209,210,211,214,215,216,218,219,220,221,222,230,231,233,235,236,237,238,239}
 ledger=[]
 for q in questions:
+    if q['id']==149:
+        if 'Malicious scripts' in q['choices'][3]:
+            q.setdefault('importedChoicesBeforeRepair',q['choices'][:])
+        q['choices'][3]='Stop unnecessary services applying terminal services, anonymous FTP, SNMP, etc.'
+        q['contentRepairNote']='Removed the next unnumbered XSS question that the importer appended to the final Windows-security choice.'
+    if q['id']==167:
+        if q['choices'][0]!='A.I. business model':
+            q.setdefault('importedChoicesBeforeRepair',q['choices'][:])
+        q['choices'][0]='A.I. business model'
+        q['contentRepairNote']='Restored A.I.; the importer mistook the abbreviation for another answer-letter marker.'
+    if q['id']==242:
+        q['question']='What is the type of security weakness described below?'
+        q['description']=[
+            "Malicious scripts are inserted into a web page to be executed by a user's PC.",
+            'When an unverified external input is used to create a dynamic web page, it launches malicious behavior with the access privilege of the person browsing the page.',
+            'It leads to attacks such as leaks in browser cookies.'
+        ]
+        q['contentRepairNote']='Restored the complete three-point source description and its insecure-code example from PDF page 55.'
     q.pop('answerBasis',None)
     q.pop('reviewCaveat',None)
     source=q.get('sourceAnswerIndex',q['answerIndex'])
@@ -95,10 +113,6 @@ for q in questions:
         import re
         q.setdefault('sourceQuestion',q['question'])
         q['question']=re.sub(r'\s*-\s*[A-D]\s*$','',q['question'])
-    if q['id']==8:
-        q['exhibit']='assets/source/restored-pairwise-input.webp'
-    if q['id']==64:
-        q['exhibit']='assets/source/restored-erd-options.webp'
     yellow_keys={150:1,151:3,152:1,153:1,154:1,155:0,156:1,157:2,242:2}
     if q['id'] in yellow_keys:
         source=yellow_keys[q['id']]

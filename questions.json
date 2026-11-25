@@ -55,11 +55,15 @@
       "Proxy Pattern"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-03-p1.webp",
+    "exhibit": "assets/source/restored-question-003-context.webp",
     "sourceAnswerIndex": 1,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 1
+    "checkedAnswerIndex": 1,
+    "exhibitPages": [
+      1
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 4,
@@ -151,7 +155,7 @@
       "On/Play/Down; On/Stop/Up; Off/Play/Up; Off/Stop/Down"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/restored-pairwise-input.webp",
+    "exhibit": "assets/source/restored-question-008-context.webp",
     "sourceAnswerIndex": null,
     "reviewNote": "Each of the three binary parameters has four possible value pairs with another parameter. Choice D covers every pair in four rows. Four is minimal because one parameter pair alone has four combinations.",
     "reviewStatus": "verified",
@@ -167,7 +171,12 @@
       "https://www.nist.gov/publications/practical-combinatorial-testing-beyond-pairwise"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 3
+    "checkedAnswerIndex": 3,
+    "exhibitPages": [
+      2,
+      3
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 9,
@@ -206,11 +215,15 @@
       "(a) instance, (b) class, (c) object"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-10-p4.webp",
+    "exhibit": "assets/source/restored-question-010-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      4
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 11,
@@ -225,7 +238,7 @@
       "Inheritance abstraction"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-11-p4.webp",
+    "exhibit": "assets/source/restored-question-011-context.webp",
     "sourceAnswerIndex": 0,
     "reviewStatus": "corrected",
     "reviewedOn": "2026-11-25",
@@ -234,7 +247,11 @@
       "https://xlinux.nist.gov/dads/"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      4
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 12,
@@ -311,11 +328,15 @@
       "Command pattern"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-15-p5.webp",
+    "exhibit": "assets/source/restored-question-015-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      5
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 16,
@@ -473,7 +494,7 @@
       7,
       8
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 23,
@@ -488,11 +509,15 @@
       "Tree"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-23-p8.webp",
+    "exhibit": "assets/source/restored-question-023-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      8
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 24,
@@ -531,11 +556,15 @@
       "System.out.println(testArray[0]);"
     ],
     "answerIndex": 2,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-025-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      9
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 26,
@@ -572,7 +601,7 @@
       "Test: Carry out unit tests with the unit test tool."
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-27-p9.webp",
+    "exhibit": "assets/source/restored-question-027-context.webp",
     "sourceAnswerIndex": 0,
     "reviewNote": "The reviewer marks the Compile statement. Its machine-language wording is too broad. The Deploy choice also confuses local and remote repositories, so the options contain more than one defect.",
     "reviewReferences": [
@@ -582,6 +611,10 @@
     "reviewedOn": "2026-11-25",
     "resolution": "Uses the marked reviewer key at the learner request; the source ambiguity remains documented.",
     "checkedAnswerIndex": null,
+    "exhibitPages": [
+      9
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files.",
     "reviewCaveat": "Maven deploy copies a package to a remote repository, not the local repository. The compile wording also incorrectly assumes machine code for every project. More than one choice is defective.",
     "answerBasis": "reviewer-key"
   },
@@ -649,11 +682,15 @@
       "Queue"
     ],
     "answerIndex": 1,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-030-context.webp",
     "sourceAnswerIndex": 1,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 1
+    "checkedAnswerIndex": 1,
+    "exhibitPages": [
+      10
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 31,
@@ -725,7 +762,7 @@
       11,
       12
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 34,
@@ -740,7 +777,7 @@
       "Inline class"
     ],
     "answerIndex": 2,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-034-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -749,7 +786,11 @@
       "https://refactoring.com/catalog/extractFunction.html"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      12
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 35,
@@ -850,14 +891,18 @@
       "Module F is a library that consists of predefined modules."
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-38-p14.webp",
+    "exhibit": "assets/source/restored-question-038-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
     "reviewNote": "In the source chart, the filled control couple goes from C to D. The return couple from D to C is unfilled. Therefore the stated D-to-C flag direction is wrong.",
     "reviewReferences": [],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      14
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 39,
@@ -872,7 +917,7 @@
       "myString.startwith('Topcit') returns False (as printed; the valid method is startswith)"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/software-39-p14.webp",
+    "exhibit": "assets/source/restored-question-039-context.webp",
     "sourceAnswerIndex": 3,
     "reviewNote": "For Topcit_2020_Software_Topcit, count is 2, find from position 2 is 21, and rindex(2020) is 7. startswith(Topcit) is True, not False. The printed startwith also has a spelling error.",
     "reviewStatus": "verified",
@@ -890,7 +935,11 @@
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
     "sourceQuestion": "A character string is given in a Python program as shown below. Which of the following is NOT a correct output from each function? - D",
-    "checkedAnswerIndex": 3
+    "checkedAnswerIndex": 3,
+    "exhibitPages": [
+      14
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 40,
@@ -905,7 +954,7 @@
       "Focus group interview"
     ],
     "answerIndex": 2,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-040-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -914,7 +963,11 @@
       "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      14
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 41,
@@ -953,11 +1006,15 @@
       "Knuth Morris Pratt Algorithm"
     ],
     "answerIndex": 0,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-042-context.webp",
     "sourceAnswerIndex": 0,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      15
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 43,
@@ -1147,7 +1204,7 @@
       17,
       18
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 51,
@@ -1186,14 +1243,18 @@
       "Control Coupling"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-52-p19.webp",
+    "exhibit": "assets/source/restored-question-052-context.webp",
     "sourceAnswerIndex": 1,
     "reviewStatus": "corrected",
     "reviewedOn": "2026-11-25",
     "reviewNote": "Both functions access the same file-scope variable temp. Shared global storage creates common coupling. Neither function accesses another function body or local data.",
     "reviewReferences": [],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      19
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 53,
@@ -1208,11 +1269,15 @@
       "Data Coupling"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/software-53-p19.webp",
+    "exhibit": "assets/source/restored-question-053-context.webp",
     "sourceAnswerIndex": 3,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 3
+    "checkedAnswerIndex": 3,
+    "exhibitPages": [
+      19
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 54,
@@ -1240,7 +1305,7 @@
     "exhibitPages": [
       19
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 55,
@@ -1279,7 +1344,7 @@
       "Selection sort"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-56-p20.webp",
+    "exhibit": "assets/source/restored-question-056-context.webp",
     "sourceAnswerIndex": 3,
     "reviewStatus": "corrected",
     "reviewedOn": "2026-11-25",
@@ -1288,7 +1353,11 @@
       "https://xlinux.nist.gov/dads/HTML/bubblesort.html"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      20
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 57,
@@ -1461,7 +1530,7 @@
       "Diagram D — Student Association and Student"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/restored-erd-options.webp",
+    "exhibit": "assets/source/restored-question-064-context.webp",
     "sourceAnswerIndex": 3,
     "reviewNote": "The reviewer marks Diagram D. Its text allows a student without an association, while the diagram requires an association. Diagram C has a similar optionality conflict. All four original diagrams appear above.",
     "reviewStatus": "source",
@@ -1481,6 +1550,10 @@
     ],
     "choiceRepairNote": "Choices transcribed from the original PDF image; source wording is preserved separately.",
     "checkedAnswerIndex": null,
+    "exhibitPages": [
+      24
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files.",
     "reviewCaveat": "The source is internally defective: in C, the text permits a student without an advisor but the advisor endpoint requires one. D similarly permits no association in text while requiring one in the diagram. More than one diagram contradicts its condition.",
     "answerBasis": "reviewer-key"
   },
@@ -1581,7 +1654,7 @@
       "Remove structure and rows: DROP TABLE Staff;"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/understanding-13-p26.webp",
+    "exhibit": "assets/source/restored-question-069-context.webp",
     "sourceAnswerIndex": 2,
     "reviewNote": "Adding a column requires ADD. The source instead uses MODIFY, which changes an existing column definition. That does not perform the stated task.",
     "reviewStatus": "verified",
@@ -1599,7 +1672,11 @@
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
     "sourceQuestion": "Which of the following is NOT correctly matched between the purposed of Data Definition Language (DDL) and the SQL statement in the [Staff Table] below? - C",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      26
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 70,
@@ -1728,7 +1805,7 @@
       "SELECT Department, SUM(NoOfReports) FROM Project GROUP BY Department HAVING SUM(NoOfStudents) >= 10;"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/understanding-19-p28.webp",
+    "exhibit": "assets/source/restored-question-075-context.webp",
     "sourceAnswerIndex": 2,
     "reviewNote": "The task filters projects with at least ten students, then sums reports by department. WHERE filters rows before GROUP BY. Choice C lacks grouping and filters a different aggregate.",
     "reviewStatus": "corrected",
@@ -1746,7 +1823,11 @@
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
     "sourceQuestion": "Choose the appropriate SQL statement for the [Query Condition] below. - C",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      28
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 76,
@@ -1915,7 +1996,7 @@
       31,
       32
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 83,
@@ -1949,7 +2030,7 @@
       "Enterprise Data Administrator (EDA)"
     ],
     "answerIndex": 2,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-084-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -1958,7 +2039,11 @@
       "https://www.ibm.com/think/topics/data-modeling"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      32
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 85,
@@ -1973,7 +2058,7 @@
       "sno: s1, s2, s3, s4"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/understanding-29-p33.webp",
+    "exhibit": "assets/source/restored-question-085-context.webp",
     "sourceAnswerIndex": 1,
     "reviewNote": "Relational division selects sno values related to every pno in B: p1, p2, and p4. Only s1 has all three. Choice A contains s1 alone.",
     "reviewStatus": "corrected",
@@ -1991,7 +2076,11 @@
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
     "sourceQuestion": "Refer to the tables A and B below and choose the correct result of A/B operation which means the relation A divided by the relation B. - B",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      33
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 86,
@@ -2174,7 +2263,7 @@
       36,
       37
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 94,
@@ -2189,7 +2278,7 @@
       "Web Transaction Server"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/system-04-p37.webp",
+    "exhibit": "assets/source/restored-question-094-context.webp",
     "sourceAnswerIndex": 0,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -2198,7 +2287,11 @@
       "https://www.rfc-editor.org/rfc/rfc9110.html"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      37
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 95,
@@ -2315,7 +2408,7 @@
       "telnet-s"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/system-10-p39.webp",
+    "exhibit": "assets/source/restored-question-100-context.webp",
     "sourceAnswerIndex": 0,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -2324,7 +2417,11 @@
       "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/arp"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      39
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 101,
@@ -2617,14 +2714,18 @@
       "RAID 10"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/system-24-p44.webp",
+    "exhibit": "assets/source/restored-question-114-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
     "reviewNote": "The figure distributes parity across five disks and provides four disks of usable capacity. Distributed single parity with at least three disks identifies RAID 5.",
     "reviewReferences": [],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      44
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 115,
@@ -3226,14 +3327,18 @@
       "Standardization"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/information-17-p53.webp",
+    "exhibit": "assets/source/restored-question-142-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
     "reviewNote": "The source describes combining de-identified data with other information to identify a person. This is re-identification.",
     "reviewReferences": [],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      53
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 143,
@@ -3380,14 +3485,21 @@
       "Delete unnecessary Guest accounts.",
       "Block access to shared folders and remote registries.",
       "Use \" iptables\" command to block the link of networks.",
-      "Stop unnecessary services applying terminal services, anonymous FTP, SNMP, etc. Malicious scripts are inserted into a web page to be executed by a user's PC. When an unverified external input is used to create a dynamic web page, it launches malicious behavior with the access privilege of the person browsing the page. It leads to attacks such as leaks in browser cookies."
+      "Stop unnecessary services applying terminal services, anonymous FTP, SNMP, etc."
     ],
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "importedChoicesBeforeRepair": [
+      "Delete unnecessary Guest accounts.",
+      "Block access to shared folders and remote registries.",
+      "Use \" iptables\" command to block the link of networks.",
+      "Stop unnecessary services applying terminal services, anonymous FTP, SNMP, etc. Malicious scripts are inserted into a web page to be executed by a user's PC. When an unverified external input is used to create a dynamic web page, it launches malicious behavior with the access privilege of the person browsing the page. It leads to attacks such as leaks in browser cookies."
+    ],
+    "contentRepairNote": "Removed the next unnumbered XSS question that the importer appended to the final Windows-security choice."
   },
   {
     "id": 150,
@@ -3761,20 +3873,31 @@
     "sourcePage": 61,
     "question": "The Diagram below shows a service that maximizes the transaction efficiency and cross-network effect. Which of the following business models serves as a basis for the service?",
     "choices": [
-      "I. business model",
+      "A.I. business model",
       "Cloud business model",
       "Platform business model",
       "Social business model"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-10-p61.webp",
+    "exhibit": "assets/source/restored-question-167-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
     "reviewNote": "The food-delivery application connects restaurant suppliers and customer demand, generating cross-side network effects. It is a platform business.",
     "reviewReferences": [],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      61
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files.",
+    "importedChoicesBeforeRepair": [
+      "I. business model",
+      "Cloud business model",
+      "Platform business model",
+      "Social business model"
+    ],
+    "contentRepairNote": "Restored A.I.; the importer mistook the abbreviation for another answer-letter marker."
   },
   {
     "id": 168,
@@ -4186,14 +4309,18 @@
       "IRM (Information Resource Management)"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-31-p68.webp",
+    "exhibit": "assets/source/restored-question-187-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
     "reviewNote": "The figure moves information through storage tiers as access frequency changes over its life. This is information lifecycle management.",
     "reviewReferences": [],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      68
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 188,
@@ -4241,7 +4368,7 @@
       68,
       69
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 190,
@@ -4294,7 +4421,7 @@
       "Chasm."
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/it-36-p69.webp",
+    "exhibit": "assets/source/restored-question-192-context.webp",
     "sourceAnswerIndex": 2,
     "reviewStatus": "corrected",
     "reviewedOn": "2026-11-25",
@@ -4303,7 +4430,11 @@
       "https://www.geoffreyamoore.com/books"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 3
+    "checkedAnswerIndex": 3,
+    "exhibitPages": [
+      69
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 193,
@@ -4342,7 +4473,7 @@
       "SLO (Service Level Objectives)"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-38-p70.webp",
+    "exhibit": "assets/source/restored-question-194-context.webp",
     "sourceAnswerIndex": 1,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -4351,7 +4482,11 @@
       "https://aws.amazon.com/what-is/service-level-agreement/"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 1
+    "checkedAnswerIndex": 1,
+    "exhibitPages": [
+      70
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 195,
@@ -4380,7 +4515,7 @@
       70,
       71
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 196,
@@ -4395,14 +4530,18 @@
       "Servitization"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/it-40-p71.webp",
+    "exhibit": "assets/source/restored-question-196-context.webp",
     "sourceAnswerIndex": 3,
     "reviewStatus": "corrected",
     "reviewedOn": "2026-11-25",
     "reviewNote": "This figure duplicates the online-sales, agile-culture, and AI/IoT/cloud example on page 73. These enterprise changes describe digital transformation, not servitization.",
     "reviewReferences": [],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      71
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 197,
@@ -4417,7 +4556,7 @@
       "Histogram"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/it-41-p71.webp",
+    "exhibit": "assets/source/restored-question-197-context.webp",
     "sourceAnswerIndex": 0,
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
@@ -4426,7 +4565,11 @@
       "https://asq.org/quality-resources/seven-basic-quality-tools"
     ],
     "reviewMethod": "Original PDF page visually inspected; source code, table, or diagram traced where applicable. External references are listed when used.",
-    "checkedAnswerIndex": 0
+    "checkedAnswerIndex": 0,
+    "exhibitPages": [
+      71
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 198,
@@ -4748,7 +4891,7 @@
       77,
       78
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 213,
@@ -5092,7 +5235,7 @@
     "exhibitPages": [
       83
     ],
-    "exhibitNote": "Original embedded source examples restored across the PDF page boundary."
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 229,
@@ -5354,7 +5497,7 @@
       "Compliance"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/project-38-p88.webp",
+    "exhibit": "assets/source/restored-question-241-context.webp",
     "sourceAnswerIndex": 0,
     "reviewNote": "The source lists defect detection, a trained moderator, defined roles, checklists, and formal entry/exit rules. These are inspection characteristics, not an audit.",
     "reviewReferences": [
@@ -5362,14 +5505,18 @@
     ],
     "reviewStatus": "corrected",
     "reviewedOn": "2026-11-25",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      88
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files."
   },
   {
     "id": 242,
     "domain": "Information security",
     "sourceNumber": "unnumbered",
     "sourcePage": 55,
-    "question": "What is the type of security weakness described below? Malicious scripts are inserted into a web page and executed by a user’s browser; unverified external input can expose browser cookies.",
+    "question": "What is the type of security weakness described below?",
     "choices": [
       "Web shell",
       "SQL injection",
@@ -5377,13 +5524,23 @@
       "Memory Buffer Overflow"
     ],
     "answerIndex": 2,
-    "exhibit": null,
+    "exhibit": "assets/source/restored-question-242-context.webp",
     "sourceAnswerIndex": 2,
     "reviewNote": "Untrusted input that runs malicious script in a visitor browser is cross-site scripting (XSS). The yellow source highlight marks this choice.",
     "reviewReferences": [],
     "reviewStatus": "verified",
     "reviewedOn": "2026-11-25",
     "sourceMarkFormat": "yellow highlight, visually checked in the PDF",
-    "checkedAnswerIndex": 2
+    "checkedAnswerIndex": 2,
+    "exhibitPages": [
+      55
+    ],
+    "exhibitNote": "Original source pictures, tables, code, or descriptions restored and checked against the supplied files.",
+    "description": [
+      "Malicious scripts are inserted into a web page to be executed by a user's PC.",
+      "When an unverified external input is used to create a dynamic web page, it launches malicious behavior with the access privilege of the person browsing the page.",
+      "It leads to attacks such as leaks in browser cookies."
+    ],
+    "contentRepairNote": "Restored the complete three-point source description and its insecure-code example from PDF page 55."
   }
 ]

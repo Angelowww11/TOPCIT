@@ -1,0 +1,2443 @@
+{
+  "source": "TOPCIT_Reviewer.pdf and TOPCIT_ (2).docx",
+  "sourcePages": 17,
+  "counts": {
+    "exercises": 45,
+    "originalImages": 28,
+    "sourceParagraphs": 157
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": [
+        "Which of the following is NOT correct on Data Warehouse Making?"
+      ],
+      "responses": [
+        "Star Schema requires relatively small loading space because the number of duplicated data is small due to the normalization."
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        0,
+        1
+      ],
+      "sourcePages": [
+        1
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Which of the following is NOT correct on Data Warehouse Making?",
+      "relatedQuestion": 67,
+      "model": {
+        "answer": "Star Schema requires relatively small loading space because the number of duplicated data are small due to the normalization.",
+        "basis": "checked",
+        "reason": "This is the reviewed answer to the matching main-reviewer question.",
+        "references": [],
+        "sourceResponses": [
+          "Star Schema requires relatively small loading space because the number of duplicated data is small due to the normalization."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "prompt": [
+        "Choose the JOIN SQL statement that will produce the [Execution Result] below."
+      ],
+      "responses": [
+        "SELECT * FROM Customer LEFT OUTER JOIN Order ON Customer.CustomerNumber=Order.CustomerNumber"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId7.png",
+          "width": 420,
+          "height": 177,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 1,
+          "originalRelationship": "rId7",
+          "sha256": "3c7610f492c5351aae51bca8e47a3eaecdfbbe94737576b425b2e9835276e8e6"
+        }
+      ],
+      "sourceParagraphs": [
+        2,
+        3
+      ],
+      "sourcePages": [
+        1
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Choose the JOIN SQL statement that will produce the [Execution Result] below.",
+      "relatedQuestion": 81,
+      "model": {
+        "answer": "SELECT *\nFROM Customer\nFULL OUTER JOIN \"Order\"\n  ON Customer.Customer_No = \"Order\".Customer_No;",
+        "basis": "corrected",
+        "reason": "The displayed result retains unmatched customers and the unmatched order. A FULL OUTER JOIN keeps both sides. The source answer supplies LEFT OUTER JOIN, which would omit the unmatched order. Identifiers here follow the pictured table headings.",
+        "references": [
+          "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+        ],
+        "sourceResponses": [
+          "SELECT * FROM Customer LEFT OUTER JOIN Order ON Customer.CustomerNumber=Order.CustomerNumber"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/understanding-25-p31.webp",
+        "width": 746,
+        "height": 400,
+        "questionId": 81,
+        "sourcePages": [
+          31
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 3,
+      "prompt": [
+        "Below is the example of embedded SQL statements to input the amount of scholarship"
+      ],
+      "responses": [
+        "-CLOSE"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        4,
+        5
+      ],
+      "sourcePages": [
+        1
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Below is the example of embedded SQL statements to input the amount of scholarship",
+      "model": {
+        "answer": "CLOSE studentCur; (the reviewer supplies “-CLOSE”).",
+        "basis": "reviewer",
+        "reason": "CLOSE closes an open cursor. The written reviewer omits its exact task and code. The matching cursor example from main question 90 is supplied as additional context; that main question separately asks for an incorrect cursor command.",
+        "sourceIssue": "The exact task is missing from the written source.",
+        "sourceResponses": [
+          "-CLOSE"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/understanding-34-p35.webp",
+        "width": 746,
+        "height": 338,
+        "questionId": 90,
+        "sourcePages": [
+          35
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 4,
+      "prompt": [
+        "It is the opposite concept of COMMIT command. This command is used to restore data before changes were made. When this command is executed, all data changed after the previous COMMIT execution are restored."
+      ],
+      "responses": [
+        "Rollback"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId8.png",
+          "width": 684,
+          "height": 189,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 1,
+          "originalRelationship": "rId8",
+          "sha256": "43f615f0159d82e3e8a8b4126e92a7aec285145810f0e9061d818b087d959cc8"
+        }
+      ],
+      "sourceParagraphs": [
+        6,
+        7
+      ],
+      "sourcePages": [
+        1
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "It is the opposite concept of COMMIT command. This command is used to restore data before changes were made. When this command is executed, all data changed after the previous COMMIT execution are restored.",
+      "model": {
+        "answer": "ROLLBACK",
+        "basis": "checked",
+        "reason": "ROLLBACK discards the current transaction changes. The pictured arrows return to the earlier transaction state.",
+        "sourceResponses": [
+          "Rollback"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "prompt": [
+        "*SUB Question 1* Fill in the blank (a) to complete [SQL] that would retrieve the department with at least 1 employee who joined the company in 2019 or after."
+      ],
+      "responses": [
+        "dept.Department_No"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId9.png",
+          "width": 407,
+          "height": 110,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 2,
+          "originalRelationship": "rId9",
+          "sha256": "95f5513cb00fca51ad8a08bf1882a9f465524eabc56263fed9e7a50317c4d29c"
+        },
+        {
+          "src": "assets/written/original-rId10.png",
+          "width": 648,
+          "height": 170,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 2,
+          "originalRelationship": "rId10",
+          "sha256": "a49a6c7b5e18d7af544dcb87d152d840e769e46f287e9238b86ff5fe01d6044d"
+        }
+      ],
+      "sourceParagraphs": [
+        8,
+        9
+      ],
+      "sourcePages": [
+        1,
+        2
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "*SUB Question 1* Fill in the blank (a) to complete [SQL] that would retrieve the department with at least 1 employee who joined the company in 2019 or after.",
+      "model": {
+        "answer": "EXISTS",
+        "basis": "corrected",
+        "reason": "The blank follows WHERE and precedes a correlated SELECT. EXISTS checks whether that subquery returns a qualifying employee. The supplied answer dept.Department_No does not form the required predicate.",
+        "references": [
+          "https://www.postgresql.org/docs/current/functions-subquery.html"
+        ],
+        "sourceResponses": [
+          "dept.Department_No"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "prompt": [
+        "SUB Question 2* Create an SQL statement retrieving the department with at least 2 employees and the number of employees in those departments. (refer to previous question’s table)."
+      ],
+      "responses": [
+        "SELECT dept.Department_No, COUNT(Employee_No) AS NumberofEmployees\nFROM employee\nGROUP BY Department_No\nHAVING COUNT (Department_No)>=2;"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        10,
+        11
+      ],
+      "sourcePages": [
+        2
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "SUB Question 2* Create an SQL statement retrieving the department with at least 2 employees and the number of employees in those departments. (refer to previous question’s table).",
+      "model": {
+        "answer": "SELECT Department_No, COUNT(*) AS NumberofEmployees\nFROM Employee\nGROUP BY Department_No\nHAVING COUNT(*) >= 2;",
+        "basis": "corrected",
+        "reason": "Group employees by their department and retain groups with at least two employees. The supplied query uses the undeclared alias dept. The shared Employee table from exercise 5 is included.",
+        "references": [
+          "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+        ],
+        "sourceResponses": [
+          "SELECT dept.Department_No, COUNT(Employee_No) AS NumberofEmployees\nFROM employee\nGROUP BY Department_No\nHAVING COUNT (Department_No)>=2;"
+        ]
+      },
+      "sharedImages": [
+        {
+          "src": "assets/written/original-rId10.png",
+          "width": 648,
+          "height": 170,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 2,
+          "originalRelationship": "rId10",
+          "sha256": "a49a6c7b5e18d7af544dcb87d152d840e769e46f287e9238b86ff5fe01d6044d",
+          "caption": "Shared Employee table from exercise 5"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": [
+        "Which of the following is NOT a correct explanation of the paging technique, which is one of the virtual memory allocation techniques"
+      ],
+      "responses": [
+        "An external fragmentation may occur",
+        "Physical address space is divided into equal sizes and used.",
+        "Logical and Physical addresses are connected through the page table",
+        "Data to be processed are divided into pages of a predefined size to be loaded into memory"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "sourcePages": [
+        2
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "An external fragmentation may occur",
+        "Physical address space is divided into equal sizes and used.",
+        "Logical and Physical addresses are connected through the page table",
+        "Data to be processed are divided into pages of a predefined size to be loaded into memory"
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Which of the following is NOT a correct explanation of the paging technique, which is one of the virtual memory allocation techniques",
+      "relatedQuestion": 97,
+      "model": {
+        "answer": "An external fragmentation may occur.",
+        "basis": "checked",
+        "reason": "Paging uses fixed-size pages and frames. It can waste space inside a frame, but it does not require contiguous frames and avoids external fragmentation.",
+        "references": [],
+        "originalMarkedAnswer": "An external fragmentation may occur",
+        "sourceResponses": [
+          "An external fragmentation may occur",
+          "Physical address space is divided into equal sizes and used.",
+          "Logical and Physical addresses are connected through the page table",
+          "Data to be processed are divided into pages of a predefined size to be loaded into memory"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "prompt": [
+        "It is a backend server that performs tasks to provide dynamic contents.\nLinked with a database server, it provides an environment to precess businesslogic\nIt is a middleware that provides multiple transaction management function\nProducts in this category include Tomcat,WebLogic, WebSphere, Jeus, etc."
+      ],
+      "responses": [
+        "Application server"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        17,
+        18
+      ],
+      "sourcePages": [
+        2
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "It is a backend server that performs tasks to provide dynamic contents.",
+      "model": {
+        "answer": "Application server",
+        "basis": "reviewer",
+        "reason": "The description concerns server-side business logic, database integration, transactions, and products such as Tomcat and WebLogic.",
+        "sourceResponses": [
+          "Application server"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "prompt": [
+        "Network address of Research Center -\nIP address space assigned: 192.168.100.1 to 192.168.100.126\nSubmet mask: 255.255.255.____"
+      ],
+      "responses": [
+        "128"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        19,
+        20
+      ],
+      "sourcePages": [
+        2
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Network address of Research Center -",
+      "model": {
+        "answer": "128; the subnet mask is 255.255.255.128 (/25).",
+        "basis": "checked",
+        "reason": "A /25 has 128 total addresses. In 192.168.100.0/25, the usable host range is .1 through .126; .0 is the network and .127 is the broadcast address.",
+        "sourceResponses": [
+          "128"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "prompt": [
+        "Company A is planning to introduce a microservice architecture to respond promptly to business changes and to build a deployment system through Docker as illustrated in the diagram below.\n\n(SUB Question 1)\nExplain the concept of Docker",
+        "(SUB Question 2)\nDocker command used in the Docker service deployment procedure and explain the task to be carried out by the command."
+      ],
+      "responses": [
+        "Docker is for developing, shipping, and running applications in containers. These are lightweight, portable, and self-sufficient units that can run applications and their dependencies isolated from the host system and other containers",
+        "docker pull \nExplanation by chatgpt:  command is used in Docker to download Docker images or repositories from a public or private registry onto your local host. It allows you to retrieve the desired Docker image and store it locally so that you can use it to create containers or run applications. By using \"docker pull,\" you can efficiently obtain the necessary Docker images for your development or deployment needs."
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId11.png",
+          "width": 508,
+          "height": 154,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 3,
+          "originalRelationship": "rId11",
+          "sha256": "847bceb691f9cf658c3dd52432da7a96c5384ded928994ef708455a2f1fff44a"
+        }
+      ],
+      "sourceParagraphs": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "sourcePages": [
+        3
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Company A is planning to introduce a microservice architecture to respond promptly to business changes and to build a deployment system through Docker as illustrated in the diagram below.",
+      "model": {
+        "answer": "1. Docker packages and runs applications in containers with their dependencies.\n2. docker pull downloads an image from a registry to the local host.",
+        "basis": "reviewer",
+        "reason": "The figure places the missing command between the registry image and the host image. Pulling retrieves that image before a container starts.",
+        "sourceResponses": [
+          "Docker is for developing, shipping, and running applications in containers. These are lightweight, portable, and self-sufficient units that can run applications and their dependencies isolated from the host system and other containers",
+          "docker pull \nExplanation by chatgpt:  command is used in Docker to download Docker images or repositories from a public or private registry onto your local host. It allows you to retrieve the desired Docker image and store it locally so that you can use it to create containers or run applications. By using \"docker pull,\" you can efficiently obtain the necessary Docker images for your development or deployment needs."
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "prompt": [
+        "Which of the following is NOT a correct explanation on the SSL(Secure Socket Layer)"
+      ],
+      "responses": [
+        "HTTPS Protocol is SSL applied HTTP protocol",
+        "In order to apply SSL, SSL certificate must be installed in a web server",
+        "It runs in the Network Layer of the OSI(Open System Interconnection) 7 layer model",
+        "Mutual authentication is carried out through the Handshake protocol between the client and the server."
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "sourcePages": [
+        3
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "HTTPS Protocol is SSL applied HTTP protocol",
+        "In order to apply SSL, SSL certificate must be installed in a web server",
+        "It runs in the Network Layer of the OSI(Open System Interconnection) 7 layer model",
+        "Mutual authentication is carried out through the Handshake protocol between the client and the server."
+      ],
+      "modelChoice": 2,
+      "sourceKeyIndex": 2,
+      "isMultipleChoice": true,
+      "title": "Which of the following is NOT a correct explanation on the SSL(Secure Socket Layer)",
+      "relatedQuestion": 134,
+      "model": {
+        "answer": "It runs in the Network Layer of the OSI(Open System Interconnection) 7 layer model.",
+        "basis": "checked",
+        "reason": "SSL/TLS secures application traffic over the transport layer; it does not run in the OSI network layer. HTTPS is HTTP carried over TLS, so the marked HTTPS description is not the incorrect one here.",
+        "references": [],
+        "originalMarkedAnswer": "It runs in the Network Layer of the OSI(Open System Interconnection) 7 layer model",
+        "sourceResponses": [
+          "HTTPS Protocol is SSL applied HTTP protocol",
+          "In order to apply SSL, SSL certificate must be installed in a web server",
+          "It runs in the Network Layer of the OSI(Open System Interconnection) 7 layer model",
+          "Mutual authentication is carried out through the Handshake protocol between the client and the server."
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "prompt": [
+        "Choose the INCORRECT method to apply encryption"
+      ],
+      "responses": [
+        "AES-128 encryption algorithm is used when the unique identification informed is encrypted",
+        "Passwords must be encrypted multiple times with a bi-directional encryption algorithm before they are stored.",
+        "The unique identification information stored in the DMZ (demilitarized zone), intermediate zone of internet and intranet, is encrypted.",
+        "API (Application Programming Interface) encryption is applied to transmit and receive encrypted data between application server"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "sourcePages": [
+        3
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "AES-128 encryption algorithm is used when the unique identification informed is encrypted",
+        "Passwords must be encrypted multiple times with a bi-directional encryption algorithm before they are stored.",
+        "The unique identification information stored in the DMZ (demilitarized zone), intermediate zone of internet and intranet, is encrypted.",
+        "API (Application Programming Interface) encryption is applied to transmit and receive encrypted data between application server"
+      ],
+      "modelChoice": 1,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Choose the INCORRECT method to apply encryption",
+      "relatedQuestion": 156,
+      "model": {
+        "answer": "Passwords must be encrypted multiple times with a bi-directional encryption algorithm before they are stored.",
+        "basis": "corrected",
+        "reason": "The supplementary reviewer marks a different response. Passwords need salted, deliberately slow password hashing. Reversible encryption, even repeated, exposes passwords if the decryption key is stolen.",
+        "references": [],
+        "originalMarkedAnswer": "AES-128 encryption algorithm is used when the unique identification informed is encrypted",
+        "sourceResponses": [
+          "AES-128 encryption algorithm is used when the unique identification informed is encrypted",
+          "Passwords must be encrypted multiple times with a bi-directional encryption algorithm before they are stored.",
+          "The unique identification information stored in the DMZ (demilitarized zone), intermediate zone of internet and intranet, is encrypted.",
+          "API (Application Programming Interface) encryption is applied to transmit and receive encrypted data between application server"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "prompt": [
+        "Choose which of the following statements is INCORRECT on the security of the mobile applications."
+      ],
+      "responses": [
+        "Mobile applications are developed so as not to operate the functions that are different from the purpose of application services",
+        "Mobile applications are developed so as to operate even when the terminals are controlled by rooting (android) or jailbreaking (ios).",
+        "Mobile applications are developed so to encrypt important information they are stored inside the application or transmitted",
+        "Source code obfuscation methods are applied to android applications so as to prevent easy analyses of source-code through decompilation"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "sourcePages": [
+        4
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Mobile applications are developed so as not to operate the functions that are different from the purpose of application services",
+        "Mobile applications are developed so as to operate even when the terminals are controlled by rooting (android) or jailbreaking (ios).",
+        "Mobile applications are developed so to encrypt important information they are stored inside the application or transmitted",
+        "Source code obfuscation methods are applied to android applications so as to prevent easy analyses of source-code through decompilation"
+      ],
+      "modelChoice": 1,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Choose which of the following statements is INCORRECT on the security of the mobile applications.",
+      "relatedQuestion": 152,
+      "model": {
+        "answer": "Mobile applications are developed so as to operate even when the terminals are controlled by Rooting(Android) or Jailbreaking(iOS).",
+        "basis": "reviewer",
+        "reason": "The supplementary reviewer marks a different response. The reviewer rejects allowing operation on rooted or jailbroken devices. This follows its conservative mobile-security policy. Actual blocking policy depends on the application and its risk assessment.",
+        "references": [],
+        "originalMarkedAnswer": "Mobile applications are developed so as not to operate the functions that are different from the purpose of application services",
+        "sourceResponses": [
+          "Mobile applications are developed so as not to operate the functions that are different from the purpose of application services",
+          "Mobile applications are developed so as to operate even when the terminals are controlled by rooting (android) or jailbreaking (ios).",
+          "Mobile applications are developed so to encrypt important information they are stored inside the application or transmitted",
+          "Source code obfuscation methods are applied to android applications so as to prevent easy analyses of source-code through decompilation"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "prompt": [
+        "What is the network attack illustrated below?"
+      ],
+      "responses": [
+        "Distributed Denial-of-Service (DDoS)"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId12.png",
+          "width": 538,
+          "height": 280,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 4,
+          "originalRelationship": "rId12",
+          "sha256": "b87d00d2e72e4ea08acc00f50f2cdbc867ebdd1382a7a5bef66e116d5ed979a8"
+        }
+      ],
+      "sourceParagraphs": [
+        40,
+        41
+      ],
+      "sourcePages": [
+        4
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "What is the network attack illustrated below?",
+      "model": {
+        "answer": "Distributed Denial of Service (DDoS)",
+        "basis": "reviewer",
+        "reason": "Many infected zombie computers send requests to overwhelm a service. Multiple participating hosts distinguish the illustrated distributed attack.",
+        "sourceResponses": [
+          "Distributed Denial-of-Service (DDoS)"
+        ]
+      },
+      "imageNote": "The original photograph is already cropped in the supplied files. Every original image byte is retained here."
+    },
+    {
+      "id": 15,
+      "prompt": [
+        "Write the name of the function or algorithm explained below"
+      ],
+      "responses": [
+        "Cryptographic Hash Function"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId13.png",
+          "width": 507,
+          "height": 124,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 4,
+          "originalRelationship": "rId13",
+          "sha256": "05c9d70b21670b09f1f8ac95b8a64d6049d98ed057fe477356b972aef3b6b095"
+        }
+      ],
+      "sourceParagraphs": [
+        42,
+        43
+      ],
+      "sourcePages": [
+        4
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Write the name of the function or algorithm explained below",
+      "model": {
+        "answer": "Cryptographic hash function",
+        "basis": "reviewer",
+        "reason": "A hash maps variable-length input to a fixed-length digest. The description also specifies one-way behavior and integrity checking. Password storage uses a suitable salted password-hashing scheme.",
+        "sourceResponses": [
+          "Cryptographic Hash Function"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "prompt": [
+        "Choose the development strategy described below:\nCompany A is planning to construct an environment where employees can freely share the code only to cooperate within the company because the software currently under development must not be disclosed for security reasons."
+      ],
+      "responses": [
+        "InnerSource",
+        "Crowdsourcing",
+        "Open Innovation",
+        "Disruptive Innovation"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "sourcePages": [
+        4
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "InnerSource",
+        "Crowdsourcing",
+        "Open Innovation",
+        "Disruptive Innovation"
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Choose the development strategy described below:",
+      "relatedQuestion": 188,
+      "model": {
+        "answer": "InnerSource",
+        "basis": "checked",
+        "reason": "This is the reviewed answer to the matching main-reviewer question.",
+        "references": [],
+        "originalMarkedAnswer": "InnerSource",
+        "sourceResponses": [
+          "InnerSource",
+          "Crowdsourcing",
+          "Open Innovation",
+          "Disruptive Innovation"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "prompt": [
+        "Choose the characteristic NOT appropriate to the Smart Factory"
+      ],
+      "responses": [
+        "The analysis result based on IEEE 802.11p protocol-centered ITS(Intelligent Transport Systems) must be reflected through actuators.",
+        "Extreme self-organization and self-optimization features are gained by granting the intelligence to the entities related to manufacturing and by connecting to the Internet of Things (IoT)",
+        "The states of the equipment and machines are measured by smart sensors and the occurrences of abnormal patterns are recognized by the use of the big data, and the preemptive maintenance can be provided.",
+        "Smart Factories implement the automated and digitized manufacturing environment through the integration of whole manufacturing processes and CPPS(Cyber-Physical Production Systems) Including IoT (Internet of Things), AI (Artificial Intelligence), Big-data etc."
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "sourcePages": [
+        5
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "The analysis result based on IEEE 802.11p protocol-centered ITS(Intelligent Transport Systems) must be reflected through actuators.",
+        "Extreme self-organization and self-optimization features are gained by granting the intelligence to the entities related to manufacturing and by connecting to the Internet of Things (IoT)",
+        "The states of the equipment and machines are measured by smart sensors and the occurrences of abnormal patterns are recognized by the use of the big data, and the preemptive maintenance can be provided.",
+        "Smart Factories implement the automated and digitized manufacturing environment through the integration of whole manufacturing processes and CPPS(Cyber-Physical Production Systems) Including IoT (Internet of Things), AI (Artificial Intelligence), Big-data etc."
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Choose the characteristic NOT appropriate to the Smart Factory",
+      "relatedQuestion": 164,
+      "model": {
+        "answer": "The analysis results based on IEEE 802.11p protocol-centered ITS (Intelligent Transport Systems) must be reflected through actuators.",
+        "basis": "checked",
+        "reason": "This is the reviewed answer to the matching main-reviewer question.",
+        "references": [],
+        "originalMarkedAnswer": "The analysis result based on IEEE 802.11p protocol-centered ITS(Intelligent Transport Systems) must be reflected through actuators.",
+        "sourceResponses": [
+          "The analysis result based on IEEE 802.11p protocol-centered ITS(Intelligent Transport Systems) must be reflected through actuators.",
+          "Extreme self-organization and self-optimization features are gained by granting the intelligence to the entities related to manufacturing and by connecting to the Internet of Things (IoT)",
+          "The states of the equipment and machines are measured by smart sensors and the occurrences of abnormal patterns are recognized by the use of the big data, and the preemptive maintenance can be provided.",
+          "Smart Factories implement the automated and digitized manufacturing environment through the integration of whole manufacturing processes and CPPS(Cyber-Physical Production Systems) Including IoT (Internet of Things), AI (Artificial Intelligence), Big-data etc."
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "prompt": [
+        "Write the type of the cloud service explained below.\nAn application service operating in a cloud environment where software is not installed on PCs but subscribed to through web\nTypical examples include Google Apps, salesforce.com, and Microsoft 365, etc."
+      ],
+      "responses": [
+        "Software as a Service (SaaS)"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        54,
+        55
+      ],
+      "sourcePages": [
+        5
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Write the type of the cloud service explained below.",
+      "model": {
+        "answer": "Software as a Service (SaaS)",
+        "basis": "reviewer",
+        "reason": "Users subscribe to an application delivered over the web. The provider operates the application instead of requiring a local installation.",
+        "sourceResponses": [
+          "Software as a Service (SaaS)"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "prompt": [
+        "Fill in the blank (a) that extracts data to fix users from a data warehouse. It also enables the application of perspective for each task and multi-dimensional analyses."
+      ],
+      "responses": [
+        "Online Analytical Processing (OLAP)"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId14.png",
+          "width": 489,
+          "height": 181,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 5,
+          "originalRelationship": "rId14",
+          "sha256": "36ce39b090c5920872bc1d4154d47727cb3502c7c26b536f5efc1c509f8fcb3b"
+        }
+      ],
+      "sourceParagraphs": [
+        56,
+        57
+      ],
+      "sourcePages": [
+        5
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Fill in the blank (a) that extracts data to fix users from a data warehouse. It also enables the application of perspective for each task and multi-dimensional analyses.",
+      "model": {
+        "answer": "Data mart",
+        "basis": "corrected",
+        "reason": "The blank groups subject-specific Sales, Production, and Accounting data derived from the warehouse. The figure already labels OLAP separately as the analysis layer. The supplied OLAP answer confuses the data subset with its analysis tools.",
+        "references": [
+          "https://learn.microsoft.com/en-us/azure/synapse-analytics/migration-guides/teradata/2-etl-load-migration-considerations"
+        ],
+        "sourceResponses": [
+          "Online Analytical Processing (OLAP)"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "prompt": [
+        "The diagram in the example below illustrates the CRM (Customer Relationship Management) classified into three perspectives. Refer to the diagram and answer the following questions.\n(SUB Question 1)\nWrite the CRM type appropriate to the blank",
+        "Describe three expected effects from the introduction of the CRM system"
+      ],
+      "responses": [
+        "Operational",
+        "The three expected effects from the introduction of the CRM system are improved customer relationships that are expected to enhance relationship customers. Second is it enhances efficiency in sales and marketing by providing a centralized platform for managing leads, contacts, and opportunities. Lastly, better data-driven decision making as it facilitates data-driven decision making by providing real-time insights into customer behaviors and trends."
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId15.png",
+          "width": 574,
+          "height": 184,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 6,
+          "originalRelationship": "rId15",
+          "sha256": "f90192293c06758b050396f3ef97b64fa6d9cc43b918fb5df889baaf61c75983"
+        }
+      ],
+      "sourceParagraphs": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourcePages": [
+        5,
+        6
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "The diagram in the example below illustrates the CRM (Customer Relationship Management) classified into three perspectives. Refer to the diagram and answer the following questions.",
+      "model": {
+        "answer": "1. Operational CRM.\n2. Expected benefits include better customer service and retention, coordinated sales and marketing, and more efficient customer-facing work.",
+        "basis": "reviewer",
+        "reason": "The blank covers marketing automation, sales-force automation, and service automation. These implement customer-facing operations. The left side of the figure already identifies analytical CRM.",
+        "sourceResponses": [
+          "Operational",
+          "The three expected effects from the introduction of the CRM system are improved customer relationships that are expected to enhance relationship customers. Second is it enhances efficiency in sales and marketing by providing a centralized platform for managing leads, contacts, and opportunities. Lastly, better data-driven decision making as it facilitates data-driven decision making by providing real-time insights into customer behaviors and trends."
+        ]
+      },
+      "imageNote": "The original photograph is already cropped in the supplied files. Every original image byte is retained here."
+    },
+    {
+      "id": 21,
+      "prompt": [
+        "Choose the correct list of the quality cost types in a, b, and c"
+      ],
+      "responses": [
+        "a - External failure cost\nb - Internal failure cost\nc - Prevention cost"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId16.png",
+          "width": 502,
+          "height": 230,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 6,
+          "originalRelationship": "rId16",
+          "sha256": "7ec2233aba3ab6cc25e43986de0512020c4d2d589ca7110148e40d36574084b1"
+        }
+      ],
+      "sourceParagraphs": [
+        62,
+        63
+      ],
+      "sourcePages": [
+        6
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Choose the correct list of the quality cost types in a, b, and c",
+      "relatedQuestion": 212,
+      "model": {
+        "answer": "(a)-Internal failure cost, (b)-External failure cost, (c)-Prevention cost.",
+        "basis": "checked",
+        "reason": "The figure labels costs before delivery as internal failure, after delivery as external failure, and prevention work as prevention. Choice D provides exactly that order. The previous unresolved classification was incorrect.",
+        "references": [
+          "https://asq.org/quality-resources/seven-basic-quality-tools"
+        ],
+        "sourceResponses": [
+          "a - External failure cost\nb - Internal failure cost\nc - Prevention cost"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/restored-question-212-context.webp",
+        "width": 702,
+        "height": 450,
+        "questionId": 212,
+        "sourcePages": [
+          77,
+          78
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 22,
+      "prompt": [
+        "Choose the appropriate organization structure illustrated in the Example below 1. IT Service Company A is divided into two internal organizations: one is responsible for the development and designing to improve technical skills and the other is responsible for winning contracts and executing the projects. 2. Business-centered department normally maintains the minimum number of staff to discover new businesses and prepares business basics to win the contracts. 3. The Development and Design departments dispatch manpower required to carry out the projects. 4. Development and Design departments after the project is completed."
+      ],
+      "responses": [
+        "Functional Organization",
+        "Hybrid Organization",
+        "Matrix Organization",
+        "Projectized Organization"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId17.png",
+          "width": 518,
+          "height": 278,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 7,
+          "originalRelationship": "rId17",
+          "sha256": "c23594855322ab2a42a328bbbbd3aa8a0ecb499e2453aa67ef1b1a04abeae745"
+        }
+      ],
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourcePages": [
+        7
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Functional Organization",
+        "Hybrid Organization",
+        "Matrix Organization",
+        "Projectized Organization"
+      ],
+      "modelChoice": 2,
+      "sourceKeyIndex": 3,
+      "isMultipleChoice": true,
+      "promptNote": "The heading is restored from the matching main question or transcribed from the source image.",
+      "title": "Choose the appropriate organization structure illustrated in the Example below 1. IT Service Company A is divided into two internal organizations: one is responsible for the development and designing to improve technical skills and the other is responsible for winning contracts and executing the projects. 2. Business-centered department normally maintains the minimum number of staff to discover new businesses and prepares business basics to win the contracts. 3. The Development and Design departments dispatch manpower required to carry out the projects. 4. Development and Design departments after the project is completed.",
+      "relatedQuestion": 213,
+      "model": {
+        "answer": "Matrix Organization",
+        "basis": "corrected",
+        "reason": "The supplementary reviewer marks a different response. The source organization chart overlays projects across functional departments. Staff work within both structures, which identifies a matrix organization.",
+        "references": [],
+        "originalMarkedAnswer": "Projectized Organization",
+        "sourceResponses": [
+          "Functional Organization",
+          "Hybrid Organization",
+          "Matrix Organization",
+          "Projectized Organization"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/project-10-p78.webp",
+        "width": 724,
+        "height": 556,
+        "questionId": 213,
+        "sourcePages": [
+          78
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 23,
+      "prompt": [
+        "The pie chart in the Example below illustrates three elements of the message that account fix the communication by the Law of Mehrabian. Choose the explanation that is NOT appropriate to the Law of Mehrabian?"
+      ],
+      "responses": [
+        "Words account for 7% only. The verbal content in the communication is not important.",
+        "Non-verbal elements such as tone of voice, facial expressions, eyes, and gestures show the great impact during the communication",
+        "The speed of speech, tone of voice, and hair style have a bigger impact than the contents of words when a person determines the favorability of the speaker.",
+        "When a specific message is delivered, the contents to be delivered may be distorted if the contents of words, tone of voice, speed of speech, volume of voice, gesture, and manners are different."
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "sourcePages": [
+        7
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Words account for 7% only. The verbal content in the communication is not important.",
+        "Non-verbal elements such as tone of voice, facial expressions, eyes, and gestures show the great impact during the communication",
+        "The speed of speech, tone of voice, and hair style have a bigger impact than the contents of words when a person determines the favorability of the speaker.",
+        "When a specific message is delivered, the contents to be delivered may be distorted if the contents of words, tone of voice, speed of speech, volume of voice, gesture, and manners are different."
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "The pie chart in the Example below illustrates three elements of the message that account fix the communication by the Law of Mehrabian. Choose the explanation that is NOT appropriate to the Law of Mehrabian?",
+      "relatedQuestion": 227,
+      "model": {
+        "answer": "Words account for 7% only. The verbal contents in the communication is not important.",
+        "basis": "checked",
+        "reason": "The statement that verbal content is unimportant misuses the 7/38/55 finding. That finding concerns inconsistent expressions of feelings or attitudes, not all communication.",
+        "references": [],
+        "originalMarkedAnswer": "Words account for 7% only. The verbal content in the communication is not important.",
+        "sourceResponses": [
+          "Words account for 7% only. The verbal content in the communication is not important.",
+          "Non-verbal elements such as tone of voice, facial expressions, eyes, and gestures show the great impact during the communication",
+          "The speed of speech, tone of voice, and hair style have a bigger impact than the contents of words when a person determines the favorability of the speaker.",
+          "When a specific message is delivered, the contents to be delivered may be distorted if the contents of words, tone of voice, speed of speech, volume of voice, gesture, and manners are different."
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "prompt": [
+        "The list in the Example below is the table of contents of the RFP (Request for Proposal) for the development of next-generation system for the government and public institutions. Which of the following is incorrect regarding the content to be included in the request for proposal?"
+      ],
+      "responses": [
+        "I Overview - The configuration diagram of the target system is included.",
+        "II Request for proposal - The conditions to cancel the contract such as the false information, unmet requirements, etc. are included.",
+        "III Information for Bidders - Suggestion to replace the technical evaluation of the acquired equipment with BMT.",
+        "IV Guidelines to document preparation - Request to include SLA(Service Level Agrement) items such as system operation rate and system failure rate."
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId18.png",
+          "width": 459,
+          "height": 234,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 7,
+          "originalRelationship": "rId18",
+          "sha256": "e0f1d64bb8a586602343c37c03b3d973a0cd4292153212f08ff298bc11c7e3ff"
+        }
+      ],
+      "sourceParagraphs": [
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "sourcePages": [
+        7
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "I Overview - The configuration diagram of the target system is included.",
+        "II Request for proposal - The conditions to cancel the contract such as the false information, unmet requirements, etc. are included.",
+        "III Information for Bidders - Suggestion to replace the technical evaluation of the acquired equipment with BMT.",
+        "IV Guidelines to document preparation - Request to include SLA(Service Level Agrement) items such as system operation rate and system failure rate."
+      ],
+      "modelChoice": 2,
+      "sourceKeyIndex": 3,
+      "isMultipleChoice": true,
+      "promptNote": "The heading is restored from the matching main question or transcribed from the source image.",
+      "title": "The list in the Example below is the table of contents of the RFP (Request for Proposal) for the development of next-generation system for the government and public institutions. Which of the following is incorrect regarding the content to be included in the request for proposal?",
+      "relatedQuestion": 208,
+      "model": {
+        "answer": "III. Information for bidders - Suggestion to replace the technical evaluation of the acquired equipment with BMT(Bench Marking Test).",
+        "basis": "reviewer",
+        "reason": "The supplementary reviewer marks a different response. The reviewer selects the BMT statement. Other choices also misplace content between the RFP sections. The printed key identifies the intended selection despite those category inconsistencies.",
+        "references": [],
+        "originalMarkedAnswer": "IV Guidelines to document preparation - Request to include SLA(Service Level Agrement) items such as system operation rate and system failure rate.",
+        "sourceResponses": [
+          "I Overview - The configuration diagram of the target system is included.",
+          "II Request for proposal - The conditions to cancel the contract such as the false information, unmet requirements, etc. are included.",
+          "III Information for Bidders - Suggestion to replace the technical evaluation of the acquired equipment with BMT.",
+          "IV Guidelines to document preparation - Request to include SLA(Service Level Agrement) items such as system operation rate and system failure rate."
+        ]
+      },
+      "companion": {
+        "src": "assets/source/project-05-p76.webp",
+        "width": 724,
+        "height": 564,
+        "questionId": 208,
+        "sourcePages": [
+          76
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      },
+      "imageNote": "The original photograph is already cropped in the supplied files. Every original image byte is retained here."
+    },
+    {
+      "id": 25,
+      "prompt": [
+        "Refer to the explanation about the preparation process and the execution of the presentation in the example before and choose the INCORRECT one:"
+      ],
+      "responses": [
+        "PM Kim made a rehearsal in the presentation room one day before the presentation",
+        "PM Kim checked the fonts and images to be used in the presentation at the presentation room",
+        "PM Kim frequently checked the reactions of the audience whether it was positive or negative during the presentation.",
+        "PM Kim explained about the ERD of the newly constructed shopping mall at the presentation"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId19.png",
+          "width": 495,
+          "height": 112,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 8,
+          "originalRelationship": "rId19",
+          "sha256": "3de07eca3a9ea21ab53307b9a61ab7dfdcc1da2b20eb0ed97bd563bf48deef7c"
+        }
+      ],
+      "sourceParagraphs": [
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "sourcePages": [
+        8
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "PM Kim made a rehearsal in the presentation room one day before the presentation",
+        "PM Kim checked the fonts and images to be used in the presentation at the presentation room",
+        "PM Kim frequently checked the reactions of the audience whether it was positive or negative during the presentation.",
+        "PM Kim explained about the ERD of the newly constructed shopping mall at the presentation"
+      ],
+      "modelChoice": 3,
+      "sourceKeyIndex": 2,
+      "isMultipleChoice": true,
+      "title": "Refer to the explanation about the preparation process and the execution of the presentation in the example before and choose the INCORRECT one:",
+      "relatedQuestion": 220,
+      "model": {
+        "answer": "PM Kim explained about the ERD (entity-relationship diagram) of the newly constructed shopping mall at the presentation.",
+        "basis": "corrected",
+        "reason": "The supplementary reviewer marks a different response. This is the reviewed answer to the matching main-reviewer question.",
+        "references": [],
+        "originalMarkedAnswer": "PM Kim frequently checked the reactions of the audience whether it was positive or negative during the presentation.",
+        "sourceResponses": [
+          "PM Kim made a rehearsal in the presentation room one day before the presentation",
+          "PM Kim checked the fonts and images to be used in the presentation at the presentation room",
+          "PM Kim frequently checked the reactions of the audience whether it was positive or negative during the presentation.",
+          "PM Kim explained about the ERD of the newly constructed shopping mall at the presentation"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "prompt": [
+        "Choose the characteristics of the projects described in the Example below."
+      ],
+      "responses": [
+        "Temporality",
+        "Repeatability",
+        "Defined Objectives",
+        "Progressive elaboration"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId20.png",
+          "width": 517,
+          "height": 73,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 8,
+          "originalRelationship": "rId20",
+          "sha256": "cd46b0ad3fd37d34aa75fd85231648fe17af307103fbf608b6f361715463c200"
+        }
+      ],
+      "sourceParagraphs": [
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "sourcePages": [
+        8
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Temporality",
+        "Repeatability",
+        "Defined Objectives",
+        "Progressive elaboration"
+      ],
+      "modelChoice": 2,
+      "sourceKeyIndex": 2,
+      "isMultipleChoice": true,
+      "title": "Choose the characteristics of the projects described in the Example below.",
+      "relatedQuestion": 216,
+      "model": {
+        "answer": "Defined Objectives",
+        "basis": "checked",
+        "reason": "Both examples name the outcome the projects aim to achieve: product lifecycle management and faster integrated decisions. They illustrate defined objectives, not the gradual refinement of a plan.",
+        "references": [],
+        "originalMarkedAnswer": "Defined Objectives",
+        "sourceResponses": [
+          "Temporality",
+          "Repeatability",
+          "Defined Objectives",
+          "Progressive elaboration"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "prompt": [
+        "What is the chart in the example below that manages the project schedule represented in the form of a bar chart?"
+      ],
+      "responses": [
+        "Gantt Chart (di ba agile gantt chart to?)"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId21.png",
+          "width": 560,
+          "height": 276,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 9,
+          "originalRelationship": "rId21",
+          "sha256": "d531b3aff8550d1ddacd92c75ddcac906d7d05267de88253bd998e83c10179b6"
+        }
+      ],
+      "sourceParagraphs": [
+        89,
+        90
+      ],
+      "sourcePages": [
+        9
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "What is the chart in the example below that manages the project schedule represented in the form of a bar chart?",
+      "relatedQuestion": 206,
+      "model": {
+        "answer": "Gantt Chart",
+        "basis": "checked",
+        "reason": "The chart uses horizontal bars to show task start and finish dates across a timeline. This is a Gantt chart.",
+        "references": [
+          "https://www.pmi.org/learning/library/work-breakdown-structure-major-principles-4886"
+        ],
+        "sourceResponses": [
+          "Gantt Chart (di ba agile gantt chart to?)"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "prompt": [
+        "Write the requirements gathering technique illustrated in the Example:"
+      ],
+      "responses": [
+        "Prototype"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId22.png",
+          "width": 578,
+          "height": 272,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 9,
+          "originalRelationship": "rId22",
+          "sha256": "333bf27fed21083e712bbfaa2fa1ee746636c63e38c432f65f9356a304b45245"
+        }
+      ],
+      "sourceParagraphs": [
+        91,
+        92
+      ],
+      "sourcePages": [
+        9
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Write the requirements gathering technique illustrated in the Example:",
+      "model": {
+        "answer": "Prototyping",
+        "basis": "reviewer",
+        "reason": "Wireframes and mockups help users give requirements feedback before the final product is developed.",
+        "sourceResponses": [
+          "Prototype"
+        ]
+      },
+      "imageNote": "The original photograph is already cropped in the supplied files. Every original image byte is retained here."
+    },
+    {
+      "id": 29,
+      "prompt": [
+        "(SUB Question 2)\nFill in the blanks a,b, and c, to set up a FK(Foreign Key) in the DDL ‘Course Application From Table’ below:\nSet up the option that deletes the tuples of students in the ‘Course Application Form Table’ when the corresponding student’s tuples are deleted."
+      ],
+      "responses": [
+        "a - FOREIGN",
+        "b - WHERE",
+        "c - CASCADE"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId23.png",
+          "width": 585,
+          "height": 286,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 10,
+          "originalRelationship": "rId23",
+          "sha256": "a634b0bbc90bb40535dd554e04c209fa7183a3ef5d0500b2b6f3ba082416fe44"
+        }
+      ],
+      "sourceParagraphs": [
+        93,
+        94,
+        95,
+        96
+      ],
+      "sourcePages": [
+        10
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "(SUB Question 2)",
+      "model": {
+        "answer": "(a) FOREIGN\n(b) REFERENCES\n(c) CASCADE\n\nFOREIGN KEY (Student_No)\n  REFERENCES Student(Student_No)\n  ON DELETE CASCADE",
+        "basis": "corrected",
+        "reason": "FOREIGN KEY declares the relationship, REFERENCES identifies the parent key, and ON DELETE CASCADE removes dependent course applications. The source supplies WHERE for (b); that keyword does not declare a referenced table.",
+        "references": [
+          "https://www.postgresql.org/docs/current/ddl-constraints.html"
+        ],
+        "sourceResponses": [
+          "a - FOREIGN",
+          "b - WHERE",
+          "c - CASCADE"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "prompt": [
+        "(Subquestion 2)\nAccuracy, Precision, and Recall are selected as the model performance items of the AI system. Explain 1 in (a) of the [Python Source Code]"
+      ],
+      "responses": [
+        "Accuracy is commonly used to evaluate the performance of a classification model.\nPrecision = 0.5\nRecall = 0.6666666"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        97,
+        98
+      ],
+      "sourcePages": [
+        10
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "(Subquestion 2)",
+      "model": {
+        "answer": "The supplied response lists Precision = 0.5 and Recall = 0.6666666. Accuracy measures the proportion of correct predictions.",
+        "basis": "reviewer",
+        "reason": "The source omits the referenced Python code and confusion matrix. Its numeric response is retained, but the meaning of the requested “1” and the two metrics cannot be checked without that missing example.",
+        "sourceIssue": "The referenced Python Source Code is absent from both supplied versions.",
+        "sourceResponses": [
+          "Accuracy is commonly used to evaluate the performance of a classification model.\nPrecision = 0.5\nRecall = 0.6666666"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "prompt": [
+        "(SUB Question 1)\nExplain the O2O(online to offline) concept proposed in the [Example 1] (10 points) and explain the differences compared to the O4O(online for offline) (10 points) (20 points in total)"
+      ],
+      "responses": [
+        "O2O concept combines online and offline operations, allowing customers to research online, make a purchase or reservation online, and receive products or services offline for seamless customer experience.",
+        "The main difference between O2O and O4O is the level of offline involvement, O2O involving physical transactions at a physical location and O4O focusing on online interactions with offline fulfillment."
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        99,
+        100,
+        101
+      ],
+      "sourcePages": [
+        10
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "(SUB Question 1)",
+      "model": {
+        "answer": "O2O uses online channels to connect customers with offline transactions or services. O4O uses online data and capabilities to improve offline experiences and operations.",
+        "basis": "suggested",
+        "reason": "This is a concept-level study answer. The reviewer omits the referenced Example 1, so its case-specific proposal cannot be reconstructed. The original response remains available for comparison.",
+        "sourceIssue": "The referenced Example 1 is absent from both supplied versions.",
+        "sourceResponses": [
+          "O2O concept combines online and offline operations, allowing customers to research online, make a purchase or reservation online, and receive products or services offline for seamless customer experience.",
+          "The main difference between O2O and O4O is the level of offline involvement, O2O involving physical transactions at a physical location and O4O focusing on online interactions with offline fulfillment."
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "prompt": [
+        "Choose the sorting algorithm illustrated in the figure below. (Note that the example below presents only up to the second loop.)"
+      ],
+      "responses": [
+        "Bubble sort",
+        "Insertion sort",
+        "Quick sort",
+        "Selection sort"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId24.png",
+          "width": 608,
+          "height": 284,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 11,
+          "originalRelationship": "rId24",
+          "sha256": "a55e66ebd127210587ed2f98cd881b740b7f162522f2ccbe150b41106533fb80"
+        }
+      ],
+      "sourceParagraphs": [
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "sourcePages": [
+        11
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Bubble sort",
+        "Insertion sort",
+        "Quick sort",
+        "Selection sort"
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 1,
+      "isMultipleChoice": true,
+      "title": "Choose the sorting algorithm illustrated in the figure below. (Note that the example below presents only up to the second loop.)",
+      "relatedQuestion": 56,
+      "model": {
+        "answer": "Bubble sort",
+        "basis": "corrected",
+        "reason": "The supplementary reviewer marks a different response. The figure repeatedly swaps adjacent values; 71 moves to the end during the first pass, then 55 during the second. This is bubble sort, not selection sort.",
+        "references": [
+          "https://xlinux.nist.gov/dads/HTML/bubblesort.html"
+        ],
+        "originalMarkedAnswer": "Insertion sort",
+        "sourceResponses": [
+          "Bubble sort",
+          "Insertion sort",
+          "Quick sort",
+          "Selection sort"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/restored-question-056-context.webp",
+        "width": 823,
+        "height": 406,
+        "questionId": 56,
+        "sourcePages": [
+          20
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 33,
+      "prompt": [
+        "Which of the following is NOT a correct explanation about Django and Flask, which are Python web development frameworks?"
+      ],
+      "responses": [
+        "Django, a typical web development framework of python, was written in C.",
+        "ORM (Object-Relational Mapping) Functions for database are separately installed and used in Flask",
+        "Flask is a micro framework to implement a Python web programming development environment.",
+        "Django app is a Python package used in Django. A single Django project is composed of one or more Django apps."
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "sourcePages": [
+        11
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Django, a typical web development framework of python, was written in C.",
+        "ORM (Object-Relational Mapping) Functions for database are separately installed and used in Flask",
+        "Flask is a micro framework to implement a Python web programming development environment.",
+        "Django app is a Python package used in Django. A single Django project is composed of one or more Django apps."
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Which of the following is NOT a correct explanation about Django and Flask, which are Python web development frameworks?",
+      "relatedQuestion": 19,
+      "model": {
+        "answer": "Django, a typical web development framework of Python, was written in C.",
+        "basis": "checked",
+        "reason": "This is the reviewed answer to the matching main-reviewer question.",
+        "references": [],
+        "originalMarkedAnswer": "Django, a typical web development framework of python, was written in C.",
+        "sourceResponses": [
+          "Django, a typical web development framework of python, was written in C.",
+          "ORM (Object-Relational Mapping) Functions for database are separately installed and used in Flask",
+          "Flask is a micro framework to implement a Python web programming development environment.",
+          "Django app is a Python package used in Django. A single Django project is composed of one or more Django apps."
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "prompt": [
+        "Choose the refactoring technique applied to improve the Java source code below."
+      ],
+      "responses": [
+        "Extract class",
+        "Extract method",
+        "Inline method",
+        "Replace temp with query"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId25.png",
+          "width": 574,
+          "height": 259,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 12,
+          "originalRelationship": "rId25",
+          "sha256": "8a2e7e98b509195b5f24da5f04ef650253639dde701704e8809ec40ede6317e1"
+        }
+      ],
+      "sourceParagraphs": [
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "sourcePages": [
+        12
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Extract class",
+        "Extract method",
+        "Inline method",
+        "Replace temp with query"
+      ],
+      "modelChoice": 1,
+      "sourceKeyIndex": 1,
+      "isMultipleChoice": true,
+      "title": "Choose the refactoring technique applied to improve the Java source code below.",
+      "relatedQuestion": 54,
+      "model": {
+        "answer": "Extract Method",
+        "basis": "checked",
+        "reason": "The refactoring moves the amount-printing statement into printDetails(amount) and calls it from printOwing. That is Extract Method, also called Extract Function.",
+        "references": [
+          "https://refactoring.com/catalog/extractFunction.html"
+        ],
+        "originalMarkedAnswer": "Extract method",
+        "sourceResponses": [
+          "Extract class",
+          "Extract method",
+          "Inline method",
+          "Replace temp with query"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/restored-question-054-context.webp",
+        "width": 897,
+        "height": 535,
+        "questionId": 54,
+        "sourcePages": [
+          19
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 35,
+      "prompt": [
+        "Choose the test type described:\n- Test to validate whether the software functions that worked well before a change in program are still working without any problems, and whether new errors are introduced after the change\n- test carried out repeatedly to reduce side effects and ripple effects frrom the side effects that might be introduced in the process of the program change or debugging\n-test to validate after refactoring whether the refactored modules are working as intended"
+      ],
+      "responses": [
+        "Unit Test",
+        "Integration test",
+        "Acceptance test",
+        "Regression test //ans ni chat gpt"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "sourcePages": [
+        12
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Unit Test",
+        "Integration test",
+        "Acceptance test",
+        "Regression test //ans ni chat gpt"
+      ],
+      "modelChoice": 3,
+      "sourceKeyIndex": 3,
+      "isMultipleChoice": true,
+      "title": "Choose the test type described:",
+      "relatedQuestion": 17,
+      "model": {
+        "answer": "Regression Test",
+        "basis": "checked",
+        "reason": "The example retests existing behavior after changes, debugging, and refactoring. These are regression tests.",
+        "references": [
+          "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+        ],
+        "originalMarkedAnswer": "Regression test //ans ni chat gpt",
+        "sourceResponses": [
+          "Unit Test",
+          "Integration test",
+          "Acceptance test",
+          "Regression test //ans ni chat gpt"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "prompt": [
+        "Refer to the object-oriented concepts and comments included in the code below to choose the answer with the appropriate terms for a b and c"
+      ],
+      "responses": [
+        "A - object\nB - instance\nC - class"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId26.png",
+          "width": 589,
+          "height": 255,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 13,
+          "originalRelationship": "rId26",
+          "sha256": "1af1b8a81ccc05d8987a189cde63951e8a7307ec65806b579eddcee019cc84ed"
+        }
+      ],
+      "sourceParagraphs": [
+        122,
+        123
+      ],
+      "sourcePages": [
+        13
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Refer to the object-oriented concepts and comments included in the code below to choose the answer with the appropriate terms for a b and c",
+      "relatedQuestion": 10,
+      "model": {
+        "answer": "(a) object\n(b) class\n(c) instance",
+        "basis": "corrected",
+        "reason": "Animal is the class. Creating an Animal allocates an instance. The supplied written response interchanges the class and instance blanks. The complete matching code is available in main question 10.",
+        "sourceResponses": [
+          "A - object\nB - instance\nC - class"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/restored-question-010-context.webp",
+        "width": 821,
+        "height": 309,
+        "questionId": 10,
+        "sourcePages": [
+          4
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 37,
+      "prompt": [
+        "Choose the algorithm illustrated below."
+      ],
+      "responses": [
+        "Greedy algorithm",
+        "Dynamic Programming",
+        "Divide and Conquer",
+        "Heuristics"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId27.png",
+          "width": 632,
+          "height": 425,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 13,
+          "originalRelationship": "rId27",
+          "sha256": "155f40961ba79d2d5d00c56a6f5e9a80a611eac0bd31d1afaf5e8076e93fdd68"
+        }
+      ],
+      "sourceParagraphs": [
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "sourcePages": [
+        13
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Greedy algorithm",
+        "Dynamic Programming",
+        "Divide and Conquer",
+        "Heuristics"
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Choose the algorithm illustrated below.",
+      "relatedQuestion": 50,
+      "model": {
+        "answer": "Greedy algorithm",
+        "basis": "checked",
+        "reason": "The example chooses the locally best child, reaches 12, and misses the global maximum 99. It demonstrates the limitation of a greedy choice.",
+        "references": [
+          "https://xlinux.nist.gov/dads/"
+        ],
+        "originalMarkedAnswer": "Greedy algorithm",
+        "sourceResponses": [
+          "Greedy algorithm",
+          "Dynamic Programming",
+          "Divide and Conquer",
+          "Heuristics"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/restored-question-050-context.webp",
+        "width": 1012,
+        "height": 739,
+        "questionId": 50,
+        "sourcePages": [
+          17,
+          18
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 38,
+      "prompt": [
+        "The diagram below illustrates the SSPL(Software and systems product Line). Choose the term that is appropriate in the blank a."
+      ],
+      "responses": [
+        "Domain Engineering",
+        "Service Engineering",
+        "System engineering",
+        "Requirements engineering"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId28.png",
+          "width": 609,
+          "height": 330,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 14,
+          "originalRelationship": "rId28",
+          "sha256": "d3232467a86c0ec62f1381c8280d6802aa94c2cab572e8496fbb4091a58f5816"
+        }
+      ],
+      "sourceParagraphs": [
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "sourcePages": [
+        14
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Domain Engineering",
+        "Service Engineering",
+        "System engineering",
+        "Requirements engineering"
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 3,
+      "isMultipleChoice": true,
+      "title": "The diagram below illustrates the SSPL(Software and systems product Line). Choose the term that is appropriate in the blank a.",
+      "relatedQuestion": 21,
+      "model": {
+        "answer": "Domain engineering",
+        "basis": "corrected",
+        "reason": "The supplementary reviewer marks a different response. The diagram creates reusable core assets from common and variable product features. Domain engineering supplies assets to application engineering.",
+        "references": [
+          "https://www.sei.cmu.edu/library/software-product-lines/"
+        ],
+        "originalMarkedAnswer": "Requirements engineering",
+        "sourceResponses": [
+          "Domain Engineering",
+          "Service Engineering",
+          "System engineering",
+          "Requirements engineering"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/software-21-p7.webp",
+        "width": 746,
+        "height": 390,
+        "questionId": 21,
+        "sourcePages": [
+          7
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 39,
+      "prompt": [
+        "Which of the following extensibility mechanisms used in the UML (Unified Modeling Language) diagram below is NOT correct?"
+      ],
+      "responses": [
+        "{End Of Service}",
+        "Engine#1, Engine#2",
+        "{level = 1.0}, {level = 1.2}",
+        "<>,<>"
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        134,
+        135,
+        136,
+        137,
+        138
+      ],
+      "sourcePages": [
+        14
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "{End Of Service}",
+        "Engine#1, Engine#2",
+        "{level = 1.0}, {level = 1.2}",
+        "<>,<>"
+      ],
+      "modelChoice": 3,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Which of the following extensibility mechanisms used in the UML (Unified Modeling Language) diagram below is NOT correct?",
+      "relatedQuestion": 35,
+      "model": {
+        "answer": "UML annotation pair: <>, <> (as printed in the reviewer)",
+        "basis": "reviewer",
+        "reason": "The supplementary reviewer marks a different response. The reviewer marks the final UML annotation pair, printed as <>, <>. The source itself omits the stereotype names in that choice. Compare the original class diagram with the marked choice.",
+        "references": [],
+        "originalMarkedAnswer": "{End Of Service}",
+        "sourceResponses": [
+          "{End Of Service}",
+          "Engine#1, Engine#2",
+          "{level = 1.0}, {level = 1.2}",
+          "<>,<>"
+        ]
+      },
+      "companion": {
+        "src": "assets/source/software-35-p12.webp",
+        "width": 746,
+        "height": 193,
+        "questionId": 35,
+        "sourcePages": [
+          12
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      }
+    },
+    {
+      "id": 40,
+      "prompt": [
+        "Which of the following is NOT a correct explanation of non-functional requirements?"
+      ],
+      "responses": [
+        "1,000 users shall be able to connect to the system simultaneously",
+        "The first connection screen shall be displayed within five seconds after logging in to the system",
+        "An SMS text message shall be sent to the member after the sign-up process to complete",
+        "Member’s personal information shall be encrypted before it is stored."
+      ],
+      "images": [],
+      "sourceParagraphs": [
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "sourcePages": [
+        14
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "1,000 users shall be able to connect to the system simultaneously",
+        "The first connection screen shall be displayed within five seconds after logging in to the system",
+        "An SMS text message shall be sent to the member after the sign-up process to complete",
+        "Member’s personal information shall be encrypted before it is stored."
+      ],
+      "modelChoice": 2,
+      "sourceKeyIndex": 0,
+      "isMultipleChoice": true,
+      "title": "Which of the following is NOT a correct explanation of non-functional requirements?",
+      "relatedQuestion": 13,
+      "model": {
+        "answer": "An SMS text message shall be sent to the member after the sign-up process is complete.",
+        "basis": "corrected",
+        "reason": "The supplementary reviewer marks a different response. This is the reviewed answer to the matching main-reviewer question.",
+        "references": [],
+        "originalMarkedAnswer": "1,000 users shall be able to connect to the system simultaneously",
+        "sourceResponses": [
+          "1,000 users shall be able to connect to the system simultaneously",
+          "The first connection screen shall be displayed within five seconds after logging in to the system",
+          "An SMS text message shall be sent to the member after the sign-up process to complete",
+          "Member’s personal information shall be encrypted before it is stored."
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "prompt": [
+        "The diagram below illustrates the build lifecycle of Maven, an open-source build tool. Which of the following is NOT correct?"
+      ],
+      "responses": [
+        "Compile: Analyze the syntax of the source code and translate it into machine language.",
+        "Deploy: Deploy compressed files to the local repository.",
+        "Package: Create deployable files.",
+        "Test: Carry out unit tests with the unit test tool."
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId29.png",
+          "width": 577,
+          "height": 408,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 15,
+          "originalRelationship": "rId29",
+          "sha256": "e8cf68471c64ca5c5c8bda14fb9d5a9a6302f15ea575953874a11f734b6099f2"
+        }
+      ],
+      "sourceParagraphs": [
+        144,
+        145,
+        146,
+        147,
+        148
+      ],
+      "sourcePages": [
+        15
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [
+        "Compile: Analyze the syntax of the source code and translate it into machine language.",
+        "Deploy: Deploy compressed files to the local repository.",
+        "Package: Create deployable files.",
+        "Test: Carry out unit tests with the unit test tool."
+      ],
+      "modelChoice": 0,
+      "sourceKeyIndex": 1,
+      "isMultipleChoice": true,
+      "title": "The diagram below illustrates the build lifecycle of Maven, an open-source build tool. Which of the following is NOT correct?",
+      "relatedQuestion": 27,
+      "model": {
+        "answer": "Compile: Analyze the syntax of the source code and translate it into machine language.",
+        "basis": "reviewer",
+        "reason": "The supplementary reviewer marks a different response. The reviewer marks the Compile statement. Its machine-language wording is too broad. The Deploy choice also confuses local and remote repositories, so the options contain more than one defect.",
+        "references": [
+          "https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html"
+        ],
+        "originalMarkedAnswer": "Deploy: Deploy compressed files to the local repository.",
+        "sourceResponses": [
+          "Compile: Analyze the syntax of the source code and translate it into machine language.",
+          "Deploy: Deploy compressed files to the local repository.",
+          "Package: Create deployable files.",
+          "Test: Carry out unit tests with the unit test tool."
+        ]
+      },
+      "companion": {
+        "src": "assets/source/restored-question-027-context.webp",
+        "width": 340,
+        "height": 726,
+        "questionId": 27,
+        "sourcePages": [
+          9
+        ],
+        "caption": "Additional matching figure from the main reviewer"
+      },
+      "imageNote": "The original photograph is already cropped in the supplied files. Every original image byte is retained here."
+    },
+    {
+      "id": 42,
+      "prompt": [
+        "Write the output of the following Python code:"
+      ],
+      "responses": [
+        "a = 4, b = 2"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId30.png",
+          "width": 590,
+          "height": 200,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 15,
+          "originalRelationship": "rId30",
+          "sha256": "32e899c38b6f98428c83ff653b4718c6198a12b4a880797ba74f83d3efb9fbf9"
+        }
+      ],
+      "sourceParagraphs": [
+        149,
+        150
+      ],
+      "sourcePages": [
+        15
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Write the output of the following Python code:",
+      "model": {
+        "answer": "a = 4, b = 2",
+        "basis": "checked",
+        "reason": "Python evaluates the right side before assignment. The statement a, b = b, a swaps the initial values 2 and 4.",
+        "references": [
+          "https://docs.python.org/3/reference/simple_stmts.html#assignment-statements"
+        ],
+        "sourceResponses": [
+          "a = 4, b = 2"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "prompt": [
+        "Write the type of polymorphism applied in the code below:"
+      ],
+      "responses": [
+        "??"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId31.png",
+          "width": 499,
+          "height": 236,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 16,
+          "originalRelationship": "rId31",
+          "sha256": "51702d07309674f0b42dd1efc09a43190fbd2cd80d145d19277f510db900be30"
+        }
+      ],
+      "sourceParagraphs": [
+        152,
+        153
+      ],
+      "sourcePages": [
+        16
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Write the type of polymorphism applied in the code below:",
+      "model": {
+        "answer": "Method overloading — compile-time (ad hoc) polymorphism.",
+        "basis": "checked",
+        "reason": "The getScore methods share a name and accept different parameter types: int, String, and Date. Java selects the applicable overload using the argument types at compile time.",
+        "references": [
+          "https://docs.oracle.com/javase/specs/jls/se25/html/jls-8.html#jls-8.4.9"
+        ],
+        "sourceResponses": [
+          "??"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "prompt": [
+        "Refer to the example below:\n(SUB Question 1)\nWhich mechanism of the dynamic-loading is applied to the ‘System’ class below? Load-time dynamic loading or run-time dynamic loading?",
+        "Explain the reason(s) for the answer to question 1, above from the viewpoint of loading ‘system’ class"
+      ],
+      "responses": [],
+      "images": [
+        {
+          "src": "assets/written/original-rId32.png",
+          "width": 453,
+          "height": 127,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 16,
+          "originalRelationship": "rId32",
+          "sha256": "643f35eb385c4f42f7e39b6f8ffbd355267ff375b90455bd850d46446db943a4"
+        }
+      ],
+      "sourceParagraphs": [
+        154,
+        156
+      ],
+      "sourcePages": [
+        16
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "title": "Refer to the example below:",
+      "model": {
+        "answer": "Load-time / implicit loading is the intended exam distinction.",
+        "basis": "suggested",
+        "reason": "The code refers to System directly through System.out.println. It does not request reflective loading through Class.forName. The JVM can resolve references lazily, so the code alone does not establish one exact physical loading time.",
+        "references": [
+          "https://docs.oracle.com/javase/specs/jls/se25/html/jls-12.html#jls-12.2"
+        ],
+        "sourceResponses": []
+      }
+    },
+    {
+      "id": 45,
+      "prompt": [
+        "Refer to the functional specification and fill in blanks (a), (b), and (c) with HTML statements."
+      ],
+      "responses": [
+        "method=’POST’\n<option value =’Potato’>Potato</option>\n<option value=’Sweet Potato’>Sweet Potato</option>\n<Input type=’Submit’>Add</option>"
+      ],
+      "images": [
+        {
+          "src": "assets/written/original-rId33.png",
+          "width": 609,
+          "height": 274,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 17,
+          "originalRelationship": "rId33",
+          "sha256": "e9f3b619e980a24a5d9d4347221155f14644a3bc035c2d8e85f2244a040122cd"
+        },
+        {
+          "src": "assets/written/original-rId34.png",
+          "width": 515,
+          "height": 212,
+          "source": "TOPCIT_ (2).docx",
+          "sourcePage": 17,
+          "originalRelationship": "rId34",
+          "sha256": "b11212306f1e73e478c4f05ac6e1171b9d2bcefe62185a1564eb8d2e89a2b6f1"
+        }
+      ],
+      "sourceParagraphs": [
+        157,
+        158
+      ],
+      "sourcePages": [
+        17
+      ],
+      "sourceFile": "TOPCIT_Reviewer.pdf / TOPCIT_ (2).docx",
+      "givenChoices": [],
+      "isMultipleChoice": false,
+      "promptNote": "The heading is restored from the matching main question or transcribed from the source image.",
+      "title": "Refer to the functional specification and fill in blanks (a), (b), and (c) with HTML statements.",
+      "model": {
+        "answer": "(a) method=\"POST\"\n\n(b)\n<option value=\"Potato\">Potato</option>\n<option value=\"Sweet Potato\">Sweet Potato</option>\n\n(c)\n<input type=\"submit\" value=\"Add\">",
+        "basis": "corrected",
+        "reason": "POST selects the requested submission method. Each option supplies its submitted value, and a submit input sends the form. The source ends the submit input with </option>, which does not close an input element.",
+        "references": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html"
+        ],
+        "sourceResponses": [
+          "method=’POST’\n<option value =’Potato’>Potato</option>\n<option value=’Sweet Potato’>Sweet Potato</option>\n<Input type=’Submit’>Add</option>"
+        ]
+      },
+      "imageNote": "The original photograph is already cropped in the supplied files. Every original image byte is retained here."
+    }
+  ],
+  "originalImages": [
+    {
+      "src": "assets/written/original-rId7.png",
+      "width": 420,
+      "height": 177,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 1,
+      "originalRelationship": "rId7",
+      "sha256": "3c7610f492c5351aae51bca8e47a3eaecdfbbe94737576b425b2e9835276e8e6"
+    },
+    {
+      "src": "assets/written/original-rId8.png",
+      "width": 684,
+      "height": 189,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 1,
+      "originalRelationship": "rId8",
+      "sha256": "43f615f0159d82e3e8a8b4126e92a7aec285145810f0e9061d818b087d959cc8"
+    },
+    {
+      "src": "assets/written/original-rId9.png",
+      "width": 407,
+      "height": 110,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 2,
+      "originalRelationship": "rId9",
+      "sha256": "95f5513cb00fca51ad8a08bf1882a9f465524eabc56263fed9e7a50317c4d29c"
+    },
+    {
+      "src": "assets/written/original-rId10.png",
+      "width": 648,
+      "height": 170,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 2,
+      "originalRelationship": "rId10",
+      "sha256": "a49a6c7b5e18d7af544dcb87d152d840e769e46f287e9238b86ff5fe01d6044d"
+    },
+    {
+      "src": "assets/written/original-rId11.png",
+      "width": 508,
+      "height": 154,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 3,
+      "originalRelationship": "rId11",
+      "sha256": "847bceb691f9cf658c3dd52432da7a96c5384ded928994ef708455a2f1fff44a"
+    },
+    {
+      "src": "assets/written/original-rId12.png",
+      "width": 538,
+      "height": 280,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 4,
+      "originalRelationship": "rId12",
+      "sha256": "b87d00d2e72e4ea08acc00f50f2cdbc867ebdd1382a7a5bef66e116d5ed979a8"
+    },
+    {
+      "src": "assets/written/original-rId13.png",
+      "width": 507,
+      "height": 124,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 4,
+      "originalRelationship": "rId13",
+      "sha256": "05c9d70b21670b09f1f8ac95b8a64d6049d98ed057fe477356b972aef3b6b095"
+    },
+    {
+      "src": "assets/written/original-rId14.png",
+      "width": 489,
+      "height": 181,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 5,
+      "originalRelationship": "rId14",
+      "sha256": "36ce39b090c5920872bc1d4154d47727cb3502c7c26b536f5efc1c509f8fcb3b"
+    },
+    {
+      "src": "assets/written/original-rId15.png",
+      "width": 574,
+      "height": 184,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 6,
+      "originalRelationship": "rId15",
+      "sha256": "f90192293c06758b050396f3ef97b64fa6d9cc43b918fb5df889baaf61c75983"
+    },
+    {
+      "src": "assets/written/original-rId16.png",
+      "width": 502,
+      "height": 230,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 6,
+      "originalRelationship": "rId16",
+      "sha256": "7ec2233aba3ab6cc25e43986de0512020c4d2d589ca7110148e40d36574084b1"
+    },
+    {
+      "src": "assets/written/original-rId17.png",
+      "width": 518,
+      "height": 278,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 7,
+      "originalRelationship": "rId17",
+      "sha256": "c23594855322ab2a42a328bbbbd3aa8a0ecb499e2453aa67ef1b1a04abeae745"
+    },
+    {
+      "src": "assets/written/original-rId18.png",
+      "width": 459,
+      "height": 234,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 7,
+      "originalRelationship": "rId18",
+      "sha256": "e0f1d64bb8a586602343c37c03b3d973a0cd4292153212f08ff298bc11c7e3ff"
+    },
+    {
+      "src": "assets/written/original-rId19.png",
+      "width": 495,
+      "height": 112,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 8,
+      "originalRelationship": "rId19",
+      "sha256": "3de07eca3a9ea21ab53307b9a61ab7dfdcc1da2b20eb0ed97bd563bf48deef7c"
+    },
+    {
+      "src": "assets/written/original-rId20.png",
+      "width": 517,
+      "height": 73,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 8,
+      "originalRelationship": "rId20",
+      "sha256": "cd46b0ad3fd37d34aa75fd85231648fe17af307103fbf608b6f361715463c200"
+    },
+    {
+      "src": "assets/written/original-rId21.png",
+      "width": 560,
+      "height": 276,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 9,
+      "originalRelationship": "rId21",
+      "sha256": "d531b3aff8550d1ddacd92c75ddcac906d7d05267de88253bd998e83c10179b6"
+    },
+    {
+      "src": "assets/written/original-rId22.png",
+      "width": 578,
+      "height": 272,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 9,
+      "originalRelationship": "rId22",
+      "sha256": "333bf27fed21083e712bbfaa2fa1ee746636c63e38c432f65f9356a304b45245"
+    },
+    {
+      "src": "assets/written/original-rId23.png",
+      "width": 585,
+      "height": 286,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 10,
+      "originalRelationship": "rId23",
+      "sha256": "a634b0bbc90bb40535dd554e04c209fa7183a3ef5d0500b2b6f3ba082416fe44"
+    },
+    {
+      "src": "assets/written/original-rId24.png",
+      "width": 608,
+      "height": 284,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 11,
+      "originalRelationship": "rId24",
+      "sha256": "a55e66ebd127210587ed2f98cd881b740b7f162522f2ccbe150b41106533fb80"
+    },
+    {
+      "src": "assets/written/original-rId25.png",
+      "width": 574,
+      "height": 259,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 12,
+      "originalRelationship": "rId25",
+      "sha256": "8a2e7e98b509195b5f24da5f04ef650253639dde701704e8809ec40ede6317e1"
+    },
+    {
+      "src": "assets/written/original-rId26.png",
+      "width": 589,
+      "height": 255,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 13,
+      "originalRelationship": "rId26",
+      "sha256": "1af1b8a81ccc05d8987a189cde63951e8a7307ec65806b579eddcee019cc84ed"
+    },
+    {
+      "src": "assets/written/original-rId27.png",
+      "width": 632,
+      "height": 425,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 13,
+      "originalRelationship": "rId27",
+      "sha256": "155f40961ba79d2d5d00c56a6f5e9a80a611eac0bd31d1afaf5e8076e93fdd68"
+    },
+    {
+      "src": "assets/written/original-rId28.png",
+      "width": 609,
+      "height": 330,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 14,
+      "originalRelationship": "rId28",
+      "sha256": "d3232467a86c0ec62f1381c8280d6802aa94c2cab572e8496fbb4091a58f5816"
+    },
+    {
+      "src": "assets/written/original-rId29.png",
+      "width": 577,
+      "height": 408,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 15,
+      "originalRelationship": "rId29",
+      "sha256": "e8cf68471c64ca5c5c8bda14fb9d5a9a6302f15ea575953874a11f734b6099f2"
+    },
+    {
+      "src": "assets/written/original-rId30.png",
+      "width": 590,
+      "height": 200,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 15,
+      "originalRelationship": "rId30",
+      "sha256": "32e899c38b6f98428c83ff653b4718c6198a12b4a880797ba74f83d3efb9fbf9"
+    },
+    {
+      "src": "assets/written/original-rId31.png",
+      "width": 499,
+      "height": 236,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 16,
+      "originalRelationship": "rId31",
+      "sha256": "51702d07309674f0b42dd1efc09a43190fbd2cd80d145d19277f510db900be30"
+    },
+    {
+      "src": "assets/written/original-rId32.png",
+      "width": 453,
+      "height": 127,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 16,
+      "originalRelationship": "rId32",
+      "sha256": "643f35eb385c4f42f7e39b6f8ffbd355267ff375b90455bd850d46446db943a4"
+    },
+    {
+      "src": "assets/written/original-rId33.png",
+      "width": 609,
+      "height": 274,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 17,
+      "originalRelationship": "rId33",
+      "sha256": "e9f3b619e980a24a5d9d4347221155f14644a3bc035c2d8e85f2244a040122cd"
+    },
+    {
+      "src": "assets/written/original-rId34.png",
+      "width": 515,
+      "height": 212,
+      "source": "TOPCIT_ (2).docx",
+      "sourcePage": 17,
+      "originalRelationship": "rId34",
+      "sha256": "b11212306f1e73e478c4f05ac6e1171b9d2bcefe62185a1564eb8d2e89a2b6f1"
+    }
+  ]
+}

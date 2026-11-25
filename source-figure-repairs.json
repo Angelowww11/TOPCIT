@@ -1,5 +1,120 @@
 [
   {
+    "questionId": 3,
+    "image": "assets/source/restored-question-003-context.webp",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          72.0,
+          355.972,
+          475.242,
+          532.211
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "image": "assets/source/restored-question-008-context.webp",
+    "regions": [
+      {
+        "page": 2,
+        "rect": [
+          72.0,
+          632.32,
+          309.0,
+          687.07
+        ]
+      },
+      {
+        "page": 3,
+        "rect": [
+          90.0,
+          36.0,
+          261.0,
+          99.75
+        ],
+        "label": "Source choice A"
+      },
+      {
+        "page": 3,
+        "rect": [
+          90.0,
+          101.563,
+          261.0,
+          188.563
+        ],
+        "label": "Source choice B"
+      },
+      {
+        "page": 3,
+        "rect": [
+          90.0,
+          189.626,
+          257.25,
+          272.126
+        ],
+        "label": "Source choice C"
+      },
+      {
+        "page": 3,
+        "rect": [
+          90.0,
+          273.189,
+          262.5,
+          335.439
+        ],
+        "label": "Source choice D"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "image": "assets/source/restored-question-010-context.webp",
+    "regions": [
+      {
+        "page": 4,
+        "rect": [
+          72.0,
+          137.437,
+          462.089,
+          259.9
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 11,
+    "image": "assets/source/restored-question-011-context.webp",
+    "regions": [
+      {
+        "page": 4,
+        "rect": [
+          72.0,
+          362.937,
+          228.75,
+          471.687
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 15,
+    "image": "assets/source/restored-question-015-context.webp",
+    "regions": [
+      {
+        "page": 5,
+        "rect": [
+          72.0,
+          312.499,
+          463.164,
+          526.444
+        ]
+      }
+    ]
+  },
+  {
     "questionId": 22,
     "image": "assets/source/restored-question-022-context.webp",
     "regions": [
@@ -10,6 +125,66 @@
           36.0,
           509.351,
           282.089
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 23,
+    "image": "assets/source/restored-question-023-context.webp",
+    "regions": [
+      {
+        "page": 8,
+        "rect": [
+          72.0,
+          399.041,
+          451.343,
+          483.031
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 25,
+    "image": "assets/source/restored-question-025-context.webp",
+    "regions": [
+      {
+        "page": 9,
+        "rect": [
+          72.0,
+          64.982,
+          248.239,
+          85.183
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 27,
+    "image": "assets/source/restored-question-027-context.webp",
+    "regions": [
+      {
+        "page": 9,
+        "rect": [
+          72.0,
+          363.329,
+          221.835,
+          694.314
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 30,
+    "image": "assets/source/restored-question-030-context.webp",
+    "regions": [
+      {
+        "page": 10,
+        "rect": [
+          72.0,
+          657.919,
+          455.641,
+          695.253
         ]
       }
     ]
@@ -39,6 +214,121 @@
     ]
   },
   {
+    "questionId": 34,
+    "image": "assets/source/restored-question-034-context.webp",
+    "regions": [
+      {
+        "page": 12,
+        "rect": [
+          72.0,
+          396.982,
+          466.388,
+          447.111
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 38,
+    "image": "assets/source/restored-question-038-context.webp",
+    "regions": [
+      {
+        "page": 14,
+        "rect": [
+          72.0,
+          79.473,
+          461.52,
+          273.98
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 39,
+    "image": "assets/source/restored-question-039-context.webp",
+    "regions": [
+      {
+        "page": 14,
+        "rect": [
+          72.0,
+          391.464,
+          430.925,
+          433.409
+        ]
+      },
+      {
+        "page": 14,
+        "rect": [
+          90.0,
+          434.527,
+          459.671,
+          479.198
+        ],
+        "label": "Source choice A"
+      },
+      {
+        "page": 14,
+        "rect": [
+          90.0,
+          480.59,
+          459.65,
+          522.872
+        ],
+        "label": "Source choice B"
+      },
+      {
+        "page": 14,
+        "rect": [
+          90.0,
+          523.903,
+          452.149,
+          565.689
+        ],
+        "label": "Source choice C"
+      },
+      {
+        "page": 14,
+        "rect": [
+          90.0,
+          566.966,
+          452.1,
+          609.529
+        ],
+        "label": "Source choice D"
+      }
+    ]
+  },
+  {
+    "questionId": 40,
+    "image": "assets/source/restored-question-040-context.webp",
+    "regions": [
+      {
+        "page": 14,
+        "rect": [
+          72.0,
+          639.561,
+          563.104,
+          692.718
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 42,
+    "image": "assets/source/restored-question-042-context.webp",
+    "regions": [
+      {
+        "page": 15,
+        "rect": [
+          72.0,
+          297.714,
+          555.582,
+          334.117
+        ]
+      }
+    ]
+  },
+  {
     "questionId": 50,
     "image": "assets/source/restored-question-050-context.webp",
     "regions": [
@@ -63,6 +353,36 @@
     ]
   },
   {
+    "questionId": 52,
+    "image": "assets/source/restored-question-052-context.webp",
+    "regions": [
+      {
+        "page": 19,
+        "rect": [
+          72.0,
+          93.964,
+          183.761,
+          221.928
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 53,
+    "image": "assets/source/restored-question-053-context.webp",
+    "regions": [
+      {
+        "page": 19,
+        "rect": [
+          72.0,
+          339.49,
+          263.096,
+          403.968
+        ]
+      }
+    ]
+  },
+  {
     "questionId": 54,
     "image": "assets/source/restored-question-054-context.webp",
     "regions": [
@@ -74,6 +394,177 @@
           500.33,
           741.833
         ]
+      }
+    ]
+  },
+  {
+    "questionId": 56,
+    "image": "assets/source/restored-question-056-context.webp",
+    "regions": [
+      {
+        "page": 20,
+        "rect": [
+          72.0,
+          524.701,
+          463.461,
+          695.567
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 64,
+    "image": "assets/source/restored-question-064-context.webp",
+    "regions": [
+      {
+        "page": 24,
+        "rect": [
+          90.0,
+          366.955,
+          487.612,
+          454.842
+        ],
+        "label": "Source choice A"
+      },
+      {
+        "page": 24,
+        "rect": [
+          90.0,
+          456.518,
+          487.6,
+          544.739
+        ],
+        "label": "Source choice B"
+      },
+      {
+        "page": 24,
+        "rect": [
+          90.0,
+          546.081,
+          487.6,
+          645.935
+        ],
+        "label": "Source choice C"
+      },
+      {
+        "page": 24,
+        "rect": [
+          90.0,
+          647.644,
+          466.119,
+          744.541
+        ],
+        "label": "Source choice D"
+      }
+    ]
+  },
+  {
+    "questionId": 69,
+    "image": "assets/source/restored-question-069-context.webp",
+    "regions": [
+      {
+        "page": 26,
+        "rect": [
+          72.0,
+          418.537,
+          481.433,
+          472.37
+        ]
+      },
+      {
+        "page": 26,
+        "rect": [
+          90.0,
+          488.091,
+          454.298,
+          549.562
+        ],
+        "label": "Source choice A"
+      },
+      {
+        "page": 26,
+        "rect": [
+          90.0,
+          550.654,
+          454.25,
+          611.254
+        ],
+        "label": "Source choice B"
+      },
+      {
+        "page": 26,
+        "rect": [
+          90.0,
+          612.267,
+          557.431,
+          664.593
+        ],
+        "label": "Source choice C"
+      },
+      {
+        "page": 26,
+        "rect": [
+          90.0,
+          665.83,
+          481.131,
+          726.986
+        ],
+        "label": "Source choice D"
+      }
+    ]
+  },
+  {
+    "questionId": 75,
+    "image": "assets/source/restored-question-075-context.webp",
+    "regions": [
+      {
+        "page": 28,
+        "rect": [
+          72.0,
+          224.383,
+          498.627,
+          478.186
+        ]
+      },
+      {
+        "page": 28,
+        "rect": [
+          90.0,
+          479.246,
+          430.5,
+          548.996
+        ],
+        "label": "Source choice A"
+      },
+      {
+        "page": 28,
+        "rect": [
+          90.0,
+          550.809,
+          431.25,
+          603.309
+        ],
+        "label": "Source choice B"
+      },
+      {
+        "page": 28,
+        "rect": [
+          90.0,
+          604.372,
+          436.5,
+          655.372
+        ],
+        "label": "Source choice C"
+      },
+      {
+        "page": 28,
+        "rect": [
+          90.0,
+          656.435,
+          432.0,
+          723.185
+        ],
+        "label": "Source choice D"
       }
     ]
   },
@@ -102,6 +593,76 @@
     ]
   },
   {
+    "questionId": 84,
+    "image": "assets/source/restored-question-084-context.webp",
+    "regions": [
+      {
+        "page": 32,
+        "rect": [
+          72.0,
+          618.073,
+          557.7,
+          663.99
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 85,
+    "image": "assets/source/restored-question-085-context.webp",
+    "regions": [
+      {
+        "page": 33,
+        "rect": [
+          72.0,
+          79.473,
+          504.75,
+          346.473
+        ]
+      },
+      {
+        "page": 33,
+        "rect": [
+          90.0,
+          362.027,
+          214.5,
+          419.777
+        ],
+        "label": "Source choice A"
+      },
+      {
+        "page": 33,
+        "rect": [
+          90.0,
+          421.59,
+          209.25,
+          503.34
+        ],
+        "label": "Source choice B"
+      },
+      {
+        "page": 33,
+        "rect": [
+          90.0,
+          505.153,
+          210.0,
+          611.653
+        ],
+        "label": "Source choice C"
+      },
+      {
+        "page": 33,
+        "rect": [
+          90.0,
+          612.716,
+          207.75,
+          743.216
+        ],
+        "label": "Source choice D"
+      }
+    ]
+  },
+  {
     "questionId": 93,
     "image": "assets/source/restored-question-093-context.webp",
     "regions": [
@@ -121,6 +682,105 @@
           36.0,
           519.396,
           218.687
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 94,
+    "image": "assets/source/restored-question-094-context.webp",
+    "regions": [
+      {
+        "page": 37,
+        "rect": [
+          72.0,
+          321.5,
+          528.349,
+          488.067
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 100,
+    "image": "assets/source/restored-question-100-context.webp",
+    "regions": [
+      {
+        "page": 39,
+        "rect": [
+          72.0,
+          356.651,
+          525.492,
+          465.069
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 114,
+    "image": "assets/source/restored-question-114-context.webp",
+    "regions": [
+      {
+        "page": 44,
+        "rect": [
+          72.0,
+          64.982,
+          412.657,
+          143.077
+        ]
+      },
+      {
+        "page": 44,
+        "rect": [
+          72.0,
+          158.586,
+          542.351,
+          370.287
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 142,
+    "image": "assets/source/restored-question-142-context.webp",
+    "regions": [
+      {
+        "page": 53,
+        "rect": [
+          54.0,
+          50.546,
+          458.25,
+          152.546
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 167,
+    "image": "assets/source/restored-question-167-context.webp",
+    "regions": [
+      {
+        "page": 61,
+        "rect": [
+          72.0,
+          249.071,
+          421.254,
+          370.975
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 187,
+    "image": "assets/source/restored-question-187-context.webp",
+    "regions": [
+      {
+        "page": 68,
+        "rect": [
+          72.0,
+          79.638,
+          464.239,
+          230.236
         ]
       }
     ]
@@ -150,6 +810,36 @@
     ]
   },
   {
+    "questionId": 192,
+    "image": "assets/source/restored-question-192-context.webp",
+    "regions": [
+      {
+        "page": 69,
+        "rect": [
+          72.0,
+          537.667,
+          393.313,
+          689.793
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 194,
+    "image": "assets/source/restored-question-194-context.webp",
+    "regions": [
+      {
+        "page": 70,
+        "rect": [
+          72.0,
+          211.896,
+          519.75,
+          403.896
+        ]
+      }
+    ]
+  },
+  {
     "questionId": 195,
     "image": "assets/source/restored-question-195-context.webp",
     "regions": [
@@ -169,6 +859,36 @@
           36.0,
           498.0,
           123.0
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 196,
+    "image": "assets/source/restored-question-196-context.webp",
+    "regions": [
+      {
+        "page": 71,
+        "rect": [
+          72.0,
+          249.327,
+          501.0,
+          459.327
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 197,
+    "image": "assets/source/restored-question-197-context.webp",
+    "regions": [
+      {
+        "page": 71,
+        "rect": [
+          72.0,
+          556.562,
+          524.25,
+          678.062
         ]
       }
     ]
@@ -199,6 +919,36 @@
           677.314,
           529.5,
           803.314
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 241,
+    "image": "assets/source/restored-question-241-context.webp",
+    "regions": [
+      {
+        "page": 88,
+        "rect": [
+          72.0,
+          518.982,
+          442.864,
+          597.527
+        ]
+      }
+    ]
+  },
+  {
+    "questionId": 242,
+    "image": "assets/source/restored-question-242-context.webp",
+    "regions": [
+      {
+        "page": 55,
+        "rect": [
+          72.0,
+          147.149,
+          431.25,
+          195.899
         ]
       }
     ]
