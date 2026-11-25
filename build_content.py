@@ -125,3 +125,7 @@ for i,q in enumerate(out,1):q['id']=i
 (ROOT/'questions.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf8')
 (ROOT/'import-audit.json').write_text(json.dumps({'source':SOURCE.name,'pages':len(DOC),'candidateQuestions':len(records),'imported':len(out),'keyed':sum(q['answerIndex'] is not None for q in out),'warnings':warnings,'domains':dict(collections.Counter(q['domain'] for q in out))},ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps({'candidates':len(records),'imported':len(out),'keyed':sum(q['answerIndex'] is not None for q in out),'warnings':len(warnings),'domains':dict(collections.Counter(q['domain'] for q in out))},indent=2))
+
+# Apply the answer review after every fresh source import.
+import runpy
+runpy.run_path(str(ROOT / "review_answers.py"))

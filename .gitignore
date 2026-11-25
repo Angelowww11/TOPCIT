@@ -4,3 +4,6 @@ review-p*.png
 01_Software_Development-p*.png
 assets/essence-sample-*.png
 .vercel/
+
+qa/
+__pycache__/

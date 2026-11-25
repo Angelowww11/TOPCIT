@@ -12,7 +12,10 @@
       "git save"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 2,
@@ -29,7 +32,9 @@
     "answerIndex": null,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewNote": "Two choices repeat the same service-isolation benefit, and the other choices also describe plausible benefits of microservices. This NOT question has no defensible single answer."
+    "reviewNote": "Two choices repeat the same service-isolation benefit, and the other choices also describe plausible benefits of microservices. This NOT question has no defensible single answer.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 3,
@@ -44,7 +49,10 @@
       "Proxy Pattern"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-03-p1.webp"
+    "exhibit": "assets/source/software-03-p1.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 4,
@@ -59,7 +67,10 @@
       "Test design specification"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 5,
@@ -74,7 +85,10 @@
       "Parallel lines containing “Product Purchase Information” represents a Data Store."
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-05-p2.webp"
+    "exhibit": "assets/source/software-05-p2.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 6,
@@ -91,7 +105,9 @@
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 0,
-    "reviewNote": "The source marks a valid Java lambda as incorrect. The brace-wrapped parameter list and bare return in choice C are not valid Java lambda syntax."
+    "reviewNote": "The source marks a valid Java lambda as incorrect. The brace-wrapped parameter list and bare return in choice C are not valid Java lambda syntax.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 7,
@@ -106,7 +122,10 @@
       "Product backlog"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 8,
@@ -121,7 +140,11 @@
       ""
     ],
     "answerIndex": null,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": null,
+    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 9,
@@ -135,8 +158,13 @@
       "Reverse engineering",
       "Forward engineering"
     ],
-    "answerIndex": 2,
-    "exhibit": "assets/source/software-09-p3.webp"
+    "answerIndex": null,
+    "exhibit": "assets/source/software-09-p3.webp",
+    "sourceAnswerIndex": 2,
+    "reviewNote": "Obfuscation makes code harder to understand and resists reverse engineering. None of these choices states that purpose. The source selects reverse engineering, which is the activity it obstructs.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 10,
@@ -151,7 +179,10 @@
       "(a) instance, (b) class, (c) object"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-10-p4.webp"
+    "exhibit": "assets/source/software-10-p4.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 11,
@@ -166,7 +197,10 @@
       "Inheritance abstraction"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-11-p4.webp"
+    "exhibit": "assets/source/software-11-p4.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 12,
@@ -181,7 +215,10 @@
       "Interview"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 13,
@@ -196,7 +233,10 @@
       "Member’s personal information shall be encrypted before it is stored."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 14,
@@ -211,7 +251,10 @@
       "(d), (d), (e)"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-14-p5.webp"
+    "exhibit": "assets/source/software-14-p5.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 15,
@@ -226,7 +269,10 @@
       "Command pattern"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-15-p5.webp"
+    "exhibit": "assets/source/software-15-p5.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 16,
@@ -241,7 +287,10 @@
       "Information Hiding prevents other modules from modifying internal information and allows information exchange only through interfaces."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 17,
@@ -256,7 +305,10 @@
       "Regression Test"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/software-17-p6.webp"
+    "exhibit": "assets/source/software-17-p6.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 18,
@@ -271,7 +323,10 @@
       "Selection Sort"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-18-p6.webp"
+    "exhibit": "assets/source/software-18-p6.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 19,
@@ -286,7 +341,10 @@
       "A Django app is a Python package used in Django. A single Django project is composed of one or more Django apps."
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 20,
@@ -301,7 +359,10 @@
       "The UI design needs both visual outcomes and reflections of the user group level. The US design reflects the research results of psychology, computer science, visual design, etc. on the design of the user experience."
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 21,
@@ -316,7 +377,10 @@
       "Requirements engineering"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-21-p7.webp"
+    "exhibit": "assets/source/software-21-p7.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 22,
@@ -331,7 +395,10 @@
       "Collaboration Diagram"
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 23,
@@ -346,7 +413,10 @@
       "Tree"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-23-p8.webp"
+    "exhibit": "assets/source/software-23-p8.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 24,
@@ -361,7 +431,10 @@
       "Repository"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-24-p8.webp"
+    "exhibit": "assets/source/software-24-p8.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 25,
@@ -376,7 +449,10 @@
       "System.out.println(testArray[0]);"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 26,
@@ -391,7 +467,10 @@
       "Software source code management"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 27,
@@ -405,8 +484,15 @@
       "Package: Create deployable files.",
       "Test: Carry out unit tests with the unit test tool."
     ],
-    "answerIndex": 0,
-    "exhibit": "assets/source/software-27-p9.webp"
+    "answerIndex": null,
+    "exhibit": "assets/source/software-27-p9.webp",
+    "sourceAnswerIndex": 0,
+    "reviewNote": "Maven deploy copies a package to a remote repository, not the local repository. The compile wording also incorrectly assumes machine code for every project. More than one choice is defective.",
+    "reviewReferences": [
+      "https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html"
+    ],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 28,
@@ -421,7 +507,10 @@
       "External factors that may affect the architecture such as development, operation, on politics."
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-28-p10.webp"
+    "exhibit": "assets/source/software-28-p10.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 29,
@@ -436,7 +525,10 @@
       "Selection sort"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-29-p10.webp"
+    "exhibit": "assets/source/software-29-p10.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 30,
@@ -451,7 +543,10 @@
       "Queue"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 31,
@@ -466,7 +561,10 @@
       "range(1, N+1)"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/software-31-p11.webp"
+    "exhibit": "assets/source/software-31-p11.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 32,
@@ -481,7 +579,10 @@
       "LGPL 2.1 (GNU Lesser General Public License)"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/software-32-p11.webp"
+    "exhibit": "assets/source/software-32-p11.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 33,
@@ -496,7 +597,10 @@
       "Restructuring"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 34,
@@ -511,7 +615,10 @@
       "Inline class"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 35,
@@ -528,7 +635,9 @@
     "answerIndex": null,
     "exhibit": "assets/source/software-35-p12.webp",
     "sourceAnswerIndex": 3,
-    "reviewNote": "The last answer choice lost the UML stereotype text during PDF extraction and appears only as two empty angle-bracket pairs. It cannot be scored accurately from the available choices."
+    "reviewNote": "The last answer choice lost the UML stereotype text during PDF extraction and appears only as two empty angle-bracket pairs. It cannot be scored accurately from the available choices.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 36,
@@ -543,7 +652,10 @@
       "(a) data.right, (b) date.left"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-36-p13.webp"
+    "exhibit": "assets/source/software-36-p13.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 37,
@@ -558,7 +670,10 @@
       "Software & systems product line (SSPL)"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-37-p13.webp"
+    "exhibit": "assets/source/software-37-p13.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 38,
@@ -573,7 +688,10 @@
       "Module F is a library that consists of predefined modules."
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-38-p14.webp"
+    "exhibit": "assets/source/software-38-p14.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 39,
@@ -588,7 +706,11 @@
       ""
     ],
     "answerIndex": null,
-    "exhibit": "assets/source/software-39-p14.webp"
+    "exhibit": "assets/source/software-39-p14.webp",
+    "sourceAnswerIndex": null,
+    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 40,
@@ -603,7 +725,10 @@
       "Focus group interview"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 41,
@@ -618,7 +743,10 @@
       "(a) I < 100: (b) range(0, 99):"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-41-p15.webp"
+    "exhibit": "assets/source/software-41-p15.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 42,
@@ -633,7 +761,10 @@
       "Knuth Morris Pratt Algorithm"
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 43,
@@ -648,7 +779,10 @@
       "(7,5), (5,0)"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-43-p15.webp"
+    "exhibit": "assets/source/software-43-p15.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 44,
@@ -663,7 +797,10 @@
       "Test estimation and organization of the test team"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-44-p16.webp"
+    "exhibit": "assets/source/software-44-p16.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 45,
@@ -678,7 +815,10 @@
       "ISP, Interface Segregation Principle"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-45-p16.webp"
+    "exhibit": "assets/source/software-45-p16.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 46,
@@ -693,7 +833,10 @@
       "Exploratory testing"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/software-46-p16.webp"
+    "exhibit": "assets/source/software-46-p16.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 47,
@@ -708,7 +851,10 @@
       "Project execution plan"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 48,
@@ -723,7 +869,10 @@
       "Stack"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/software-48-p17.webp"
+    "exhibit": "assets/source/software-48-p17.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 49,
@@ -738,7 +887,10 @@
       "Error Guessing"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-49-p17.webp"
+    "exhibit": "assets/source/software-49-p17.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 50,
@@ -753,7 +905,10 @@
       "Heuristics"
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 51,
@@ -768,7 +923,10 @@
       "Quartiles"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-51-p18.webp"
+    "exhibit": "assets/source/software-51-p18.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 52,
@@ -783,7 +941,10 @@
       "Control Coupling"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/software-52-p19.webp"
+    "exhibit": "assets/source/software-52-p19.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 53,
@@ -798,7 +959,10 @@
       "Data Coupling"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/software-53-p19.webp"
+    "exhibit": "assets/source/software-53-p19.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 54,
@@ -813,7 +977,10 @@
       "Replace Temp with Query"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 55,
@@ -828,7 +995,10 @@
       "Decorator pattern"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/software-55-p20.webp"
+    "exhibit": "assets/source/software-55-p20.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 56,
@@ -843,7 +1013,10 @@
       "Selection sort"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/software-56-p20.webp"
+    "exhibit": "assets/source/software-56-p20.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 57,
@@ -858,7 +1031,10 @@
       "(c)->(b)->(d)->(a)"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/understanding-01-p21.webp"
+    "exhibit": "assets/source/understanding-01-p21.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 58,
@@ -873,7 +1049,10 @@
       "CourseRegistration.DateRegistered"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/understanding-02-p21.webp"
+    "exhibit": "assets/source/understanding-02-p21.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 59,
@@ -888,7 +1067,10 @@
       "(4) (4)"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/understanding-03-p22.webp"
+    "exhibit": "assets/source/understanding-03-p22.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 60,
@@ -902,8 +1084,15 @@
       "Does not support the foreign key feature among tables.",
       "Supports a variety of types of data models, including document-based and graph-based data models."
     ],
-    "answerIndex": 0,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "The source treats NoSQL as excluding ACID transactions. Modern MongoDB supports multi-document ACID transactions. These blanket properties do not define all NoSQL products.",
+    "reviewReferences": [
+      "https://www.mongodb.com/docs/manual/core/transactions/"
+    ],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 61,
@@ -918,7 +1107,10 @@
       "Neural Network"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/understanding-05-p23.webp"
+    "exhibit": "assets/source/understanding-05-p23.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 62,
@@ -933,7 +1125,10 @@
       "GRANT"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/understanding-06-p23.webp"
+    "exhibit": "assets/source/understanding-06-p23.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 63,
@@ -948,7 +1143,10 @@
       "Transitive Dependency"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/understanding-07-p24.webp"
+    "exhibit": "assets/source/understanding-07-p24.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 64,
@@ -963,7 +1161,11 @@
       ""
     ],
     "answerIndex": null,
-    "exhibit": "assets/source/understanding-08-p24.webp"
+    "exhibit": "assets/source/understanding-08-p24.webp",
+    "sourceAnswerIndex": null,
+    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 65,
@@ -978,7 +1180,10 @@
       "A database is set of integrated and stored data with the minimum duplication to share data with many application systems."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 66,
@@ -992,8 +1197,13 @@
       "A+P is suitable for asynchronous storage processing. Dynamo and Apache Cassandra are database of this model.",
       "C+A is a strongly reliable model that prevents message losses even when the system is down. General RDBMS is the database of this model."
     ],
-    "answerIndex": 0,
-    "exhibit": "assets/source/understanding-10-p25.webp"
+    "answerIndex": null,
+    "exhibit": "assets/source/understanding-10-p25.webp",
+    "sourceAnswerIndex": 0,
+    "reviewNote": "CAP concerns the consistency/availability tradeoff during a network partition. Several choices oversimplify the model; no deployment-independent single answer is safe.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 67,
@@ -1008,7 +1218,10 @@
       "A snowflake schema is a model design technique for hierarchical analysis such as time-series analysis and regional analysis."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 68,
@@ -1023,7 +1236,10 @@
       "Semi-supervised learning"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/understanding-12-p26.webp"
+    "exhibit": "assets/source/understanding-12-p26.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 69,
@@ -1038,7 +1254,11 @@
       ""
     ],
     "answerIndex": null,
-    "exhibit": "assets/source/understanding-13-p26.webp"
+    "exhibit": "assets/source/understanding-13-p26.webp",
+    "sourceAnswerIndex": null,
+    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 70,
@@ -1052,8 +1272,13 @@
       "Internal level",
       "Logical level"
     ],
-    "answerIndex": 1,
-    "exhibit": "assets/source/understanding-14-p27.webp"
+    "answerIndex": 2,
+    "exhibit": "assets/source/understanding-14-p27.webp",
+    "sourceAnswerIndex": 1,
+    "reviewNote": "The example specifies record length and a physical index. These are internal storage details, not a user-specific external view.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 71,
@@ -1067,8 +1292,13 @@
       "When a problem emerges in a site, tasks can be carried out through other sites where the same data are stored.",
       "The availability is increased because data processing requests are distributed on multiple sites, not concentrated on a single site."
     ],
-    "answerIndex": 0,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "Replication can increase storage, so the marked statement is a real tradeoff. Location transparency depends on whether the statement describes users or database administration. The question does not specify that perspective.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 72,
@@ -1082,8 +1312,13 @@
       "The analytical algorithm that groups data with similar characteristics taking a variety of attributes of given data into consideration.",
       "The analytical algorithm that creates a tree-shape model that classifies category values of a specific categorical attributes with the analysis of the data when a data set is given."
     ],
-    "answerIndex": 3,
-    "exhibit": null
+    "answerIndex": 2,
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewNote": "Grouping observations by similarity describes clustering, an unsupervised method. A classification tree learns from labeled categories and is supervised.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 73,
@@ -1097,8 +1332,13 @@
       "Incremental backup",
       "Archive log backup"
     ],
-    "answerIndex": 2,
-    "exhibit": "assets/source/understanding-17-p27.webp"
+    "answerIndex": 3,
+    "exhibit": "assets/source/understanding-17-p27.webp",
+    "sourceAnswerIndex": 2,
+    "reviewNote": "The source asks for recovery to the moment before failure. Archive or transaction logs support point-in-time recovery; incremental backups alone do not guarantee that recovery point.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 74,
@@ -1113,7 +1353,10 @@
       "Navigation-based data access using the reference structures is possible in such a way that one object record is eligible to access another object record."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 75,
@@ -1128,7 +1371,11 @@
       ""
     ],
     "answerIndex": null,
-    "exhibit": "assets/source/understanding-19-p28.webp"
+    "exhibit": "assets/source/understanding-19-p28.webp",
+    "sourceAnswerIndex": null,
+    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 76,
@@ -1142,8 +1389,13 @@
       "Create the Entity-Relationship Diagram (ERD).",
       "Define Attributes, and determine Identifiers."
     ],
-    "answerIndex": 3,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewNote": "Conceptual modeling can define subject areas and create a conceptual ERD. Detailed attributes and identifiers are often logical-model tasks. The choices do not specify a methodology with one unique answer.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 77,
@@ -1158,7 +1410,10 @@
       "K-Nearest Neighbor Algorithm"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/understanding-21-p29.webp"
+    "exhibit": "assets/source/understanding-21-p29.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 78,
@@ -1173,7 +1428,10 @@
       "unlock(y)"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/understanding-22-p30.webp"
+    "exhibit": "assets/source/understanding-22-p30.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 79,
@@ -1188,7 +1446,10 @@
       "Define entities"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 80,
@@ -1203,7 +1464,10 @@
       "Large files are stored in a file system of the operating system and are able to be accessed via tables.\\"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 81,
@@ -1218,7 +1482,10 @@
       "SELECT * FROM Customer INNER JOIN Result ON |OrderCustomerNumber = Order.CustumerNumber"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/understanding-25-p31.webp"
+    "exhibit": "assets/source/understanding-25-p31.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 82,
@@ -1233,7 +1500,10 @@
       "Table"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 83,
@@ -1248,7 +1518,10 @@
       "Foreign key"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/understanding-27-p32.webp"
+    "exhibit": "assets/source/understanding-27-p32.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 84,
@@ -1263,7 +1536,10 @@
       "Enterprise Data Administrator (EDA)"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 85,
@@ -1278,7 +1554,11 @@
       ""
     ],
     "answerIndex": null,
-    "exhibit": "assets/source/understanding-29-p33.webp"
+    "exhibit": "assets/source/understanding-29-p33.webp",
+    "sourceAnswerIndex": null,
+    "reviewNote": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 86,
@@ -1293,7 +1573,10 @@
       "The attribute of the primary identifier must be defined to comply with functional dependencies"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 87,
@@ -1308,7 +1591,10 @@
       "Departments with one or more employees may exist"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/understanding-31-p34.webp"
+    "exhibit": "assets/source/understanding-31-p34.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 88,
@@ -1323,7 +1609,10 @@
       "Referential Integrity"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/understanding-32-p34.webp"
+    "exhibit": "assets/source/understanding-32-p34.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 89,
@@ -1338,7 +1627,10 @@
       "Suitable when a massive data stored in the same column is analyzed collectively."
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 90,
@@ -1353,7 +1645,10 @@
       "(d) – CLOSE"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/understanding-34-p35.webp"
+    "exhibit": "assets/source/understanding-34-p35.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 91,
@@ -1368,7 +1663,10 @@
       "Thrashing"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/system-01-p36.webp"
+    "exhibit": "assets/source/system-01-p36.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 92,
@@ -1383,7 +1681,10 @@
       "Paging"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 93,
@@ -1398,7 +1699,10 @@
       "OpenMP"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 94,
@@ -1413,7 +1717,10 @@
       "Web Transaction Server"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/system-04-p37.webp"
+    "exhibit": "assets/source/system-04-p37.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 95,
@@ -1428,7 +1735,10 @@
       "Hamming code"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/system-05-p38.webp"
+    "exhibit": "assets/source/system-05-p38.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 96,
@@ -1443,7 +1753,10 @@
       "Paged Segmentation"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 97,
@@ -1457,8 +1770,13 @@
       "Logical and physical addresses are connected through the page table.",
       "Data to be processed are divided into pages of a predefined size to be loaded into memory."
     ],
-    "answerIndex": null,
-    "exhibit": null
+    "answerIndex": 0,
+    "exhibit": null,
+    "sourceAnswerIndex": null,
+    "reviewNote": "Paging uses fixed-size pages and frames. It can waste space inside a frame, but it does not require contiguous frames and avoids external fragmentation.",
+    "reviewReferences": [],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 98,
@@ -1473,7 +1791,10 @@
       "(a): FAT 16, (b): NTFS"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/system-08-p39.webp"
+    "exhibit": "assets/source/system-08-p39.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 99,
@@ -1488,7 +1809,10 @@
       "Sliding window protocols are used for a reliable in-order delivery"
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 100,
@@ -1503,7 +1827,10 @@
       "telnet-s"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/system-10-p39.webp"
+    "exhibit": "assets/source/system-10-p39.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 101,
@@ -1518,7 +1845,10 @@
       "CSS (Cascading Style Page), JS (JavaScript), JPG (Joint Photographic Expert Group) files that compose layout of web sites."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 102,
@@ -1533,7 +1863,10 @@
       "Stop-and-wait protocol"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/system-12-p40.webp"
+    "exhibit": "assets/source/system-12-p40.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 103,
@@ -1548,7 +1881,10 @@
       "Entanglement – If a particle state value changes even in the infinitely remote place, the quantum state value at the other end also changes instantaneously."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 104,
@@ -1563,7 +1899,10 @@
       "Kubernetes"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/system-14-p40.webp"
+    "exhibit": "assets/source/system-14-p40.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 105,
@@ -1578,7 +1917,10 @@
       "A file system consisting of Name Node and Data Node."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 106,
@@ -1593,7 +1935,10 @@
       "Aliases may be used when domain names are complex."
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 107,
@@ -1608,7 +1953,10 @@
       "Cache"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/system-17-p41.webp"
+    "exhibit": "assets/source/system-17-p41.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 108,
@@ -1623,7 +1971,10 @@
       "Direct Memory Access (DMA) bus"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/system-18-p42.webp"
+    "exhibit": "assets/source/system-18-p42.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 109,
@@ -1638,7 +1989,10 @@
       "Memory applying hysteretic PE (Polarization vs Electric field) characteristic on strong electrical film."
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 110,
@@ -1653,7 +2007,10 @@
       "Redis"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/system-20-p42.webp"
+    "exhibit": "assets/source/system-20-p42.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 111,
@@ -1668,7 +2025,10 @@
       "Super pipeline"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/system-21-p43.webp"
+    "exhibit": "assets/source/system-21-p43.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 112,
@@ -1683,7 +2043,10 @@
       "RTSP (Real0time Streaming Protocol)"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/system-22-p43.webp"
+    "exhibit": "assets/source/system-22-p43.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 113,
@@ -1697,8 +2060,15 @@
       "255.255.255.240 (the last 8-bit: 1111 0000)",
       "255.255.255.248 (the last 8-bit: 1111 1000)"
     ],
-    "answerIndex": 1,
-    "exhibit": null
+    "answerIndex": 2,
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewNote": "A /24 divided into /28 networks gives 16 subnets and 14 usable host addresses per subnet. The mask is 255.255.255.240. A /27 gives only eight subnets.",
+    "reviewReferences": [
+      "https://www.rfc-editor.org/rfc/rfc4632.html"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 114,
@@ -1713,7 +2083,10 @@
       "RAID 10"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/system-24-p44.webp"
+    "exhibit": "assets/source/system-24-p44.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 115,
@@ -1728,7 +2101,10 @@
       "User-Agent: Operating system and connection tool information of the client requested by the current user."
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/system-25-p44.webp"
+    "exhibit": "assets/source/system-25-p44.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 116,
@@ -1742,8 +2118,15 @@
       "Files stored in Data Nodes can be modified with restrictions.",
       "HDFS consists of Name Nodes that manage metadata and Data Nodes that store data."
     ],
-    "answerIndex": 3,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewNote": "NameNodes manage metadata and DataNodes store blocks; that statement is correct. HDFS restricts updates but permits append and truncate operations. The other broad statements do not provide a defensible unique false answer.",
+    "reviewReferences": [
+      "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html"
+    ],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 117,
@@ -1757,8 +2140,15 @@
       "Canary deployment",
       "Rolling deployment"
     ],
-    "answerIndex": 1,
-    "exhibit": "assets/source/system-27-p45.webp"
+    "answerIndex": 3,
+    "exhibit": "assets/source/system-27-p45.webp",
+    "sourceAnswerIndex": 1,
+    "reviewNote": "The figure removes and replaces old service instances in stages. That is a rolling deployment. Blue-green deployment switches between two complete environments.",
+    "reviewReferences": [
+      "https://kubernetes.io/docs/tasks/run-application/update-deployment-rolling/"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 118,
@@ -1773,7 +2163,10 @@
       "Additional information is sent to detect errors when data are transmitted, the data-receiving host uses the information, and requests the data-sending host to retransmit the data when errors are detected."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 119,
@@ -1788,7 +2181,10 @@
       "It is on-demand provisioning technology that flexibly expand the disk space, and allocate the size of space as much as it is used."
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 120,
@@ -1803,7 +2199,10 @@
       "Not Frequently Used (NFU)"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/system-30-p46.webp"
+    "exhibit": "assets/source/system-30-p46.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 121,
@@ -1818,7 +2217,10 @@
       "UDP is used for real-time multimedia data transfer that do not require reliability at the Transport Layer."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 122,
@@ -1833,7 +2235,10 @@
       "MIMD (Multiple Instruction Multiple Data Stream)"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/system-32-p47.webp"
+    "exhibit": "assets/source/system-32-p47.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 123,
@@ -1847,8 +2252,15 @@
       "Fast retransmit: When the Duplicate ACK is received three times, transmission start immediately without waiting for Timeout.",
       "Congestion avoidance: Once the slow start threshold is reached, TCP regards it as a congestion and the window is increased linearly."
     ],
-    "answerIndex": 1,
-    "exhibit": null
+    "answerIndex": 0,
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewNote": "Slow start increases the congestion window for acknowledgments and grows roughly exponentially per round-trip time. Linear growth describes congestion avoidance.",
+    "reviewReferences": [
+      "https://www.rfc-editor.org/rfc/rfc5681.html"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 124,
@@ -1863,7 +2275,10 @@
       "WO: withdraw the operand"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/system-34-p47.webp"
+    "exhibit": "assets/source/system-34-p47.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 125,
@@ -1878,7 +2293,10 @@
       "FTP – consists of a command control connection and a data connection"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 126,
@@ -1893,7 +2311,10 @@
       "Identify users who are able to discern and access critical information."
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 127,
@@ -1907,8 +2328,13 @@
       "Use 'chmod' command to assign permissions to each user according to the access control policy.",
       "Include users with access permissions to /etc/hosts. allow files and users without access permissions to /etc/hosts. deny files for access control."
     ],
-    "answerIndex": 1,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewNote": "Restricting write access to /etc/profile to root is valid hardening. The hosts.allow/hosts.deny choice incorrectly calls its entries users rather than hosts or services. The source mark is unsafe.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 128,
@@ -1925,7 +2351,9 @@
     "answerIndex": 1,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewNote": "Certification improves assurance but cannot guarantee that an organization will never suffer an information security incident. The source marks a five-year validity claim that is inconsistent with the reviewer question."
+    "reviewNote": "Certification improves assurance but cannot guarantee that an organization will never suffer an information security incident. The source marks a five-year validity claim that is inconsistent with the reviewer question.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 129,
@@ -1939,8 +2367,15 @@
       "PIMS(Personal Information Security Management System)",
       "PIPL(Personal Information Protection Level)"
     ],
-    "answerIndex": 3,
-    "exhibit": "assets/source/information-04-p49.webp"
+    "answerIndex": 0,
+    "exhibit": "assets/source/information-04-p49.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "The combined information-security and personal-information certification is ISMS-P. PIPL is not the integrated certification described here.",
+    "reviewReferences": [
+      "https://pipc.go.kr/eng/user/lgp/bnp/certification.do"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 130,
@@ -1955,7 +2390,10 @@
       "The SHA:256 algorithm has been applied to verify the integrity of the data transmitted."
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 131,
@@ -1970,7 +2408,10 @@
       "umask"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/information-06-p50.webp"
+    "exhibit": "assets/source/information-06-p50.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 132,
@@ -1985,7 +2426,10 @@
       "WEP (Wireless Equivalent Privacy) is used as the encryption algorithm"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 133,
@@ -2000,7 +2444,10 @@
       "The firewall policy manager must be set up to allow the in-bound port to source IPs."
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/information-08-p50.webp"
+    "exhibit": "assets/source/information-08-p50.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 134,
@@ -2017,7 +2464,9 @@
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 0,
-    "reviewNote": "SSL/TLS secures application traffic over the transport layer; it does not run in the OSI network layer. HTTPS is HTTP carried over TLS, so the marked HTTPS description is not the incorrect one here."
+    "reviewNote": "SSL/TLS secures application traffic over the transport layer; it does not run in the OSI network layer. HTTPS is HTTP carried over TLS, so the marked HTTPS description is not the incorrect one here.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 135,
@@ -2034,7 +2483,9 @@
     "answerIndex": 0,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewNote": "A compromised hypervisor can affect multiple hosted operating systems. That is a virtualization vulnerability, not specifically an insecure API."
+    "reviewNote": "A compromised hypervisor can affect multiple hosted operating systems. That is a virtualization vulnerability, not specifically an insecure API.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 136,
@@ -2048,8 +2499,15 @@
       "Attacks such as DDoS and malware that make bad use of the Log4j vulnerabilities are possible.",
       "Vulnerabilities occur because the return value is not verified after Lookup Method of JNDI is called."
     ],
-    "answerIndex": 1,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewNote": "Updating Log4j to a supported fixed release is a valid mitigation. The remaining choices describe real features or impacts of the vulnerability. The source does not supply a clear incorrect statement.",
+    "reviewReferences": [
+      "https://logging.apache.org/log4j/2.x/security.html"
+    ],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 137,
@@ -2064,7 +2522,10 @@
       "Signature based"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/information-12-p51.webp"
+    "exhibit": "assets/source/information-12-p51.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 138,
@@ -2079,7 +2540,10 @@
       "Role-Based Access Control (RBAC)"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/information-13-p51.webp"
+    "exhibit": "assets/source/information-13-p51.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 139,
@@ -2094,7 +2558,10 @@
       "Encryption keys are managed by the database administrator and by the security manager, applying the principles of the minimum rights assignment and of the separation of duties."
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 140,
@@ -2108,8 +2575,13 @@
       "chmod 755 secret.txt",
       "chmod 777 secret.txt"
     ],
-    "answerIndex": 2,
-    "exhibit": "assets/source/information-15-p52.webp"
+    "answerIndex": 1,
+    "exhibit": "assets/source/information-15-p52.webp",
+    "sourceAnswerIndex": 2,
+    "reviewNote": "The source table allows owner read/write, group read, and others read, with no execute permission. These bits are 6, 4, and 4. Use chmod 644 secret.txt.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 141,
@@ -2124,7 +2596,10 @@
       "Controllability"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/information-16-p52.webp"
+    "exhibit": "assets/source/information-16-p52.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 142,
@@ -2139,7 +2614,10 @@
       "Standardization"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/information-17-p53.webp"
+    "exhibit": "assets/source/information-17-p53.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 143,
@@ -2153,8 +2631,15 @@
       "Stream Encryption",
       "Symmetric Key Encryption"
     ],
-    "answerIndex": 3,
-    "exhibit": null
+    "answerIndex": 1,
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewNote": "Different encryption and decryption keys identify asymmetric, or public-key, encryption. Symmetric encryption uses a shared secret key.",
+    "reviewReferences": [
+      "https://csrc.nist.gov/glossary/term/public_key"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 144,
@@ -2169,7 +2654,10 @@
       "Non-Repudiation"
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 145,
@@ -2183,8 +2671,15 @@
       "PKI (Public Key Infrastructure)",
       "SSL (Secure Socket Layer)"
     ],
-    "answerIndex": 0,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "OAuth provides delegated authorization. OpenID Connect adds an authentication layer for social sign-in. The exact authentication answer is absent from the choices.",
+    "reviewReferences": [
+      "https://openid.net/developers/how-connect-works/"
+    ],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 146,
@@ -2199,7 +2694,10 @@
       "Spoofing"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 147,
@@ -2214,7 +2712,10 @@
       "WEP (Wireless Equivalent Privacy) is used as the encryption algorithm."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 148,
@@ -2228,8 +2729,15 @@
       "The contract was not leaked externally in the process of sending or receiving.",
       "A set of paired private and public keys was used."
     ],
-    "answerIndex": 1,
-    "exhibit": "assets/source/information-23-p54.webp"
+    "answerIndex": 2,
+    "exhibit": "assets/source/information-23-p54.webp",
+    "sourceAnswerIndex": 1,
+    "reviewNote": "A valid digital signature supports integrity and origin authentication. It does not encrypt the message or prove that nobody read it during transmission.",
+    "reviewReferences": [
+      "https://csrc.nist.gov/glossary/term/public_key"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 149,
@@ -2244,7 +2752,10 @@
       "Stop unnecessary services applying terminal services, anonymous FTP, SNMP, etc. Malicious scripts are inserted into a web page to be executed by a user's PC. When an unverified external input is used to create a dynamic web page, it launches malicious behavior with the access privilege of the person browsing the page. It leads to attacks such as leaks in browser cookies."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 150,
@@ -2258,8 +2769,14 @@
       "Steganography",
       "Stream Cipher"
     ],
-    "answerIndex": null,
-    "exhibit": "assets/source/information-25-p55.webp"
+    "answerIndex": 1,
+    "exhibit": "assets/source/information-25-p55.webp",
+    "sourceAnswerIndex": 1,
+    "reviewNote": "The description uses quantum properties for key distribution. Quantum cryptography is the matching option. The yellow source highlight confirms it.",
+    "reviewReferences": [],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   },
   {
     "id": 151,
@@ -2273,8 +2790,14 @@
       "Mandatory Access Control",
       "Role-Based Access Control"
     ],
-    "answerIndex": null,
-    "exhibit": "assets/source/information-26-p55.webp"
+    "answerIndex": 3,
+    "exhibit": "assets/source/information-26-p55.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "The permissions follow job functions and change with assigned roles. That is role-based access control.",
+    "reviewReferences": [],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   },
   {
     "id": 152,
@@ -2289,7 +2812,13 @@
       "Source code obfuscation methods are applied to Android mobile applications so as to prevent easy analyses of source code through decompilation."
     ],
     "answerIndex": null,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewNote": "The intended security warning concerns rooted or jailbroken devices. However, blocking every such device is a risk decision, not a universal security requirement. No unconditional answer is assigned.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   },
   {
     "id": 153,
@@ -2303,8 +2832,14 @@
       "A block cipher encrypts by the unit of fixed-length group of bits called block.",
       "When the size of the data to be encrypted is larger than the size of a block, a separate operation mode is required."
     ],
-    "answerIndex": null,
-    "exhibit": null
+    "answerIndex": 1,
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewNote": "A blanket claim that block ciphers are faster than stream ciphers is false. Performance depends on the algorithm, hardware, and mode.",
+    "reviewReferences": [],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   },
   {
     "id": 154,
@@ -2318,8 +2853,16 @@
       "(a) Public key of the receiver (b) Private key of the receiver",
       "(a) Private key of the receiver (b) Public key of the receiver"
     ],
-    "answerIndex": null,
-    "exhibit": "assets/source/information-29-p56.webp"
+    "answerIndex": 1,
+    "exhibit": "assets/source/information-29-p56.webp",
+    "sourceAnswerIndex": 1,
+    "reviewNote": "The source figure signs with the sender private key and verifies with the sender public key. These keys correspond to choice B.",
+    "reviewReferences": [
+      "https://csrc.nist.gov/glossary/term/public_key"
+    ],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   },
   {
     "id": 155,
@@ -2333,8 +2876,14 @@
       "Implementation",
       "Requirements analysis"
     ],
-    "answerIndex": null,
-    "exhibit": "assets/source/information-30-p56.webp"
+    "answerIndex": 0,
+    "exhibit": "assets/source/information-30-p56.webp",
+    "sourceAnswerIndex": 0,
+    "reviewNote": "Threat modeling and architecture changes to address threats belong to secure design.",
+    "reviewReferences": [],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   },
   {
     "id": 156,
@@ -2348,8 +2897,14 @@
       "The unique identification information stored in the DMZ (Demilitarized Zone), intermediate zone of Internet and Intranet, is encrypted.",
       "API (Application Programming Interface) encryption is applied to transmit and receive encrypted data between application servers and database servers."
     ],
-    "answerIndex": null,
-    "exhibit": null
+    "answerIndex": 1,
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewNote": "Passwords need salted, deliberately slow password hashing. Reversible encryption, even repeated, exposes passwords if the decryption key is stolen.",
+    "reviewReferences": [],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   },
   {
     "id": 157,
@@ -2363,8 +2918,14 @@
       "Review of source code or diagnosis of source code security",
       "Security vulnerability verification through dynamic analysis or Penetration Testing."
     ],
-    "answerIndex": null,
-    "exhibit": null
+    "answerIndex": 2,
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewNote": "Source-code security review belongs to implementation. Requirements identification precedes it; dynamic testing and penetration testing usually assess running software.",
+    "reviewReferences": [],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   },
   {
     "id": 158,
@@ -2379,7 +2940,10 @@
       "Technological - Changes in technological environment, the effect of new technologies, activities of research and development, the effect of technological transfers, etc. are observed."
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 159,
@@ -2394,7 +2958,10 @@
       "He notified the project owner of the major weaknesses of the existing system discovered during the project."
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/it-02-p58.webp"
+    "exhibit": "assets/source/it-02-p58.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 160,
@@ -2409,7 +2976,10 @@
       "Right of publicity"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/it-03-p59.webp"
+    "exhibit": "assets/source/it-03-p59.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 161,
@@ -2424,7 +2994,10 @@
       "Send RFI (Request for Information)"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/it-04-p59.webp"
+    "exhibit": "assets/source/it-04-p59.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 162,
@@ -2439,7 +3012,10 @@
       "Program languages, protocols, and algorithms to develop programs are protected by copyright."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 163,
@@ -2454,7 +3030,10 @@
       "Are terms, styles, layouts, operation methods of functions, etc. applied consistently throughout the whole pages?"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 164,
@@ -2469,7 +3048,10 @@
       "Smart Factories implement the automated and digitized manufacturing environment through the integration of whole manufacture processes with CPPS (Cyber-Physical Production Systems) including loT (Internet of Things), Al (Artificial Intelligence), Big-data etc."
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 165,
@@ -2484,7 +3066,10 @@
       "PyTorch."
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-08-p60.webp"
+    "exhibit": "assets/source/it-08-p60.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 166,
@@ -2499,7 +3084,10 @@
       "TRIZ"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-09-p61.webp"
+    "exhibit": "assets/source/it-09-p61.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 167,
@@ -2514,7 +3102,10 @@
       "Social business model"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-10-p61.webp"
+    "exhibit": "assets/source/it-10-p61.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 168,
@@ -2529,7 +3120,10 @@
       "When the software was transmitted online to a person who has an intention to sell it"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 169,
@@ -2544,7 +3138,10 @@
       "Introduction of package"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-12-p61.webp"
+    "exhibit": "assets/source/it-12-p61.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 170,
@@ -2559,7 +3156,10 @@
       "Learning and Growth - Procure rate of major talent, Retirement rate"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/it-13-p62.webp"
+    "exhibit": "assets/source/it-13-p62.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 171,
@@ -2573,8 +3173,13 @@
       "Information Environment Analysis → Business Process Analysis → Establish Business Procedures and Informatization Plans → Define Requirements & Improvements",
       "Information Environment Analysis - Business Process Analysis → Define Requirements & Improvements → Establish Business Procedures and Informatization Plans"
     ],
-    "answerIndex": 0,
-    "exhibit": "assets/source/it-14-p62.webp"
+    "answerIndex": 3,
+    "exhibit": "assets/source/it-14-p62.webp",
+    "sourceAnswerIndex": 0,
+    "reviewNote": "In the source figure, a is information-environment analysis, b is business-process analysis, c defines requirements, and d establishes plans. Choice D matches those blanks.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 172,
@@ -2588,8 +3193,13 @@
       "ISMP, Information System Master Plan",
       "ISP, Information Strategy Plan"
     ],
-    "answerIndex": 3,
-    "exhibit": "assets/source/it-15-p63.webp"
+    "answerIndex": 2,
+    "exhibit": "assets/source/it-15-p63.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "The detailed system requirements and function-point-ready project scope describe an Information System Master Plan (ISMP). ISP establishes the broader information strategy.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 173,
@@ -2604,7 +3214,10 @@
       "SCM (Supply Chain Management)"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-16-p63.webp"
+    "exhibit": "assets/source/it-16-p63.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 174,
@@ -2618,8 +3231,15 @@
       "Focus on stakeholders perspectives for professional decisions.",
       "When produce and change software, highest possible standards must be met."
     ],
-    "answerIndex": 3,
-    "exhibit": null
+    "answerIndex": 2,
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewNote": "Professional judgment must retain integrity and independence. Focusing only on stakeholder perspectives is not that principle. The marked requirement for high product standards is a valid ethical duty.",
+    "reviewReferences": [
+      "https://www.computer.org/education/code-of-ethics"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 175,
@@ -2634,7 +3254,10 @@
       "Cause and effect diagram"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-18-p64.webp"
+    "exhibit": "assets/source/it-18-p64.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 176,
@@ -2651,7 +3274,9 @@
     "answerIndex": 2,
     "exhibit": null,
     "sourceAnswerIndex": 3,
-    "reviewNote": "An NFT is non-fungible: tokens of the same collection are not necessarily interchangeable or equal in value. The red source mark points to the definition of a non-fungible token."
+    "reviewNote": "An NFT is non-fungible: tokens of the same collection are not necessarily interchangeable or equal in value. The red source mark points to the definition of a non-fungible token.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 177,
@@ -2666,7 +3291,10 @@
       "Configuration management"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-20-p64.webp"
+    "exhibit": "assets/source/it-20-p64.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 178,
@@ -2681,7 +3309,10 @@
       "Server Virtualization"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/it-21-p65.webp"
+    "exhibit": "assets/source/it-21-p65.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 179,
@@ -2696,7 +3327,10 @@
       "Product lifecycle management (PLM)"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-22-p65.webp"
+    "exhibit": "assets/source/it-22-p65.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 180,
@@ -2713,7 +3347,9 @@
     "answerIndex": null,
     "exhibit": null,
     "sourceAnswerIndex": 0,
-    "reviewNote": "A data lake holds varied source data for broad future use. The marked single repository description is plausible, while more than one other choice describes task-specific or already transformed data. This NOT item needs a clearer key."
+    "reviewNote": "A data lake holds varied source data for broad future use. The marked single repository description is plausible, while more than one other choice describes task-specific or already transformed data. This NOT item needs a clearer key.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 181,
@@ -2728,7 +3364,10 @@
       "SCM (Supply Chain Management)"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-25-p66.webp"
+    "exhibit": "assets/source/it-25-p66.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 182,
@@ -2743,7 +3382,10 @@
       "Support Activity"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/it-26-p66.webp"
+    "exhibit": "assets/source/it-26-p66.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 183,
@@ -2758,7 +3400,10 @@
       "Planning the order → Prepare a Request for Proposal(RFP) → Evaluate proposals and sign contract → Monitor suppliers → Acquire and close"
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 184,
@@ -2772,8 +3417,13 @@
       "Any incidence of information breach must be notified by writing, email, or SMS.",
       "It is the business owners duty to report every incidence of personal information breach."
     ],
-    "answerIndex": 3,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewNote": "This question depends on the jurisdiction and version of privacy rules. The source supplies neither a reliable effective date nor enough legal context for a current universal answer.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 185,
@@ -2790,7 +3440,9 @@
     "answerIndex": 1,
     "exhibit": null,
     "sourceAnswerIndex": 2,
-    "reviewNote": "Critical Chain Method is a project scheduling approach. BPR, Process Innovation, and TQM are business process improvement approaches, so the source mark on Process Innovation is inconsistent."
+    "reviewNote": "Critical Chain Method is a project scheduling approach. BPR, Process Innovation, and TQM are business process improvement approaches, so the source mark on Process Innovation is inconsistent.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 186,
@@ -2805,7 +3457,10 @@
       "Semantic Web."
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-30-p67.webp"
+    "exhibit": "assets/source/it-30-p67.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 187,
@@ -2820,7 +3475,10 @@
       "IRM (Information Resource Management)"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-31-p68.webp"
+    "exhibit": "assets/source/it-31-p68.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 188,
@@ -2835,7 +3493,10 @@
       "Disruptive Innovation"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/it-32-p68.webp"
+    "exhibit": "assets/source/it-32-p68.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 189,
@@ -2850,7 +3511,10 @@
       "WT strategy"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 190,
@@ -2865,7 +3529,10 @@
       "SaaS (Service as a Service)"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 191,
@@ -2880,7 +3547,10 @@
       "Six Sigma"
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 192,
@@ -2895,7 +3565,10 @@
       "Chasm."
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/it-36-p69.webp"
+    "exhibit": "assets/source/it-36-p69.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 193,
@@ -2910,7 +3583,10 @@
       "Quarterly reports of the rates of service use and the number of connections must be internally reported."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 194,
@@ -2925,7 +3601,10 @@
       "SLO (Service Level Objectives)"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-38-p70.webp"
+    "exhibit": "assets/source/it-38-p70.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 195,
@@ -2940,7 +3619,10 @@
       "Smart grid"
     ],
     "answerIndex": 2,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 196,
@@ -2955,7 +3637,10 @@
       "Servitization"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/it-40-p71.webp"
+    "exhibit": "assets/source/it-40-p71.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 197,
@@ -2970,7 +3655,10 @@
       "Histogram"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/it-41-p71.webp"
+    "exhibit": "assets/source/it-41-p71.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 198,
@@ -2985,7 +3673,10 @@
       "Device (D)"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-42-p72.webp"
+    "exhibit": "assets/source/it-42-p72.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 199,
@@ -3000,7 +3691,10 @@
       "Application Architect"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/it-43-p72.webp"
+    "exhibit": "assets/source/it-43-p72.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 200,
@@ -3014,8 +3708,13 @@
       "Open Innovation",
       "Servitization"
     ],
-    "answerIndex": 3,
-    "exhibit": "assets/source/it-44-p73.webp"
+    "answerIndex": 0,
+    "exhibit": "assets/source/it-44-p73.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "The source example shifts sales online, adopts an agile culture, and applies AI, IoT, and cloud across the enterprise. It describes digital transformation, not selling products as services.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 201,
@@ -3029,8 +3728,13 @@
       "Financial perspective - Contribution perspective to corporation.",
       "Learning and growth perspective - Future-oriented perspective."
     ],
-    "answerIndex": 0,
-    "exhibit": null
+    "answerIndex": 1,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "The usual IT balanced-scorecard perspectives are corporate contribution, user orientation, operational excellence, and future orientation. Internal processes map to operational excellence, not a generic information-technology perspective.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 202,
@@ -3045,7 +3749,10 @@
       "(d)-(a)-(c)-(b)"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/it-46-p73.webp"
+    "exhibit": "assets/source/it-46-p73.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 203,
@@ -3062,7 +3769,9 @@
     "answerIndex": 0,
     "exhibit": "assets/source/it-47-p74.webp",
     "sourceAnswerIndex": 2,
-    "reviewNote": "The source figure plots expectations against time through a peak and trough. That is Gartner’s Hype Cycle, not the four-quadrant Magic Quadrant."
+    "reviewNote": "The source figure plots expectations against time through a peak and trough. That is Gartner’s Hype Cycle, not the four-quadrant Magic Quadrant.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 204,
@@ -3077,7 +3786,10 @@
       "(metropolitan area, island area, New York area, California area, Texas area, Washington area, Florida area)"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/project-01-p75.webp"
+    "exhibit": "assets/source/project-01-p75.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 205,
@@ -3092,7 +3804,10 @@
       "Pareto Chart"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/project-02-p75.webp"
+    "exhibit": "assets/source/project-02-p75.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 206,
@@ -3107,7 +3822,10 @@
       "PERT (Performance Evaluation and Review Technique) Chart"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/project-03-p75.webp"
+    "exhibit": "assets/source/project-03-p75.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 207,
@@ -3122,7 +3840,10 @@
       "(a): Work package, (b): WBS, (c): Scope management"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/project-04-p76.webp"
+    "exhibit": "assets/source/project-04-p76.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 208,
@@ -3137,7 +3858,10 @@
       "IV. Guidelines to document preparation - Request to include SLA(Service-Level Agrement) items such as system operation rate and system failure rate."
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/project-05-p76.webp"
+    "exhibit": "assets/source/project-05-p76.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 209,
@@ -3152,7 +3876,10 @@
       "Work Breakdown Structure"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/project-06-p77.webp"
+    "exhibit": "assets/source/project-06-p77.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 210,
@@ -3167,7 +3894,10 @@
       "Test Driven Development"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/project-07-p77.webp"
+    "exhibit": "assets/source/project-07-p77.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 211,
@@ -3182,7 +3912,10 @@
       "Only milestones, whether the milestones are implemented or not, and the implementation periods of the milestones can be identified with Milestone Charts."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 212,
@@ -3196,8 +3929,13 @@
       "(a)-External failure cost, (b)-Internal failure cost, (c)-Prevention cost",
       "(a)-Internal failure cost, (b)-External failure cost, (c)-Prevention cost."
     ],
-    "answerIndex": 0,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewNote": "The figure requires internal failure, external failure, and prevention costs, in that order. None of the four options gives that complete combination.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 213,
@@ -3211,8 +3949,13 @@
       "Matrix Organization",
       "Projectized Organization"
     ],
-    "answerIndex": 1,
-    "exhibit": "assets/source/project-10-p78.webp"
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-10-p78.webp",
+    "sourceAnswerIndex": 1,
+    "reviewNote": "The source organization chart overlays projects across functional departments. Staff work within both structures, which identifies a matrix organization.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 214,
@@ -3227,7 +3970,10 @@
       "The content of ideas is more important than the number of ideas."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 215,
@@ -3242,7 +3988,10 @@
       "Constraints of Scope, Cost and Time"
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 216,
@@ -3259,7 +4008,9 @@
     "answerIndex": 2,
     "exhibit": "assets/source/project-13-p79.webp",
     "sourceAnswerIndex": 3,
-    "reviewNote": "Both examples name the outcome the projects aim to achieve: product lifecycle management and faster integrated decisions. They illustrate defined objectives, not the gradual refinement of a plan."
+    "reviewNote": "Both examples name the outcome the projects aim to achieve: product lifecycle management and faster integrated decisions. They illustrate defined objectives, not the gradual refinement of a plan.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 217,
@@ -3274,7 +4025,10 @@
       "Activity"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/project-14-p79.webp"
+    "exhibit": "assets/source/project-14-p79.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 218,
@@ -3289,7 +4043,10 @@
       "Pareto Chart."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 219,
@@ -3304,7 +4061,10 @@
       "Scope Management"
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/project-16-p81.webp"
+    "exhibit": "assets/source/project-16-p81.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 220,
@@ -3319,7 +4079,10 @@
       "PM Kim explained about the ERD (entity-relationship diagram) of the newly constructed shopping mall at the presentation."
     ],
     "answerIndex": 3,
-    "exhibit": "assets/source/project-17-p81.webp"
+    "exhibit": "assets/source/project-17-p81.webp",
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 221,
@@ -3336,7 +4099,9 @@
     "answerIndex": 2,
     "exhibit": "assets/source/project-18-p81.webp",
     "sourceAnswerIndex": 3,
-    "reviewNote": "This is a request for information: it gathers supplier capabilities before a detailed proposal or project order. The source marked RFP."
+    "reviewNote": "This is a request for information: it gathers supplier capabilities before a detailed proposal or project order. The source marked RFP.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 222,
@@ -3351,7 +4116,10 @@
       "TRIZ"
     ],
     "answerIndex": 0,
-    "exhibit": "assets/source/project-19-p81.webp"
+    "exhibit": "assets/source/project-19-p81.webp",
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 223,
@@ -3368,7 +4136,9 @@
     "answerIndex": null,
     "exhibit": "assets/source/project-20-p82.webp",
     "sourceAnswerIndex": 0,
-    "reviewNote": "The description mixes distribution, correlation, and outlier language. The available choices do not contain a clear single chart that satisfies every part; the red Bar Chart mark is unsupported. Study only."
+    "reviewNote": "The description mixes distribution, correlation, and outlier language. The available choices do not contain a clear single chart that satisfies every part; the red Bar Chart mark is unsupported. Study only.",
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 224,
@@ -3383,7 +4153,10 @@
       "Monte Carlo Simulation Analysis."
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/project-21-p82.webp"
+    "exhibit": "assets/source/project-21-p82.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 225,
@@ -3397,8 +4170,13 @@
       "Monthly sales (under $ 10,000.00, $ 10,000.00 to $ 50,000.00, $ 50,000.00 or over)",
       "Administrative Districts (State, Province, Metropolitan City, Suburb)"
     ],
-    "answerIndex": 2,
-    "exhibit": null
+    "answerIndex": null,
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewNote": "The purchase-date groups overlap. Other groups also have unclear or overlapping boundaries as written. The marked sales bands alone do not establish one uniquely incorrect classification.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 226,
@@ -3412,8 +4190,13 @@
       "Check",
       "Act"
     ],
-    "answerIndex": 2,
-    "exhibit": "assets/source/project-23-p83.webp"
+    "answerIndex": null,
+    "exhibit": "assets/source/project-23-p83.webp",
+    "sourceAnswerIndex": 2,
+    "reviewNote": "The first bullet evaluates results (Check); the second decides a corrective action (Act). The combined prompt does not isolate one PDCA phase.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 227,
@@ -3427,8 +4210,13 @@
       "The speed of speech, tone of voice, hair style have bigger impact than the contents of words when a person determines the favorability of the speaker.",
       "When a specific message is delivered, the contents to be delivered may be distorted if the contents of words, tone of voice, speed of speech, volume of voice, gesture, an e. d manners are different."
     ],
-    "answerIndex": 3,
-    "exhibit": "assets/source/project-24-p83.webp"
+    "answerIndex": 0,
+    "exhibit": "assets/source/project-24-p83.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "The statement that verbal content is unimportant misuses the 7/38/55 finding. That finding concerns inconsistent expressions of feelings or attitudes, not all communication.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 228,
@@ -3443,7 +4231,10 @@
       "Transfer"
     ],
     "answerIndex": 1,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 229,
@@ -3458,7 +4249,10 @@
       "Expand investments in DoS (Denial of Service) Security Equipment and move to Quadrant A."
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/project-26-p84.webp"
+    "exhibit": "assets/source/project-26-p84.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 230,
@@ -3475,7 +4269,9 @@
     "answerIndex": 1,
     "exhibit": null,
     "sourceAnswerIndex": 0,
-    "reviewNote": "Using the usual PERT three-point estimate, (optimistic + 4 × most likely + pessimistic) ÷ 6 = (8 + 40 + 18) ÷ 6 = 11 million. The source marks 10 million."
+    "reviewNote": "Using the usual PERT three-point estimate, (optimistic + 4 × most likely + pessimistic) ÷ 6 = (8 + 40 + 18) ÷ 6 = 11 million. The source marks 10 million.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 231,
@@ -3490,7 +4286,10 @@
       "Control Charts use the highest and lowest values as Control Limits of quality goal values. States are decided as unstable if quality values are not in the range."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 232,
@@ -3505,7 +4304,10 @@
       "Causal loop diagram"
     ],
     "answerIndex": 2,
-    "exhibit": "assets/source/project-29-p85.webp"
+    "exhibit": "assets/source/project-29-p85.webp",
+    "sourceAnswerIndex": 2,
+    "reviewStatus": "source",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 233,
@@ -3520,7 +4322,10 @@
       "Resource smoothing"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/project-30-p85.webp"
+    "exhibit": "assets/source/project-30-p85.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 234,
@@ -3534,8 +4339,13 @@
       "\"Input value\" is described with terms that represent input values to the test.",
       "\"Expected value\" describes the result suitable to the functions and types to be tested."
     ],
-    "answerIndex": 3,
-    "exhibit": "assets/source/project-31-p86.webp"
+    "answerIndex": null,
+    "exhibit": "assets/source/project-31-p86.webp",
+    "sourceAnswerIndex": 3,
+    "reviewNote": "An expected value is the anticipated result, so the marked statement is not inherently false. Case names in the figure repeat, but a unique ID distinguishes the cases. The wording does not provide a reliable single false choice.",
+    "reviewReferences": [],
+    "reviewStatus": "unresolved",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 235,
@@ -3552,7 +4362,9 @@
     "answerIndex": 1,
     "exhibit": "assets/source/project-32-p86.webp",
     "sourceAnswerIndex": 3,
-    "reviewNote": "Classifying problems, finding causes, and prioritizing causes are activities in the Analyze underlying causes phase, not implementation and feedback."
+    "reviewNote": "Classifying problems, finding causes, and prioritizing causes are activities in the Analyze underlying causes phase, not implementation and feedback.",
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 236,
@@ -3567,7 +4379,10 @@
       "Change the heading of the minutes to \"Minutes of the Technology Management System Project\" to clearly specify the subject of the discussion"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/project-33-p87.webp"
+    "exhibit": "assets/source/project-33-p87.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 237,
@@ -3582,7 +4397,10 @@
       "Visual materials must be designed so that the key messages can be understood quickly."
     ],
     "answerIndex": 0,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 0,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 238,
@@ -3597,7 +4415,10 @@
       "Requirement Definition"
     ],
     "answerIndex": 1,
-    "exhibit": "assets/source/project-35-p88.webp"
+    "exhibit": "assets/source/project-35-p88.webp",
+    "sourceAnswerIndex": 1,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 239,
@@ -3612,7 +4433,10 @@
       "Fast Tracking is used to reduce or shorten the project schedule by adding additional resources, but the resulting increase in communication channels may delay the schedule."
     ],
     "answerIndex": 3,
-    "exhibit": null
+    "exhibit": null,
+    "sourceAnswerIndex": 3,
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 240,
@@ -3626,8 +4450,13 @@
       "Code of Account.",
       "Work Package."
     ],
-    "answerIndex": 2,
-    "exhibit": null
+    "answerIndex": 0,
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewNote": "A Gantt chart is a schedule representation. Planning packages, work packages, and a code of accounts belong to WBS organization and identification.",
+    "reviewReferences": [],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 241,
@@ -3641,8 +4470,15 @@
       "Inspection",
       "Compliance"
     ],
-    "answerIndex": 0,
-    "exhibit": "assets/source/project-38-p88.webp"
+    "answerIndex": 2,
+    "exhibit": "assets/source/project-38-p88.webp",
+    "sourceAnswerIndex": 0,
+    "reviewNote": "The source lists defect detection, a trained moderator, defined roles, checklists, and formal entry/exit rules. These are inspection characteristics, not an audit.",
+    "reviewReferences": [
+      "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+    ],
+    "reviewStatus": "corrected",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": 242,
@@ -3656,7 +4492,13 @@
       "Cross-site script",
       "Memory Buffer Overflow"
     ],
-    "answerIndex": null,
-    "exhibit": null
+    "answerIndex": 2,
+    "exhibit": null,
+    "sourceAnswerIndex": 2,
+    "reviewNote": "Untrusted input that runs malicious script in a visitor browser is cross-site scripting (XSS). The yellow source highlight marks this choice.",
+    "reviewReferences": [],
+    "reviewStatus": "verified",
+    "reviewedOn": "2026-11-25",
+    "sourceMarkFormat": "yellow highlight, visually checked in the PDF"
   }
 ]

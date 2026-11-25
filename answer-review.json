@@ -1,0 +1,2218 @@
+{
+  "reviewedOn": "2026-11-25",
+  "scope": "All 242 prompts and choice sets screened. Source marks retained separately. Source-only entries are not independently verified.",
+  "counts": {
+    "verified": 95,
+    "unresolved": 26,
+    "corrected": 30,
+    "source": 91
+  },
+  "items": [
+    {
+      "id": 1,
+      "page": 1,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 2,
+      "page": 1,
+      "status": "unresolved",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": null,
+      "reason": "Two choices repeat the same service-isolation benefit, and the other choices also describe plausible benefits of microservices. This NOT question has no defensible single answer.",
+      "references": []
+    },
+    {
+      "id": 3,
+      "page": 1,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 4,
+      "page": 1,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 5,
+      "page": 2,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 6,
+      "page": 2,
+      "status": "corrected",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 2,
+      "reason": "The source marks a valid Java lambda as incorrect. The brace-wrapped parameter list and bare return in choice C are not valid Java lambda syntax.",
+      "references": []
+    },
+    {
+      "id": 7,
+      "page": 2,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 8,
+      "page": 2,
+      "status": "unresolved",
+      "sourceAnswerIndex": null,
+      "studyAnswerIndex": null,
+      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+      "references": []
+    },
+    {
+      "id": 9,
+      "page": 3,
+      "status": "unresolved",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": null,
+      "reason": "Obfuscation makes code harder to understand and resists reverse engineering. None of these choices states that purpose. The source selects reverse engineering, which is the activity it obstructs.",
+      "references": []
+    },
+    {
+      "id": 10,
+      "page": 4,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 11,
+      "page": 4,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 12,
+      "page": 4,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 13,
+      "page": 4,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 14,
+      "page": 5,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 15,
+      "page": 5,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 16,
+      "page": 5,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 17,
+      "page": 6,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 18,
+      "page": 6,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 19,
+      "page": 6,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 20,
+      "page": 7,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 21,
+      "page": 7,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 22,
+      "page": 7,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 23,
+      "page": 8,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 24,
+      "page": 8,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 25,
+      "page": 9,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 26,
+      "page": 9,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 27,
+      "page": 9,
+      "status": "unresolved",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": null,
+      "reason": "Maven deploy copies a package to a remote repository, not the local repository. The compile wording also incorrectly assumes machine code for every project. More than one choice is defective.",
+      "references": [
+        "https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html"
+      ]
+    },
+    {
+      "id": 28,
+      "page": 10,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 29,
+      "page": 10,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 30,
+      "page": 10,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 31,
+      "page": 11,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 32,
+      "page": 11,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 33,
+      "page": 11,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 34,
+      "page": 12,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 35,
+      "page": 12,
+      "status": "unresolved",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": null,
+      "reason": "The last answer choice lost the UML stereotype text during PDF extraction and appears only as two empty angle-bracket pairs. It cannot be scored accurately from the available choices.",
+      "references": []
+    },
+    {
+      "id": 36,
+      "page": 13,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 37,
+      "page": 13,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 38,
+      "page": 14,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 39,
+      "page": 14,
+      "status": "unresolved",
+      "sourceAnswerIndex": null,
+      "studyAnswerIndex": null,
+      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+      "references": []
+    },
+    {
+      "id": 40,
+      "page": 14,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 41,
+      "page": 15,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 42,
+      "page": 15,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 43,
+      "page": 15,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 44,
+      "page": 16,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 45,
+      "page": 16,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 46,
+      "page": 16,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 47,
+      "page": 16,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 48,
+      "page": 17,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 49,
+      "page": 17,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 50,
+      "page": 17,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 51,
+      "page": 18,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 52,
+      "page": 19,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 53,
+      "page": 19,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 54,
+      "page": 19,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 55,
+      "page": 20,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 56,
+      "page": 20,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 57,
+      "page": 21,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 58,
+      "page": 21,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 59,
+      "page": 22,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 60,
+      "page": 22,
+      "status": "unresolved",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": null,
+      "reason": "The source treats NoSQL as excluding ACID transactions. Modern MongoDB supports multi-document ACID transactions. These blanket properties do not define all NoSQL products.",
+      "references": [
+        "https://www.mongodb.com/docs/manual/core/transactions/"
+      ]
+    },
+    {
+      "id": 61,
+      "page": 23,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 62,
+      "page": 23,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 63,
+      "page": 24,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 64,
+      "page": 24,
+      "status": "unresolved",
+      "sourceAnswerIndex": null,
+      "studyAnswerIndex": null,
+      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+      "references": []
+    },
+    {
+      "id": 65,
+      "page": 25,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 66,
+      "page": 25,
+      "status": "unresolved",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": null,
+      "reason": "CAP concerns the consistency/availability tradeoff during a network partition. Several choices oversimplify the model; no deployment-independent single answer is safe.",
+      "references": []
+    },
+    {
+      "id": 67,
+      "page": 25,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 68,
+      "page": 26,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 69,
+      "page": 26,
+      "status": "unresolved",
+      "sourceAnswerIndex": null,
+      "studyAnswerIndex": null,
+      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+      "references": []
+    },
+    {
+      "id": 70,
+      "page": 27,
+      "status": "corrected",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 2,
+      "reason": "The example specifies record length and a physical index. These are internal storage details, not a user-specific external view.",
+      "references": []
+    },
+    {
+      "id": 71,
+      "page": 27,
+      "status": "unresolved",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": null,
+      "reason": "Replication can increase storage, so the marked statement is a real tradeoff. Location transparency depends on whether the statement describes users or database administration. The question does not specify that perspective.",
+      "references": []
+    },
+    {
+      "id": 72,
+      "page": 27,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 2,
+      "reason": "Grouping observations by similarity describes clustering, an unsupervised method. A classification tree learns from labeled categories and is supervised.",
+      "references": []
+    },
+    {
+      "id": 73,
+      "page": 27,
+      "status": "corrected",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 3,
+      "reason": "The source asks for recovery to the moment before failure. Archive or transaction logs support point-in-time recovery; incremental backups alone do not guarantee that recovery point.",
+      "references": []
+    },
+    {
+      "id": 74,
+      "page": 28,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 75,
+      "page": 28,
+      "status": "unresolved",
+      "sourceAnswerIndex": null,
+      "studyAnswerIndex": null,
+      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+      "references": []
+    },
+    {
+      "id": 76,
+      "page": 29,
+      "status": "unresolved",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": null,
+      "reason": "Conceptual modeling can define subject areas and create a conceptual ERD. Detailed attributes and identifiers are often logical-model tasks. The choices do not specify a methodology with one unique answer.",
+      "references": []
+    },
+    {
+      "id": 77,
+      "page": 29,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 78,
+      "page": 30,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 79,
+      "page": 30,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 80,
+      "page": 31,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 81,
+      "page": 31,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 82,
+      "page": 31,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 83,
+      "page": 32,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 84,
+      "page": 32,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 85,
+      "page": 33,
+      "status": "unresolved",
+      "sourceAnswerIndex": null,
+      "studyAnswerIndex": null,
+      "reason": "The choices or source key are incomplete. No single answer is assigned for scoring.",
+      "references": []
+    },
+    {
+      "id": 86,
+      "page": 34,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 87,
+      "page": 34,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 88,
+      "page": 34,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 89,
+      "page": 34,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 90,
+      "page": 35,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 91,
+      "page": 36,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 92,
+      "page": 36,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 93,
+      "page": 36,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 94,
+      "page": 37,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 95,
+      "page": 38,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 96,
+      "page": 38,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 97,
+      "page": 38,
+      "status": "verified",
+      "sourceAnswerIndex": null,
+      "studyAnswerIndex": 0,
+      "reason": "Paging uses fixed-size pages and frames. It can waste space inside a frame, but it does not require contiguous frames and avoids external fragmentation.",
+      "references": []
+    },
+    {
+      "id": 98,
+      "page": 39,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 99,
+      "page": 39,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 100,
+      "page": 39,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 101,
+      "page": 39,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 102,
+      "page": 40,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 103,
+      "page": 40,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 104,
+      "page": 40,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 105,
+      "page": 41,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 106,
+      "page": 41,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 107,
+      "page": 41,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 108,
+      "page": 42,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 109,
+      "page": 42,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 110,
+      "page": 42,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 111,
+      "page": 43,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 112,
+      "page": 43,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 113,
+      "page": 43,
+      "status": "corrected",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 2,
+      "reason": "A /24 divided into /28 networks gives 16 subnets and 14 usable host addresses per subnet. The mask is 255.255.255.240. A /27 gives only eight subnets.",
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc4632.html"
+      ]
+    },
+    {
+      "id": 114,
+      "page": 44,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 115,
+      "page": 44,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 116,
+      "page": 45,
+      "status": "unresolved",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": null,
+      "reason": "NameNodes manage metadata and DataNodes store blocks; that statement is correct. HDFS restricts updates but permits append and truncate operations. The other broad statements do not provide a defensible unique false answer.",
+      "references": [
+        "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html"
+      ]
+    },
+    {
+      "id": 117,
+      "page": 45,
+      "status": "corrected",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 3,
+      "reason": "The figure removes and replaces old service instances in stages. That is a rolling deployment. Blue-green deployment switches between two complete environments.",
+      "references": [
+        "https://kubernetes.io/docs/tasks/run-application/update-deployment-rolling/"
+      ]
+    },
+    {
+      "id": 118,
+      "page": 45,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 119,
+      "page": 46,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 120,
+      "page": 46,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 121,
+      "page": 46,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 122,
+      "page": 47,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 123,
+      "page": 47,
+      "status": "corrected",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 0,
+      "reason": "Slow start increases the congestion window for acknowledgments and grows roughly exponentially per round-trip time. Linear growth describes congestion avoidance.",
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc5681.html"
+      ]
+    },
+    {
+      "id": 124,
+      "page": 47,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 125,
+      "page": 48,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 126,
+      "page": 49,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 127,
+      "page": 49,
+      "status": "unresolved",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": null,
+      "reason": "Restricting write access to /etc/profile to root is valid hardening. The hosts.allow/hosts.deny choice incorrectly calls its entries users rather than hosts or services. The source mark is unsafe.",
+      "references": []
+    },
+    {
+      "id": 128,
+      "page": 49,
+      "status": "corrected",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 1,
+      "reason": "Certification improves assurance but cannot guarantee that an organization will never suffer an information security incident. The source marks a five-year validity claim that is inconsistent with the reviewer question.",
+      "references": []
+    },
+    {
+      "id": 129,
+      "page": 49,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 0,
+      "reason": "The combined information-security and personal-information certification is ISMS-P. PIPL is not the integrated certification described here.",
+      "references": [
+        "https://pipc.go.kr/eng/user/lgp/bnp/certification.do"
+      ]
+    },
+    {
+      "id": 130,
+      "page": 49,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 131,
+      "page": 50,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 132,
+      "page": 50,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 133,
+      "page": 50,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 134,
+      "page": 50,
+      "status": "corrected",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 2,
+      "reason": "SSL/TLS secures application traffic over the transport layer; it does not run in the OSI network layer. HTTPS is HTTP carried over TLS, so the marked HTTPS description is not the incorrect one here.",
+      "references": []
+    },
+    {
+      "id": 135,
+      "page": 51,
+      "status": "corrected",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 0,
+      "reason": "A compromised hypervisor can affect multiple hosted operating systems. That is a virtualization vulnerability, not specifically an insecure API.",
+      "references": []
+    },
+    {
+      "id": 136,
+      "page": 51,
+      "status": "unresolved",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": null,
+      "reason": "Updating Log4j to a supported fixed release is a valid mitigation. The remaining choices describe real features or impacts of the vulnerability. The source does not supply a clear incorrect statement.",
+      "references": [
+        "https://logging.apache.org/log4j/2.x/security.html"
+      ]
+    },
+    {
+      "id": 137,
+      "page": 51,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 138,
+      "page": 51,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 139,
+      "page": 52,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 140,
+      "page": 52,
+      "status": "corrected",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 1,
+      "reason": "The source table allows owner read/write, group read, and others read, with no execute permission. These bits are 6, 4, and 4. Use chmod 644 secret.txt.",
+      "references": []
+    },
+    {
+      "id": 141,
+      "page": 52,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 142,
+      "page": 53,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 143,
+      "page": 53,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 1,
+      "reason": "Different encryption and decryption keys identify asymmetric, or public-key, encryption. Symmetric encryption uses a shared secret key.",
+      "references": [
+        "https://csrc.nist.gov/glossary/term/public_key"
+      ]
+    },
+    {
+      "id": 144,
+      "page": 53,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 145,
+      "page": 53,
+      "status": "unresolved",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": null,
+      "reason": "OAuth provides delegated authorization. OpenID Connect adds an authentication layer for social sign-in. The exact authentication answer is absent from the choices.",
+      "references": [
+        "https://openid.net/developers/how-connect-works/"
+      ]
+    },
+    {
+      "id": 146,
+      "page": 53,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 147,
+      "page": 54,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 148,
+      "page": 54,
+      "status": "corrected",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 2,
+      "reason": "A valid digital signature supports integrity and origin authentication. It does not encrypt the message or prove that nobody read it during transmission.",
+      "references": [
+        "https://csrc.nist.gov/glossary/term/public_key"
+      ]
+    },
+    {
+      "id": 149,
+      "page": 54,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 150,
+      "page": 55,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "The description uses quantum properties for key distribution. Quantum cryptography is the matching option. The yellow source highlight confirms it.",
+      "references": []
+    },
+    {
+      "id": 151,
+      "page": 55,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "The permissions follow job functions and change with assigned roles. That is role-based access control.",
+      "references": []
+    },
+    {
+      "id": 152,
+      "page": 56,
+      "status": "unresolved",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": null,
+      "reason": "The intended security warning concerns rooted or jailbroken devices. However, blocking every such device is a risk decision, not a universal security requirement. No unconditional answer is assigned.",
+      "references": []
+    },
+    {
+      "id": 153,
+      "page": 56,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "A blanket claim that block ciphers are faster than stream ciphers is false. Performance depends on the algorithm, hardware, and mode.",
+      "references": []
+    },
+    {
+      "id": 154,
+      "page": 56,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "The source figure signs with the sender private key and verifies with the sender public key. These keys correspond to choice B.",
+      "references": [
+        "https://csrc.nist.gov/glossary/term/public_key"
+      ]
+    },
+    {
+      "id": 155,
+      "page": 56,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Threat modeling and architecture changes to address threats belong to secure design.",
+      "references": []
+    },
+    {
+      "id": 156,
+      "page": 57,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Passwords need salted, deliberately slow password hashing. Reversible encryption, even repeated, exposes passwords if the decryption key is stolen.",
+      "references": []
+    },
+    {
+      "id": 157,
+      "page": 57,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source-code security review belongs to implementation. Requirements identification precedes it; dynamic testing and penetration testing usually assess running software.",
+      "references": []
+    },
+    {
+      "id": 158,
+      "page": 58,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 159,
+      "page": 58,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 160,
+      "page": 59,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 161,
+      "page": 59,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 162,
+      "page": 59,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 163,
+      "page": 60,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 164,
+      "page": 60,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 165,
+      "page": 60,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 166,
+      "page": 61,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 167,
+      "page": 61,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 168,
+      "page": 61,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 169,
+      "page": 61,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 170,
+      "page": 62,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 171,
+      "page": 62,
+      "status": "corrected",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 3,
+      "reason": "In the source figure, a is information-environment analysis, b is business-process analysis, c defines requirements, and d establishes plans. Choice D matches those blanks.",
+      "references": []
+    },
+    {
+      "id": 172,
+      "page": 63,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 2,
+      "reason": "The detailed system requirements and function-point-ready project scope describe an Information System Master Plan (ISMP). ISP establishes the broader information strategy.",
+      "references": []
+    },
+    {
+      "id": 173,
+      "page": 63,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 174,
+      "page": 63,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 2,
+      "reason": "Professional judgment must retain integrity and independence. Focusing only on stakeholder perspectives is not that principle. The marked requirement for high product standards is a valid ethical duty.",
+      "references": [
+        "https://www.computer.org/education/code-of-ethics"
+      ]
+    },
+    {
+      "id": 175,
+      "page": 64,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 176,
+      "page": 64,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 2,
+      "reason": "An NFT is non-fungible: tokens of the same collection are not necessarily interchangeable or equal in value. The red source mark points to the definition of a non-fungible token.",
+      "references": []
+    },
+    {
+      "id": 177,
+      "page": 64,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 178,
+      "page": 65,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 179,
+      "page": 65,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 180,
+      "page": 65,
+      "status": "unresolved",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": null,
+      "reason": "A data lake holds varied source data for broad future use. The marked single repository description is plausible, while more than one other choice describes task-specific or already transformed data. This NOT item needs a clearer key.",
+      "references": []
+    },
+    {
+      "id": 181,
+      "page": 66,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 182,
+      "page": 66,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 183,
+      "page": 66,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 184,
+      "page": 67,
+      "status": "unresolved",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": null,
+      "reason": "This question depends on the jurisdiction and version of privacy rules. The source supplies neither a reliable effective date nor enough legal context for a current universal answer.",
+      "references": []
+    },
+    {
+      "id": 185,
+      "page": 67,
+      "status": "corrected",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 1,
+      "reason": "Critical Chain Method is a project scheduling approach. BPR, Process Innovation, and TQM are business process improvement approaches, so the source mark on Process Innovation is inconsistent.",
+      "references": []
+    },
+    {
+      "id": 186,
+      "page": 67,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 187,
+      "page": 68,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 188,
+      "page": 68,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 189,
+      "page": 68,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 190,
+      "page": 69,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 191,
+      "page": 69,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 192,
+      "page": 69,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 193,
+      "page": 70,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 194,
+      "page": 70,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 195,
+      "page": 70,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 196,
+      "page": 71,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 197,
+      "page": 71,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 198,
+      "page": 72,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 199,
+      "page": 72,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 200,
+      "page": 73,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 0,
+      "reason": "The source example shifts sales online, adopts an agile culture, and applies AI, IoT, and cloud across the enterprise. It describes digital transformation, not selling products as services.",
+      "references": []
+    },
+    {
+      "id": 201,
+      "page": 73,
+      "status": "corrected",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 1,
+      "reason": "The usual IT balanced-scorecard perspectives are corporate contribution, user orientation, operational excellence, and future orientation. Internal processes map to operational excellence, not a generic information-technology perspective.",
+      "references": []
+    },
+    {
+      "id": 202,
+      "page": 73,
+      "status": "source",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 203,
+      "page": 74,
+      "status": "corrected",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 0,
+      "reason": "The source figure plots expectations against time through a peak and trough. That is Gartner’s Hype Cycle, not the four-quadrant Magic Quadrant.",
+      "references": []
+    },
+    {
+      "id": 204,
+      "page": 75,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 205,
+      "page": 75,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 206,
+      "page": 75,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 207,
+      "page": 76,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 208,
+      "page": 76,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 209,
+      "page": 77,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 210,
+      "page": 77,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 211,
+      "page": 77,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 212,
+      "page": 77,
+      "status": "unresolved",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": null,
+      "reason": "The figure requires internal failure, external failure, and prevention costs, in that order. None of the four options gives that complete combination.",
+      "references": []
+    },
+    {
+      "id": 213,
+      "page": 78,
+      "status": "corrected",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 2,
+      "reason": "The source organization chart overlays projects across functional departments. Staff work within both structures, which identifies a matrix organization.",
+      "references": []
+    },
+    {
+      "id": 214,
+      "page": 79,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 215,
+      "page": 79,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 216,
+      "page": 79,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 2,
+      "reason": "Both examples name the outcome the projects aim to achieve: product lifecycle management and faster integrated decisions. They illustrate defined objectives, not the gradual refinement of a plan.",
+      "references": []
+    },
+    {
+      "id": 217,
+      "page": 79,
+      "status": "source",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 218,
+      "page": 79,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 219,
+      "page": 81,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 220,
+      "page": 81,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 221,
+      "page": 81,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 2,
+      "reason": "This is a request for information: it gathers supplier capabilities before a detailed proposal or project order. The source marked RFP.",
+      "references": []
+    },
+    {
+      "id": 222,
+      "page": 81,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 223,
+      "page": 82,
+      "status": "unresolved",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": null,
+      "reason": "The description mixes distribution, correlation, and outlier language. The available choices do not contain a clear single chart that satisfies every part; the red Bar Chart mark is unsupported. Study only.",
+      "references": []
+    },
+    {
+      "id": 224,
+      "page": 82,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 225,
+      "page": 82,
+      "status": "unresolved",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": null,
+      "reason": "The purchase-date groups overlap. Other groups also have unclear or overlapping boundaries as written. The marked sales bands alone do not establish one uniquely incorrect classification.",
+      "references": []
+    },
+    {
+      "id": 226,
+      "page": 83,
+      "status": "unresolved",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": null,
+      "reason": "The first bullet evaluates results (Check); the second decides a corrective action (Act). The combined prompt does not isolate one PDCA phase.",
+      "references": []
+    },
+    {
+      "id": 227,
+      "page": 83,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 0,
+      "reason": "The statement that verbal content is unimportant misuses the 7/38/55 finding. That finding concerns inconsistent expressions of feelings or attitudes, not all communication.",
+      "references": []
+    },
+    {
+      "id": 228,
+      "page": 83,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 229,
+      "page": 84,
+      "status": "source",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 230,
+      "page": 84,
+      "status": "corrected",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 1,
+      "reason": "Using the usual PERT three-point estimate, (optimistic + 4 × most likely + pessimistic) ÷ 6 = (8 + 40 + 18) ÷ 6 = 11 million. The source marks 10 million.",
+      "references": []
+    },
+    {
+      "id": 231,
+      "page": 84,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 232,
+      "page": 85,
+      "status": "source",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Source answer retained. This item still needs independent verification of its diagram or contextual claim.",
+      "references": []
+    },
+    {
+      "id": 233,
+      "page": 85,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 234,
+      "page": 86,
+      "status": "unresolved",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": null,
+      "reason": "An expected value is the anticipated result, so the marked statement is not inherently false. Case names in the figure repeat, but a unique ID distinguishes the cases. The wording does not provide a reliable single false choice.",
+      "references": []
+    },
+    {
+      "id": 235,
+      "page": 86,
+      "status": "corrected",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 1,
+      "reason": "Classifying problems, finding causes, and prioritizing causes are activities in the Analyze underlying causes phase, not implementation and feedback.",
+      "references": []
+    },
+    {
+      "id": 236,
+      "page": 87,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 237,
+      "page": 87,
+      "status": "verified",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 0,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 238,
+      "page": 88,
+      "status": "verified",
+      "sourceAnswerIndex": 1,
+      "studyAnswerIndex": 1,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 239,
+      "page": 88,
+      "status": "verified",
+      "sourceAnswerIndex": 3,
+      "studyAnswerIndex": 3,
+      "reason": "Checked against the prompt and choices.",
+      "references": []
+    },
+    {
+      "id": 240,
+      "page": 88,
+      "status": "corrected",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 0,
+      "reason": "A Gantt chart is a schedule representation. Planning packages, work packages, and a code of accounts belong to WBS organization and identification.",
+      "references": []
+    },
+    {
+      "id": 241,
+      "page": 88,
+      "status": "corrected",
+      "sourceAnswerIndex": 0,
+      "studyAnswerIndex": 2,
+      "reason": "The source lists defect detection, a trained moderator, defined roles, checklists, and formal entry/exit rules. These are inspection characteristics, not an audit.",
+      "references": [
+        "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+      ]
+    },
+    {
+      "id": 242,
+      "page": 55,
+      "status": "verified",
+      "sourceAnswerIndex": 2,
+      "studyAnswerIndex": 2,
+      "reason": "Untrusted input that runs malicious script in a visitor browser is cross-site scripting (XSS). The yellow source highlight marks this choice.",
+      "references": []
+    }
+  ]
+}
