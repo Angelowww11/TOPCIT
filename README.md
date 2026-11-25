@@ -8,6 +8,9 @@ An independent, mobile-friendly reviewer built from the supplied TOPCIT study do
 - 212 scored items. The review classifies 44 corrected answers, 168 checked answers, and 30 defective or ambiguous items.
 - All 91 previously source-only answers have individual findings. All 26 previously unresolved items have a new source review.
 - Defective items remain visible for study and do not enter scored rounds. Original source keys remain separate from study answers.
+- Practice path contains all 242 questions in fixed source order. It saves the current question, answers, choice order, and study preferences on this device.
+- Practice path provides correct-answer-first, optional answer shuffling, explanation and key idea controls, question-number navigation, skipping, reveal, retry, and a separate reset.
+- Practice path has unlimited hearts and no timer. It preserves other rounds and XP. Defective questions remain study-only and cannot receive a correct or wrong mark.
 - A 67-concept study guide, searchable question bank, 20-question practice, 50-question timed sprint, full review, and missed-question practice.
 - Study guide recall prompts and matching source questions. Fifty concepts include a figure cropped from the supplied reviewer PDF; other concepts use source questions without a figure.
 - Training Loop with 20 or 30 questions and repeated rounds for missed items, a three-heart Boss Blitz with a shrinking timer, and a six-pair Match Maker across all exam areas.
